@@ -4,117 +4,326 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>HN Daily Analytics</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23ff6600'/><text x='8' y='12.5' font-size='12' font-family='Verdana' fill='white' text-anchor='middle'>Y</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%23ff6600'/><text x='8' y='12.5' font-size='12' font-family='Verdana' fill='white' text-anchor='middle'>Y</text></svg>">
 <style>
 :root {
-  --orange: #ff6600;
-  --bg: #f6f6ef;
-  --surface: #ffffff;
-  --ink: #000000;
-  --muted: #828282;
-  --rule: #e2e2d8;
-  --bar: #ffe3cf;
-  --good: #2e7d32;
-  --bad: #c62828;
-  color-scheme: light;
+  --orange:   #ff6600;
+  --orange2:  #ff8533;
+  --purple:   #9b59f4;
+  --cyan:     #22d3ee;
+  --green:    #34d399;
+  --yellow:   #fbbf24;
+  --red:      #f87171;
+  --pink:     #f472b6;
+
+  --bg:       #0d0d14;
+  --bg2:      #13131f;
+  --surface:  #1a1a2e;
+  --surface2: #22223a;
+  --border:   rgba(255,255,255,0.08);
+  --ink:      #e8e8f0;
+  --muted:    #7878a0;
+  --subtle:   #3a3a5c;
+
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #1b1b18; --surface: #23231f; --ink: #ecebe4; --muted: #9a9a90;
-    --rule: #34342e; --bar: #4a2a14; --good: #7cc47f; --bad: #ef7d7d;
-    color-scheme: dark;
-  }
-}
-* { box-sizing: border-box; }
-html { font-size: 15px; }
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 15px; scroll-behavior: smooth; }
+
 body {
-  margin: 0; background: var(--bg); color: var(--ink);
-  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif; line-height: 1.5;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(255,102,0,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 90% 110%, rgba(155,89,244,0.10) 0%, transparent 60%);
 }
-a { color: inherit; }
-a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
-.wrap { max-width: 980px; margin: 0 auto; padding: 0 12px 48px; }
 
-/* Header bar: the one thing every HN reader recognises */
+a { color: inherit; text-decoration: none; }
+a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; border-radius: 2px; }
+
+/* ── Layout ─────────────────────────────────────────── */
+.wrap { max-width: 1060px; margin: 0 auto; padding: 0 16px 64px; }
+
+/* ── Header ─────────────────────────────────────────── */
 header {
-  background: var(--orange); color: #000; padding: 6px 12px;
-  padding-top: calc(6px + env(safe-area-inset-top, 0px));
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(13,13,20,0.80);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 16px;
+  padding-top: env(safe-area-inset-top, 0px);
 }
-header .inner { max-width: 980px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
-header .logo { border: 1px solid #fff; color: #fff; font-weight: bold; padding: 0 4px; font-size: 0.85rem; }
-header h1 { font-size: 1rem; margin: 0; font-weight: bold; }
-header .run { font-size: 0.8rem; margin-left: auto; }
-.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; }
+header .inner {
+  max-width: 1060px; margin: 0 auto;
+  display: flex; align-items: center; gap: 12px;
+  height: 52px;
+}
+.logo-box {
+  background: var(--orange);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  width: 28px; height: 28px;
+  border-radius: 6px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 12px rgba(255,102,0,0.4);
+}
+header h1 {
+  font-size: 1rem; font-weight: 600; letter-spacing: -0.01em;
+  background: linear-gradient(90deg, #fff 60%, var(--muted));
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.run-pill {
+  margin-left: auto;
+  display: flex; align-items: center; gap: 7px;
+  font-size: 0.75rem; color: var(--muted);
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 999px; padding: 4px 12px;
+}
+.dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 6px currentColor;
+}
 
-/* Pipeline strip */
-.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 16px 0 28px; }
-.strip div { background: var(--surface); padding: 10px 12px; }
-.strip b { display: block; font-size: 1.35rem; font-weight: normal; }
-.strip span { font-size: 0.75rem; color: var(--muted); }
+/* ── Hero metrics strip ──────────────────────────────── */
+.strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 28px 0 36px;
+}
+.metric {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.metric:hover { transform: translateY(-2px); border-color: rgba(255,255,255,0.14); }
+.metric::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: var(--accent, var(--orange));
+  border-radius: 14px 14px 0 0;
+}
+.metric b {
+  display: block;
+  font-size: 1.7rem; font-weight: 700; letter-spacing: -0.03em;
+  color: #fff; line-height: 1.2;
+  font-family: 'JetBrains Mono', monospace;
+}
+.metric span { font-size: 0.72rem; color: var(--muted); margin-top: 4px; display: block; }
 
-h2 { font-size: 1rem; margin: 0 0 4px; }
-.sub { color: var(--muted); font-size: 0.78rem; margin: 0 0 12px; }
-section { margin-bottom: 36px; }
+/* ── Section headers ─────────────────────────────────── */
+.section-title {
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+  margin-bottom: 4px;
+}
+h2 {
+  font-size: 1.1rem; font-weight: 600; letter-spacing: -0.02em;
+  color: #fff; margin-bottom: 4px;
+}
+.sub { color: var(--muted); font-size: 0.78rem; margin-bottom: 16px; }
+section { margin-bottom: 40px; }
 
-/* Front page, weighed: each row's background bar is its share of the top score */
-ol.front { list-style: none; margin: 0; padding: 0; counter-reset: r; }
+/* ── Top stories list ────────────────────────────────── */
+ol.front { list-style: none; counter-reset: r; display: flex; flex-direction: column; gap: 8px; }
 ol.front li {
-  position: relative; display: grid; grid-template-columns: 2.2em 1fr; gap: 0 6px;
-  padding: 6px 8px; margin-bottom: 2px;
-  background: linear-gradient(to right, var(--bar) var(--w), transparent var(--w));
+  position: relative;
+  display: grid; grid-template-columns: 2em 1fr;
+  gap: 0 10px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s;
 }
-ol.front li::before { counter-increment: r; content: counter(r) "."; color: var(--muted); text-align: right; }
-ol.front .t { font-size: 0.95rem; }
-ol.front .t a { text-decoration: none; }
-ol.front .t a:hover { text-decoration: underline; }
-ol.front .d { color: var(--muted); font-size: 0.75rem; }
-ol.front .meta { grid-column: 2; color: var(--muted); font-size: 0.75rem; }
-ol.front .meta strong { color: var(--ink); font-weight: normal; }
+ol.front li:hover { border-color: rgba(255,102,0,0.35); transform: translateX(3px); }
+/* score bar as left accent */
+ol.front li::after {
+  content: '';
+  position: absolute; top: 0; left: 0; bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--orange), var(--purple));
+  opacity: var(--bar-opacity, 0.4);
+  border-radius: 12px 0 0 12px;
+}
+/* Score fill background */
+ol.front li::before {
+  counter-increment: r; content: counter(r);
+  color: var(--muted); font-size: 0.8rem; font-weight: 600;
+  text-align: right; line-height: 1.6;
+}
+.story-bg {
+  position: absolute; inset: 0; left: 3px;
+  background: linear-gradient(to right, rgba(255,102,0,0.07) var(--w), transparent var(--w));
+  pointer-events: none;
+  transition: width 0.8s ease-out;
+}
+.t { font-size: 0.93rem; font-weight: 500; line-height: 1.4; }
+.t a:hover { color: var(--orange2); }
+.t .d { font-size: 0.75rem; color: var(--muted); font-weight: 400; margin-left: 5px; }
+.meta {
+  grid-column: 2; color: var(--muted); font-size: 0.72rem; margin-top: 5px;
+  display: flex; flex-wrap: wrap; gap: 2px 10px;
+}
+.meta strong { color: var(--orange2); font-weight: 600; }
+.badge {
+  display: inline-flex; align-items: center; gap: 3px;
+  background: rgba(255,255,255,0.05); border-radius: 4px;
+  padding: 1px 6px; font-size: 0.68rem;
+}
 
-.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
-@media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; gap: 0; } }
+/* ── Two column grid ─────────────────────────────────── */
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+@media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } }
 
-/* Hour chart: 24 bars, pure CSS */
-.hours { display: grid; grid-template-columns: repeat(24, 1fr); align-items: end; gap: 2px; height: 160px; border-bottom: 1px solid var(--muted); }
-.hours div { background: var(--orange); min-height: 1px; position: relative; }
-.hours div:hover, .hours div:focus { background: var(--ink); outline: none; }
-.hours-axis { display: grid; grid-template-columns: repeat(24, 1fr); font-size: 0.65rem; color: var(--muted); text-align: center; }
-.readout { font-size: 0.8rem; min-height: 1.5em; margin-top: 6px; }
+/* ── Card ────────────────────────────────────────────── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 20px 16px;
+}
 
-/* Keyword bars */
-.kw { display: grid; grid-template-columns: 7.5em 1fr 2em; gap: 3px 8px; align-items: center; font-size: 0.8rem; }
-.kw .w { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.kw .b { height: 12px; background: var(--muted); }
-.kw .n { color: var(--muted); }
+/* ── Hour bars ───────────────────────────────────────── */
+.hours {
+  display: grid; grid-template-columns: repeat(24, 1fr);
+  align-items: end; gap: 3px; height: 150px;
+  border-bottom: 1px solid var(--subtle);
+  margin-bottom: 4px;
+}
+.hours div {
+  background: linear-gradient(to top, var(--orange), var(--orange2));
+  min-height: 2px; border-radius: 3px 3px 0 0;
+  cursor: pointer; transition: opacity 0.15s, filter 0.15s;
+  position: relative;
+}
+.hours div:hover, .hours div:focus {
+  opacity: 1; filter: brightness(1.4); outline: none;
+}
+.hours div::before {
+  content: attr(data-h) ':00';
+  position: absolute; bottom: calc(100% + 4px); left: 50%;
+  transform: translateX(-50%);
+  background: var(--surface2); border: 1px solid var(--border);
+  color: var(--ink); font-size: 0.65rem; padding: 2px 6px;
+  border-radius: 4px; white-space: nowrap;
+  opacity: 0; pointer-events: none; transition: opacity 0.1s;
+}
+.hours div:hover::before { opacity: 1; }
+.hours-axis {
+  display: grid; grid-template-columns: repeat(24, 1fr);
+  font-size: 0.6rem; color: var(--muted); text-align: center;
+  margin-bottom: 8px;
+}
+.readout {
+  font-size: 0.78rem; color: var(--cyan);
+  min-height: 1.4em; font-family: 'JetBrains Mono', monospace;
+}
 
+/* ── Keyword bars ────────────────────────────────────── */
+.kw { display: flex; flex-direction: column; gap: 7px; }
+.kw-row { display: grid; grid-template-columns: 7em 1fr 2.5em; align-items: center; gap: 8px; font-size: 0.78rem; }
+.kw-row .w { text-align: right; color: var(--ink); font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kw-track { background: var(--subtle); border-radius: 4px; height: 8px; overflow: hidden; }
+.kw-fill { height: 100%; border-radius: 4px; background: linear-gradient(90deg, var(--purple), var(--pink)); }
+.kw-row .n { color: var(--muted); font-size: 0.7rem; font-family: 'JetBrains Mono', monospace; }
+
+/* ── Score distribution ──────────────────────────────── */
+.dist-wrap { display: flex; height: 36px; border-radius: 8px; overflow: hidden; gap: 2px; }
+.dist-wrap div {
+  background: linear-gradient(135deg, var(--orange), var(--purple));
+  border-radius: 4px;
+  transition: filter 0.2s;
+  cursor: default;
+}
+.dist-wrap div:hover { filter: brightness(1.3); }
+.dist-legend {
+  display: flex; justify-content: space-between;
+  font-size: 0.7rem; color: var(--muted); margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── Tables ──────────────────────────────────────────── */
 table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
-th { text-align: left; font-weight: normal; color: var(--muted); border-bottom: 1px solid var(--rule); padding: 4px 6px; }
-td { padding: 4px 6px; border-bottom: 1px solid var(--rule); }
-td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+th {
+  text-align: left; font-weight: 500; color: var(--muted);
+  border-bottom: 1px solid var(--subtle); padding: 8px 10px;
+  font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase;
+}
+td { padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(255,255,255,0.02); }
+td.num, th.num { text-align: right; font-family: 'JetBrains Mono', monospace; }
 .scroll { overflow-x: auto; }
+.rank-pill {
+  display: inline-block; width: 22px; height: 22px; line-height: 22px;
+  text-align: center; font-size: 0.7rem; font-weight: 600;
+  background: var(--surface2); border-radius: 6px; color: var(--muted);
+}
 
-.dist { display: flex; height: 26px; border: 1px solid var(--rule); }
-.dist div { background: var(--orange); border-right: 1px solid var(--bg); }
-.dist-legend { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-top: 4px; gap: 6px; }
+/* ── Trend SVG ───────────────────────────────────────── */
+svg.trend { width: 100%; height: 150px; display: block; }
+.legend { font-size: 0.72rem; color: var(--muted); display: flex; gap: 12px; margin-top: 8px; align-items: center; }
+.legend-dot { width: 10px; height: 10px; border-radius: 2px; }
 
-svg.trend { width: 100%; height: 140px; display: block; }
-.legend { font-size: 0.75rem; color: var(--muted); }
-.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin: 0 4px 0 10px; }
+/* ── Footer ──────────────────────────────────────────── */
+footer {
+  color: var(--muted); font-size: 0.72rem;
+  border-top: 1px solid var(--border); padding-top: 20px; margin-top: 20px;
+  text-align: center; line-height: 2;
+}
+footer a { color: var(--orange); }
+footer a:hover { text-decoration: underline; }
 
-.empty { background: var(--surface); border: 1px solid var(--rule); padding: 20px; margin-top: 24px; }
-footer { color: var(--muted); font-size: 0.72rem; border-top: 2px solid var(--orange); padding-top: 10px; }
+/* ── Empty / error ───────────────────────────────────── */
+.empty {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 14px; padding: 32px; text-align: center; margin-top: 32px;
+}
+.empty h2 { margin-bottom: 8px; }
+code { font-family: 'JetBrains Mono', monospace; background: var(--surface2); padding: 1px 6px; border-radius: 4px; }
+
+/* ── Animations ──────────────────────────────────────── */
 @media (prefers-reduced-motion: no-preference) {
-  ol.front li { animation: grow 0.6s ease-out both; }
-  @keyframes grow { from { background-size: 0 100%; } }
+  .metric { animation: fadeUp 0.5s ease-out both; }
+  .metric:nth-child(2) { animation-delay: 0.05s; }
+  .metric:nth-child(3) { animation-delay: 0.10s; }
+  .metric:nth-child(4) { animation-delay: 0.15s; }
+  .metric:nth-child(5) { animation-delay: 0.20s; }
+  ol.front li { animation: fadeUp 0.4s ease-out both; }
+  ol.front li:nth-child(n+2) { animation-delay: calc(0.04s * var(--i, 1)); }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 }
 </style>
 </head>
 <body>
+
 <header>
   <div class="inner">
-    <span class="logo">Y</span>
+    <div class="logo-box">Y</div>
     <h1>HN Daily Analytics</h1>
-    <span class="run" id="run">Loading the latest snapshot…</span>
+    <div class="run-pill" id="run">Loading…</div>
   </div>
 </header>
 
@@ -122,7 +331,7 @@ footer { color: var(--muted); font-size: 0.72rem; border-top: 2px solid var(--or
 
 <script>
 const $ = (s) => document.querySelector(s);
-const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const fmt = (n) => Number(n).toLocaleString("en-US");
 const ago = (iso) => {
   const h = (Date.now() - new Date(iso)) / 36e5;
@@ -132,127 +341,217 @@ const ago = (iso) => {
 function render(d) {
   const m = d.metrics, r = d.run;
   const stale = (Date.now() - new Date(m.snapshot_ts)) / 36e5 > 26;
-  $("#run").innerHTML =
-    `<span class="dot" style="background:${stale ? "var(--bad)" : "#fff"}"></span>` +
-    `${stale ? "Stale" : "Fresh"} | snapshot ${ago(m.snapshot_ts)} | ${new Date(m.snapshot_ts).toUTCString().slice(5, 22)} UTC`;
+  const snapDate = new Date(m.snapshot_ts).toUTCString().slice(5, 22);
 
-  const maxScore = Math.max(...d.top_stories.map((s) => s.score));
-  const front = d.top_stories.map((s) => `
-    <li style="--w:${(s.score / maxScore * 100).toFixed(1)}%">
-      <div class="t">${s.url ? `<a href="${esc(s.url)}" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}
-        ${s.domain ? `<span class="d">(${esc(s.domain)})</span>` : ""}</div>
-      <div class="meta"><strong>${fmt(s.score)} points</strong> by ${esc(s.author)} | ${s.age_hours} h old | ${fmt(s.comment_count)} comments | ${s.points_per_hour} pts/h | front-page rank #${s.rank}</div>
+  $("#run").innerHTML =
+    `<span class="dot" style="color:${stale ? "var(--red)" : "var(--green)"}; background:${stale ? "var(--red)" : "var(--green)"}"></span>` +
+    `${stale ? "Stale" : "Fresh"} &nbsp;·&nbsp; ${ago(m.snapshot_ts)} &nbsp;·&nbsp; ${snapDate} UTC`;
+
+  const maxScore = Math.max(...d.top_stories.map(s => s.score));
+
+  const front = d.top_stories.map((s, i) => `
+    <li style="--w:${(s.score / maxScore * 100).toFixed(1)}%; --bar-opacity:${0.25 + (s.score/maxScore)*0.75}; --i:${i+1}">
+      <div class="story-bg"></div>
+      <div class="t">
+        ${s.url ? `<a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.title)}</a>` : esc(s.title)}
+        ${s.domain ? `<span class="d">(${esc(s.domain)})</span>` : ""}
+      </div>
+      <div class="meta">
+        <span><strong>▲ ${fmt(s.score)}</strong> pts</span>
+        <span class="badge">💬 ${fmt(s.comment_count)}</span>
+        <span class="badge">⚡ ${s.points_per_hour} pts/h</span>
+        <span class="badge">🕐 ${s.age_hours}h old</span>
+        <span class="badge">by ${esc(s.author)}</span>
+        <span class="badge">rank #${s.rank}</span>
+      </div>
     </li>`).join("");
 
-  const maxH = Math.max(...d.score_by_hour.map((h) => h.avg_score), 1);
-  const hours = d.score_by_hour.map((h) =>
-    `<div tabindex="0" style="height:${(h.avg_score / maxH * 100).toFixed(1)}%" data-h="${h.hour}" data-a="${h.avg_score}" data-n="${h.stories}" data-m="${h.median_score}" aria-label="${h.hour}:00 UTC, average ${h.avg_score}"></div>`).join("");
-  const axis = d.score_by_hour.map((h) => `<span>${h.hour % 3 === 0 ? h.hour : ""}</span>`).join("");
+  const maxH = Math.max(...d.score_by_hour.map(h => h.avg_score), 1);
+  const hours = d.score_by_hour.map(h =>
+    `<div tabindex="0"
+      style="height:${Math.max((h.avg_score / maxH * 100), 2).toFixed(1)}%; opacity:${0.5 + (h.avg_score/maxH)*0.5}"
+      data-h="${h.hour}" data-a="${h.avg_score}" data-n="${h.stories}" data-m="${h.median_score}"
+      aria-label="${h.hour}:00 UTC, avg ${h.avg_score}">
+    </div>`).join("");
+  const axis = d.score_by_hour.map(h => `<span>${h.hour % 6 === 0 ? h.hour : ""}</span>`).join("");
 
-  const maxK = Math.max(...d.keywords.map((k) => k.stories), 1);
-  const kw = d.keywords.map((k) =>
-    `<span class="w" title="${esc(k.word)}">${esc(k.word)}</span><div class="b" style="width:${k.stories / maxK * 100}%"></div><span class="n">${k.stories}</span>`).join("");
+  const maxK = Math.max(...d.keywords.map(k => k.stories), 1);
+  const kw = d.keywords.map(k => `
+    <div class="kw-row">
+      <span class="w" title="${esc(k.word)}">${esc(k.word)}</span>
+      <div class="kw-track"><div class="kw-fill" style="width:${(k.stories/maxK*100).toFixed(1)}%"></div></div>
+      <span class="n">${k.stories}</span>
+    </div>`).join("");
 
   const total = d.score_distribution.reduce((a, b) => a + b.stories, 0) || 1;
+  const gradients = [
+    "linear-gradient(135deg,#ff6600,#ff8533)",
+    "linear-gradient(135deg,#ff8533,#fbbf24)",
+    "linear-gradient(135deg,#fbbf24,#34d399)",
+    "linear-gradient(135deg,#34d399,#22d3ee)",
+    "linear-gradient(135deg,#22d3ee,#9b59f4)",
+  ];
   const dist = d.score_distribution.map((b, i) =>
-    `<div style="flex:${b.stories};opacity:${0.35 + i * 0.16}" title="${b.bucket}: ${b.stories} stories"></div>`).join("");
-  const distLegend = d.score_distribution.map((b) => `<span>${b.bucket}: ${b.stories}</span>`).join("");
+    `<div style="flex:${b.stories}; background:${gradients[i] || gradients[4]}" title="${esc(b.bucket)}: ${b.stories} stories"></div>`).join("");
+  const distLegend = d.score_distribution.map(b => `<span>${b.bucket}: <b style="color:var(--ink)">${b.stories}</b></span>`).join("");
 
-  const table = (rows, cols) => `<div class="scroll"><table><thead><tr>${cols.map(([k, l, n]) => `<th class="${n ? "num" : ""}">${l}</th>`).join("")}</tr></thead><tbody>${
-    rows.map((row) => `<tr>${cols.map(([k, , n]) => `<td class="${n ? "num" : ""}">${n ? fmt(row[k]) : esc(row[k])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  const table = (rows, cols) => `<div class="scroll"><table>
+    <thead><tr>${cols.map(([k,l,n]) => `<th class="${n?"num":""}">${l}</th>`).join("")}</tr></thead>
+    <tbody>${rows.map((row, i) => `<tr><td class="num"><span class="rank-pill">${i+1}</span></td>${cols.slice(1).map(([k,,n]) =>
+      `<td class="${n?"num":""}">${n ? fmt(row[k]) : esc(row[k])}</td>`).join("")}</tr>`).join("")}
+    </tbody></table></div>`;
+
+  const accentColors = [
+    "var(--orange)", "var(--purple)", "var(--cyan)", "var(--green)", "var(--yellow)"
+  ];
 
   $("#app").innerHTML = `
     <div class="strip">
-      <div><b>${fmt(m.records)}</b><span>stories in today’s snapshot</span></div>
-      <div><b>${fmt(m.total_points)}</b><span>points across them</span></div>
-      <div><b>${m.days_of_history}</b><span>days of history (${fmt(m.stories_in_history)} stories)</span></div>
-      <div><b>${(m.parquet_bytes / 1024).toFixed(1)} KB</b><span>Parquet, from ${(r.raw_json_bytes / 1024).toFixed(1)} KB raw JSON</span></div>
-      <div><b>${r.duration_s}s</b><span>last run, ${r.kept} kept, ${r.dropped} dropped</span></div>
+      <div class="metric" style="--accent:var(--orange)">
+        <b>${fmt(m.records)}</b>
+        <span>stories fetched today</span>
+      </div>
+      <div class="metric" style="--accent:var(--yellow)">
+        <b>${fmt(m.total_points)}</b>
+        <span>total points across them</span>
+      </div>
+      <div class="metric" style="--accent:var(--cyan)">
+        <b>${m.days_of_history}</b>
+        <span>days of history (${fmt(m.stories_in_history)} stories)</span>
+      </div>
+      <div class="metric" style="--accent:var(--green)">
+        <b>${(m.parquet_bytes / 1024).toFixed(1)} KB</b>
+        <span>Parquet, from ${(r.raw_json_bytes / 1024).toFixed(1)} KB raw JSON</span>
+      </div>
+      <div class="metric" style="--accent:var(--purple)">
+        <b>${r.duration_s}s</b>
+        <span>last run · ${r.kept} kept · ${r.dropped} dropped</span>
+      </div>
     </div>
 
     <section>
-      <h2>Top 10 by score</h2>
-      <p class="sub">The orange bar behind each story is its score relative to today’s leader.</p>
+      <div class="section-title">🔥 Front Page</div>
+      <h2>Top 10 Stories by Score</h2>
+      <p class="sub">Bar width = score relative to today's leader. Click any title to open it.</p>
       <ol class="front">${front}</ol>
     </section>
 
     <div class="grid2">
       <section>
-        <h2>Average score by hour posted</h2>
-        <p class="sub">All stories seen so far, UTC. Hover or tab through the bars.</p>
-        <div class="hours" id="hours">${hours}</div>
-        <div class="hours-axis">${axis}</div>
-        <div class="readout" id="readout"></div>
+        <div class="card">
+          <div class="section-title">📊 Timing</div>
+          <h2>Avg Score by Hour Posted</h2>
+          <p class="sub">All stories in history · UTC · hover for details</p>
+          <div class="hours" id="hours">${hours}</div>
+          <div class="hours-axis">${axis}</div>
+          <div class="readout" id="readout">Hover a bar to see details</div>
+        </div>
       </section>
       <section>
-        <h2>Words in today’s titles</h2>
-        <p class="sub">Number of stories using each word, common words removed.</p>
-        <div class="kw">${kw}</div>
+        <div class="card">
+          <div class="section-title">🏷️ Language</div>
+          <h2>Title Keywords Today</h2>
+          <p class="sub">Common words removed · sorted by frequency</p>
+          <div class="kw">${kw}</div>
+        </div>
       </section>
     </div>
 
     <section>
-      <h2>How today’s scores spread</h2>
-      <p class="sub">Stories per score band.</p>
-      <div class="dist">${dist}</div>
-      <div class="dist-legend">${distLegend}</div>
+      <div class="card">
+        <div class="section-title">📈 Distribution</div>
+        <h2>Score Distribution</h2>
+        <p class="sub">Stories per score band in today's snapshot</p>
+        <div class="dist-wrap">${dist}</div>
+        <div class="dist-legend">${distLegend}</div>
+      </div>
     </section>
 
     <div class="grid2">
       <section>
-        <h2>Top domains</h2>
-        <p class="sub">Across all days collected.</p>
-        ${table(d.top_domains, [["domain", "Domain"], ["stories", "Stories", 1], ["total_score", "Points", 1]])}
+        <div class="card">
+          <div class="section-title">🌐 Sources</div>
+          <h2>Top Domains</h2>
+          <p class="sub">Across all days collected</p>
+          ${table(d.top_domains, [["_rank","#",0],["domain","Domain"],["stories","Stories",1],["total_score","Points",1]])}
+        </div>
       </section>
       <section>
-        <h2>Most active submitters</h2>
-        <p class="sub">Across all days collected.</p>
-        ${table(d.top_authors, [["author", "User"], ["stories", "Stories", 1], ["avg_score", "Avg points", 1]])}
+        <div class="card">
+          <div class="section-title">✍️ Submitters</div>
+          <h2>Most Active Authors</h2>
+          <p class="sub">Across all days collected</p>
+          ${table(d.top_authors, [["_rank","#",0],["author","User"],["stories","Stories",1],["avg_score","Avg pts",1]])}
+        </div>
       </section>
     </div>
 
     <section>
-      <h2>Front-page average score per day</h2>
-      <p class="sub">${d.daily_trend.length < 2 ? "This chart fills in as the daily job runs." : "Daily average with a 7-day rolling average."}
-        <span class="legend"><i style="background:var(--muted)"></i>daily<i style="background:var(--orange);height:3px"></i>7-day</span></p>
-      ${trendSvg(d.daily_trend)}
+      <div class="card">
+        <div class="section-title">📉 Trend</div>
+        <h2>Daily Average Score</h2>
+        <p class="sub">${d.daily_trend.length < 2 ? "This chart fills in as the daily job runs — come back tomorrow!" : "Daily average with 7-day rolling average overlay."}</p>
+        ${trendSvg(d.daily_trend)}
+        <div class="legend">
+          <div class="legend-dot" style="background:var(--muted)"></div> Daily avg &nbsp;
+          <div class="legend-dot" style="background:var(--orange)"></div> 7-day rolling avg
+        </div>
+      </div>
     </section>
 
-    <footer>Data from the public Hacker News API. Extracted with Python, stored as Parquet, modelled with DuckDB, refreshed daily by GitHub Actions.</footer>`;
+    <footer>
+      Data sourced from the public <a href="https://github.com/HackerNews/API" target="_blank">Hacker News Firebase API</a>.
+      Extracted with Python · stored as Parquet · modelled with DuckDB · refreshed daily by GitHub Actions.
+      <br>Built by <a href="https://github.com/VipulJunghareVJ/hn-pipeline" target="_blank">VipulJunghareVJ</a>.
+    </footer>`;
 
   const readout = $("#readout");
-  const show = (e) => {
+  $("#hours").addEventListener("mouseover", (e) => {
     const b = e.target.dataset; if (!b.h) return;
-    readout.textContent = `${b.h}:00–${b.h}:59 UTC: ${b.n} stories, average ${b.a} points, median ${b.m}`;
-  };
-  $("#hours").addEventListener("mouseover", show);
-  $("#hours").addEventListener("focusin", show);
+    readout.textContent = `${b.h}:00–${(+b.h+1)%24}:00 UTC  ·  ${b.n} stories  ·  avg ${b.a} pts  ·  median ${b.m} pts`;
+  });
+  $("#hours").addEventListener("focusin", (e) => {
+    const b = e.target.dataset; if (!b.h) return;
+    readout.textContent = `${b.h}:00–${(+b.h+1)%24}:00 UTC  ·  ${b.n} stories  ·  avg ${b.a} pts  ·  median ${b.m} pts`;
+  });
 }
 
 function trendSvg(rows) {
   if (!rows.length) return "";
-  const W = 900, H = 140, p = 24;
-  const vals = rows.flatMap((r) => [r.avg_score, r.rolling_7d_avg]);
-  const lo = Math.min(...vals) * 0.95, hi = Math.max(...vals) * 1.05 || 1;
-  const x = (i) => rows.length === 1 ? W / 2 : p + i * (W - 2 * p) / (rows.length - 1);
-  const y = (v) => H - p - (v - lo) / (hi - lo || 1) * (H - 2 * p);
-  const line = (k) => rows.map((r, i) => `${x(i).toFixed(1)},${y(r[k]).toFixed(1)}`).join(" ");
-  const labels = rows.map((r, i) => (i === 0 || i === rows.length - 1 || rows.length <= 8)
-    ? `<text x="${x(i)}" y="${H - 4}" font-size="11" text-anchor="middle" fill="var(--muted)">${r.day.slice(5)}</text>` : "").join("");
-  return `<div class="scroll"><svg class="trend" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Daily average score trend">
-    <polyline points="${line("avg_score")}" fill="none" stroke="var(--muted)" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
-    <polyline points="${line("rolling_7d_avg")}" fill="none" stroke="var(--orange)" stroke-width="3" vector-effect="non-scaling-stroke"/>
-    ${rows.map((r, i) => `<circle cx="${x(i)}" cy="${y(r.avg_score)}" r="3" fill="var(--muted)"><title>${r.day}: ${r.avg_score} avg, ${r.rolling_7d_avg} 7-day</title></circle>`).join("")}
-    ${labels}</svg></div>`;
+  const W = 900, H = 150, p = 24;
+  const vals = rows.flatMap(r => [r.avg_score, r.rolling_7d_avg]);
+  const lo = Math.min(...vals) * 0.9, hi = Math.max(...vals) * 1.08 || 1;
+  const x = (i) => rows.length === 1 ? W/2 : p + i*(W-2*p)/(rows.length-1);
+  const y = (v) => H - p - (v-lo)/(hi-lo||1)*(H-2*p);
+  const linePoints = (k) => rows.map((r,i) => `${x(i).toFixed(1)},${y(r[k]).toFixed(1)}`).join(" ");
+  const areaPoints = rows.map((r,i) => `${x(i).toFixed(1)},${y(r.avg_score).toFixed(1)}`).join(" ") +
+    ` ${x(rows.length-1).toFixed(1)},${H-p} ${x(0).toFixed(1)},${H-p}`;
+  const labels = rows.map((r,i) =>
+    (i === 0 || i === rows.length-1 || (rows.length <= 10))
+      ? `<text x="${x(i)}" y="${H-6}" font-size="10" text-anchor="middle" fill="rgba(120,120,160,0.8)">${r.day.slice(5)}</text>` : "").join("");
+  return `<div class="scroll"><svg class="trend" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img">
+    <defs>
+      <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ff6600" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#ff6600" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <polygon points="${areaPoints}" fill="url(#areaGrad)"/>
+    <polyline points="${linePoints("avg_score")}" fill="none" stroke="rgba(120,120,160,0.6)" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+    <polyline points="${linePoints("rolling_7d_avg")}" fill="none" stroke="#ff6600" stroke-width="2.5" vector-effect="non-scaling-stroke"/>
+    ${rows.map((r,i) => `<circle cx="${x(i)}" cy="${y(r.avg_score)}" r="3" fill="rgba(120,120,160,0.8)"><title>${r.day}: avg ${r.avg_score}, 7-day ${r.rolling_7d_avg}</title></circle>`).join("")}
+    ${labels}
+  </svg></div>`;
 }
 
 fetch("data/dashboard.json", { cache: "no-cache" })
-  .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+  .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
   .then(render)
-  .catch((e) => {
+  .catch(e => {
     $("#run").textContent = "No data";
     $("#app").innerHTML = `<div class="empty"><h2>No snapshot found</h2>
-      <p>web/data/dashboard.json is missing (${esc(e.message)}). Run <code>python -m pipeline.run_pipeline</code>, commit the output, and push. If you opened this file directly from disk, serve it instead: <code>python -m http.server -d web</code>.</p></div>`;
+      <p style="color:var(--muted);margin-top:8px">web/data/dashboard.json is missing (${esc(e.message)}).<br>
+      Run <code>python -m pipeline.run_pipeline</code>, commit the output, and push.</p></div>`;
   });
 </script>
 </body>
