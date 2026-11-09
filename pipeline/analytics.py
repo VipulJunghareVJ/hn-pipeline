@@ -28,9 +28,16 @@ STOPWORDS = sorted(
 
 
 def connect(data_dir: Path) -> duckdb.DuckDBPyConnection:
+    data_dir = Path(data_dir)
     latest = (data_dir / "hacker_news.parquet").as_posix()
     history = (data_dir / "lake" / "stories" / "*" / "*.parquet").as_posix()
+    obs_dir = data_dir / "lake" / "observations"
+    observations = (obs_dir / "*" / "*.parquet").as_posix()
     con = duckdb.connect()  # in-memory catalog; data stays in Parquet on disk
+    # DuckDB otherwise renders timestamps in the machine's local zone, so a run
+    # on a laptop in IST and one on a UTC CI runner would export different
+    # strings for the same instant. Pin everything to UTC.
+    con.execute("SET TimeZone = 'UTC'")
     con.execute(f"CREATE VIEW stories_latest AS SELECT * FROM read_parquet('{latest}')")
     con.execute(
         f"""
@@ -44,6 +51,21 @@ def connect(data_dir: Path) -> duckdb.DuckDBPyConnection:
         CREATE VIEW stories_dedup AS
         SELECT * FROM stories_history
         QUALIFY row_number() OVER (PARTITION BY story_id ORDER BY snapshot_ts DESC) = 1
+        """
+    )
+    # Every run's (story, rank, score): the basis for velocity tracking.
+    # Daily story partitions are folded in too, so days collected before
+    # per-run observations existed still count as one data point each.
+    # (A glob with no matches is an error in DuckDB, hence the existence check.)
+    obs_cols = "story_id, rank, score, comment_count, snapshot_ts"
+    sources = [f"SELECT {obs_cols} FROM stories_history"]
+    if any(obs_dir.glob("*/*.parquet")):
+        sources.insert(0, f"SELECT {obs_cols} FROM read_parquet('{observations}', hive_partitioning = true)")
+    con.execute(
+        f"""
+        CREATE VIEW observations AS
+        SELECT * FROM ({" UNION ALL ".join(sources)})
+        QUALIFY row_number() OVER (PARTITION BY story_id, snapshot_ts) = 1
         """
     )
     return con
@@ -175,6 +197,66 @@ def daily_trend(con) -> pd.DataFrame:
     ).df()
 
 
+# --- Velocity: how fast stories are gaining points between runs -----------
+def rising_stories(con, n: int = 10) -> pd.DataFrame:
+    """
+    Stories in the latest run ranked by points gained per hour since their
+    previous observation. Needs at least two runs that saw the same story;
+    returns an empty frame until then.
+    """
+    return con.execute(
+        """
+        WITH per_obs AS (
+            SELECT story_id, snapshot_ts, score, rank, comment_count,
+                   lag(snapshot_ts)   OVER w AS prev_ts,
+                   lag(score)         OVER w AS prev_score,
+                   lag(rank)          OVER w AS prev_rank,
+                   lag(comment_count) OVER w AS prev_comments,
+                   first_value(score)       OVER w AS first_score,
+                   first_value(snapshot_ts) OVER w AS first_seen
+            FROM observations
+            WINDOW w AS (PARTITION BY story_id ORDER BY snapshot_ts)
+        ),
+        latest AS (SELECT max(snapshot_ts) AS ts FROM observations)
+        SELECT o.story_id, s.title, s.url, s.domain,
+               o.rank,
+               o.prev_rank - o.rank                                     AS rank_change,
+               o.score,
+               o.score - o.prev_score                                   AS score_gain,
+               o.comment_count - o.prev_comments                        AS comment_gain,
+               round(epoch(o.snapshot_ts - o.prev_ts) / 3600, 2)        AS hours_between,
+               round((o.score - o.prev_score)
+                     / greatest(epoch(o.snapshot_ts - o.prev_ts) / 3600, 0.25), 1)
+                                                                        AS points_per_hour,
+               o.score - o.first_score                                  AS gain_since_first_seen,
+               strftime(o.first_seen, '%Y-%m-%dT%H:%M:%SZ')             AS first_seen
+        FROM per_obs o
+        JOIN latest l ON o.snapshot_ts = l.ts
+        JOIN stories_latest s USING (story_id)
+        WHERE o.prev_ts IS NOT NULL
+        ORDER BY points_per_hour DESC, score_gain DESC, o.rank
+        LIMIT ?
+        """,
+        [n],
+    ).df()
+
+
+def score_trajectories(con, story_ids: list[int], hours: int = 48) -> pd.DataFrame:
+    """Score over time for the given stories (long format, for a line chart)."""
+    if not story_ids:
+        return pd.DataFrame(columns=["story_id", "ts", "score", "rank"])
+    return con.execute(
+        """
+        SELECT story_id, strftime(snapshot_ts, '%Y-%m-%dT%H:%M:%SZ') AS ts, score, rank
+        FROM observations
+        WHERE list_contains(?, story_id)
+          AND snapshot_ts >= (SELECT max(snapshot_ts) FROM observations) - to_hours(?)
+        ORDER BY story_id, snapshot_ts
+        """,
+        [story_ids, hours],
+    ).df()
+
+
 def records(df: pd.DataFrame) -> list[dict]:
     """DataFrame -> JSON-safe rows (NaN/NaT become null, which browsers can parse)."""
     return df.astype(object).where(df.notna(), None).to_dict("records")
@@ -189,6 +271,7 @@ def pipeline_metrics(con, data_dir: Path) -> dict:
         """
     ).fetchone()
     days = con.execute("SELECT count(DISTINCT snapshot_date) FROM stories_history").fetchone()[0]
+    runs = con.execute("SELECT count(DISTINCT snapshot_ts) FROM observations").fetchone()[0]
     total = con.execute("SELECT count(DISTINCT story_id) FROM stories_history").fetchone()[0]
     parquet = data_dir / "hacker_news.parquet"
     return {
@@ -200,5 +283,6 @@ def pipeline_metrics(con, data_dir: Path) -> dict:
         "unique_authors": row[5],
         "days_of_history": days,
         "stories_in_history": total,
+        "runs_observed": runs,
         "parquet_bytes": parquet.stat().st_size if parquet.exists() else 0,
     }

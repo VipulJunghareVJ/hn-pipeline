@@ -1,0 +1,3 @@
+# Pipeline + test tooling (used by CI)
+-r requirements-pipeline.txt
+pytest>=8

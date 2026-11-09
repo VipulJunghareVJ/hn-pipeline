@@ -2,7 +2,10 @@ name: Daily HN pipeline
 
 on:
   schedule:
-    - cron: "15 6 * * *"   # every day 06:15 UTC (11:45 IST)
+    # Every 4 hours at :15 (06:15, 10:15, 14:15 … UTC). Several runs a day let
+    # the pipeline measure score velocity ("rising stories"); the daily
+    # partition keeps the day's last run, so daily marts are unaffected.
+    - cron: "15 */4 * * *"
   workflow_dispatch:        # "Run workflow" button for manual runs
 
 permissions:
@@ -21,12 +24,16 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: requirements-pipeline.txt
+          cache-dependency-path: requirements-dev.txt
 
-      - name: Install pipeline dependencies
-        run: pip install -r requirements-pipeline.txt
+      - name: Install pipeline + test dependencies
+        run: pip install -r requirements-dev.txt
 
-      - name: Extract, transform, load, export
+      - name: Unit tests (offline, fixture data)
+        run: pytest
+
+      # Exits non-zero if a data-quality check fails; nothing is committed then.
+      - name: Extract, quality-check, transform, load, export
         run: python -m pipeline.run_pipeline --limit 50
 
       - name: Commit new snapshot
@@ -38,5 +45,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "data: snapshot $(date -u +%F)"
+          git commit -m "data: snapshot $(date -u +'%F %H:%M') UTC"
+          git pull --rebase   # in case someone pushed meanwhile
           git push

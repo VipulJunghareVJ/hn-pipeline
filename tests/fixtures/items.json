@@ -1,0 +1,13 @@
+{
+ "snapshot_ts": "2026-11-09T06:00:00+00:00",
+ "items": [
+  {"id": 101, "type": "story", "title": "Rust is &quot;fast&quot;", "url": "https://www.example.com/rust", "by": "alice", "score": 300, "descendants": 120, "kids": [1, 2, 3], "time": 1762660800, "_rank": 1},
+  {"id": 102, "type": "story", "title": "Ask HN: How do you learn DuckDB?", "text": "<p>I tried &amp; failed.<p>Tips?", "by": "bob", "score": 80, "descendants": 40, "kids": [4], "time": 1762664400, "_rank": 2},
+  {"id": 103, "type": "story", "title": "Show HN: A Parquet viewer", "url": "https://github.com/x/parquet-viewer", "by": "carol", "score": 45, "time": 1762668000, "_rank": 3},
+  {"id": 104, "type": "job", "title": "Acme (YC S24) is hiring data engineers", "url": "https://acme.example/jobs", "by": "acme", "score": 1, "time": 1762671600, "_rank": 4},
+  {"id": 105, "type": "story", "title": "Deleted story", "deleted": true, "time": 1762671600, "_rank": 5},
+  {"id": 106, "type": "story", "title": "Dead story", "dead": true, "by": "spam", "score": 1, "time": 1762671600, "_rank": 6},
+  {"id": 107, "type": "comment", "text": "not a story", "by": "dan", "time": 1762671600, "_rank": 7},
+  {"id": 108, "type": "story", "title": "Launch HN: Rust DataFrames", "url": "https://rustframes.dev", "by": "erin", "score": 150, "descendants": 30, "kids": [5, 6], "time": 1762650000, "_rank": 8}
+ ]
+}
