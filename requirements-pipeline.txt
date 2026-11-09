@@ -1,0 +1,6 @@
+# Pipeline only (used by GitHub Actions)
+requests>=2.31,<3
+pandas>=2.2,<4
+pyarrow>=15
+duckdb>=1.1,<2
+pytz>=2024.1        # DuckDB needs it to return timezone-aware timestamps

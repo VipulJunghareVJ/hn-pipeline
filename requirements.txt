@@ -1,0 +1,3 @@
+# Pipeline + Streamlit dashboard (used locally and by Streamlit Community Cloud)
+-r requirements-pipeline.txt
+streamlit>=1.50,<2

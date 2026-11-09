@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HN Daily Analytics</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23ff6600'/><text x='8' y='12.5' font-size='12' font-family='Verdana' fill='white' text-anchor='middle'>Y</text></svg>">
+<style>
+:root {
+  --orange: #ff6600;
+  --bg: #f6f6ef;
+  --surface: #ffffff;
+  --ink: #000000;
+  --muted: #828282;
+  --rule: #e2e2d8;
+  --bar: #ffe3cf;
+  --good: #2e7d32;
+  --bad: #c62828;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1b1b18; --surface: #23231f; --ink: #ecebe4; --muted: #9a9a90;
+    --rule: #34342e; --bar: #4a2a14; --good: #7cc47f; --bad: #ef7d7d;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 15px; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: Verdana, Geneva, "DejaVu Sans", sans-serif; line-height: 1.5;
+}
+a { color: inherit; }
+a:focus-visible { outline: 2px solid var(--orange); outline-offset: 2px; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 12px 48px; }
+
+/* Header bar: the one thing every HN reader recognises */
+header {
+  background: var(--orange); color: #000; padding: 6px 12px;
+  padding-top: calc(6px + env(safe-area-inset-top, 0px));
+}
+header .inner { max-width: 980px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
+header .logo { border: 1px solid #fff; color: #fff; font-weight: bold; padding: 0 4px; font-size: 0.85rem; }
+header h1 { font-size: 1rem; margin: 0; font-weight: bold; }
+header .run { font-size: 0.8rem; margin-left: auto; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 5px; vertical-align: 1px; }
+
+/* Pipeline strip */
+.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin: 16px 0 28px; }
+.strip div { background: var(--surface); padding: 10px 12px; }
+.strip b { display: block; font-size: 1.35rem; font-weight: normal; }
+.strip span { font-size: 0.75rem; color: var(--muted); }
+
+h2 { font-size: 1rem; margin: 0 0 4px; }
+.sub { color: var(--muted); font-size: 0.78rem; margin: 0 0 12px; }
+section { margin-bottom: 36px; }
+
+/* Front page, weighed: each row's background bar is its share of the top score */
+ol.front { list-style: none; margin: 0; padding: 0; counter-reset: r; }
+ol.front li {
+  position: relative; display: grid; grid-template-columns: 2.2em 1fr; gap: 0 6px;
+  padding: 6px 8px; margin-bottom: 2px;
+  background: linear-gradient(to right, var(--bar) var(--w), transparent var(--w));
+}
+ol.front li::before { counter-increment: r; content: counter(r) "."; color: var(--muted); text-align: right; }
+ol.front .t { font-size: 0.95rem; }
+ol.front .t a { text-decoration: none; }
+ol.front .t a:hover { text-decoration: underline; }
+ol.front .d { color: var(--muted); font-size: 0.75rem; }
+ol.front .meta { grid-column: 2; color: var(--muted); font-size: 0.75rem; }
+ol.front .meta strong { color: var(--ink); font-weight: normal; }
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; }
+@media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; gap: 0; } }
+
+/* Hour chart: 24 bars, pure CSS */
+.hours { display: grid; grid-template-columns: repeat(24, 1fr); align-items: end; gap: 2px; height: 160px; border-bottom: 1px solid var(--muted); }
+.hours div { background: var(--orange); min-height: 1px; position: relative; }
+.hours div:hover, .hours div:focus { background: var(--ink); outline: none; }
+.hours-axis { display: grid; grid-template-columns: repeat(24, 1fr); font-size: 0.65rem; color: var(--muted); text-align: center; }
+.readout { font-size: 0.8rem; min-height: 1.5em; margin-top: 6px; }
+
+/* Keyword bars */
+.kw { display: grid; grid-template-columns: 7.5em 1fr 2em; gap: 3px 8px; align-items: center; font-size: 0.8rem; }
+.kw .w { text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kw .b { height: 12px; background: var(--muted); }
+.kw .n { color: var(--muted); }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+th { text-align: left; font-weight: normal; color: var(--muted); border-bottom: 1px solid var(--rule); padding: 4px 6px; }
+td { padding: 4px 6px; border-bottom: 1px solid var(--rule); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.scroll { overflow-x: auto; }
+
+.dist { display: flex; height: 26px; border: 1px solid var(--rule); }
+.dist div { background: var(--orange); border-right: 1px solid var(--bg); }
+.dist-legend { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-top: 4px; gap: 6px; }
+
+svg.trend { width: 100%; height: 140px; display: block; }
+.legend { font-size: 0.75rem; color: var(--muted); }
+.legend i { display: inline-block; width: 14px; height: 2px; vertical-align: middle; margin: 0 4px 0 10px; }
+
+.empty { background: var(--surface); border: 1px solid var(--rule); padding: 20px; margin-top: 24px; }
+footer { color: var(--muted); font-size: 0.72rem; border-top: 2px solid var(--orange); padding-top: 10px; }
+@media (prefers-reduced-motion: no-preference) {
+  ol.front li { animation: grow 0.6s ease-out both; }
+  @keyframes grow { from { background-size: 0 100%; } }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="inner">
+    <span class="logo">Y</span>
+    <h1>HN Daily Analytics</h1>
+    <span class="run" id="run">Loading the latest snapshot…</span>
+  </div>
+</header>
+
+<main class="wrap" id="app"></main>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmt = (n) => Number(n).toLocaleString("en-US");
+const ago = (iso) => {
+  const h = (Date.now() - new Date(iso)) / 36e5;
+  return h < 1 ? `${Math.round(h * 60)} min ago` : h < 48 ? `${h.toFixed(1)} h ago` : `${Math.round(h / 24)} days ago`;
+};
+
+function render(d) {
+  const m = d.metrics, r = d.run;
+  const stale = (Date.now() - new Date(m.snapshot_ts)) / 36e5 > 26;
+  $("#run").innerHTML =
+    `<span class="dot" style="background:${stale ? "var(--bad)" : "#fff"}"></span>` +
+    `${stale ? "Stale" : "Fresh"} | snapshot ${ago(m.snapshot_ts)} | ${new Date(m.snapshot_ts).toUTCString().slice(5, 22)} UTC`;
+
+  const maxScore = Math.max(...d.top_stories.map((s) => s.score));
+  const front = d.top_stories.map((s) => `
+    <li style="--w:${(s.score / maxScore * 100).toFixed(1)}%">
+      <div class="t">${s.url ? `<a href="${esc(s.url)}" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}
+        ${s.domain ? `<span class="d">(${esc(s.domain)})</span>` : ""}</div>
+      <div class="meta"><strong>${fmt(s.score)} points</strong> by ${esc(s.author)} | ${s.age_hours} h old | ${fmt(s.comment_count)} comments | ${s.points_per_hour} pts/h | front-page rank #${s.rank}</div>
+    </li>`).join("");
+
+  const maxH = Math.max(...d.score_by_hour.map((h) => h.avg_score), 1);
+  const hours = d.score_by_hour.map((h) =>
+    `<div tabindex="0" style="height:${(h.avg_score / maxH * 100).toFixed(1)}%" data-h="${h.hour}" data-a="${h.avg_score}" data-n="${h.stories}" data-m="${h.median_score}" aria-label="${h.hour}:00 UTC, average ${h.avg_score}"></div>`).join("");
+  const axis = d.score_by_hour.map((h) => `<span>${h.hour % 3 === 0 ? h.hour : ""}</span>`).join("");
+
+  const maxK = Math.max(...d.keywords.map((k) => k.stories), 1);
+  const kw = d.keywords.map((k) =>
+    `<span class="w" title="${esc(k.word)}">${esc(k.word)}</span><div class="b" style="width:${k.stories / maxK * 100}%"></div><span class="n">${k.stories}</span>`).join("");
+
+  const total = d.score_distribution.reduce((a, b) => a + b.stories, 0) || 1;
+  const dist = d.score_distribution.map((b, i) =>
+    `<div style="flex:${b.stories};opacity:${0.35 + i * 0.16}" title="${b.bucket}: ${b.stories} stories"></div>`).join("");
+  const distLegend = d.score_distribution.map((b) => `<span>${b.bucket}: ${b.stories}</span>`).join("");
+
+  const table = (rows, cols) => `<div class="scroll"><table><thead><tr>${cols.map(([k, l, n]) => `<th class="${n ? "num" : ""}">${l}</th>`).join("")}</tr></thead><tbody>${
+    rows.map((row) => `<tr>${cols.map(([k, , n]) => `<td class="${n ? "num" : ""}">${n ? fmt(row[k]) : esc(row[k])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+
+  $("#app").innerHTML = `
+    <div class="strip">
+      <div><b>${fmt(m.records)}</b><span>stories in today’s snapshot</span></div>
+      <div><b>${fmt(m.total_points)}</b><span>points across them</span></div>
+      <div><b>${m.days_of_history}</b><span>days of history (${fmt(m.stories_in_history)} stories)</span></div>
+      <div><b>${(m.parquet_bytes / 1024).toFixed(1)} KB</b><span>Parquet, from ${(r.raw_json_bytes / 1024).toFixed(1)} KB raw JSON</span></div>
+      <div><b>${r.duration_s}s</b><span>last run, ${r.kept} kept, ${r.dropped} dropped</span></div>
+    </div>
+
+    <section>
+      <h2>Top 10 by score</h2>
+      <p class="sub">The orange bar behind each story is its score relative to today’s leader.</p>
+      <ol class="front">${front}</ol>
+    </section>
+
+    <div class="grid2">
+      <section>
+        <h2>Average score by hour posted</h2>
+        <p class="sub">All stories seen so far, UTC. Hover or tab through the bars.</p>
+        <div class="hours" id="hours">${hours}</div>
+        <div class="hours-axis">${axis}</div>
+        <div class="readout" id="readout"></div>
+      </section>
+      <section>
+        <h2>Words in today’s titles</h2>
+        <p class="sub">Number of stories using each word, common words removed.</p>
+        <div class="kw">${kw}</div>
+      </section>
+    </div>
+
+    <section>
+      <h2>How today’s scores spread</h2>
+      <p class="sub">Stories per score band.</p>
+      <div class="dist">${dist}</div>
+      <div class="dist-legend">${distLegend}</div>
+    </section>
+
+    <div class="grid2">
+      <section>
+        <h2>Top domains</h2>
+        <p class="sub">Across all days collected.</p>
+        ${table(d.top_domains, [["domain", "Domain"], ["stories", "Stories", 1], ["total_score", "Points", 1]])}
+      </section>
+      <section>
+        <h2>Most active submitters</h2>
+        <p class="sub">Across all days collected.</p>
+        ${table(d.top_authors, [["author", "User"], ["stories", "Stories", 1], ["avg_score", "Avg points", 1]])}
+      </section>
+    </div>
+
+    <section>
+      <h2>Front-page average score per day</h2>
+      <p class="sub">${d.daily_trend.length < 2 ? "This chart fills in as the daily job runs." : "Daily average with a 7-day rolling average."}
+        <span class="legend"><i style="background:var(--muted)"></i>daily<i style="background:var(--orange);height:3px"></i>7-day</span></p>
+      ${trendSvg(d.daily_trend)}
+    </section>
+
+    <footer>Data from the public Hacker News API. Extracted with Python, stored as Parquet, modelled with DuckDB, refreshed daily by GitHub Actions.</footer>`;
+
+  const readout = $("#readout");
+  const show = (e) => {
+    const b = e.target.dataset; if (!b.h) return;
+    readout.textContent = `${b.h}:00–${b.h}:59 UTC: ${b.n} stories, average ${b.a} points, median ${b.m}`;
+  };
+  $("#hours").addEventListener("mouseover", show);
+  $("#hours").addEventListener("focusin", show);
+}
+
+function trendSvg(rows) {
+  if (!rows.length) return "";
+  const W = 900, H = 140, p = 24;
+  const vals = rows.flatMap((r) => [r.avg_score, r.rolling_7d_avg]);
+  const lo = Math.min(...vals) * 0.95, hi = Math.max(...vals) * 1.05 || 1;
+  const x = (i) => rows.length === 1 ? W / 2 : p + i * (W - 2 * p) / (rows.length - 1);
+  const y = (v) => H - p - (v - lo) / (hi - lo || 1) * (H - 2 * p);
+  const line = (k) => rows.map((r, i) => `${x(i).toFixed(1)},${y(r[k]).toFixed(1)}`).join(" ");
+  const labels = rows.map((r, i) => (i === 0 || i === rows.length - 1 || rows.length <= 8)
+    ? `<text x="${x(i)}" y="${H - 4}" font-size="11" text-anchor="middle" fill="var(--muted)">${r.day.slice(5)}</text>` : "").join("");
+  return `<div class="scroll"><svg class="trend" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Daily average score trend">
+    <polyline points="${line("avg_score")}" fill="none" stroke="var(--muted)" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+    <polyline points="${line("rolling_7d_avg")}" fill="none" stroke="var(--orange)" stroke-width="3" vector-effect="non-scaling-stroke"/>
+    ${rows.map((r, i) => `<circle cx="${x(i)}" cy="${y(r.avg_score)}" r="3" fill="var(--muted)"><title>${r.day}: ${r.avg_score} avg, ${r.rolling_7d_avg} 7-day</title></circle>`).join("")}
+    ${labels}</svg></div>`;
+}
+
+fetch("data/dashboard.json", { cache: "no-cache" })
+  .then((r) => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+  .then(render)
+  .catch((e) => {
+    $("#run").textContent = "No data";
+    $("#app").innerHTML = `<div class="empty"><h2>No snapshot found</h2>
+      <p>web/data/dashboard.json is missing (${esc(e.message)}). Run <code>python -m pipeline.run_pipeline</code>, commit the output, and push. If you opened this file directly from disk, serve it instead: <code>python -m http.server -d web</code>.</p></div>`;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+{
+ "run": {
+  "status": "success",
+  "finished_at": "2026-11-09T06:40:09.107925+00:00",
+  "duration_s": 4.3,
+  "fetched": 50,
+  "kept": 50,
+  "dropped": 0,
+  "raw_json_bytes": 47260
+ },
+ "metrics": {
+  "records": 50,
+  "snapshot_ts": "2026-11-09T12:10:04+05:30",
+  "oldest_story": "2026-11-04T14:24:27+05:30",
+  "newest_story": "2026-11-09T11:00:11+05:30",
+  "total_points": 9498,
+  "unique_authors": 50,
+  "days_of_history": 1,
+  "stories_in_history": 50,
+  "parquet_bytes": 18476
+ },
+ "top_stories": [
+  {
+   "rank": 26,
+   "title": "Goodbye Claude, hello Pi",
+   "url": "https://caleb.software/posts/claude-to-pi.html",
+   "domain": "caleb.software",
+   "author": "karagenit",
+   "score": 730,
+   "comment_count": 451,
+   "age_hours": 27.5,
+   "points_per_hour": 26.6
+  },
+  {
+   "rank": 18,
+   "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+   "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+   "domain": "thestateofai.com",
+   "author": "TheWiggles",
+   "score": 700,
+   "comment_count": 387,
+   "age_hours": 12.4,
+   "points_per_hour": 56.5
+  },
+  {
+   "rank": 30,
+   "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+   "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+   "domain": "apiiro.com",
+   "author": "shmulc",
+   "score": 599,
+   "comment_count": 408,
+   "age_hours": 33.9,
+   "points_per_hour": 17.7
+  },
+  {
+   "rank": 11,
+   "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+   "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
+   "domain": "nvidianews.nvidia.com",
+   "author": "karimf",
+   "score": 514,
+   "comment_count": 557,
+   "age_hours": 8.3,
+   "points_per_hour": 61.7
+  },
+  {
+   "rank": 8,
+   "title": "Declarative Dragging",
+   "url": "https://declarative-dragging.github.io/",
+   "domain": "declarative-dragging.github.io",
+   "author": "smusamashah",
+   "score": 461,
+   "comment_count": 60,
+   "age_hours": 109.6,
+   "points_per_hour": 4.2
+  },
+  {
+   "rank": 45,
+   "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+   "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+   "domain": "nvidianews.nvidia.com",
+   "author": "vincentchau",
+   "score": 456,
+   "comment_count": 344,
+   "age_hours": 10.2,
+   "points_per_hour": 44.6
+  },
+  {
+   "rank": 19,
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "domain": "github.com",
+   "author": "joshcsimmons",
+   "score": 403,
+   "comment_count": 181,
+   "age_hours": 20.3,
+   "points_per_hour": 19.9
+  },
+  {
+   "rank": 42,
+   "title": "MaxxBench \u2013 \"Nice DeepSWE score. But is it true?\"",
+   "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+   "domain": "maxxbench.unlap.ai",
+   "author": "antiuniverse",
+   "score": 392,
+   "comment_count": 105,
+   "age_hours": 37.4,
+   "points_per_hour": 10.5
+  },
+  {
+   "rank": 3,
+   "title": "KetchUp \u2013 Open-source SketchUp alternative built with Rust and WebGPU",
+   "url": "https://ketchup3d.github.io/app/",
+   "domain": "ketchup3d.github.io",
+   "author": "dcoulmbe",
+   "score": 370,
+   "comment_count": 97,
+   "age_hours": 8.1,
+   "points_per_hour": 45.8
+  },
+  {
+   "rank": 12,
+   "title": "Outlook.com is rejecting email from domains without DMARC",
+   "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+   "domain": "mailroute.net",
+   "author": "xmddmx",
+   "score": 343,
+   "comment_count": 256,
+   "age_hours": 11.3,
+   "points_per_hour": 30.3
+  }
+ ],
+ "score_by_hour": [
+  {
+   "hour": 0,
+   "stories": 4,
+   "avg_score": 170.5,
+   "median_score": 151.0
+  },
+  {
+   "hour": 1,
+   "stories": 4,
+   "avg_score": 223.3,
+   "median_score": 161.5
+  },
+  {
+   "hour": 2,
+   "stories": 3,
+   "avg_score": 266.0,
+   "median_score": 187.0
+  },
+  {
+   "hour": 3,
+   "stories": 3,
+   "avg_score": 174.0,
+   "median_score": 5.0
+  },
+  {
+   "hour": 4,
+   "stories": 5,
+   "avg_score": 187.6,
+   "median_score": 167.0
+  },
+  {
+   "hour": 5,
+   "stories": 2,
+   "avg_score": 183.0,
+   "median_score": 183.0
+  },
+  {
+   "hour": 6,
+   "stories": 0,
+   "avg_score": 0.0,
+   "median_score": 0.0
+  },
+  {
+   "hour": 7,
+   "stories": 1,
+   "avg_score": 274.0,
+   "median_score": 274.0
+  },
+  {
+   "hour": 8,
+   "stories": 4,
+   "avg_score": 195.0,
+   "median_score": 17.5
+  },
+  {
+   "hour": 9,
+   "stories": 1,
+   "avg_score": 60.0,
+   "median_score": 60.0
+  },
+  {
+   "hour": 10,
+   "stories": 1,
+   "avg_score": 20.0,
+   "median_score": 20.0
+  },
+  {
+   "hour": 11,
+   "stories": 1,
+   "avg_score": 33.0,
+   "median_score": 33.0
+  },
+  {
+   "hour": 12,
+   "stories": 0,
+   "avg_score": 0.0,
+   "median_score": 0.0
+  },
+  {
+   "hour": 13,
+   "stories": 0,
+   "avg_score": 0.0,
+   "median_score": 0.0
+  },
+  {
+   "hour": 14,
+   "stories": 3,
+   "avg_score": 155.0,
+   "median_score": 177.0
+  },
+  {
+   "hour": 15,
+   "stories": 2,
+   "avg_score": 222.5,
+   "median_score": 222.5
+  },
+  {
+   "hour": 16,
+   "stories": 4,
+   "avg_score": 160.8,
+   "median_score": 152.5
+  },
+  {
+   "hour": 17,
+   "stories": 0,
+   "avg_score": 0.0,
+   "median_score": 0.0
+  },
+  {
+   "hour": 18,
+   "stories": 1,
+   "avg_score": 69.0,
+   "median_score": 69.0
+  },
+  {
+   "hour": 19,
+   "stories": 2,
+   "avg_score": 46.0,
+   "median_score": 46.0
+  },
+  {
+   "hour": 20,
+   "stories": 4,
+   "avg_score": 118.8,
+   "median_score": 131.5
+  },
+  {
+   "hour": 21,
+   "stories": 0,
+   "avg_score": 0.0,
+   "median_score": 0.0
+  },
+  {
+   "hour": 22,
+   "stories": 4,
+   "avg_score": 310.8,
+   "median_score": 336.0
+  },
+  {
+   "hour": 23,
+   "stories": 1,
+   "avg_score": 700.0,
+   "median_score": 700.0
+  }
+ ],
+ "keywords": [
+  {
+   "word": "claude",
+   "stories": 3,
+   "total_score": 2029
+  },
+  {
+   "word": "code",
+   "stories": 3,
+   "total_score": 1315
+  },
+  {
+   "word": "huang",
+   "stories": 2,
+   "total_score": 970
+  },
+  {
+   "word": "jensen",
+   "stories": 2,
+   "total_score": 970
+  },
+  {
+   "word": "nvidia",
+   "stories": 2,
+   "total_score": 970
+  },
+  {
+   "word": "open",
+   "stories": 2,
+   "total_score": 618
+  },
+  {
+   "word": "source",
+   "stories": 2,
+   "total_score": 618
+  },
+  {
+   "word": "rust",
+   "stories": 2,
+   "total_score": 539
+  },
+  {
+   "word": "gpu",
+   "stories": 2,
+   "total_score": 423
+  },
+  {
+   "word": "email",
+   "stories": 2,
+   "total_score": 362
+  },
+  {
+   "word": "engineers",
+   "stories": 2,
+   "total_score": 222
+  },
+  {
+   "word": "pdf",
+   "stories": 2,
+   "total_score": 192
+  },
+  {
+   "word": "web",
+   "stories": 2,
+   "total_score": 134
+  },
+  {
+   "word": "rendering",
+   "stories": 2,
+   "total_score": 117
+  },
+  {
+   "word": "playing",
+   "stories": 2,
+   "total_score": 91
+  },
+  {
+   "word": "linux",
+   "stories": 2,
+   "total_score": 53
+  },
+  {
+   "word": "compact",
+   "stories": 2,
+   "total_score": 46
+  },
+  {
+   "word": "goodbye",
+   "stories": 1,
+   "total_score": 730
+  },
+  {
+   "word": "hello",
+   "stories": 1,
+   "total_score": 730
+  },
+  {
+   "word": "bankers",
+   "stories": 1,
+   "total_score": 700
+  }
+ ],
+ "score_distribution": [
+  {
+   "bucket": "0-49",
+   "stories": 13
+  },
+  {
+   "bucket": "50-99",
+   "stories": 8
+  },
+  {
+   "bucket": "100-249",
+   "stories": 16
+  },
+  {
+   "bucket": "250-499",
+   "stories": 9
+  },
+  {
+   "bucket": "500+",
+   "stories": 4
+  }
+ ],
+ "top_domains": [
+  {
+   "domain": "github.com",
+   "stories": 4,
+   "total_score": 706
+  },
+  {
+   "domain": "nvidianews.nvidia.com",
+   "stories": 2,
+   "total_score": 970
+  },
+  {
+   "domain": "caleb.software",
+   "stories": 1,
+   "total_score": 730
+  },
+  {
+   "domain": "thestateofai.com",
+   "stories": 1,
+   "total_score": 700
+  },
+  {
+   "domain": "apiiro.com",
+   "stories": 1,
+   "total_score": 599
+  },
+  {
+   "domain": "declarative-dragging.github.io",
+   "stories": 1,
+   "total_score": 461
+  },
+  {
+   "domain": "maxxbench.unlap.ai",
+   "stories": 1,
+   "total_score": 392
+  },
+  {
+   "domain": "ketchup3d.github.io",
+   "stories": 1,
+   "total_score": 370
+  },
+  {
+   "domain": "mailroute.net",
+   "stories": 1,
+   "total_score": 343
+  },
+  {
+   "domain": "muratbuffalo.blogspot.com",
+   "stories": 1,
+   "total_score": 327
+  }
+ ],
+ "top_authors": [
+  {
+   "author": "karagenit",
+   "stories": 1,
+   "total_score": 730,
+   "avg_score": 730.0
+  },
+  {
+   "author": "TheWiggles",
+   "stories": 1,
+   "total_score": 700,
+   "avg_score": 700.0
+  },
+  {
+   "author": "shmulc",
+   "stories": 1,
+   "total_score": 599,
+   "avg_score": 599.0
+  },
+  {
+   "author": "karimf",
+   "stories": 1,
+   "total_score": 514,
+   "avg_score": 514.0
+  },
+  {
+   "author": "smusamashah",
+   "stories": 1,
+   "total_score": 461,
+   "avg_score": 461.0
+  },
+  {
+   "author": "vincentchau",
+   "stories": 1,
+   "total_score": 456,
+   "avg_score": 456.0
+  },
+  {
+   "author": "joshcsimmons",
+   "stories": 1,
+   "total_score": 403,
+   "avg_score": 403.0
+  },
+  {
+   "author": "antiuniverse",
+   "stories": 1,
+   "total_score": 392,
+   "avg_score": 392.0
+  },
+  {
+   "author": "dcoulmbe",
+   "stories": 1,
+   "total_score": 370,
+   "avg_score": 370.0
+  },
+  {
+   "author": "xmddmx",
+   "stories": 1,
+   "total_score": 343,
+   "avg_score": 343.0
+  }
+ ],
+ "daily_trend": [
+  {
+   "day": "2026-11-09",
+   "stories": 50,
+   "avg_score": 190.0,
+   "rolling_7d_avg": 190.0
+  }
+ ]
+}
