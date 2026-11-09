@@ -10,6 +10,8 @@ What happens here:
   * enforce an explicit Arrow schema, so a surprise type from the API
     fails loudly here instead of silently corrupting downstream queries
   * write ZSTD-compressed Parquet, Hive-partitioned by snapshot_date
+  * append a slim "observation" row per story per run, so score and rank
+    can be tracked over time (velocity / rising stories)
 """
 from __future__ import annotations
 
@@ -41,6 +43,9 @@ SCHEMA = pa.schema(
         pa.field("age_hours", pa.float32(), nullable=False),
     ]
 )
+
+# Slim per-run fact table: one row per story per pipeline run.
+OBSERVATION_COLUMNS = ["story_id", "rank", "score", "comment_count", "snapshot_ts"]
 
 _TAG_RE = re.compile(r"<[^>]+>")
 
@@ -100,7 +105,10 @@ def transform(items: list[dict], snapshot_ts: datetime) -> pd.DataFrame:
     df["snapshot_ts"] = pd.Timestamp(snapshot_ts).tz_convert("UTC").floor("s")
     df["age_hours"] = (df["snapshot_ts"] - df["posted_at"]).dt.total_seconds() / 3600
     df = df.drop_duplicates("story_id").sort_values("rank").reset_index(drop=True)
-    return df
+    # explicit dtypes so an empty frame still converts cleanly to the schema
+    return df.astype({"story_id": "int64", "rank": "int16", "score": "int32",
+                      "comment_count": "int32", "top_level_comments": "int32",
+                      "age_hours": "float32"})
 
 
 def to_arrow(df: pd.DataFrame) -> pa.Table:
@@ -121,6 +129,7 @@ def write_parquet(table: pa.Table, snapshot_ts: datetime, lake_dir: Path) -> tup
     latest_path = lake_dir.parent / "hacker_news.parquet"
 
     for path in (part_path, latest_path):
+        path.parent.mkdir(parents=True, exist_ok=True)
         pq.write_table(
             table,
             path,
@@ -130,3 +139,21 @@ def write_parquet(table: pa.Table, snapshot_ts: datetime, lake_dir: Path) -> tup
             write_statistics=True,  # min/max per row group -> DuckDB can skip data
         )
     return part_path, latest_path
+
+
+def write_observations(table: pa.Table, snapshot_ts: datetime, lake_dir: Path) -> Path:
+    """
+    Append-only history of (story_id, rank, score, comments) per run:
+      lake/observations/snapshot_date=YYYY-MM-DD/part-HHMMSS.parquet
+
+    Unlike the daily stories partition, every run keeps its own file, which
+    is what lets analytics compute how fast a story is gaining points.
+    Re-running at the exact same second overwrites (still idempotent).
+    """
+    ts = pd.Timestamp(snapshot_ts).tz_convert("UTC")
+    part_dir = lake_dir / "observations" / f"snapshot_date={ts:%Y-%m-%d}"
+    part_dir.mkdir(parents=True, exist_ok=True)
+    path = part_dir / f"part-{ts:%H%M%S}.parquet"
+    pq.write_table(table.select(OBSERVATION_COLUMNS), path, compression="zstd",
+                   compression_level=6, write_statistics=True)
+    return path

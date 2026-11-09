@@ -5,6 +5,7 @@ Run locally:      streamlit run streamlit_app.py
 Deploy free on:   Streamlit Community Cloud (share.streamlit.io)
 (Streamlit can't run on Vercel — see README. The Vercel site is in web/.)
 """
+import json
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -14,6 +15,8 @@ import streamlit as st
 from pipeline import analytics
 
 DATA_DIR = Path(__file__).parent / "data"
+DASHBOARD_JSON = Path(__file__).parent / "web" / "data" / "dashboard.json"
+STALE_AFTER_H = 12  # the scheduled job runs every 4 hours
 
 st.set_page_config(page_title="HN Daily Analytics", page_icon="🟧", layout="wide")
 
@@ -26,7 +29,11 @@ def get_con():
 @st.cache_data(ttl=600)
 def load():
     con = get_con()
+    rising = analytics.rising_stories(con, 10)
+    top_ids = [int(x) for x in rising["story_id"].head(5)]
     return {
+        "rising": rising,
+        "trajectories": analytics.score_trajectories(con, top_ids),
         "metrics": analytics.pipeline_metrics(con, DATA_DIR),
         "top": analytics.top_stories(con, 10),
         "hours": analytics.score_by_hour(con),
@@ -49,15 +56,27 @@ m = d["metrics"]
 st.title("Hacker News daily analytics")
 snap = datetime.fromisoformat(m["snapshot_ts"])
 age_h = (datetime.now(timezone.utc) - snap).total_seconds() / 3600
-fresh = "🟢 Fresh" if age_h < 26 else "🔴 Stale"
+fresh = "🟢 Fresh" if age_h < STALE_AFTER_H else "🔴 Stale"
 st.caption(f"Last snapshot {snap:%d %b %Y, %H:%M} UTC ({age_h:.1f} h ago) · {fresh}")
 
-c = st.columns(5)
+c = st.columns(6)
 c[0].metric("Stories in snapshot", m["records"])
 c[1].metric("Total points", f'{m["total_points"]:,}')
 c[2].metric("Unique authors", m["unique_authors"])
 c[3].metric("Days of history", m["days_of_history"])
-c[4].metric("Parquet size", f'{m["parquet_bytes"] / 1024:.1f} KB')
+c[4].metric("Runs observed", m["runs_observed"])
+c[5].metric("Parquet size", f'{m["parquet_bytes"] / 1024:.1f} KB')
+
+# ---- Data quality (from the last pipeline run) ---------------------------
+dq = None
+if DASHBOARD_JSON.exists():
+    dq = json.loads(DASHBOARD_JSON.read_text()).get("run", {}).get("quality")
+if dq:
+    label = f'Data quality: {dq["passed"]}/{len(dq["checks"])} checks passed'
+    if dq["warnings"]:
+        label += f' · {dq["warnings"]} warning(s)'
+    with st.expander(("✅ " if not dq["failed"] else "❌ ") + label):
+        st.dataframe(dq["checks"], hide_index=True, width="stretch")
 
 # ---- 1. Top stories ------------------------------------------------------
 st.subheader("Top 10 by score")
@@ -72,6 +91,36 @@ st.dataframe(
         ),
     },
 )
+
+# ---- Velocity: rising stories -------------------------------------------
+st.subheader("Rising stories (points per hour since the previous run)")
+if d["rising"].empty:
+    st.info("Needs at least two pipeline runs that saw the same stories. "
+            "The scheduled job runs every 4 hours, so this fills in soon.")
+else:
+    r1, r2 = st.columns([3, 2])
+    with r1:
+        st.dataframe(
+            d["rising"][["rank", "rank_change", "title", "domain", "score",
+                         "score_gain", "hours_between", "points_per_hour", "url"]],
+            hide_index=True,
+            width="stretch",
+            column_config={"url": st.column_config.LinkColumn("link", display_text="open")},
+        )
+    with r2:
+        traj = d["trajectories"].merge(d["rising"][["story_id", "title"]], on="story_id")
+        traj["title"] = traj["title"].str.slice(0, 40)
+        st.altair_chart(
+            alt.Chart(traj)
+            .mark_line(point=True)
+            .encode(
+                x=alt.X("ts:T", title=None),
+                y=alt.Y("score:Q", title="Score"),
+                color=alt.Color("title:N", legend=alt.Legend(orient="bottom", columns=1, title=None)),
+                tooltip=["title", "ts:T", "score", "rank"],
+            ),
+            width="stretch",
+        )
 
 left, right = st.columns(2)
 

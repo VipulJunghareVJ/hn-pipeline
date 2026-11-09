@@ -12,6 +12,7 @@ with exponential backoff on 429/5xx.
 """
 from __future__ import annotations
 
+import gzip
 import json
 import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -80,10 +81,30 @@ def extract(limit: int = 50, max_workers: int = 10) -> tuple[list[dict], datetim
 
 
 def save_raw(items: list[dict], snapshot_ts: datetime, raw_dir: Path) -> Path:
-    """Bronze layer: keep exactly what the API returned, partitioned by day."""
+    """
+    Bronze layer: keep exactly what the API returned, partitioned by day.
+
+    One gzipped file per run (top_stories_HHMMSS.json.gz), so several runs a
+    day all keep their raw input for replay, at roughly a quarter of the
+    size of plain JSON in git.
+    """
+    snapshot_ts = snapshot_ts.astimezone(timezone.utc)
     day_dir = raw_dir / snapshot_ts.strftime("%Y-%m-%d")
     day_dir.mkdir(parents=True, exist_ok=True)
-    path = day_dir / "top_stories.json"
+    path = day_dir / f"top_stories_{snapshot_ts:%H%M%S}.json.gz"
     payload = {"snapshot_ts": snapshot_ts.isoformat(), "items": items}
-    path.write_text(json.dumps(payload, indent=1))
+    # mtime=0 keeps the gzip bytes deterministic for identical input
+    with gzip.GzipFile(path, "wb", mtime=0) as fh:
+        fh.write(json.dumps(payload, separators=(",", ":")).encode())
     return path
+
+
+def load_raw(path: Path) -> tuple[list[dict], datetime]:
+    """Read a bronze file back (plain .json or .json.gz) for replay or tests."""
+    path = Path(path)
+    if path.suffix == ".gz":
+        with gzip.open(path, "rt", encoding="utf-8") as fh:
+            payload = json.load(fh)
+    else:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    return payload["items"], datetime.fromisoformat(payload["snapshot_ts"])

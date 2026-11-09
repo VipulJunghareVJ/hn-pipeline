@@ -103,7 +103,7 @@ header h1 {
 }
 
 /* ── Metric cards ────────────────────────────────────── */
-.metrics { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-bottom: 28px; }
+.metrics { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin-bottom: 28px; }
 @media (max-width: 900px) { .metrics { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 600px) { .metrics { grid-template-columns: 1fr 1fr; } }
 
@@ -231,6 +231,44 @@ td.num, th.num { text-align: right; font-family: 'JetBrains Mono', monospace; }
 .score-bar-cell { display: flex; align-items: center; gap: 8px; }
 .score-bar-cell .bar { height: 6px; border-radius: 3px; background: var(--orange); flex-shrink: 0; min-width: 2px; }
 
+/* ── Data quality ────────────────────────────────────── */
+.dq-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.dq-status { font-weight: 700; font-size: 0.85rem; padding: 3px 10px; border-radius: 999px; }
+.dq-status.ok   { background: var(--green-light); color: #087f61; }
+.dq-status.warn { background: #fef6e4; color: #a86b00; }
+.dq-status.fail { background: var(--red-light); color: #b4234a; }
+.dq-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.dq-chip {
+  font-size: 0.72rem; border: 1px solid var(--border); border-radius: 6px;
+  padding: 3px 9px; background: var(--bg); color: var(--ink);
+  font-family: 'JetBrains Mono', monospace;
+}
+.dq-chip.pass::before { content: "✓ "; color: var(--green); font-weight: 700; }
+.dq-chip.warn::before { content: "! "; color: var(--yellow); font-weight: 700; }
+.dq-chip.fail::before { content: "✕ "; color: var(--red); font-weight: 700; }
+details.dq summary { cursor: pointer; font-size: 0.75rem; color: var(--muted); margin-top: 10px; }
+
+/* ── Rising stories ──────────────────────────────────── */
+.rise-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.rise-list li {
+  display: grid; grid-template-columns: 1fr auto; gap: 2px 10px;
+  padding: 9px 12px; border: 1px solid var(--border); border-radius: 9px;
+}
+.rise-title { font-size: 0.86rem; font-weight: 500; line-height: 1.35; }
+.rise-title a:hover { color: var(--orange); }
+.rise-meta { font-size: 0.7rem; color: var(--muted); }
+.rise-pph {
+  grid-row: span 2; align-self: center; text-align: right;
+  font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--green); font-size: 0.9rem;
+}
+.rise-pph small { display: block; font-size: 0.62rem; color: var(--muted); font-weight: 400; }
+.up { color: var(--green); font-weight: 600; }
+.down { color: var(--red); font-weight: 600; }
+.placeholder {
+  padding: 26px; text-align: center; color: var(--muted); font-size: 0.82rem;
+  border: 1px dashed var(--border); border-radius: 10px; background: var(--bg);
+}
+
 /* ── Footer ──────────────────────────────────────────── */
 footer {
   text-align: center; color: var(--muted); font-size: 0.72rem;
@@ -258,6 +296,7 @@ code {
   .metric:nth-child(3) { animation-delay:.12s }
   .metric:nth-child(4) { animation-delay:.18s }
   .metric:nth-child(5) { animation-delay:.24s }
+  .metric:nth-child(6) { animation-delay:.30s }
   ol.stories li { animation: fadeUp 0.4s ease-out both; }
   ol.stories li:nth-child(n+2) { animation-delay: calc(0.045s * var(--i)) }
   .card { animation: fadeUp 0.5s ease-out both; }
@@ -300,9 +339,15 @@ const PALETTE = ["#ff6600","#4361ee","#0ab68b","#7b2ff7","#f9a825","#ef476f","#0
 const PALETTE_LIGHT = ["#fff0e6","#eef0fd","#e6faf5","#f1ebff","#fef9e7","#fdedf1","#e0f4f8","#fff4e6","#e9f5ef","#fdf0ec","#fce8ea","#ddeef5"];
 
 /* ── Render ──────────────────────────────────────────── */
+const STALE_AFTER_H = 12;  // the scheduled job runs every 4 hours
+
 function render(d) {
   const m = d.metrics, r = d.run;
-  const stale = (Date.now() - new Date(m.snapshot_ts)) / 36e5 > 26;
+  // Older dashboard.json files (before velocity/quality existed) lack these.
+  d.rising_stories = d.rising_stories || [];
+  d.score_trajectories = d.score_trajectories || [];
+  const dq = r && r.quality;
+  const stale = (Date.now() - new Date(m.snapshot_ts)) / 36e5 > STALE_AFTER_H;
   const snapDate = new Date(m.snapshot_ts).toUTCString().slice(5, 22);
 
   // Header pill
@@ -355,12 +400,70 @@ function render(d) {
       <td class="num">${fmt(d2.total_score)}</td>
     </tr>`).join("");
 
+  // Data quality card
+  let dqCard = "";
+  if (dq) {
+    const total = dq.checks.length;
+    const cls = dq.failed ? "fail" : dq.warnings ? "warn" : "ok";
+    const label = dq.failed ? `${dq.failed} failed` : dq.warnings ? `${dq.warnings} warning${dq.warnings > 1 ? "s" : ""}` : "All checks passed";
+    const chips = dq.checks.map(c => {
+      const k = c.passed ? "pass" : c.severity === "warn" ? "warn" : "fail";
+      return `<span class="dq-chip ${k}" title="${esc(c.detail)}">${esc(c.name)}</span>`;
+    }).join("");
+    const rows = dq.checks.map(c => `<tr><td>${esc(c.name)}</td><td>${c.passed ? "pass" : esc(c.severity)}</td><td>${esc(c.detail)}</td></tr>`).join("");
+    dqCard = `
+    <div class="card">
+      <div class="dq-head">
+        <div class="card-title" style="margin:0">🛡️ Data Quality</div>
+        <span class="dq-status ${cls}">${label}</span>
+        <span class="card-sub" style="margin:0">${dq.passed}/${total} passed on the last run · checked before anything is written</span>
+      </div>
+      <div class="dq-list">${chips}</div>
+      <details class="dq"><summary>Show details</summary>
+        <div class="tbl-wrap" style="margin-top:8px"><table>
+          <thead><tr><th>Check</th><th>Result</th><th>Detail</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table></div>
+      </details>
+    </div>`;
+  }
+
+  // Rising stories card
+  const risingItems = d.rising_stories.map(s => {
+    const rc = s.rank_change || 0;
+    const move = rc > 0 ? `<span class="up">▲${rc}</span>` : rc < 0 ? `<span class="down">▼${-rc}</span>` : "–";
+    return `<li>
+      <div class="rise-title">${s.url ? `<a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.title)}</a>` : esc(s.title)}</div>
+      <div class="rise-pph">+${fmt(s.score_gain)}<small>${s.points_per_hour} pts/hr</small></div>
+      <div class="rise-meta">#${s.rank} ${move} · ${fmt(s.score)} pts · over ${s.hours_between} h${s.domain ? ` · ${esc(s.domain)}` : ""}</div>
+    </li>`;
+  }).join("");
+  const risingCard = d.rising_stories.length ? `
+    <div class="grid2">
+      <div class="card">
+        <div class="card-title">🚀 Rising Stories</div>
+        <div class="card-sub">Points gained since the previous run · ▲▼ = change in front-page rank</div>
+        <ol class="rise-list">${risingItems}</ol>
+      </div>
+      <div class="card">
+        <div class="card-title">Score Trajectories</div>
+        <div class="card-sub">Top 5 risers across recent runs</div>
+        <div class="chart-box"><canvas id="chartTraj" height="260"></canvas></div>
+      </div>
+    </div>` : `
+    <div class="card">
+      <div class="card-title">🚀 Rising Stories</div>
+      <div class="card-sub">Score velocity between pipeline runs</div>
+      <div class="placeholder">Needs at least two runs that saw the same stories (${m.runs_observed ?? 1} so far).<br>
+      The scheduled job runs every 4 hours, so this fills in after the next run.</div>
+    </div>`;
+
   // Inject full page
   $("#app").innerHTML = `
     <!-- Page title -->
     <div class="page-header">
       <h2>Dashboard</h2>
-      <span>HN top stories · refreshed daily by GitHub Actions</span>
+      <span>HN top stories · refreshed every 4 hours by GitHub Actions</span>
     </div>
 
     <!-- Metrics -->
@@ -386,11 +489,18 @@ function render(d) {
         <span>Days of history</span>
       </div>
       <div class="metric">
+        <div class="metric-icon" style="background:#e6faf5">⏱️</div>
+        <b>${fmt(m.runs_observed ?? 1)}</b>
+        <span>Runs observed</span>
+      </div>
+      <div class="metric">
         <div class="metric-icon" style="background:#fdedf1">💾</div>
         <b>${(m.parquet_bytes / 1024).toFixed(1)}<small style="font-size:.9rem">KB</small></b>
         <span>Parquet size</span>
       </div>
     </div>
+
+    ${dqCard}
 
     <!-- Top stories -->
     <div class="section-label">🔥 Front Page</div>
@@ -399,6 +509,10 @@ function render(d) {
       <div class="card-sub">Left colour bar = submission rank · ⚡ pts/hr = score velocity</div>
       <ol class="stories">${storyItems}</ol>
     </div>
+
+    <!-- Velocity -->
+    <div class="section-label">🚀 Momentum</div>
+    ${risingCard}
 
     <!-- Hour chart + Score dist pie -->
     <div class="section-label">📊 Charts</div>
@@ -473,7 +587,7 @@ function render(d) {
 
     <footer>
       Data sourced from the public <a href="https://github.com/HackerNews/API" target="_blank">Hacker News Firebase API</a>.
-      Extracted with Python &middot; stored as Parquet &middot; modelled with DuckDB &middot; refreshed daily by GitHub Actions.
+      Extracted with Python &middot; stored as Parquet &middot; modelled with DuckDB &middot; refreshed every 4 hours by GitHub Actions.
       <br>Built by <a href="https://github.com/VipulJunghareVJ/hn-pipeline" target="_blank">VipulJunghareVJ</a>
     </footer>`;
 
@@ -489,7 +603,7 @@ function render(d) {
         label: "Avg Score",
         data: d.score_by_hour.map(h => h.avg_score),
         backgroundColor: d.score_by_hour.map((h, i) => {
-          const alpha = 0.4 + (h.avg_score / Math.max(...d.score_by_hour.map(x => x.avg_score))) * 0.6;
+          const alpha = 0.4 + (h.avg_score / (Math.max(...d.score_by_hour.map(x => x.avg_score)) || 1)) * 0.6;
           return `rgba(255,102,0,${alpha.toFixed(2)})`;
         }),
         borderColor: "#ff6600",
@@ -658,6 +772,40 @@ function render(d) {
       }
     }
   });
+
+  // 6. Line: score trajectories of the top risers
+  if (d.rising_stories.length && $("#chartTraj")) {
+    const ids = [...new Set(d.score_trajectories.map(t => t.story_id))];
+    const titleOf = Object.fromEntries(d.rising_stories.map(s => [s.story_id, s.title]));
+    const times = [...new Set(d.score_trajectories.map(t => t.ts))].sort();
+    const label = iso => new Date(iso).toISOString().slice(5, 16).replace("T", " ");
+    new Chart($("#chartTraj").getContext("2d"), {
+      type: "line",
+      data: {
+        labels: times.map(label),
+        datasets: ids.map((id, i) => {
+          const byTs = Object.fromEntries(d.score_trajectories.filter(t => t.story_id === id).map(t => [t.ts, t.score]));
+          const title = titleOf[id] || String(id);
+          return {
+            label: title.length > 38 ? title.slice(0, 37) + "…" : title,
+            data: times.map(t => byTs[t] ?? null),
+            borderColor: PALETTE[i % PALETTE.length],
+            backgroundColor: PALETTE[i % PALETTE.length],
+            borderWidth: 2, pointRadius: 3, tension: 0.3, spanGaps: true,
+          };
+        }),
+      },
+      options: {
+        responsive: true,
+        interaction: { mode: "nearest", intersect: false },
+        plugins: { legend: { position: "bottom", labels: { boxWidth: 10, padding: 10, font: { size: 11 } } } },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, maxRotation: 0 }, title: { display: true, text: "UTC", font: { size: 10 } } },
+          y: { grid: { color: "#f0f0f0" }, ticks: { font: { size: 11 } }, title: { display: true, text: "Score", font: { size: 11 } } }
+        }
+      }
+    });
+  }
 
   // 5. Line: Daily trend
   const trendCtx = $("#chartTrend").getContext("2d");
