@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-11T00:38:54.545449+00:00",
-  "duration_s": 0.62,
+  "finished_at": "2026-11-11T11:50:51.615887+00:00",
+  "duration_s": 0.56,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 9885,
+  "raw_bytes": 11180,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,15 +72,15 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-11T00:38:53+00:00",
+  "snapshot_ts": "2026-11-11T11:50:51+00:00",
   "oldest_story": "2026-11-05T18:17:51+00:00",
-  "newest_story": "2026-11-10T23:41:41+00:00",
-  "total_points": 9854,
-  "unique_authors": 48,
+  "newest_story": "2026-11-11T11:17:06+00:00",
+  "total_points": 12306,
+  "unique_authors": 47,
   "days_of_history": 3,
-  "stories_in_history": 133,
-  "runs_observed": 5,
-  "parquet_bytes": 19992
+  "stories_in_history": 139,
+  "runs_observed": 6,
+  "parquet_bytes": 20670
  },
  "top_stories": [
   {
@@ -89,109 +89,109 @@
    "url": "https://www.foldableflight.com",
    "domain": "foldableflight.com",
    "author": "vismit2000",
-   "score": 1196,
+   "score": 1224,
    "comment_count": 167,
-   "age_hours": 36.3,
-   "points_per_hour": 32.9
+   "age_hours": 47.5,
+   "points_per_hour": 25.8
   },
   {
-   "rank": 44,
-   "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-   "domain": "strandsagents.com",
-   "author": "aloukissas",
-   "score": 684,
-   "comment_count": 241,
-   "age_hours": 18.6,
-   "points_per_hour": 36.7
-  },
-  {
-   "rank": 4,
+   "rank": 3,
    "title": "Smart home devices should work without the internet",
    "url": "https://docodethatmatters.com/home-automation-overnight-success/",
    "domain": "docodethatmatters.com",
    "author": "skittleson",
-   "score": 671,
-   "comment_count": 242,
-   "age_hours": 9.2,
-   "points_per_hour": 72.7
+   "score": 999,
+   "comment_count": 360,
+   "age_hours": 20.4,
+   "points_per_hour": 48.9
   },
   {
-   "rank": 3,
+   "rank": 5,
    "title": ".name Grandfathered",
    "url": "https://neil.fraser.name/news/2026/11/10/",
    "domain": "neil.fraser.name",
    "author": "p4bl0",
-   "score": 657,
-   "comment_count": 151,
-   "age_hours": 8.0,
-   "points_per_hour": 81.9
+   "score": 866,
+   "comment_count": 188,
+   "age_hours": 19.2,
+   "points_per_hour": 45.1
   },
   {
-   "rank": 10,
+   "rank": 14,
    "title": "AlphaProof Code",
    "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
    "domain": "deepmind.google",
    "author": "ilreb",
-   "score": 568,
-   "comment_count": 174,
-   "age_hours": 12.5,
-   "points_per_hour": 45.6
+   "score": 645,
+   "comment_count": 186,
+   "age_hours": 23.7,
+   "points_per_hour": 27.3
   },
   {
    "rank": 24,
-   "title": "Blender 5.3 released with Gaussian Splat support",
-   "url": "https://www.blender.org/download/releases/5-3/",
-   "domain": "blender.org",
-   "author": "amlib",
-   "score": 417,
-   "comment_count": 60,
-   "age_hours": 8.4,
-   "points_per_hour": 49.7
-  },
-  {
-   "rank": 22,
    "title": "AI usage generates a fragile codebase",
    "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
    "domain": "evanxmerz.com",
    "author": "plun9",
-   "score": 352,
-   "comment_count": 391,
-   "age_hours": 14.2,
-   "points_per_hour": 24.8
+   "score": 577,
+   "comment_count": 541,
+   "age_hours": 25.4,
+   "points_per_hour": 22.7
   },
   {
-   "rank": 1,
+   "rank": 6,
    "title": "Scion is back and is going to sell a kei truck in America",
    "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
    "domain": "theautopian.com",
    "author": "NaOH",
-   "score": 297,
-   "comment_count": 214,
-   "age_hours": 4.8,
-   "points_per_hour": 61.8
+   "score": 488,
+   "comment_count": 317,
+   "age_hours": 16.0,
+   "points_per_hour": 30.5
   },
   {
-   "rank": 8,
-   "title": "Val Town is winding down",
-   "url": "https://blog.val.town/winding-down",
-   "domain": "blog.val.town",
-   "author": "tosh",
-   "score": 293,
-   "comment_count": 76,
-   "age_hours": 7.1,
-   "points_per_hour": 41.1
+   "rank": 46,
+   "title": "Blender 5.3 released with Gaussian Splat support",
+   "url": "https://www.blender.org/download/releases/5-3/",
+   "domain": "blender.org",
+   "author": "amlib",
+   "score": 470,
+   "comment_count": 71,
+   "age_hours": 19.6,
+   "points_per_hour": 24.0
   },
   {
-   "rank": 6,
+   "rank": 13,
+   "title": "Starlink Mini 2",
+   "url": "https://starlink.com/mini-2",
+   "domain": "starlink.com",
+   "author": "robertjfclarke",
+   "score": 435,
+   "comment_count": 465,
+   "age_hours": 17.5,
+   "points_per_hour": 24.9
+  },
+  {
+   "rank": 12,
    "title": "Synaptics patent claims stop work on DisplayLink drivers",
    "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
    "domain": "lwn.net",
    "author": "speckx",
-   "score": 277,
-   "comment_count": 135,
-   "age_hours": 6.6,
-   "points_per_hour": 41.9
+   "score": 419,
+   "comment_count": 236,
+   "age_hours": 17.8,
+   "points_per_hour": 23.5
+  },
+  {
+   "rank": 20,
+   "title": "Tracking Anthropic-discovered vulnerabilities",
+   "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "domain": "vulncheck.com",
+   "author": "panic",
+   "score": 410,
+   "comment_count": 196,
+   "age_hours": 13.5,
+   "points_per_hour": 30.3
   }
  ],
  "rising_stories": [
@@ -200,188 +200,164 @@
    "title": "Smart home devices should work without the internet",
    "url": "https://docodethatmatters.com/home-automation-overnight-success/",
    "domain": "docodethatmatters.com",
-   "rank": 4,
-   "rank_change": 18,
-   "score": 671,
-   "score_gain": 657,
-   "comment_gain": 235,
-   "hours_between": 8.25,
-   "points_per_hour": 79.6,
-   "gain_since_first_seen": 657,
+   "rank": 3,
+   "rank_change": 1,
+   "score": 999,
+   "score_gain": 328,
+   "comment_gain": 118,
+   "hours_between": 11.2,
+   "points_per_hour": 29.3,
+   "gain_since_first_seen": 985,
    "first_seen": "2026-11-10T16:23:53Z"
   },
   {
-   "story_id": 50442426,
-   "title": "Blender 5.3 released with Gaussian Splat support",
-   "url": "https://www.blender.org/download/releases/5-3/",
-   "domain": "blender.org",
+   "story_id": 50447074,
+   "title": "Tracking Anthropic-discovered vulnerabilities",
+   "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+   "domain": "vulncheck.com",
+   "rank": 20,
+   "rank_change": -18,
+   "score": 410,
+   "score_gain": 275,
+   "comment_gain": 152,
+   "hours_between": 11.2,
+   "points_per_hour": 24.6,
+   "gain_since_first_seen": 275,
+   "first_seen": "2026-11-11T00:38:53Z"
+  },
+  {
+   "story_id": 50444129,
+   "title": "Starlink Mini 2",
+   "url": "https://starlink.com/mini-2",
+   "domain": "starlink.com",
+   "rank": 13,
+   "rank_change": -6,
+   "score": 435,
+   "score_gain": 232,
+   "comment_gain": 239,
+   "hours_between": 11.2,
+   "points_per_hour": 20.7,
+   "gain_since_first_seen": 232,
+   "first_seen": "2026-11-11T00:38:53Z"
+  },
+  {
+   "story_id": 50438318,
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "domain": "evanxmerz.com",
    "rank": 24,
-   "rank_change": -21,
-   "score": 417,
-   "score_gain": 406,
-   "comment_gain": 59,
-   "hours_between": 8.25,
-   "points_per_hour": 49.2,
-   "gain_since_first_seen": 406,
-   "first_seen": "2026-11-10T16:23:53Z"
+   "rank_change": -2,
+   "score": 577,
+   "score_gain": 225,
+   "comment_gain": 150,
+   "hours_between": 11.2,
+   "points_per_hour": 20.1,
+   "gain_since_first_seen": 225,
+   "first_seen": "2026-11-11T00:38:53Z"
   },
   {
-   "story_id": 50439193,
-   "title": "AlphaProof Code",
-   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-   "domain": "deepmind.google",
-   "rank": 10,
-   "rank_change": -9,
-   "score": 568,
-   "score_gain": 188,
-   "comment_gain": 43,
-   "hours_between": 8.25,
-   "points_per_hour": 22.8,
-   "gain_since_first_seen": 188,
-   "first_seen": "2026-11-10T16:23:53Z"
+   "story_id": 50442736,
+   "title": ".name Grandfathered",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "domain": "neil.fraser.name",
+   "rank": 5,
+   "rank_change": -2,
+   "score": 866,
+   "score_gain": 209,
+   "comment_gain": 37,
+   "hours_between": 11.2,
+   "points_per_hour": 18.7,
+   "gain_since_first_seen": 209,
+   "first_seen": "2026-11-11T00:38:53Z"
   },
   {
-   "story_id": 50441518,
-   "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
-   "url": "https://tinyvalencia.com/",
-   "domain": "tinyvalencia.com",
-   "rank": 19,
-   "rank_change": 11,
-   "score": 185,
-   "score_gain": 180,
-   "comment_gain": 45,
-   "hours_between": 8.25,
-   "points_per_hour": 21.8,
-   "gain_since_first_seen": 180,
-   "first_seen": "2026-11-10T16:23:53Z"
-  },
-  {
-   "story_id": 50439284,
-   "title": "What's new in the .NET 11 runtime",
-   "url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/runtime",
-   "domain": "learn.microsoft.com",
-   "rank": 23,
-   "rank_change": 11,
-   "score": 237,
-   "score_gain": 147,
-   "comment_gain": 138,
-   "hours_between": 8.25,
-   "points_per_hour": 17.8,
-   "gain_since_first_seen": 147,
-   "first_seen": "2026-11-10T16:23:53Z"
-  },
-  {
-   "story_id": 50439695,
-   "title": "Ableton Live 13",
-   "url": "https://www.ableton.com/en/live/",
-   "domain": "ableton.com",
-   "rank": 18,
+   "story_id": 50446520,
+   "title": "Apple has new Mac app coming to make running local AI models easy",
+   "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+   "domain": "9to5mac.com",
+   "rank": 9,
    "rank_change": 18,
-   "score": 267,
-   "score_gain": 130,
-   "comment_gain": 123,
-   "hours_between": 8.25,
-   "points_per_hour": 15.8,
-   "gain_since_first_seen": 130,
-   "first_seen": "2026-11-10T16:23:53Z"
+   "score": 291,
+   "score_gain": 195,
+   "comment_gain": 203,
+   "hours_between": 11.2,
+   "points_per_hour": 17.4,
+   "gain_since_first_seen": 195,
+   "first_seen": "2026-11-11T00:38:53Z"
   },
   {
-   "story_id": 50436640,
-   "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
-   "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-   "domain": "strandsagents.com",
-   "rank": 44,
-   "rank_change": -39,
-   "score": 684,
-   "score_gain": 127,
-   "comment_gain": 44,
-   "hours_between": 8.25,
-   "points_per_hour": 15.4,
-   "gain_since_first_seen": 582,
-   "first_seen": "2026-11-10T07:20:50Z"
+   "story_id": 50445401,
+   "title": "Scion is back and is going to sell a kei truck in America",
+   "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+   "domain": "theautopian.com",
+   "rank": 6,
+   "rank_change": -5,
+   "score": 488,
+   "score_gain": 191,
+   "comment_gain": 103,
+   "hours_between": 11.2,
+   "points_per_hour": 17.1,
+   "gain_since_first_seen": 191,
+   "first_seen": "2026-11-11T00:38:53Z"
   },
   {
-   "story_id": 50426294,
-   "title": "Taking another shot at the cheap IP camera, part 2",
-   "url": "https://ericswpark.com/blog/2026/2026-11-09-ip-camera-pt2/",
-   "domain": "ericswpark.com",
-   "rank": 35,
-   "rank_change": -28,
-   "score": 122,
-   "score_gain": 74,
-   "comment_gain": 16,
-   "hours_between": 8.25,
-   "points_per_hour": 9.0,
-   "gain_since_first_seen": 74,
-   "first_seen": "2026-11-10T16:23:53Z"
-  },
-  {
-   "story_id": 50441338,
-   "title": "The Hardest Tarball?",
-   "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-   "domain": "stoppels.ch",
-   "rank": 37,
-   "rank_change": -35,
-   "score": 144,
-   "score_gain": 70,
+   "story_id": 50446246,
+   "title": "Six Math Essentials",
+   "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
+   "domain": "teorth.github.io",
+   "rank": 11,
+   "rank_change": -6,
+   "score": 263,
+   "score_gain": 159,
    "comment_gain": 29,
-   "hours_between": 8.25,
-   "points_per_hour": 8.5,
-   "gain_since_first_seen": 70,
-   "first_seen": "2026-11-10T16:23:53Z"
+   "hours_between": 11.2,
+   "points_per_hour": 14.2,
+   "gain_since_first_seen": 159,
+   "first_seen": "2026-11-11T00:38:53Z"
   },
   {
-   "story_id": 50424581,
-   "title": "Foldable Flight: The Best Paper Airplanes",
-   "url": "https://www.foldableflight.com",
-   "domain": "foldableflight.com",
-   "rank": 39,
-   "rank_change": -16,
-   "score": 1196,
-   "score_gain": 56,
-   "comment_gain": 7,
-   "hours_between": 8.25,
-   "points_per_hour": 6.8,
-   "gain_since_first_seen": 379,
-   "first_seen": "2026-11-10T00:14:17Z"
+   "story_id": 50443824,
+   "title": "Synaptics patent claims stop work on DisplayLink drivers",
+   "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+   "domain": "lwn.net",
+   "rank": 12,
+   "rank_change": -6,
+   "score": 419,
+   "score_gain": 142,
+   "comment_gain": 101,
+   "hours_between": 11.2,
+   "points_per_hour": 12.7,
+   "gain_since_first_seen": 142,
+   "first_seen": "2026-11-11T00:38:53Z"
+  },
+  {
+   "story_id": 50443812,
+   "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+   "url": "https://github.com/GoogleChrome/modern-web-guidance",
+   "domain": "github.com",
+   "rank": 19,
+   "rank_change": -8,
+   "score": 383,
+   "score_gain": 138,
+   "comment_gain": 53,
+   "hours_between": 11.2,
+   "points_per_hour": 12.3,
+   "gain_since_first_seen": 138,
+   "first_seen": "2026-11-11T00:38:53Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50439193,
-   "ts": "2026-11-10T16:23:53Z",
-   "score": 380,
-   "rank": 1
-  },
-  {
-   "story_id": 50439193,
+   "story_id": 50438318,
    "ts": "2026-11-11T00:38:53Z",
-   "score": 568,
-   "rank": 10
+   "score": 352,
+   "rank": 22
   },
   {
-   "story_id": 50439284,
-   "ts": "2026-11-10T16:23:53Z",
-   "score": 90,
-   "rank": 34
-  },
-  {
-   "story_id": 50439284,
-   "ts": "2026-11-11T00:38:53Z",
-   "score": 237,
-   "rank": 23
-  },
-  {
-   "story_id": 50441518,
-   "ts": "2026-11-10T16:23:53Z",
-   "score": 5,
-   "rank": 30
-  },
-  {
-   "story_id": 50441518,
-   "ts": "2026-11-11T00:38:53Z",
-   "score": 185,
-   "rank": 19
+   "story_id": 50438318,
+   "ts": "2026-11-11T11:50:51Z",
+   "score": 577,
+   "rank": 24
   },
   {
    "story_id": 50441707,
@@ -396,36 +372,66 @@
    "rank": 4
   },
   {
-   "story_id": 50442426,
-   "ts": "2026-11-10T16:23:53Z",
-   "score": 11,
+   "story_id": 50441707,
+   "ts": "2026-11-11T11:50:51Z",
+   "score": 999,
    "rank": 3
   },
   {
-   "story_id": 50442426,
+   "story_id": 50442736,
    "ts": "2026-11-11T00:38:53Z",
-   "score": 417,
-   "rank": 24
+   "score": 657,
+   "rank": 3
+  },
+  {
+   "story_id": 50442736,
+   "ts": "2026-11-11T11:50:51Z",
+   "score": 866,
+   "rank": 5
+  },
+  {
+   "story_id": 50444129,
+   "ts": "2026-11-11T00:38:53Z",
+   "score": 203,
+   "rank": 7
+  },
+  {
+   "story_id": 50444129,
+   "ts": "2026-11-11T11:50:51Z",
+   "score": 435,
+   "rank": 13
+  },
+  {
+   "story_id": 50447074,
+   "ts": "2026-11-11T00:38:53Z",
+   "score": 135,
+   "rank": 2
+  },
+  {
+   "story_id": 50447074,
+   "ts": "2026-11-11T11:50:51Z",
+   "score": 410,
+   "rank": 20
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 3,
-   "avg_score": 241.0,
-   "median_score": 227.0
+   "stories": 4,
+   "avg_score": 199.5,
+   "median_score": 220.0
   },
   {
    "hour": 1,
-   "stories": 2,
-   "avg_score": 194.5,
-   "median_score": 194.5
+   "stories": 3,
+   "avg_score": 191.7,
+   "median_score": 186.0
   },
   {
    "hour": 2,
-   "stories": 1,
-   "avg_score": 19.0,
-   "median_score": 19.0
+   "stories": 3,
+   "avg_score": 57.7,
+   "median_score": 40.0
   },
   {
    "hour": 3,
@@ -435,57 +441,57 @@
   },
   {
    "hour": 4,
-   "stories": 1,
-   "avg_score": 48.0,
-   "median_score": 48.0
+   "stories": 3,
+   "avg_score": 120.7,
+   "median_score": 98.0
   },
   {
    "hour": 5,
-   "stories": 4,
-   "avg_score": 82.0,
-   "median_score": 26.5
+   "stories": 5,
+   "avg_score": 86.2,
+   "median_score": 64.0
   },
   {
    "hour": 6,
-   "stories": 2,
-   "avg_score": 385.5,
-   "median_score": 385.5
+   "stories": 4,
+   "avg_score": 165.8,
+   "median_score": 49.0
   },
   {
    "hour": 7,
    "stories": 2,
-   "avg_score": 132.0,
-   "median_score": 132.0
+   "avg_score": 146.5,
+   "median_score": 146.5
   },
   {
    "hour": 8,
-   "stories": 3,
-   "avg_score": 176.7,
+   "stories": 4,
+   "avg_score": 143.3,
    "median_score": 177.0
   },
   {
    "hour": 9,
    "stories": 2,
-   "avg_score": 145.0,
-   "median_score": 145.0
+   "avg_score": 149.5,
+   "median_score": 149.5
   },
   {
    "hour": 10,
-   "stories": 9,
-   "avg_score": 191.3,
-   "median_score": 207.0
+   "stories": 8,
+   "avg_score": 245.3,
+   "median_score": 230.0
   },
   {
    "hour": 11,
-   "stories": 4,
-   "avg_score": 45.5,
-   "median_score": 16.0
+   "stories": 5,
+   "avg_score": 41.8,
+   "median_score": 11.0
   },
   {
    "hour": 12,
    "stories": 7,
-   "avg_score": 357.3,
-   "median_score": 237.0
+   "avg_score": 360.6,
+   "median_score": 138.0
   },
   {
    "hour": 13,
@@ -496,164 +502,164 @@
   {
    "hour": 14,
    "stories": 9,
-   "avg_score": 102.0,
-   "median_score": 86.0
+   "avg_score": 89.3,
+   "median_score": 52.0
   },
   {
    "hour": 15,
-   "stories": 9,
-   "avg_score": 186.9,
-   "median_score": 167.0
+   "stories": 10,
+   "avg_score": 202.7,
+   "median_score": 137.0
   },
   {
    "hour": 16,
-   "stories": 6,
-   "avg_score": 285.5,
-   "median_score": 233.5
+   "stories": 7,
+   "avg_score": 316.6,
+   "median_score": 210.0
   },
   {
    "hour": 17,
-   "stories": 14,
-   "avg_score": 205.5,
-   "median_score": 165.0
+   "stories": 12,
+   "avg_score": 257.6,
+   "median_score": 263.5
   },
   {
    "hour": 18,
-   "stories": 13,
-   "avg_score": 304.4,
-   "median_score": 223.0
+   "stories": 12,
+   "avg_score": 372.2,
+   "median_score": 401.0
   },
   {
    "hour": 19,
-   "stories": 10,
-   "avg_score": 223.0,
-   "median_score": 161.5
+   "stories": 11,
+   "avg_score": 233.2,
+   "median_score": 147.0
   },
   {
    "hour": 20,
-   "stories": 5,
-   "avg_score": 251.8,
-   "median_score": 104.0
+   "stories": 4,
+   "avg_score": 338.0,
+   "median_score": 359.5
   },
   {
    "hour": 21,
-   "stories": 6,
-   "avg_score": 75.3,
-   "median_score": 75.5
+   "stories": 5,
+   "avg_score": 114.4,
+   "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 9,
-   "avg_score": 170.9,
-   "median_score": 135.0
+   "stories": 8,
+   "avg_score": 250.3,
+   "median_score": 211.5
   },
   {
    "hour": 23,
-   "stories": 5,
-   "avg_score": 106.2,
-   "median_score": 106.0
+   "stories": 4,
+   "avg_score": 131.0,
+   "median_score": 129.5
   }
  ],
  "keywords": [
   {
-   "word": "work",
+   "word": "macos",
    "stories": 3,
-   "total_score": 1014
+   "total_score": 479
   },
   {
-   "word": "claude",
+   "word": "work",
    "stories": 2,
-   "total_score": 537
+   "total_score": 1418
+  },
+  {
+   "word": "back",
+   "stories": 2,
+   "total_score": 527
+  },
+  {
+   "word": "going",
+   "stories": 2,
+   "total_score": 497
+  },
+  {
+   "word": "keys",
+   "stories": 2,
+   "total_score": 487
+  },
+  {
+   "word": "ssh",
+   "stories": 2,
+   "total_score": 487
+  },
+  {
+   "word": "starlink",
+   "stories": 2,
+   "total_score": 465
+  },
+  {
+   "word": "has",
+   "stories": 2,
+   "total_score": 389
+  },
+  {
+   "word": "math",
+   "stories": 2,
+   "total_score": 294
   },
   {
    "word": "airplanes",
    "stories": 1,
-   "total_score": 1196
+   "total_score": 1224
   },
   {
    "word": "best",
    "stories": 1,
-   "total_score": 1196
+   "total_score": 1224
   },
   {
    "word": "flight",
    "stories": 1,
-   "total_score": 1196
+   "total_score": 1224
   },
   {
    "word": "foldable",
    "stories": 1,
-   "total_score": 1196
+   "total_score": 1224
   },
   {
    "word": "paper",
    "stories": 1,
-   "total_score": 1196
-  },
-  {
-   "word": "amazon",
-   "stories": 1,
-   "total_score": 684
-  },
-  {
-   "word": "decider",
-   "stories": 1,
-   "total_score": 684
-  },
-  {
-   "word": "millions",
-   "stories": 1,
-   "total_score": 684
-  },
-  {
-   "word": "replacing",
-   "stories": 1,
-   "total_score": 684
-  },
-  {
-   "word": "saves",
-   "stories": 1,
-   "total_score": 684
-  },
-  {
-   "word": "sonnet",
-   "stories": 1,
-   "total_score": 684
-  },
-  {
-   "word": "strands",
-   "stories": 1,
-   "total_score": 684
+   "total_score": 1224
   },
   {
    "word": "devices",
    "stories": 1,
-   "total_score": 671
+   "total_score": 999
   },
   {
    "word": "home",
    "stories": 1,
-   "total_score": 671
+   "total_score": 999
   },
   {
    "word": "internet",
    "stories": 1,
-   "total_score": 671
+   "total_score": 999
   },
   {
    "word": "smart",
    "stories": 1,
-   "total_score": 671
+   "total_score": 999
   },
   {
    "word": "without",
    "stories": 1,
-   "total_score": 671
+   "total_score": 999
   },
   {
    "word": "grandfathered",
    "stories": 1,
-   "total_score": 657
+   "total_score": 866
   }
  ],
  "score_distribution": [
@@ -663,15 +669,15 @@
   },
   {
    "bucket": "50-99",
-   "stories": 10
+   "stories": 6
   },
   {
    "bucket": "100-249",
-   "stories": 18
+   "stories": 17
   },
   {
    "bucket": "250-499",
-   "stories": 7
+   "stories": 12
   },
   {
    "bucket": "500+",
@@ -681,18 +687,13 @@
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 9,
-   "total_score": 1918
+   "stories": 11,
+   "total_score": 2271
   },
   {
    "domain": "maurycyz.com",
    "stories": 3,
-   "total_score": 503
-  },
-  {
-   "domain": "kevinboone.me",
-   "stories": 3,
-   "total_score": 133
+   "total_score": 477
   },
   {
    "domain": "nvidianews.nvidia.com",
@@ -700,19 +701,29 @@
    "total_score": 970
   },
   {
+   "domain": "eli.thegreenplace.net",
+   "stories": 2,
+   "total_score": 216
+  },
+  {
    "domain": "twitter.com",
    "stories": 2,
    "total_score": 171
   },
   {
-   "domain": "openai.com",
-   "stories": 2,
-   "total_score": 55
-  },
-  {
    "domain": "foldableflight.com",
    "stories": 1,
-   "total_score": 1196
+   "total_score": 1224
+  },
+  {
+   "domain": "docodethatmatters.com",
+   "stories": 1,
+   "total_score": 999
+  },
+  {
+   "domain": "neil.fraser.name",
+   "stories": 1,
+   "total_score": 866
   },
   {
    "domain": "anthropic.com",
@@ -723,43 +734,50 @@
    "domain": "caleb.software",
    "stories": 1,
    "total_score": 730
-  },
-  {
-   "domain": "thestateofai.com",
-   "stories": 1,
-   "total_score": 700
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
    "stories": 4,
-   "total_score": 937,
-   "avg_score": 234.0
-  },
-  {
-   "author": "theanonymousone",
-   "stories": 3,
-   "total_score": 143,
-   "avg_score": 48.0
-  },
-  {
-   "author": "andsoitis",
-   "stories": 3,
-   "total_score": 101,
-   "avg_score": 34.0
+   "total_score": 1115,
+   "avg_score": 279.0
   },
   {
    "author": "Curiositry",
    "stories": 2,
-   "total_score": 484,
-   "avg_score": 242.0
+   "total_score": 458,
+   "avg_score": 229.0
   },
   {
    "author": "tosh",
    "stories": 2,
-   "total_score": 297,
-   "avg_score": 149.0
+   "total_score": 395,
+   "avg_score": 198.0
+  },
+  {
+   "author": "gmays",
+   "stories": 2,
+   "total_score": 164,
+   "avg_score": 82.0
+  },
+  {
+   "author": "edward",
+   "stories": 2,
+   "total_score": 153,
+   "avg_score": 77.0
+  },
+  {
+   "author": "theanonymousone",
+   "stories": 2,
+   "total_score": 140,
+   "avg_score": 70.0
+  },
+  {
+   "author": "benbreen",
+   "stories": 2,
+   "total_score": 129,
+   "avg_score": 65.0
   },
   {
    "author": "Bluestein",
@@ -770,26 +788,14 @@
   {
    "author": "bookofjoe",
    "stories": 2,
-   "total_score": 115,
-   "avg_score": 58.0
+   "total_score": 64,
+   "avg_score": 32.0
   },
   {
-   "author": "vismit2000",
-   "stories": 1,
-   "total_score": 1196,
-   "avg_score": 1196.0
-  },
-  {
-   "author": "lairv",
-   "stories": 1,
-   "total_score": 797,
-   "avg_score": 797.0
-  },
-  {
-   "author": "karagenit",
-   "stories": 1,
-   "total_score": 730,
-   "avg_score": 730.0
+   "author": "dnetesn",
+   "stories": 2,
+   "total_score": 51,
+   "avg_score": 26.0
   }
  ],
  "daily_trend": [
@@ -808,8 +814,8 @@
   {
    "day": "2026-11-11",
    "stories": 50,
-   "avg_score": 197.1,
-   "rolling_7d_avg": 194.5
+   "avg_score": 246.1,
+   "rolling_7d_avg": 210.8
   }
  ]
 }
