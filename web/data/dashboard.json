@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-12T01:54:02.732154+00:00",
-  "duration_s": 0.54,
+  "finished_at": "2026-11-12T12:38:39.801111+00:00",
+  "duration_s": 0.44,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 17488,
+  "raw_bytes": 16078,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,60 +72,71 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-12T01:54:02+00:00",
+  "snapshot_ts": "2026-11-12T12:38:39+00:00",
   "oldest_story": "2026-11-08T12:34:04+00:00",
-  "newest_story": "2026-11-11T23:49:19+00:00",
-  "total_points": 8750,
+  "newest_story": "2026-11-12T11:46:41+00:00",
+  "total_points": 12168,
   "unique_authors": 49,
   "days_of_history": 4,
-  "stories_in_history": 172,
-  "runs_observed": 8,
-  "parquet_bytes": 22215
+  "stories_in_history": 184,
+  "runs_observed": 9,
+  "parquet_bytes": 19755
  },
  "top_stories": [
   {
-   "rank": 15,
-   "title": "My AI agents found an unmapped Maya site?",
-   "url": "https://pietromiotti.com/latest/maya-site",
-   "domain": "pietromiotti.com",
-   "author": "eyvindn",
-   "score": 928,
-   "comment_count": 338,
-   "age_hours": 13.8,
-   "points_per_hour": 67.2
-  },
-  {
-   "rank": 3,
+   "rank": 5,
    "title": "Tim Peters has died",
    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
    "domain": "discuss.python.org",
    "author": "ayhanfuat",
-   "score": 869,
-   "comment_count": 94,
-   "age_hours": 18.8,
-   "points_per_hour": 46.1
+   "score": 1269,
+   "comment_count": 142,
+   "age_hours": 29.6,
+   "points_per_hour": 42.9
   },
   {
-   "rank": 2,
-   "title": "AWS emulator",
-   "url": "https://github.com/aws/aws-emulator",
-   "domain": "github.com",
-   "author": "super_linear",
-   "score": 669,
-   "comment_count": 217,
-   "age_hours": 7.5,
-   "points_per_hour": 88.7
-  },
-  {
-   "rank": 16,
+   "rank": 11,
    "title": "Nvidia is preparing to oust Jensen Huang",
    "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
    "domain": "wsj.com",
    "author": "jbredeche",
-   "score": 521,
-   "comment_count": 752,
-   "age_hours": 3.4,
-   "points_per_hour": 154.0
+   "score": 1098,
+   "comment_count": 1480,
+   "age_hours": 14.1,
+   "points_per_hour": 77.7
+  },
+  {
+   "rank": 25,
+   "title": "My AI agents found an unmapped Maya site?",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "domain": "pietromiotti.com",
+   "author": "eyvindn",
+   "score": 1004,
+   "comment_count": 369,
+   "age_hours": 24.6,
+   "points_per_hour": 40.9
+  },
+  {
+   "rank": 8,
+   "title": "AWS emulator",
+   "url": "https://github.com/aws/aws-emulator",
+   "domain": "github.com",
+   "author": "super_linear",
+   "score": 879,
+   "comment_count": 243,
+   "age_hours": 18.3,
+   "points_per_hour": 48.1
+  },
+  {
+   "rank": 15,
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "domain": "cbsnews.com",
+   "author": "herpderperator",
+   "score": 574,
+   "comment_count": 598,
+   "age_hours": 15.2,
+   "points_per_hour": 37.7
   },
   {
    "rank": 37,
@@ -133,216 +144,205 @@
    "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
    "domain": "9to5mac.com",
    "author": "linolevan",
-   "score": 517,
-   "comment_count": 526,
-   "age_hours": 28.5,
-   "points_per_hour": 18.2
+   "score": 533,
+   "comment_count": 541,
+   "age_hours": 39.2,
+   "points_per_hour": 13.6
   },
   {
-   "rank": 6,
+   "rank": 9,
    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
    "domain": "michael.bacarella.com",
    "author": "mbac32768",
-   "score": 411,
-   "comment_count": 210,
-   "age_hours": 9.3,
-   "points_per_hour": 44.4
+   "score": 512,
+   "comment_count": 246,
+   "age_hours": 20.0,
+   "points_per_hour": 25.6
   },
   {
-   "rank": 4,
-   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-   "domain": "cbsnews.com",
-   "author": "herpderperator",
-   "score": 373,
-   "comment_count": 354,
-   "age_hours": 4.5,
-   "points_per_hour": 83.1
+   "rank": 6,
+   "title": "93% of paint splatters are valid Perl programs (2019)",
+   "url": "https://www.mcmillen.dev/sigbovik/",
+   "domain": "mcmillen.dev",
+   "author": "zenincognito",
+   "score": 479,
+   "comment_count": 59,
+   "age_hours": 14.1,
+   "points_per_hour": 34.0
   },
   {
-   "rank": 48,
-   "title": "I asked every TV manufacturer 17 questions about how they spy on you",
-   "url": "https://www.theverge.com/tech/1012372/tv-privacy-acr-questions",
-   "domain": "theverge.com",
-   "author": "Brajeshwar",
-   "score": 338,
-   "comment_count": 237,
-   "age_hours": 12.0,
-   "points_per_hour": 28.2
-  },
-  {
-   "rank": 18,
-   "title": "Hyper-Realistic Sand with WebGL2",
-   "url": "https://av.github.io/safe-sand/",
-   "domain": "av.github.io",
-   "author": "everlier",
-   "score": 311,
-   "comment_count": 64,
-   "age_hours": 12.2,
-   "points_per_hour": 25.4
-  },
-  {
-   "rank": 7,
+   "rank": 12,
    "title": "Gemini Decisions API",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
    "domain": "blog.google",
    "author": "iamdelirium",
-   "score": 273,
-   "comment_count": 85,
-   "age_hours": 7.4,
-   "points_per_hour": 37.1
+   "score": 460,
+   "comment_count": 143,
+   "age_hours": 18.1,
+   "points_per_hour": 25.4
+  },
+  {
+   "rank": 23,
+   "title": "Hyper-realistic sand with WebGL2",
+   "url": "https://av.github.io/safe-sand/",
+   "domain": "av.github.io",
+   "author": "everlier",
+   "score": 403,
+   "comment_count": 76,
+   "age_hours": 23.0,
+   "points_per_hour": 17.5
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50459703,
+   "title": "Nvidia is preparing to oust Jensen Huang",
+   "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+   "domain": "wsj.com",
+   "rank": 11,
+   "rank_change": 5,
+   "score": 1098,
+   "score_gain": 577,
+   "comment_gain": 728,
+   "hours_between": 10.74,
+   "points_per_hour": 53.7,
+   "gain_since_first_seen": 577,
+   "first_seen": "2026-11-12T01:54:02Z"
+  },
   {
    "story_id": 50450488,
    "title": "Tim Peters has died",
    "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
    "domain": "discuss.python.org",
-   "rank": 3,
-   "rank_change": -1,
-   "score": 869,
-   "score_gain": 500,
-   "comment_gain": 54,
-   "hours_between": 6.33,
-   "points_per_hour": 78.9,
-   "gain_since_first_seen": 500,
+   "rank": 5,
+   "rank_change": -2,
+   "score": 1269,
+   "score_gain": 400,
+   "comment_gain": 48,
+   "hours_between": 10.74,
+   "points_per_hour": 37.2,
+   "gain_since_first_seen": 900,
    "first_seen": "2026-11-11T19:34:00Z"
+  },
+  {
+   "story_id": 50459745,
+   "title": "93% of paint splatters are valid Perl programs (2019)",
+   "url": "https://www.mcmillen.dev/sigbovik/",
+   "domain": "mcmillen.dev",
+   "rank": 6,
+   "rank_change": -5,
+   "score": 479,
+   "score_gain": 332,
+   "comment_gain": 36,
+   "hours_between": 10.74,
+   "points_per_hour": 30.9,
+   "gain_since_first_seen": 332,
+   "first_seen": "2026-11-12T01:54:02Z"
   },
   {
    "story_id": 50456631,
    "title": "AWS emulator",
    "url": "https://github.com/aws/aws-emulator",
    "domain": "github.com",
-   "rank": 2,
-   "rank_change": -1,
-   "score": 669,
-   "score_gain": 443,
-   "comment_gain": 157,
-   "hours_between": 6.33,
-   "points_per_hour": 69.9,
-   "gain_since_first_seen": 443,
+   "rank": 8,
+   "rank_change": -6,
+   "score": 879,
+   "score_gain": 210,
+   "comment_gain": 26,
+   "hours_between": 10.74,
+   "points_per_hour": 19.5,
+   "gain_since_first_seen": 653,
    "first_seen": "2026-11-11T19:34:00Z"
+  },
+  {
+   "story_id": 50458900,
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "domain": "cbsnews.com",
+   "rank": 15,
+   "rank_change": -11,
+   "score": 574,
+   "score_gain": 201,
+   "comment_gain": 244,
+   "hours_between": 10.74,
+   "points_per_hour": 18.7,
+   "gain_since_first_seen": 201,
+   "first_seen": "2026-11-12T01:54:02Z"
+  },
+  {
+   "story_id": 50456791,
+   "title": "Gemini Decisions API",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "domain": "blog.google",
+   "rank": 12,
+   "rank_change": -5,
+   "score": 460,
+   "score_gain": 187,
+   "comment_gain": 58,
+   "hours_between": 10.74,
+   "points_per_hour": 17.4,
+   "gain_since_first_seen": 187,
+   "first_seen": "2026-11-12T01:54:02Z"
+  },
+  {
+   "story_id": 50459321,
+   "title": "Jensen Huang said to have had relationship with executive who reports to him",
+   "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+   "domain": "nytimes.com",
+   "rank": 39,
+   "rank_change": -22,
+   "score": 378,
+   "score_gain": 177,
+   "comment_gain": 290,
+   "hours_between": 10.74,
+   "points_per_hour": 16.5,
+   "gain_since_first_seen": 177,
+   "first_seen": "2026-11-12T01:54:02Z"
+  },
+  {
+   "story_id": 50459485,
+   "title": "Lock Your GitHub Actions",
+   "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+   "domain": "hugovk.dev",
+   "rank": 16,
+   "rank_change": -11,
+   "score": 273,
+   "score_gain": 153,
+   "comment_gain": 35,
+   "hours_between": 10.74,
+   "points_per_hour": 14.2,
+   "gain_since_first_seen": 153,
+   "first_seen": "2026-11-12T01:54:02Z"
+  },
+  {
+   "story_id": 50458208,
+   "title": "Emacs in the Age of Magic",
+   "url": "https://commandlinesystems.com/magic.txt",
+   "domain": "commandlinesystems.com",
+   "rank": 19,
+   "rank_change": -10,
+   "score": 252,
+   "score_gain": 108,
+   "comment_gain": 63,
+   "hours_between": 10.74,
+   "points_per_hour": 10.1,
+   "gain_since_first_seen": 108,
+   "first_seen": "2026-11-12T01:54:02Z"
   },
   {
    "story_id": 50455394,
    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
    "domain": "michael.bacarella.com",
-   "rank": 6,
+   "rank": 9,
    "rank_change": -3,
-   "score": 411,
-   "score_gain": 158,
-   "comment_gain": 80,
-   "hours_between": 6.33,
-   "points_per_hour": 24.9,
-   "gain_since_first_seen": 158,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50457230,
-   "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
-   "url": "https://termsheetplease.com/",
-   "domain": "termsheetplease.com",
-   "rank": 10,
-   "rank_change": -5,
-   "score": 171,
-   "score_gain": 149,
-   "comment_gain": 74,
-   "hours_between": 6.33,
-   "points_per_hour": 23.5,
-   "gain_since_first_seen": 149,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50457164,
-   "title": "Retirement Savings Are Fueling the AI Bubble",
-   "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
-   "domain": "lpeproject.org",
-   "rank": 45,
-   "rank_change": -36,
-   "score": 138,
-   "score_gain": 131,
-   "comment_gain": 146,
-   "hours_between": 6.33,
-   "points_per_hour": 20.7,
-   "gain_since_first_seen": 131,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50453288,
-   "title": "Hyper-Realistic Sand with WebGL2",
-   "url": "https://av.github.io/safe-sand/",
-   "domain": "av.github.io",
-   "rank": 18,
-   "rank_change": -10,
-   "score": 311,
+   "score": 512,
    "score_gain": 101,
-   "comment_gain": 15,
-   "hours_between": 6.33,
-   "points_per_hour": 15.9,
-   "gain_since_first_seen": 101,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50452455,
-   "title": "My AI agents found an unmapped Maya site?",
-   "url": "https://pietromiotti.com/latest/maya-site",
-   "domain": "pietromiotti.com",
-   "rank": 15,
-   "rank_change": -8,
-   "score": 928,
-   "score_gain": 95,
-   "comment_gain": 33,
-   "hours_between": 6.33,
-   "points_per_hour": 15.0,
-   "gain_since_first_seen": 95,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50454625,
-   "title": "Show HN: Yogurt \u2013 Free, private, open-source alternative to Granola",
-   "url": "https://github.com/FrigadeHQ/yogurt",
-   "domain": "github.com",
-   "rank": 19,
-   "rank_change": -9,
-   "score": 169,
-   "score_gain": 92,
-   "comment_gain": 41,
-   "hours_between": 6.33,
-   "points_per_hour": 14.5,
-   "gain_since_first_seen": 92,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50455633,
-   "title": "Faster Retrieval for Better, More Efficient RAG",
-   "url": "https://machinelearning.apple.com/research/faster-retrieval",
-   "domain": "machinelearning.apple.com",
-   "rank": 13,
-   "rank_change": -7,
-   "score": 153,
-   "score_gain": 78,
-   "comment_gain": 15,
-   "hours_between": 6.33,
-   "points_per_hour": 12.3,
-   "gain_since_first_seen": 78,
-   "first_seen": "2026-11-11T19:34:00Z"
-  },
-  {
-   "story_id": 50453637,
-   "title": "Atuin Threads: All your agent sessions on every machine",
-   "url": "https://blog.atuin.sh/threads-agent-sessions/",
-   "domain": "blog.atuin.sh",
-   "rank": 23,
-   "rank_change": -12,
-   "score": 191,
-   "score_gain": 54,
-   "comment_gain": 18,
-   "hours_between": 6.33,
-   "points_per_hour": 8.5,
-   "gain_since_first_seen": 54,
+   "comment_gain": 36,
+   "hours_between": 10.74,
+   "points_per_hour": 9.4,
+   "gain_since_first_seen": 259,
    "first_seen": "2026-11-11T19:34:00Z"
   }
  ],
@@ -360,16 +360,10 @@
    "rank": 3
   },
   {
-   "story_id": 50455394,
-   "ts": "2026-11-11T19:34:00Z",
-   "score": 253,
-   "rank": 3
-  },
-  {
-   "story_id": 50455394,
-   "ts": "2026-11-12T01:54:02Z",
-   "score": 411,
-   "rank": 6
+   "story_id": 50450488,
+   "ts": "2026-11-12T12:38:39Z",
+   "score": 1269,
+   "rank": 5
   },
   {
    "story_id": 50456631,
@@ -384,28 +378,46 @@
    "rank": 2
   },
   {
-   "story_id": 50457164,
-   "ts": "2026-11-11T19:34:00Z",
-   "score": 7,
-   "rank": 9
+   "story_id": 50456631,
+   "ts": "2026-11-12T12:38:39Z",
+   "score": 879,
+   "rank": 8
   },
   {
-   "story_id": 50457164,
+   "story_id": 50458900,
    "ts": "2026-11-12T01:54:02Z",
-   "score": 138,
-   "rank": 45
+   "score": 373,
+   "rank": 4
   },
   {
-   "story_id": 50457230,
-   "ts": "2026-11-11T19:34:00Z",
-   "score": 22,
-   "rank": 5
+   "story_id": 50458900,
+   "ts": "2026-11-12T12:38:39Z",
+   "score": 574,
+   "rank": 15
   },
   {
-   "story_id": 50457230,
+   "story_id": 50459703,
    "ts": "2026-11-12T01:54:02Z",
-   "score": 171,
-   "rank": 10
+   "score": 521,
+   "rank": 16
+  },
+  {
+   "story_id": 50459703,
+   "ts": "2026-11-12T12:38:39Z",
+   "score": 1098,
+   "rank": 11
+  },
+  {
+   "story_id": 50459745,
+   "ts": "2026-11-12T01:54:02Z",
+   "score": 147,
+   "rank": 1
+  },
+  {
+   "story_id": 50459745,
+   "ts": "2026-11-12T12:38:39Z",
+   "score": 479,
+   "rank": 6
   }
  ],
  "score_by_hour": [
@@ -417,33 +429,33 @@
   },
   {
    "hour": 1,
-   "stories": 3,
-   "avg_score": 211.3,
-   "median_score": 245.0
+   "stories": 4,
+   "avg_score": 166.0,
+   "median_score": 180.0
   },
   {
    "hour": 2,
-   "stories": 3,
-   "avg_score": 29.3,
-   "median_score": 23.0
+   "stories": 5,
+   "avg_score": 83.4,
+   "median_score": 48.0
   },
   {
    "hour": 3,
-   "stories": 6,
-   "avg_score": 177.5,
-   "median_score": 91.0
+   "stories": 8,
+   "avg_score": 146.3,
+   "median_score": 50.5
   },
   {
    "hour": 4,
-   "stories": 3,
-   "avg_score": 178.0,
-   "median_score": 125.0
+   "stories": 4,
+   "avg_score": 140.5,
+   "median_score": 86.5
   },
   {
    "hour": 5,
-   "stories": 4,
-   "avg_score": 99.0,
-   "median_score": 72.5
+   "stories": 5,
+   "avg_score": 92.2,
+   "median_score": 65.0
   },
   {
    "hour": 6,
@@ -453,9 +465,9 @@
   },
   {
    "hour": 7,
-   "stories": 3,
-   "avg_score": 337.3,
-   "median_score": 133.0
+   "stories": 2,
+   "avg_score": 701.0,
+   "median_score": 701.0
   },
   {
    "hour": 8,
@@ -471,218 +483,218 @@
   },
   {
    "hour": 10,
-   "stories": 8,
-   "avg_score": 178.9,
-   "median_score": 152.5
+   "stories": 11,
+   "avg_score": 169.4,
+   "median_score": 97.0
   },
   {
    "hour": 11,
-   "stories": 4,
-   "avg_score": 54.8,
-   "median_score": 34.5
+   "stories": 7,
+   "avg_score": 50.4,
+   "median_score": 27.0
   },
   {
    "hour": 12,
    "stories": 14,
-   "avg_score": 249.8,
+   "avg_score": 262.2,
    "median_score": 113.5
   },
   {
    "hour": 13,
-   "stories": 8,
-   "avg_score": 127.3,
+   "stories": 9,
+   "avg_score": 127.9,
    "median_score": 81.0
   },
   {
    "hour": 14,
-   "stories": 12,
-   "avg_score": 108.8,
-   "median_score": 91.0
+   "stories": 13,
+   "avg_score": 104.8,
+   "median_score": 86.0
   },
   {
    "hour": 15,
-   "stories": 12,
-   "avg_score": 79.1,
-   "median_score": 69.5
+   "stories": 13,
+   "avg_score": 81.1,
+   "median_score": 46.0
   },
   {
    "hour": 16,
    "stories": 12,
-   "avg_score": 123.3,
+   "avg_score": 133.7,
    "median_score": 50.5
   },
   {
    "hour": 17,
-   "stories": 11,
-   "avg_score": 199.5,
+   "stories": 13,
+   "avg_score": 182.0,
    "median_score": 110.0
   },
   {
    "hour": 18,
    "stories": 12,
-   "avg_score": 330.8,
-   "median_score": 211.5
+   "avg_score": 363.9,
+   "median_score": 305.0
   },
   {
    "hour": 19,
-   "stories": 13,
-   "avg_score": 173.1,
-   "median_score": 114.0
+   "stories": 11,
+   "avg_score": 199.1,
+   "median_score": 161.0
   },
   {
    "hour": 20,
-   "stories": 8,
-   "avg_score": 176.8,
-   "median_score": 68.0
+   "stories": 9,
+   "avg_score": 175.6,
+   "median_score": 65.0
   },
   {
    "hour": 21,
    "stories": 6,
-   "avg_score": 195.2,
+   "avg_score": 231.3,
    "median_score": 133.0
   },
   {
    "hour": 22,
-   "stories": 11,
-   "avg_score": 211.8,
-   "median_score": 167.0
+   "stories": 10,
+   "avg_score": 355.1,
+   "median_score": 321.5
   },
   {
    "hour": 23,
-   "stories": 8,
-   "avg_score": 78.3,
-   "median_score": 69.0
+   "stories": 5,
+   "avg_score": 128.0,
+   "median_score": 116.0
   }
  ],
  "keywords": [
   {
    "word": "agents",
    "stories": 3,
-   "total_score": 1349
-  },
-  {
-   "word": "huang",
-   "stories": 3,
-   "total_score": 754
+   "total_score": 1634
   },
   {
    "word": "jensen",
    "stories": 3,
-   "total_score": 754
+   "total_score": 1484
   },
   {
    "word": "apple",
    "stories": 3,
-   "total_score": 690
-  },
-  {
-   "word": "models",
-   "stories": 3,
-   "total_score": 598
-  },
-  {
-   "word": "source",
-   "stories": 3,
-   "total_score": 284
-  },
-  {
-   "word": "agent",
-   "stories": 3,
-   "total_score": 276
+   "total_score": 804
   },
   {
    "word": "has",
    "stories": 2,
-   "total_score": 1386
+   "total_score": 1802
   },
   {
-   "word": "app",
+   "word": "huang",
    "stories": 2,
-   "total_score": 586
+   "total_score": 1476
+  },
+  {
+   "word": "nvidia",
+   "stories": 2,
+   "total_score": 1106
+  },
+  {
+   "word": "jane",
+   "stories": 2,
+   "total_score": 844
+  },
+  {
+   "word": "street",
+   "stories": 2,
+   "total_score": 844
   },
   {
    "word": "local",
    "stories": 2,
-   "total_score": 577
+   "total_score": 651
   },
   {
-   "word": "every",
+   "word": "mac",
    "stories": 2,
-   "total_score": 529
+   "total_score": 560
   },
   {
-   "word": "had",
+   "word": "agent",
    "stories": 2,
-   "total_score": 233
+   "total_score": 335
   },
   {
-   "word": "paint",
+   "word": "working",
    "stories": 2,
-   "total_score": 216
+   "total_score": 92
   },
   {
-   "word": "open",
-   "stories": 2,
-   "total_score": 215
+   "word": "died",
+   "stories": 1,
+   "total_score": 1269
   },
   {
-   "word": "coding",
-   "stories": 2,
-   "total_score": 85
+   "word": "peters",
+   "stories": 1,
+   "total_score": 1269
   },
   {
-   "word": "history",
-   "stories": 2,
-   "total_score": 28
+   "word": "tim",
+   "stories": 1,
+   "total_score": 1269
+  },
+  {
+   "word": "oust",
+   "stories": 1,
+   "total_score": 1098
+  },
+  {
+   "word": "preparing",
+   "stories": 1,
+   "total_score": 1098
   },
   {
    "word": "found",
    "stories": 1,
-   "total_score": 928
+   "total_score": 1004
   },
   {
    "word": "maya",
    "stories": 1,
-   "total_score": 928
+   "total_score": 1004
   },
   {
    "word": "site",
    "stories": 1,
-   "total_score": 928
-  },
-  {
-   "word": "unmapped",
-   "stories": 1,
-   "total_score": 928
+   "total_score": 1004
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 15
-  },
-  {
-   "bucket": "50-99",
-   "stories": 10
-  },
-  {
-   "bucket": "100-249",
    "stories": 14
   },
   {
+   "bucket": "50-99",
+   "stories": 8
+  },
+  {
+   "bucket": "100-249",
+   "stories": 10
+  },
+  {
    "bucket": "250-499",
-   "stories": 6
+   "stories": 11
   },
   {
    "bucket": "500+",
-   "stories": 5
+   "stories": 7
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 19,
-   "total_score": 3085
+   "stories": 20,
+   "total_score": 3751
   },
   {
    "domain": "maurycyz.com",
@@ -692,7 +704,7 @@
   {
    "domain": "nytimes.com",
    "stories": 3,
-   "total_score": 259
+   "total_score": 436
   },
   {
    "domain": "nvidianews.nvidia.com",
@@ -702,17 +714,17 @@
   {
    "domain": "theverge.com",
    "stories": 2,
-   "total_score": 572
+   "total_score": 528
   },
   {
    "domain": "blog.google",
    "stories": 2,
-   "total_score": 323
+   "total_score": 510
   },
   {
    "domain": "machinelearning.apple.com",
    "stories": 2,
-   "total_score": 219
+   "total_score": 261
   },
   {
    "domain": "twitter.com",
@@ -720,28 +732,34 @@
    "total_score": 171
   },
   {
+   "domain": "discuss.python.org",
+   "stories": 1,
+   "total_score": 1269
+  },
+  {
    "domain": "foldableflight.com",
    "stories": 1,
    "total_score": 1140
-  },
-  {
-   "domain": "pietromiotti.com",
-   "stories": 1,
-   "total_score": 928
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
    "stories": 3,
-   "total_score": 575,
-   "avg_score": 192.0
+   "total_score": 444,
+   "avg_score": 148.0
   },
   {
    "author": "Curiositry",
    "stories": 2,
    "total_score": 458,
    "avg_score": 229.0
+  },
+  {
+   "author": "tosh",
+   "stories": 2,
+   "total_score": 336,
+   "avg_score": 168.0
   },
   {
    "author": "dvaplima",
@@ -752,8 +770,26 @@
   {
    "author": "zerop",
    "stories": 2,
-   "total_score": 219,
-   "avg_score": 110.0
+   "total_score": 261,
+   "avg_score": 131.0
+  },
+  {
+   "author": "tech234a",
+   "stories": 2,
+   "total_score": 183,
+   "avg_score": 92.0
+  },
+  {
+   "author": "acossta",
+   "stories": 2,
+   "total_score": 174,
+   "avg_score": 87.0
+  },
+  {
+   "author": "edward",
+   "stories": 2,
+   "total_score": 154,
+   "avg_score": 77.0
   },
   {
    "author": "theanonymousone",
@@ -762,34 +798,10 @@
    "avg_score": 70.0
   },
   {
-   "author": "edward",
-   "stories": 2,
-   "total_score": 121,
-   "avg_score": 61.0
-  },
-  {
    "author": "Bluestein",
    "stories": 2,
    "total_score": 117,
    "avg_score": 59.0
-  },
-  {
-   "author": "Rochus",
-   "stories": 2,
-   "total_score": 78,
-   "avg_score": 39.0
-  },
-  {
-   "author": "bookofjoe",
-   "stories": 2,
-   "total_score": 64,
-   "avg_score": 32.0
-  },
-  {
-   "author": "dnetesn",
-   "stories": 2,
-   "total_score": 57,
-   "avg_score": 29.0
   }
  ],
  "daily_trend": [
@@ -814,8 +826,8 @@
   {
    "day": "2026-11-12",
    "stories": 50,
-   "avg_score": 175.0,
-   "rolling_7d_avg": 169.0
+   "avg_score": 243.4,
+   "rolling_7d_avg": 186.1
   }
  ]
 }
