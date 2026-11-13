@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-13T06:35:34.262812+00:00",
-  "duration_s": 0.32,
+  "finished_at": "2026-11-13T16:17:03.294779+00:00",
+  "duration_s": 0.45,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 14287,
+  "raw_bytes": 14549,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,126 +72,126 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-13T06:35:33+00:00",
-  "oldest_story": "2026-11-10T12:20:06+00:00",
-  "newest_story": "2026-11-13T06:12:02+00:00",
-  "total_points": 11711,
+  "snapshot_ts": "2026-11-13T16:17:02+00:00",
+  "oldest_story": "2026-11-11T21:20:01+00:00",
+  "newest_story": "2026-11-13T15:52:04+00:00",
+  "total_points": 16044,
   "unique_authors": 48,
   "days_of_history": 5,
-  "stories_in_history": 220,
-  "runs_observed": 11,
-  "parquet_bytes": 18532
+  "stories_in_history": 230,
+  "runs_observed": 12,
+  "parquet_bytes": 17110
  },
  "top_stories": [
   {
-   "rank": 1,
+   "rank": 6,
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
    "domain": "apnews.com",
    "author": "lldb",
-   "score": 3297,
-   "comment_count": 3014,
-   "age_hours": 16.7,
-   "points_per_hour": 197.2
+   "score": 3846,
+   "comment_count": 3308,
+   "age_hours": 26.4,
+   "points_per_hour": 145.6
   },
   {
-   "rank": 23,
-   "title": "Anthropic IPO",
-   "url": "https://ipo.anthropic.com/us/",
-   "domain": "ipo.anthropic.com",
-   "author": "josephljohnston",
-   "score": 889,
-   "comment_count": 848,
-   "age_hours": 18.8,
-   "points_per_hour": 47.3
-  },
-  {
-   "rank": 14,
+   "rank": 24,
    "title": "Service degradation on Microsoft 365",
    "url": "https://status.cloud.microsoft/",
    "domain": "status.cloud.microsoft",
    "author": "dkpk",
-   "score": 714,
-   "comment_count": 660,
-   "age_hours": 12.2,
-   "points_per_hour": 58.3
+   "score": 1084,
+   "comment_count": 917,
+   "age_hours": 21.9,
+   "points_per_hour": 49.4
   },
   {
-   "rank": 3,
+   "rank": 32,
+   "title": "Anthropic IPO",
+   "url": "https://ipo.anthropic.com/us/",
+   "domain": "ipo.anthropic.com",
+   "author": "josephljohnston",
+   "score": 984,
+   "comment_count": 890,
+   "age_hours": 28.5,
+   "points_per_hour": 34.5
+  },
+  {
+   "rank": 12,
    "title": "Rust 1.100",
    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
    "domain": "blog.rust-lang.org",
    "author": "mbStavola",
-   "score": 584,
-   "comment_count": 226,
-   "age_hours": 11.9,
-   "points_per_hour": 48.9
+   "score": 806,
+   "comment_count": 295,
+   "age_hours": 21.6,
+   "points_per_hour": 37.3
   },
   {
-   "rank": 28,
-   "title": "Gemini 4 Hydrogen",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-   "domain": "blog.google",
-   "author": "dvaplima",
-   "score": 506,
-   "comment_count": 322,
-   "age_hours": 12.6,
-   "points_per_hour": 40.3
-  },
-  {
-   "rank": 8,
-   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-   "url": "https://github.com/simpsoka/zigzag",
-   "domain": "github.com",
-   "author": "simpsoka",
-   "score": 448,
-   "comment_count": 168,
-   "age_hours": 13.5,
-   "points_per_hour": 33.1
-  },
-  {
-   "rank": 6,
-   "title": "Gemini 4 Hydrogen and Orchestrator",
-   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-   "domain": "antigravity.google",
-   "author": "jonbaer",
-   "score": 380,
-   "comment_count": 103,
-   "age_hours": 11.7,
-   "points_per_hour": 32.4
-  },
-  {
-   "rank": 9,
+   "rank": 43,
    "title": "Nvidia employees petition to bring back Jensen Huang",
    "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
    "domain": "wired.com",
    "author": "lavendermon",
-   "score": 379,
-   "comment_count": 282,
-   "age_hours": 4.3,
-   "points_per_hour": 87.7
+   "score": 739,
+   "comment_count": 599,
+   "age_hours": 14.0,
+   "points_per_hour": 52.7
   },
   {
-   "rank": 49,
-   "title": "Writing correct software is hard and math alone won\u2019t help us (2016)",
-   "url": "https://pron.github.io/posts/correctness-and-complexity",
-   "domain": "pron.github.io",
-   "author": "AriFordsham",
-   "score": 361,
-   "comment_count": 175,
-   "age_hours": 20.1,
-   "points_per_hour": 17.9
+   "rank": 16,
+   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+   "url": "https://github.com/simpsoka/zigzag",
+   "domain": "github.com",
+   "author": "simpsoka",
+   "score": 664,
+   "comment_count": 218,
+   "age_hours": 23.2,
+   "points_per_hour": 28.6
   },
   {
-   "rank": 15,
+   "rank": 42,
+   "title": "Gemini 4 Hydrogen",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+   "domain": "blog.google",
+   "author": "dvaplima",
+   "score": 553,
+   "comment_count": 343,
+   "age_hours": 22.3,
+   "points_per_hour": 24.8
+  },
+  {
+   "rank": 18,
+   "title": "Gemini 4 Hydrogen and Orchestrator",
+   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+   "domain": "antigravity.google",
+   "author": "jonbaer",
+   "score": 468,
+   "comment_count": 147,
+   "age_hours": 21.4,
+   "points_per_hour": 21.9
+  },
+  {
+   "rank": 26,
    "title": "I'm making LLMs work on small and old devices",
    "url": "https://github.com/hyperionaidev/smolmaxxing/",
    "domain": "github.com",
    "author": "mrashad74",
-   "score": 328,
-   "comment_count": 120,
-   "age_hours": 15.2,
-   "points_per_hour": 21.6
+   "score": 435,
+   "comment_count": 167,
+   "age_hours": 24.9,
+   "points_per_hour": 17.5
+  },
+  {
+   "rank": 41,
+   "title": "Microsoft Outlook/365 still down after 12 hours",
+   "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+   "domain": "twitter.com",
+   "author": "player85",
+   "score": 423,
+   "comment_count": 290,
+   "age_hours": 11.1,
+   "points_per_hour": 38.0
   }
  ],
  "rising_stories": [
@@ -200,44 +200,89 @@
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
    "domain": "apnews.com",
-   "rank": 1,
-   "rank_change": 0,
-   "score": 3297,
-   "score_gain": 763,
-   "comment_gain": 560,
-   "hours_between": 8.35,
-   "points_per_hour": 91.3,
-   "gain_since_first_seen": 763,
+   "rank": 6,
+   "rank_change": -5,
+   "score": 3846,
+   "score_gain": 549,
+   "comment_gain": 294,
+   "hours_between": 9.69,
+   "points_per_hour": 56.6,
+   "gain_since_first_seen": 1312,
    "first_seen": "2026-11-12T22:14:23Z"
+  },
+  {
+   "story_id": 50478609,
+   "title": "Microsoft Outlook/365 still down after 12 hours",
+   "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+   "domain": "twitter.com",
+   "rank": 41,
+   "rank_change": -5,
+   "score": 423,
+   "score_gain": 412,
+   "comment_gain": 290,
+   "hours_between": 9.69,
+   "points_per_hour": 42.5,
+   "gain_since_first_seen": 412,
+   "first_seen": "2026-11-13T06:35:33Z"
   },
   {
    "story_id": 50471731,
    "title": "Service degradation on Microsoft 365",
    "url": "https://status.cloud.microsoft/",
    "domain": "status.cloud.microsoft",
-   "rank": 14,
-   "rank_change": -7,
-   "score": 714,
-   "score_gain": 399,
-   "comment_gain": 343,
-   "hours_between": 8.35,
-   "points_per_hour": 47.8,
-   "gain_since_first_seen": 399,
+   "rank": 24,
+   "rank_change": -10,
+   "score": 1084,
+   "score_gain": 370,
+   "comment_gain": 257,
+   "hours_between": 9.69,
+   "points_per_hour": 38.2,
+   "gain_since_first_seen": 769,
    "first_seen": "2026-11-12T22:14:23Z"
+  },
+  {
+   "story_id": 50477231,
+   "title": "Nvidia employees petition to bring back Jensen Huang",
+   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+   "domain": "wired.com",
+   "rank": 43,
+   "rank_change": -34,
+   "score": 739,
+   "score_gain": 360,
+   "comment_gain": 317,
+   "hours_between": 9.69,
+   "points_per_hour": 37.1,
+   "gain_since_first_seen": 360,
+   "first_seen": "2026-11-13T06:35:33Z"
+  },
+  {
+   "story_id": 50478515,
+   "title": "IceWM",
+   "url": "https://ice-wm.org/",
+   "domain": "ice-wm.org",
+   "rank": 10,
+   "rank_change": -8,
+   "score": 306,
+   "score_gain": 246,
+   "comment_gain": 129,
+   "hours_between": 9.69,
+   "points_per_hour": 25.4,
+   "gain_since_first_seen": 246,
+   "first_seen": "2026-11-13T06:35:33Z"
   },
   {
    "story_id": 50472038,
    "title": "Rust 1.100",
    "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
    "domain": "blog.rust-lang.org",
-   "rank": 3,
-   "rank_change": -1,
-   "score": 584,
-   "score_gain": 386,
-   "comment_gain": 116,
-   "hours_between": 8.35,
-   "points_per_hour": 46.2,
-   "gain_since_first_seen": 386,
+   "rank": 12,
+   "rank_change": -9,
+   "score": 806,
+   "score_gain": 222,
+   "comment_gain": 69,
+   "hours_between": 9.69,
+   "points_per_hour": 22.9,
+   "gain_since_first_seen": 608,
    "first_seen": "2026-11-12T22:14:23Z"
   },
   {
@@ -245,105 +290,60 @@
    "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
    "url": "https://github.com/simpsoka/zigzag",
    "domain": "github.com",
-   "rank": 8,
-   "rank_change": -2,
-   "score": 448,
-   "score_gain": 242,
-   "comment_gain": 84,
-   "hours_between": 8.35,
-   "points_per_hour": 29.0,
-   "gain_since_first_seen": 242,
-   "first_seen": "2026-11-12T22:14:23Z"
-  },
-  {
-   "story_id": 50472260,
-   "title": "Gemini 4 Hydrogen and Orchestrator",
-   "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-   "domain": "antigravity.google",
-   "rank": 6,
-   "rank_change": -3,
-   "score": 380,
-   "score_gain": 195,
-   "comment_gain": 65,
-   "hours_between": 8.35,
-   "points_per_hour": 23.3,
-   "gain_since_first_seen": 195,
-   "first_seen": "2026-11-12T22:14:23Z"
-  },
-  {
-   "story_id": 50474361,
-   "title": "Foundation Models framework",
-   "url": "https://developer.apple.com/foundation-models-framework/",
-   "domain": "developer.apple.com",
-   "rank": 13,
+   "rank": 16,
    "rank_change": -8,
-   "score": 181,
-   "score_gain": 148,
-   "comment_gain": 20,
-   "hours_between": 8.35,
-   "points_per_hour": 17.7,
-   "gain_since_first_seen": 148,
+   "score": 664,
+   "score_gain": 216,
+   "comment_gain": 50,
+   "hours_between": 9.69,
+   "points_per_hour": 22.3,
+   "gain_since_first_seen": 458,
    "first_seen": "2026-11-12T22:14:23Z"
   },
   {
-   "story_id": 50474311,
-   "title": "AI is turning Apple's app review process into a nightmare for synth developers",
-   "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
-   "domain": "synthanatomy.com",
-   "rank": 18,
-   "rank_change": 15,
-   "score": 150,
-   "score_gain": 146,
-   "comment_gain": 143,
-   "hours_between": 8.35,
-   "points_per_hour": 17.5,
-   "gain_since_first_seen": 146,
-   "first_seen": "2026-11-12T22:14:23Z"
+   "story_id": 50473190,
+   "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
+   "url": "https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/",
+   "domain": "reuters.com",
+   "rank": 20,
+   "rank_change": -9,
+   "score": 386,
+   "score_gain": 180,
+   "comment_gain": 185,
+   "hours_between": 9.69,
+   "points_per_hour": 18.6,
+   "gain_since_first_seen": 180,
+   "first_seen": "2026-11-13T06:35:33Z"
   },
   {
-   "story_id": 50465829,
-   "title": "Anthropic IPO",
-   "url": "https://ipo.anthropic.com/us/",
-   "domain": "ipo.anthropic.com",
-   "rank": 23,
+   "story_id": 50477649,
+   "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+   "url": "https://brave.com/blog/search-api-agentic-payments/",
+   "domain": "brave.com",
+   "rank": 15,
+   "rank_change": -10,
+   "score": 208,
+   "score_gain": 166,
+   "comment_gain": 105,
+   "hours_between": 9.69,
+   "points_per_hour": 17.1,
+   "gain_since_first_seen": 166,
+   "first_seen": "2026-11-13T06:35:33Z"
+  },
+  {
+   "story_id": 50475713,
+   "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+   "domain": "edge0.ai",
+   "rank": 22,
    "rank_change": -15,
-   "score": 889,
-   "score_gain": 146,
-   "comment_gain": 100,
-   "hours_between": 8.35,
-   "points_per_hour": 17.5,
-   "gain_since_first_seen": 790,
-   "first_seen": "2026-11-12T12:38:39Z"
-  },
-  {
-   "story_id": 50472490,
-   "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
-   "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
-   "domain": "smithsonianmag.com",
-   "rank": 10,
-   "rank_change": -6,
-   "score": 258,
-   "score_gain": 128,
-   "comment_gain": 56,
-   "hours_between": 8.35,
-   "points_per_hour": 15.3,
-   "gain_since_first_seen": 128,
-   "first_seen": "2026-11-12T22:14:23Z"
-  },
-  {
-   "story_id": 50471431,
-   "title": "Gemini 4 Hydrogen",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-   "domain": "blog.google",
-   "rank": 28,
-   "rank_change": -15,
-   "score": 506,
-   "score_gain": 116,
-   "comment_gain": 66,
-   "hours_between": 8.35,
-   "points_per_hour": 13.9,
-   "gain_since_first_seen": 116,
-   "first_seen": "2026-11-12T22:14:23Z"
+   "score": 311,
+   "score_gain": 127,
+   "comment_gain": 44,
+   "hours_between": 9.69,
+   "points_per_hour": 13.1,
+   "gain_since_first_seen": 127,
+   "first_seen": "2026-11-13T06:35:33Z"
   }
  ],
  "score_trajectories": [
@@ -360,16 +360,10 @@
    "rank": 1
   },
   {
-   "story_id": 50470488,
-   "ts": "2026-11-12T22:14:23Z",
-   "score": 206,
+   "story_id": 50467087,
+   "ts": "2026-11-13T16:17:02Z",
+   "score": 3846,
    "rank": 6
-  },
-  {
-   "story_id": 50470488,
-   "ts": "2026-11-13T06:35:33Z",
-   "score": 448,
-   "rank": 8
   },
   {
    "story_id": 50471731,
@@ -384,28 +378,46 @@
    "rank": 14
   },
   {
-   "story_id": 50472038,
-   "ts": "2026-11-12T22:14:23Z",
-   "score": 198,
+   "story_id": 50471731,
+   "ts": "2026-11-13T16:17:02Z",
+   "score": 1084,
+   "rank": 24
+  },
+  {
+   "story_id": 50477231,
+   "ts": "2026-11-13T06:35:33Z",
+   "score": 379,
+   "rank": 9
+  },
+  {
+   "story_id": 50477231,
+   "ts": "2026-11-13T16:17:02Z",
+   "score": 739,
+   "rank": 43
+  },
+  {
+   "story_id": 50478515,
+   "ts": "2026-11-13T06:35:33Z",
+   "score": 60,
    "rank": 2
   },
   {
-   "story_id": 50472038,
-   "ts": "2026-11-13T06:35:33Z",
-   "score": 584,
-   "rank": 3
+   "story_id": 50478515,
+   "ts": "2026-11-13T16:17:02Z",
+   "score": 306,
+   "rank": 10
   },
   {
-   "story_id": 50472260,
-   "ts": "2026-11-12T22:14:23Z",
-   "score": 185,
-   "rank": 3
+   "story_id": 50478609,
+   "ts": "2026-11-13T06:35:33Z",
+   "score": 11,
+   "rank": 36
   },
   {
-   "story_id": 50472260,
-   "ts": "2026-11-13T06:35:33Z",
-   "score": 380,
-   "rank": 6
+   "story_id": 50478609,
+   "ts": "2026-11-13T16:17:02Z",
+   "score": 423,
+   "rank": 41
   }
  ],
  "score_by_hour": [
@@ -423,33 +435,33 @@
   },
   {
    "hour": 2,
-   "stories": 5,
-   "avg_score": 102.2,
-   "median_score": 43.0
+   "stories": 3,
+   "avg_score": 268.0,
+   "median_score": 46.0
   },
   {
    "hour": 3,
-   "stories": 8,
-   "avg_score": 134.1,
-   "median_score": 51.0
+   "stories": 7,
+   "avg_score": 182.4,
+   "median_score": 122.0
   },
   {
    "hour": 4,
-   "stories": 6,
-   "avg_score": 103.0,
-   "median_score": 54.0
+   "stories": 4,
+   "avg_score": 210.0,
+   "median_score": 215.5
   },
   {
    "hour": 5,
-   "stories": 10,
-   "avg_score": 58.0,
-   "median_score": 21.0
+   "stories": 7,
+   "avg_score": 136.0,
+   "median_score": 112.0
   },
   {
    "hour": 6,
    "stories": 4,
-   "avg_score": 167.3,
-   "median_score": 53.5
+   "avg_score": 231.3,
+   "median_score": 174.0
   },
   {
    "hour": 7,
@@ -465,92 +477,92 @@
   },
   {
    "hour": 9,
-   "stories": 2,
-   "avg_score": 119.0,
-   "median_score": 119.0
+   "stories": 3,
+   "avg_score": 114.7,
+   "median_score": 106.0
   },
   {
    "hour": 10,
-   "stories": 11,
-   "avg_score": 225.5,
+   "stories": 13,
+   "avg_score": 234.5,
    "median_score": 208.0
   },
   {
    "hour": 11,
-   "stories": 5,
-   "avg_score": 221.6,
+   "stories": 7,
+   "avg_score": 195.0,
    "median_score": 58.0
   },
   {
    "hour": 12,
-   "stories": 15,
-   "avg_score": 226.7,
+   "stories": 17,
+   "avg_score": 215.6,
    "median_score": 90.0
   },
   {
    "hour": 13,
-   "stories": 10,
-   "avg_score": 444.6,
-   "median_score": 96.0
+   "stories": 13,
+   "avg_score": 406.7,
+   "median_score": 81.0
   },
   {
    "hour": 14,
-   "stories": 18,
-   "avg_score": 121.9,
-   "median_score": 97.5
+   "stories": 25,
+   "avg_score": 106.2,
+   "median_score": 80.0
   },
   {
    "hour": 15,
-   "stories": 16,
-   "avg_score": 86.3,
-   "median_score": 73.0
+   "stories": 19,
+   "avg_score": 78.2,
+   "median_score": 38.0
   },
   {
    "hour": 16,
    "stories": 15,
-   "avg_score": 104.3,
+   "avg_score": 98.7,
    "median_score": 50.0
   },
   {
    "hour": 17,
    "stories": 16,
-   "avg_score": 169.9,
-   "median_score": 69.5
+   "avg_score": 184.1,
+   "median_score": 74.0
   },
   {
    "hour": 18,
    "stories": 18,
-   "avg_score": 323.2,
-   "median_score": 197.0
+   "avg_score": 368.8,
+   "median_score": 225.0
   },
   {
    "hour": 19,
    "stories": 17,
-   "avg_score": 148.5,
+   "avg_score": 165.2,
    "median_score": 114.0
   },
   {
    "hour": 20,
-   "stories": 10,
-   "avg_score": 139.2,
-   "median_score": 31.5
+   "stories": 9,
+   "avg_score": 151.4,
+   "median_score": 34.0
   },
   {
    "hour": 21,
-   "stories": 11,
-   "avg_score": 137.6,
-   "median_score": 143.0
+   "stories": 9,
+   "avg_score": 133.1,
+   "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 6,
-   "avg_score": 221.8,
-   "median_score": 187.5
+   "stories": 7,
+   "avg_score": 218.9,
+   "median_score": 208.0
   },
   {
    "hour": 23,
    "stories": 6,
-   "avg_score": 124.5,
+   "avg_score": 152.2,
    "median_score": 129.5
   }
  ],
@@ -558,136 +570,141 @@
   {
    "word": "huang",
    "stories": 4,
-   "total_score": 3890
-  },
-  {
-   "word": "microsoft",
-   "stories": 4,
-   "total_score": 750
+   "total_score": 4997
   },
   {
    "word": "jensen",
    "stories": 3,
-   "total_score": 3684
+   "total_score": 4611
+  },
+  {
+   "word": "microsoft",
+   "stories": 3,
+   "total_score": 1768
   },
   {
    "word": "nvidia",
    "stories": 3,
-   "total_score": 593
+   "total_score": 1151
   },
   {
-   "word": "models",
+   "word": "rust",
    "stories": 3,
-   "total_score": 571
+   "total_score": 999
   },
   {
-   "word": "old",
+   "word": "data",
    "stories": 3,
-   "total_score": 506
-  },
-  {
-   "word": "protocol",
-   "stories": 3,
-   "total_score": 85
-  },
-  {
-   "word": "anthropic",
-   "stories": 2,
-   "total_score": 904
+   "total_score": 179
   },
   {
    "word": "gemini",
    "stories": 2,
-   "total_score": 886
+   "total_score": 1021
   },
   {
    "word": "hydrogen",
    "stories": 2,
-   "total_score": 886
-  },
-  {
-   "word": "service",
-   "stories": 2,
-   "total_score": 734
-  },
-  {
-   "word": "rust",
-   "stories": 2,
-   "total_score": 727
-  },
-  {
-   "word": "own",
-   "stories": 2,
-   "total_score": 632
-  },
-  {
-   "word": "app",
-   "stories": 2,
-   "total_score": 598
-  },
-  {
-   "word": "software",
-   "stories": 2,
-   "total_score": 569
-  },
-  {
-   "word": "takes",
-   "stories": 2,
-   "total_score": 555
-  },
-  {
-   "word": "built",
-   "stories": 2,
-   "total_score": 463
-  },
-  {
-   "word": "frontier",
-   "stories": 2,
-   "total_score": 435
+   "total_score": 1021
   },
   {
    "word": "back",
    "stories": 2,
-   "total_score": 408
+   "total_score": 976
   },
   {
-   "word": "turning",
+   "word": "own",
    "stories": 2,
-   "total_score": 318
+   "total_score": 975
+  },
+  {
+   "word": "bring",
+   "stories": 2,
+   "total_score": 797
+  },
+  {
+   "word": "old",
+   "stories": 2,
+   "total_score": 659
+  },
+  {
+   "word": "ceo",
+   "stories": 2,
+   "total_score": 623
+  },
+  {
+   "word": "down",
+   "stories": 2,
+   "total_score": 601
+  },
+  {
+   "word": "claude",
+   "stories": 2,
+   "total_score": 582
+  },
+  {
+   "word": "engineering",
+   "stories": 2,
+   "total_score": 465
+  },
+  {
+   "word": "still",
+   "stories": 2,
+   "total_score": 451
+  },
+  {
+   "word": "years",
+   "stories": 2,
+   "total_score": 438
+  },
+  {
+   "word": "models",
+   "stories": 2,
+   "total_score": 399
+  },
+  {
+   "word": "year",
+   "stories": 2,
+   "total_score": 282
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 18
+   "stories": 12
   },
   {
    "bucket": "50-99",
-   "stories": 7
+   "stories": 5
   },
   {
    "bucket": "100-249",
-   "stories": 11
+   "stories": 15
   },
   {
    "bucket": "250-499",
-   "stories": 9
+   "stories": 11
   },
   {
    "bucket": "500+",
-   "stories": 5
+   "stories": 7
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 26,
-   "total_score": 4050
+   "stories": 25,
+   "total_score": 4430
   },
   {
    "domain": "twitter.com",
-   "stories": 5,
-   "total_score": 221
+   "stories": 4,
+   "total_score": 604
+  },
+  {
+   "domain": "nytimes.com",
+   "stories": 4,
+   "total_score": 205
   },
   {
    "domain": "maurycyz.com",
@@ -695,14 +712,9 @@
    "total_score": 477
   },
   {
-   "domain": "nytimes.com",
+   "domain": "youtube.com",
    "stories": 3,
-   "total_score": 180
-  },
-  {
-   "domain": "apnews.com",
-   "stories": 2,
-   "total_score": 3321
+   "total_score": 133
   },
   {
    "domain": "nvidianews.nvidia.com",
@@ -710,27 +722,33 @@
    "total_score": 970
   },
   {
+   "domain": "wired.com",
+   "stories": 2,
+   "total_score": 797
+  },
+  {
    "domain": "blog.google",
    "stories": 2,
-   "total_score": 556
+   "total_score": 603
+  },
+  {
+   "domain": "status.claude.com",
+   "stories": 2,
+   "total_score": 582
   },
   {
    "domain": "theverge.com",
    "stories": 2,
    "total_score": 528
-  },
-  {
-   "domain": "reuters.com",
-   "stories": 2,
-   "total_score": 220
-  },
-  {
-   "domain": "machinelearning.apple.com",
-   "stories": 2,
-   "total_score": 121
   }
  ],
  "top_authors": [
+  {
+   "author": "dvaplima",
+   "stories": 4,
+   "total_score": 896,
+   "avg_score": 224.0
+  },
   {
    "author": "speckx",
    "stories": 4,
@@ -738,16 +756,16 @@
    "avg_score": 131.0
   },
   {
-   "author": "dvaplima",
-   "stories": 3,
-   "total_score": 838,
-   "avg_score": 279.0
-  },
-  {
    "author": "jonbaer",
    "stories": 3,
-   "total_score": 435,
-   "avg_score": 145.0
+   "total_score": 586,
+   "avg_score": 195.0
+  },
+  {
+   "author": "bookofjoe",
+   "stories": 3,
+   "total_score": 76,
+   "avg_score": 25.0
   },
   {
    "author": "tosh",
@@ -762,34 +780,28 @@
    "avg_score": 229.0
   },
   {
-   "author": "CharlesW",
+   "author": "Brajeshwar",
    "stories": 2,
-   "total_score": 309,
-   "avg_score": 155.0
-  },
-  {
-   "author": "rbanffy",
-   "stories": 2,
-   "total_score": 274,
-   "avg_score": 137.0
+   "total_score": 352,
+   "avg_score": 176.0
   },
   {
    "author": "dverlaeckt80",
    "stories": 2,
-   "total_score": 262,
-   "avg_score": 131.0
+   "total_score": 290,
+   "avg_score": 145.0
+  },
+  {
+   "author": "rbanffy",
+   "stories": 2,
+   "total_score": 264,
+   "avg_score": 132.0
   },
   {
    "author": "giuliomagnifico",
    "stories": 2,
-   "total_score": 242,
-   "avg_score": 121.0
-  },
-  {
-   "author": "saikatsg",
-   "stories": 2,
-   "total_score": 239,
-   "avg_score": 120.0
+   "total_score": 251,
+   "avg_score": 126.0
   }
  ],
  "daily_trend": [
@@ -820,8 +832,8 @@
   {
    "day": "2026-11-13",
    "stories": 50,
-   "avg_score": 234.2,
-   "rolling_7d_avg": 187.5
+   "avg_score": 320.9,
+   "rolling_7d_avg": 204.9
   }
  ]
 }
