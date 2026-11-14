@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-14T11:26:28.910754+00:00",
-  "duration_s": 0.63,
+  "finished_at": "2026-11-14T17:58:02.074414+00:00",
+  "duration_s": 0.77,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 9934,
+  "raw_bytes": 9385,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,202 +72,262 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-14T11:26:28+00:00",
-  "oldest_story": "2026-11-10T14:16:05+00:00",
-  "newest_story": "2026-11-14T06:56:42+00:00",
-  "total_points": 11176,
-  "unique_authors": 46,
+  "snapshot_ts": "2026-11-14T17:58:01+00:00",
+  "oldest_story": "2026-11-08T19:03:48+00:00",
+  "newest_story": "2026-11-14T17:51:13+00:00",
+  "total_points": 8411,
+  "unique_authors": 49,
   "days_of_history": 6,
-  "stories_in_history": 271,
-  "runs_observed": 14,
-  "parquet_bytes": 15858
+  "stories_in_history": 279,
+  "runs_observed": 15,
+  "parquet_bytes": 16440
  },
  "top_stories": [
   {
-   "rank": 6,
+   "rank": 27,
    "title": "FAA issues national ground stop \u2013\u00a0lifted 4.5 hours later",
    "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
    "domain": "nbcnews.com",
    "author": "zulln",
-   "score": 1554,
-   "comment_count": 1178,
-   "age_hours": 14.3,
-   "points_per_hour": 108.3
+   "score": 1622,
+   "comment_count": 1251,
+   "age_hours": 20.9,
+   "points_per_hour": 77.7
   },
   {
-   "rank": 49,
-   "title": "Rust 1.100",
-   "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-   "domain": "blog.rust-lang.org",
-   "author": "mbStavola",
-   "score": 883,
-   "comment_count": 315,
-   "age_hours": 40.8,
-   "points_per_hour": 21.6
-  },
-  {
-   "rank": 25,
-   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-   "domain": "scottjg.com",
-   "author": "scottjg",
-   "score": 759,
-   "comment_count": 214,
-   "age_hours": 37.4,
-   "points_per_hour": 20.3
-  },
-  {
-   "rank": 4,
+   "rank": 23,
    "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
    "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
    "domain": "techpowerup.com",
    "author": "speckx",
-   "score": 628,
-   "comment_count": 363,
-   "age_hours": 8.6,
-   "points_per_hour": 73.4
+   "score": 951,
+   "comment_count": 575,
+   "age_hours": 15.1,
+   "points_per_hour": 63.0
   },
   {
-   "rank": 42,
-   "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-   "url": "https://status.claude.com/incidents/nn11wk485zfn",
-   "domain": "status.claude.com",
-   "author": "__vivek",
-   "score": 488,
-   "comment_count": 384,
-   "age_hours": 25.1,
-   "points_per_hour": 19.4
+   "rank": 47,
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "domain": "scottjg.com",
+   "author": "scottjg",
+   "score": 775,
+   "comment_count": 215,
+   "age_hours": 43.9,
+   "points_per_hour": 17.6
   },
   {
-   "rank": 34,
-   "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
-   "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
-   "domain": "science.org",
-   "author": "voxleone",
-   "score": 474,
-   "comment_count": 328,
-   "age_hours": 23.3,
-   "points_per_hour": 20.4
+   "rank": 22,
+   "title": "Terminal borders that don't cost a cell",
+   "url": "https://www.joshka.net/cell-borders/",
+   "domain": "joshka.net",
+   "author": "vinhnx",
+   "score": 383,
+   "comment_count": 165,
+   "age_hours": 18.9,
+   "points_per_hour": 20.3
   },
   {
-   "rank": 35,
-   "title": "AI unlocks G\u00f6del's notebooks, said to contain hundreds of proved theorems",
-   "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-   "domain": "theguardian.com",
-   "author": "bookofjoe",
-   "score": 395,
-   "comment_count": 101,
-   "age_hours": 17.9,
-   "points_per_hour": 22.0
+   "rank": 3,
+   "title": "Why get an expensive Pi when I have an old phone?",
+   "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+   "domain": "so.long.thanks.fish",
+   "author": "casi",
+   "score": 381,
+   "comment_count": 230,
+   "age_hours": 99.7,
+   "points_per_hour": 3.8
+  },
+  {
+   "rank": 11,
+   "title": "Ggml v1.0.0",
+   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+   "domain": "github.com",
+   "author": "cobychapple",
+   "score": 379,
+   "comment_count": 64,
+   "age_hours": 15.5,
+   "points_per_hour": 24.5
+  },
+  {
+   "rank": 14,
+   "title": "Monkey Island: all 13 versions side by side",
+   "url": "https://monkeyisland.pages.dev/",
+   "domain": "monkeyisland.pages.dev",
+   "author": "maximilianburke",
+   "score": 362,
+   "comment_count": 122,
+   "age_hours": 13.6,
+   "points_per_hour": 26.7
+  },
+  {
+   "rank": 37,
+   "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+   "url": "https://orcasairband.com/",
+   "domain": "orcasairband.com",
+   "author": "mmaunder",
+   "score": 287,
+   "comment_count": 67,
+   "age_hours": 19.9,
+   "points_per_hour": 14.4
   },
   {
    "rank": 33,
-   "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
-   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-   "domain": "freightwaves.com",
-   "author": "crescit_eundo",
-   "score": 355,
-   "comment_count": 194,
-   "age_hours": 16.8,
-   "points_per_hour": 21.2
+   "title": "FM-1 Workbench",
+   "url": "https://open.m-vave.com/fm1-workbench",
+   "domain": "open.m-vave.com",
+   "author": "simonebrunozzi",
+   "score": 262,
+   "comment_count": 172,
+   "age_hours": 22.7,
+   "points_per_hour": 11.5
   },
   {
-   "rank": 38,
-   "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
-   "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
-   "domain": "reddit.com",
-   "author": "BobaFloutist",
-   "score": 350,
-   "comment_count": 192,
-   "age_hours": 17.1,
-   "points_per_hour": 20.4
-  },
-  {
-   "rank": 10,
-   "title": "Jonathan Blow \u2013 If AI solved coding, why is my software still the same? [video]",
-   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-   "domain": "youtube.com",
-   "author": "helloplanets",
-   "score": 311,
-   "comment_count": 394,
-   "age_hours": 20.3,
-   "points_per_hour": 15.3
+   "rank": 13,
+   "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+   "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+   "domain": "eff.org",
+   "author": "gslin",
+   "score": 247,
+   "comment_count": 95,
+   "age_hours": 5.2,
+   "points_per_hour": 47.5
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50489641,
-   "title": "FAA issues national ground stop \u2013\u00a0lifted 4.5 hours later",
-   "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-   "domain": "nbcnews.com",
-   "rank": 6,
-   "rank_change": -5,
-   "score": 1554,
-   "score_gain": 314,
-   "comment_gain": 430,
-   "hours_between": 10.56,
-   "points_per_hour": 29.7,
-   "gain_since_first_seen": 314,
-   "first_seen": "2026-11-14T00:52:53Z"
+   "story_id": 50493251,
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "domain": "techpowerup.com",
+   "rank": 23,
+   "rank_change": -19,
+   "score": 951,
+   "score_gain": 323,
+   "comment_gain": 212,
+   "hours_between": 6.53,
+   "points_per_hour": 49.5,
+   "gain_since_first_seen": 323,
+   "first_seen": "2026-11-14T11:26:28Z"
+  },
+  {
+   "story_id": 50440709,
+   "title": "Why get an expensive Pi when I have an old phone?",
+   "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+   "domain": "so.long.thanks.fish",
+   "rank": 3,
+   "rank_change": -2,
+   "score": 381,
+   "score_gain": 288,
+   "comment_gain": 177,
+   "hours_between": 6.53,
+   "points_per_hour": 44.1,
+   "gain_since_first_seen": 288,
+   "first_seen": "2026-11-14T11:26:28Z"
+  },
+  {
+   "story_id": 50493904,
+   "title": "Monkey Island: all 13 versions side by side",
+   "url": "https://monkeyisland.pages.dev/",
+   "domain": "monkeyisland.pages.dev",
+   "rank": 14,
+   "rank_change": -11,
+   "score": 362,
+   "score_gain": 204,
+   "comment_gain": 78,
+   "hours_between": 6.53,
+   "points_per_hour": 31.3,
+   "gain_since_first_seen": 204,
+   "first_seen": "2026-11-14T11:26:28Z"
   },
   {
    "story_id": 50491423,
    "title": "Terminal borders that don't cost a cell",
    "url": "https://www.joshka.net/cell-borders/",
    "domain": "joshka.net",
-   "rank": 7,
-   "rank_change": 0,
-   "score": 272,
-   "score_gain": 232,
-   "comment_gain": 100,
-   "hours_between": 10.56,
-   "points_per_hour": 22.0,
-   "gain_since_first_seen": 232,
+   "rank": 22,
+   "rank_change": -15,
+   "score": 383,
+   "score_gain": 111,
+   "comment_gain": 45,
+   "hours_between": 6.53,
+   "points_per_hour": 17.0,
+   "gain_since_first_seen": 343,
    "first_seen": "2026-11-14T00:52:53Z"
   },
   {
-   "story_id": 50484658,
-   "title": "Jonathan Blow \u2013 If AI solved coding, why is my software still the same? [video]",
-   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-   "domain": "youtube.com",
-   "rank": 10,
-   "rank_change": 23,
-   "score": 311,
-   "score_gain": 283,
-   "comment_gain": 388,
-   "hours_between": 19.16,
-   "points_per_hour": 14.8,
-   "gain_since_first_seen": 283,
-   "first_seen": "2026-11-13T16:17:02Z"
+   "story_id": 50493062,
+   "title": "Ggml v1.0.0",
+   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+   "domain": "github.com",
+   "rank": 11,
+   "rank_change": -9,
+   "score": 379,
+   "score_gain": 98,
+   "comment_gain": 18,
+   "hours_between": 6.53,
+   "points_per_hour": 15.0,
+   "gain_since_first_seen": 98,
+   "first_seen": "2026-11-14T11:26:28Z"
+  },
+  {
+   "story_id": 50491980,
+   "title": "Unsloth Qwen3.8-27B Quantizations \u2013 Dynamic v3.1 Update",
+   "url": "https://unsloth.ai/docs/models/qwen3.8",
+   "domain": "unsloth.ai",
+   "rank": 25,
+   "rank_change": -20,
+   "score": 226,
+   "score_gain": 71,
+   "comment_gain": 24,
+   "hours_between": 6.53,
+   "points_per_hour": 10.9,
+   "gain_since_first_seen": 71,
+   "first_seen": "2026-11-14T11:26:28Z"
+  },
+  {
+   "story_id": 50489641,
+   "title": "FAA issues national ground stop \u2013\u00a0lifted 4.5 hours later",
+   "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+   "domain": "nbcnews.com",
+   "rank": 27,
+   "rank_change": -21,
+   "score": 1622,
+   "score_gain": 68,
+   "comment_gain": 73,
+   "hours_between": 6.53,
+   "points_per_hour": 10.4,
+   "gain_since_first_seen": 382,
+   "first_seen": "2026-11-14T00:52:53Z"
+  },
+  {
+   "story_id": 50444761,
+   "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+   "url": "https://github.com/0xdeadf1sh/T1DMAI",
+   "domain": "github.com",
+   "rank": 32,
+   "rank_change": -15,
+   "score": 84,
+   "score_gain": 46,
+   "comment_gain": 32,
+   "hours_between": 6.53,
+   "points_per_hour": 7.0,
+   "gain_since_first_seen": 46,
+   "first_seen": "2026-11-14T11:26:28Z"
   },
   {
    "story_id": 50491545,
    "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
    "url": "https://grounds.top/",
    "domain": "grounds.top",
-   "rank": 8,
-   "rank_change": 21,
-   "score": 153,
-   "score_gain": 147,
-   "comment_gain": 21,
-   "hours_between": 10.56,
-   "points_per_hour": 13.9,
-   "gain_since_first_seen": 147,
-   "first_seen": "2026-11-14T00:52:53Z"
-  },
-  {
-   "story_id": 50491830,
-   "title": "What happened to 3Com?",
-   "url": "https://dfarq.homeip.net/what-happened-to-3com/",
-   "domain": "dfarq.homeip.net",
-   "rank": 9,
-   "rank_change": -5,
-   "score": 152,
-   "score_gain": 136,
-   "comment_gain": 74,
-   "hours_between": 10.56,
-   "points_per_hour": 12.9,
-   "gain_since_first_seen": 136,
+   "rank": 30,
+   "rank_change": -22,
+   "score": 198,
+   "score_gain": 45,
+   "comment_gain": 3,
+   "hours_between": 6.53,
+   "points_per_hour": 6.9,
+   "gain_since_first_seen": 192,
    "first_seen": "2026-11-14T00:52:53Z"
   },
   {
@@ -275,101 +335,29 @@
    "title": "How Not to Build a Music Player",
    "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
    "domain": "alichraghi.github.io",
-   "rank": 16,
-   "rank_change": 0,
-   "score": 121,
-   "score_gain": 108,
-   "comment_gain": 48,
-   "hours_between": 10.56,
-   "points_per_hour": 10.2,
-   "gain_since_first_seen": 108,
-   "first_seen": "2026-11-14T00:52:53Z"
-  },
-  {
-   "story_id": 50490593,
-   "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
-   "url": "https://orcasairband.com/",
-   "domain": "orcasairband.com",
-   "rank": 14,
-   "rank_change": -12,
-   "score": 269,
-   "score_gain": 105,
-   "comment_gain": 20,
-   "hours_between": 10.56,
-   "points_per_hour": 9.9,
-   "gain_since_first_seen": 105,
-   "first_seen": "2026-11-14T00:52:53Z"
-  },
-  {
-   "story_id": 50474959,
-   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-   "domain": "scottjg.com",
-   "rank": 25,
+   "rank": 35,
    "rank_change": -19,
-   "score": 759,
-   "score_gain": 90,
-   "comment_gain": 16,
-   "hours_between": 10.56,
-   "points_per_hour": 8.5,
-   "gain_since_first_seen": 530,
-   "first_seen": "2026-11-13T16:17:02Z"
-  },
-  {
-   "story_id": 50488470,
-   "title": "Found: A protein that drives ageing without unleashing inflammation",
-   "url": "https://www.nature.com/articles/d41586-026-03638-3",
-   "domain": "nature.com",
-   "rank": 11,
-   "rank_change": -6,
-   "score": 206,
-   "score_gain": 89,
-   "comment_gain": 22,
-   "hours_between": 10.56,
-   "points_per_hour": 8.4,
-   "gain_since_first_seen": 89,
-   "first_seen": "2026-11-14T00:52:53Z"
-  },
-  {
-   "story_id": 50487522,
-   "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
-   "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
-   "domain": "reddit.com",
-   "rank": 38,
-   "rank_change": -14,
-   "score": 350,
-   "score_gain": 80,
-   "comment_gain": 57,
-   "hours_between": 10.56,
-   "points_per_hour": 7.6,
-   "gain_since_first_seen": 80,
+   "score": 165,
+   "score_gain": 44,
+   "comment_gain": 29,
+   "hours_between": 6.53,
+   "points_per_hour": 6.7,
+   "gain_since_first_seen": 152,
    "first_seen": "2026-11-14T00:52:53Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50484658,
-   "ts": "2026-11-13T16:17:02Z",
-   "score": 28,
-   "rank": 33
-  },
-  {
-   "story_id": 50484658,
+   "story_id": 50440709,
    "ts": "2026-11-14T11:26:28Z",
-   "score": 311,
-   "rank": 10
-  },
-  {
-   "story_id": 50489641,
-   "ts": "2026-11-14T00:52:53Z",
-   "score": 1240,
+   "score": 93,
    "rank": 1
   },
   {
-   "story_id": 50489641,
-   "ts": "2026-11-14T11:26:28Z",
-   "score": 1554,
-   "rank": 6
+   "story_id": 50440709,
+   "ts": "2026-11-14T17:58:01Z",
+   "score": 381,
+   "rank": 3
   },
   {
    "story_id": 50491423,
@@ -384,36 +372,54 @@
    "rank": 7
   },
   {
-   "story_id": 50491545,
-   "ts": "2026-11-14T00:52:53Z",
-   "score": 6,
-   "rank": 29
+   "story_id": 50491423,
+   "ts": "2026-11-14T17:58:01Z",
+   "score": 383,
+   "rank": 22
   },
   {
-   "story_id": 50491545,
+   "story_id": 50493062,
    "ts": "2026-11-14T11:26:28Z",
-   "score": 153,
-   "rank": 8
+   "score": 281,
+   "rank": 2
   },
   {
-   "story_id": 50491830,
-   "ts": "2026-11-14T00:52:53Z",
-   "score": 16,
+   "story_id": 50493062,
+   "ts": "2026-11-14T17:58:01Z",
+   "score": 379,
+   "rank": 11
+  },
+  {
+   "story_id": 50493251,
+   "ts": "2026-11-14T11:26:28Z",
+   "score": 628,
    "rank": 4
   },
   {
-   "story_id": 50491830,
+   "story_id": 50493251,
+   "ts": "2026-11-14T17:58:01Z",
+   "score": 951,
+   "rank": 23
+  },
+  {
+   "story_id": 50493904,
    "ts": "2026-11-14T11:26:28Z",
-   "score": 152,
-   "rank": 9
+   "score": 158,
+   "rank": 3
+  },
+  {
+   "story_id": 50493904,
+   "ts": "2026-11-14T17:58:01Z",
+   "score": 362,
+   "rank": 14
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 7,
-   "avg_score": 154.4,
-   "median_score": 168.0
+   "stories": 4,
+   "avg_score": 237.3,
+   "median_score": 226.5
   },
   {
    "hour": 1,
@@ -423,9 +429,9 @@
   },
   {
    "hour": 2,
-   "stories": 8,
-   "avg_score": 246.6,
-   "median_score": 126.5
+   "stories": 5,
+   "avg_score": 426.8,
+   "median_score": 379.0
   },
   {
    "hour": 3,
@@ -435,21 +441,21 @@
   },
   {
    "hour": 4,
-   "stories": 7,
-   "avg_score": 146.9,
-   "median_score": 125.0
+   "stories": 5,
+   "avg_score": 240.4,
+   "median_score": 306.0
   },
   {
    "hour": 5,
-   "stories": 7,
-   "avg_score": 136.0,
-   "median_score": 112.0
+   "stories": 8,
+   "avg_score": 127.4,
+   "median_score": 89.5
   },
   {
    "hour": 6,
-   "stories": 5,
-   "avg_score": 192.8,
-   "median_score": 87.0
+   "stories": 4,
+   "avg_score": 231.3,
+   "median_score": 174.0
   },
   {
    "hour": 7,
@@ -466,67 +472,67 @@
   {
    "hour": 9,
    "stories": 3,
-   "avg_score": 129.3,
-   "median_score": 139.0
+   "avg_score": 114.7,
+   "median_score": 106.0
   },
   {
    "hour": 10,
    "stories": 13,
-   "avg_score": 240.9,
+   "avg_score": 234.5,
    "median_score": 208.0
   },
   {
    "hour": 11,
-   "stories": 7,
-   "avg_score": 195.0,
-   "median_score": 58.0
+   "stories": 9,
+   "avg_score": 153.3,
+   "median_score": 25.0
   },
   {
    "hour": 12,
-   "stories": 17,
-   "avg_score": 225.3,
-   "median_score": 90.0
+   "stories": 22,
+   "avg_score": 180.8,
+   "median_score": 71.0
   },
   {
    "hour": 13,
-   "stories": 13,
-   "avg_score": 406.7,
+   "stories": 17,
+   "avg_score": 337.4,
    "median_score": 81.0
   },
   {
    "hour": 14,
-   "stories": 27,
-   "avg_score": 115.7,
-   "median_score": 93.0
+   "stories": 34,
+   "avg_score": 98.6,
+   "median_score": 67.0
   },
   {
    "hour": 15,
-   "stories": 20,
-   "avg_score": 96.9,
-   "median_score": 71.0
+   "stories": 25,
+   "avg_score": 72.0,
+   "median_score": 38.0
   },
   {
    "hour": 16,
-   "stories": 15,
-   "avg_score": 98.7,
+   "stories": 17,
+   "avg_score": 93.2,
    "median_score": 50.0
   },
   {
    "hour": 17,
-   "stories": 21,
-   "avg_score": 186.7,
-   "median_score": 94.0
+   "stories": 19,
+   "avg_score": 156.0,
+   "median_score": 45.0
   },
   {
    "hour": 18,
-   "stories": 23,
-   "avg_score": 339.7,
-   "median_score": 224.0
+   "stories": 18,
+   "avg_score": 368.8,
+   "median_score": 225.0
   },
   {
    "hour": 19,
-   "stories": 22,
-   "avg_score": 160.5,
+   "stories": 23,
+   "avg_score": 160.8,
    "median_score": 114.0
   },
   {
@@ -537,162 +543,167 @@
   },
   {
    "hour": 21,
-   "stories": 12,
-   "avg_score": 246.2,
-   "median_score": 125.5
+   "stories": 11,
+   "avg_score": 256.5,
+   "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 10,
-   "avg_score": 245.9,
-   "median_score": 187.5
+   "stories": 8,
+   "avg_score": 295.6,
+   "median_score": 247.5
   },
   {
    "hour": 23,
    "stories": 10,
-   "avg_score": 161.1,
-   "median_score": 152.5
+   "avg_score": 185.1,
+   "median_score": 171.5
   }
  ],
  "keywords": [
   {
+   "word": "live",
+   "stories": 4,
+   "total_score": 718
+  },
+  {
    "word": "ground",
-   "stories": 5,
-   "total_score": 2345
+   "stories": 3,
+   "total_score": 2107
+  },
+  {
+   "word": "engineering",
+   "stories": 3,
+   "total_score": 871
+  },
+  {
+   "word": "agents",
+   "stories": 3,
+   "total_score": 61
   },
   {
    "word": "faa",
-   "stories": 3,
-   "total_score": 1875
+   "stories": 2,
+   "total_score": 1820
   },
   {
    "word": "stop",
-   "stories": 3,
-   "total_score": 1875
-  },
-  {
-   "word": "live",
-   "stories": 3,
-   "total_score": 531
-  },
-  {
-   "word": "found",
-   "stories": 3,
-   "total_score": 459
-  },
-  {
-   "word": "issues",
    "stories": 2,
-   "total_score": 1722
-  },
-  {
-   "word": "rust",
-   "stories": 2,
-   "total_score": 1025
+   "total_score": 1820
   },
   {
    "word": "nvidia",
    "stories": 2,
-   "total_score": 983
+   "total_score": 1034
   },
   {
    "word": "gpus",
    "stories": 2,
-   "total_score": 647
+   "total_score": 962
   },
   {
-   "word": "claude",
+   "word": "reverse",
    "stories": 2,
-   "total_score": 588
+   "total_score": 797
   },
   {
-   "word": "during",
+   "word": "terminal",
    "stories": 2,
-   "total_score": 508
+   "total_score": 466
   },
   {
-   "word": "stopped",
+   "word": "have",
    "stories": 2,
-   "total_score": 470
+   "total_score": 465
   },
   {
-   "word": "map",
+   "word": "phone",
    "stories": 2,
-   "total_score": 369
+   "total_score": 386
   },
   {
-   "word": "nationwide",
+   "word": "privacy",
    "stories": 2,
-   "total_score": 321
+   "total_score": 346
   },
   {
-   "word": "models",
+   "word": "fines",
    "stories": 2,
-   "total_score": 302
+   "total_score": 256
   },
   {
-   "word": "system",
+   "word": "italy",
    "stories": 2,
-   "total_score": 280
+   "total_score": 256
   },
   {
-   "word": "security",
+   "word": "meta",
    "stories": 2,
-   "total_score": 200
+   "total_score": 256
   },
   {
    "word": "data",
    "stories": 2,
-   "total_score": 188
+   "total_score": 241
   },
   {
-   "word": "server",
+   "word": "build",
    "stories": 2,
-   "total_score": 170
+   "total_score": 166
   },
   {
-   "word": "freebsd",
+   "word": "project",
    "stories": 2,
-   "total_score": 137
+   "total_score": 107
+  },
+  {
+   "word": "pages",
+   "stories": 2,
+   "total_score": 100
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 11
-  },
-  {
-   "bucket": "50-99",
-   "stories": 4
-  },
-  {
-   "bucket": "100-249",
    "stories": 21
   },
   {
-   "bucket": "250-499",
+   "bucket": "50-99",
    "stories": 10
   },
   {
+   "bucket": "100-249",
+   "stories": 10
+  },
+  {
+   "bucket": "250-499",
+   "stories": 6
+  },
+  {
    "bucket": "500+",
-   "stories": 4
+   "stories": 3
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 28,
-   "total_score": 4925
-  },
-  {
-   "domain": "twitter.com",
-   "stories": 5,
-   "total_score": 805
+   "stories": 30,
+   "total_score": 4995
   },
   {
    "domain": "nytimes.com",
+   "stories": 5,
+   "total_score": 212
+  },
+  {
+   "domain": "twitter.com",
    "stories": 4,
-   "total_score": 205
+   "total_score": 604
+  },
+  {
+   "domain": "reuters.com",
+   "stories": 3,
+   "total_score": 557
   },
   {
    "domain": "maurycyz.com",
@@ -702,7 +713,12 @@
   {
    "domain": "youtube.com",
    "stories": 3,
-   "total_score": 416
+   "total_score": 133
+  },
+  {
+   "domain": "tomshardware.com",
+   "stories": 3,
+   "total_score": 28
   },
   {
    "domain": "nvidianews.nvidia.com",
@@ -715,27 +731,17 @@
    "total_score": 797
   },
   {
-   "domain": "status.claude.com",
-   "stories": 2,
-   "total_score": 666
-  },
-  {
    "domain": "blog.google",
    "stories": 2,
    "total_score": 603
-  },
-  {
-   "domain": "theverge.com",
-   "stories": 2,
-   "total_score": 528
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
-   "stories": 6,
-   "total_score": 1198,
-   "avg_score": 200.0
+   "stories": 5,
+   "total_score": 1475,
+   "avg_score": 295.0
   },
   {
    "author": "dvaplima",
@@ -744,52 +750,52 @@
    "avg_score": 224.0
   },
   {
-   "author": "bookofjoe",
-   "stories": 4,
-   "total_score": 635,
-   "avg_score": 159.0
-  },
-  {
    "author": "jonbaer",
    "stories": 3,
-   "total_score": 630,
-   "avg_score": 210.0
+   "total_score": 586,
+   "avg_score": 195.0
   },
   {
    "author": "vinhnx",
    "stories": 3,
-   "total_score": 412,
-   "avg_score": 137.0
+   "total_score": 567,
+   "avg_score": 189.0
+  },
+  {
+   "author": "giuliomagnifico",
+   "stories": 3,
+   "total_score": 408,
+   "avg_score": 136.0
+  },
+  {
+   "author": "rbanffy",
+   "stories": 3,
+   "total_score": 361,
+   "avg_score": 120.0
+  },
+  {
+   "author": "dverlaeckt80",
+   "stories": 3,
+   "total_score": 312,
+   "avg_score": 104.0
   },
   {
    "author": "gumby",
    "stories": 3,
-   "total_score": 255,
-   "avg_score": 85.0
+   "total_score": 293,
+   "avg_score": 98.0
   },
   {
-   "author": "tosh",
-   "stories": 2,
-   "total_score": 646,
-   "avg_score": 323.0
+   "author": "acossta",
+   "stories": 3,
+   "total_score": 203,
+   "avg_score": 68.0
   },
   {
-   "author": "Curiositry",
-   "stories": 2,
-   "total_score": 458,
-   "avg_score": 229.0
-  },
-  {
-   "author": "Brajeshwar",
-   "stories": 2,
-   "total_score": 352,
-   "avg_score": 176.0
-  },
-  {
-   "author": "dverlaeckt80",
-   "stories": 2,
-   "total_score": 290,
-   "avg_score": 145.0
+   "author": "bookofjoe",
+   "stories": 3,
+   "total_score": 76,
+   "avg_score": 25.0
   }
  ],
  "daily_trend": [
@@ -826,8 +832,8 @@
   {
    "day": "2026-11-14",
    "stories": 50,
-   "avg_score": 223.5,
-   "rolling_7d_avg": 208.0
+   "avg_score": 168.2,
+   "rolling_7d_avg": 198.7
   }
  ]
 }
