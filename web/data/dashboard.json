@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-14T23:53:22.147453+00:00",
-  "duration_s": 0.56,
+  "finished_at": "2026-11-15T06:20:44.362875+00:00",
+  "duration_s": 0.64,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 8616,
+  "raw_bytes": 8503,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,142 +72,202 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-14T23:53:21+00:00",
+  "snapshot_ts": "2026-11-15T06:20:43+00:00",
   "oldest_story": "2026-11-08T19:03:48+00:00",
-  "newest_story": "2026-11-14T22:51:44+00:00",
-  "total_points": 7778,
+  "newest_story": "2026-11-15T05:23:07+00:00",
+  "total_points": 8403,
   "unique_authors": 50,
-  "days_of_history": 6,
-  "stories_in_history": 279,
-  "runs_observed": 16,
-  "parquet_bytes": 21191
+  "days_of_history": 7,
+  "stories_in_history": 298,
+  "runs_observed": 17,
+  "parquet_bytes": 18181
  },
  "top_stories": [
   {
-   "rank": 48,
-   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-   "domain": "scottjg.com",
-   "author": "scottjg",
-   "score": 783,
-   "comment_count": 221,
-   "age_hours": 49.8,
-   "points_per_hour": 15.7
+   "rank": 1,
+   "title": "SpaceX catches the Starship to end Flight 15",
+   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "domain": "spacex.com",
+   "author": "ls612",
+   "score": 1012,
+   "comment_count": 674,
+   "age_hours": 9.0,
+   "points_per_hour": 112.8
   },
   {
-   "rank": 1,
+   "rank": 2,
    "title": "Lovable apps expose passport details and more than 200K private messages",
    "url": "https://www.crissyfield.de/research/lovable-en/",
    "domain": "crissyfield.de",
    "author": "armcat",
-   "score": 581,
-   "comment_count": 239,
-   "age_hours": 6.2,
-   "points_per_hour": 94.2
+   "score": 746,
+   "comment_count": 298,
+   "age_hours": 12.6,
+   "points_per_hour": 59.1
   },
   {
-   "rank": 2,
-   "title": "SpaceX catches the Starship to end Flight 15",
-   "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
-   "domain": "x.com",
-   "author": "ls612",
-   "score": 494,
-   "comment_count": 303,
-   "age_hours": 2.5,
-   "points_per_hour": 196.4
-  },
-  {
-   "rank": 10,
+   "rank": 17,
    "title": "Why get an expensive Pi when I have an old phone?",
    "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
    "domain": "so.long.thanks.fish",
    "author": "casi",
-   "score": 483,
-   "comment_count": 273,
-   "age_hours": 105.6,
-   "points_per_hour": 4.6
+   "score": 535,
+   "comment_count": 291,
+   "age_hours": 112.1,
+   "points_per_hour": 4.8
   },
   {
    "rank": 37,
-   "title": "Monkey Island: all 13 versions side by side",
-   "url": "https://monkeyisland.pages.dev/",
-   "domain": "monkeyisland.pages.dev",
-   "author": "maximilianburke",
-   "score": 459,
-   "comment_count": 145,
-   "age_hours": 19.5,
-   "points_per_hour": 23.5
-  },
-  {
-   "rank": 22,
    "title": "Tech companies are trying to shift the concept of privacy again",
    "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
    "domain": "eff.org",
    "author": "gslin",
-   "score": 430,
-   "comment_count": 164,
-   "age_hours": 11.1,
-   "points_per_hour": 38.6
-  },
-  {
-   "rank": 47,
-   "title": "Terminal borders that don't cost a cell",
-   "url": "https://www.joshka.net/cell-borders/",
-   "domain": "joshka.net",
-   "author": "vinhnx",
-   "score": 402,
+   "score": 521,
    "comment_count": 182,
-   "age_hours": 24.8,
-   "points_per_hour": 16.2
+   "age_hours": 17.6,
+   "points_per_hour": 29.6
   },
   {
-   "rank": 38,
-   "title": "Ggml v1.0.0",
-   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-   "domain": "github.com",
-   "author": "cobychapple",
-   "score": 398,
-   "comment_count": 67,
-   "age_hours": 21.4,
-   "points_per_hour": 18.6
-  },
-  {
-   "rank": 6,
+   "rank": 11,
    "title": "KDE: The documentary [video]",
    "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
    "domain": "tube.kockatoo.org",
    "author": "mrkn1",
-   "score": 356,
-   "comment_count": 75,
-   "age_hours": 10.2,
-   "points_per_hour": 35.0
+   "score": 430,
+   "comment_count": 91,
+   "age_hours": 16.6,
+   "points_per_hour": 25.9
   },
   {
-   "rank": 25,
+   "rank": 50,
+   "title": "Ggml v1.0.0",
+   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+   "domain": "github.com",
+   "author": "cobychapple",
+   "score": 402,
+   "comment_count": 67,
+   "age_hours": 27.9,
+   "points_per_hour": 14.4
+  },
+  {
+   "rank": 12,
+   "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+   "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+   "domain": "techspot.com",
+   "author": "madihaa",
+   "score": 397,
+   "comment_count": 195,
+   "age_hours": 7.9,
+   "points_per_hour": 50.2
+  },
+  {
+   "rank": 38,
+   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "domain": "unemploymentlabs.com",
+   "author": "firloop",
+   "score": 395,
+   "comment_count": 166,
+   "age_hours": 56.4,
+   "points_per_hour": 7.0
+  },
+  {
+   "rank": 42,
    "title": "Italy fines Meta $887M over Android users' data access",
    "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
    "domain": "reuters.com",
    "author": "giuliomagnifico",
-   "score": 305,
-   "comment_count": 210,
-   "age_hours": 10.1,
-   "points_per_hour": 30.2
+   "score": 361,
+   "comment_count": 252,
+   "age_hours": 16.5,
+   "points_per_hour": 21.8
+  },
+  {
+   "rank": 10,
+   "title": "A family tree of software job titles",
+   "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+   "domain": "zwischenzugs.com",
+   "author": "umerf",
+   "score": 268,
+   "comment_count": 130,
+   "age_hours": 12.6,
+   "points_per_hour": 21.3
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50500963,
+   "title": "SpaceX catches the Starship to end Flight 15",
+   "url": "https://www.spacex.com/launches/starship-flight-15",
+   "domain": "spacex.com",
+   "rank": 1,
+   "rank_change": 1,
+   "score": 1012,
+   "score_gain": 518,
+   "comment_gain": 371,
+   "hours_between": 6.46,
+   "points_per_hour": 80.2,
+   "gain_since_first_seen": 518,
+   "first_seen": "2026-11-14T23:53:21Z"
+  },
+  {
+   "story_id": 50501631,
+   "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+   "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+   "domain": "techspot.com",
+   "rank": 12,
+   "rank_change": -3,
+   "score": 397,
+   "score_gain": 351,
+   "comment_gain": 171,
+   "hours_between": 6.46,
+   "points_per_hour": 54.4,
+   "gain_since_first_seen": 351,
+   "first_seen": "2026-11-14T23:53:21Z"
+  },
   {
    "story_id": 50499017,
    "title": "Lovable apps expose passport details and more than 200K private messages",
    "url": "https://www.crissyfield.de/research/lovable-en/",
    "domain": "crissyfield.de",
-   "rank": 1,
-   "rank_change": 6,
-   "score": 581,
-   "score_gain": 572,
-   "comment_gain": 239,
-   "hours_between": 5.92,
-   "points_per_hour": 96.6,
-   "gain_since_first_seen": 572,
+   "rank": 2,
+   "rank_change": -1,
+   "score": 746,
+   "score_gain": 165,
+   "comment_gain": 59,
+   "hours_between": 6.46,
+   "points_per_hour": 25.6,
+   "gain_since_first_seen": 737,
+   "first_seen": "2026-11-14T17:58:01Z"
+  },
+  {
+   "story_id": 50501594,
+   "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+   "url": "https://retrocomputing.stackexchange.com/questions/17957",
+   "domain": "retrocomputing.stackexchange.com",
+   "rank": 5,
+   "rank_change": 0,
+   "score": 168,
+   "score_gain": 139,
+   "comment_gain": 66,
+   "hours_between": 6.46,
+   "points_per_hour": 21.5,
+   "gain_since_first_seen": 139,
+   "first_seen": "2026-11-14T23:53:21Z"
+  },
+  {
+   "story_id": 50496051,
+   "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
+   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+   "domain": "projectzero.google",
+   "rank": 23,
+   "rank_change": -3,
+   "score": 220,
+   "score_gain": 91,
+   "comment_gain": 47,
+   "hours_between": 6.46,
+   "points_per_hour": 14.1,
+   "gain_since_first_seen": 210,
    "first_seen": "2026-11-14T17:58:01Z"
   },
   {
@@ -215,44 +275,59 @@
    "title": "Tech companies are trying to shift the concept of privacy again",
    "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
    "domain": "eff.org",
-   "rank": 22,
-   "rank_change": -9,
-   "score": 430,
-   "score_gain": 183,
-   "comment_gain": 69,
-   "hours_between": 5.92,
-   "points_per_hour": 30.9,
-   "gain_since_first_seen": 183,
+   "rank": 37,
+   "rank_change": -15,
+   "score": 521,
+   "score_gain": 91,
+   "comment_gain": 18,
+   "hours_between": 6.46,
+   "points_per_hour": 14.1,
+   "gain_since_first_seen": 274,
    "first_seen": "2026-11-14T17:58:01Z"
+  },
+  {
+   "story_id": 50499038,
+   "title": "A family tree of software job titles",
+   "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+   "domain": "zwischenzugs.com",
+   "rank": 10,
+   "rank_change": -6,
+   "score": 268,
+   "score_gain": 90,
+   "comment_gain": 47,
+   "hours_between": 6.46,
+   "points_per_hour": 13.9,
+   "gain_since_first_seen": 90,
+   "first_seen": "2026-11-14T23:53:21Z"
+  },
+  {
+   "story_id": 50499723,
+   "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+   "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+   "domain": "cbc.ca",
+   "rank": 34,
+   "rank_change": -17,
+   "score": 236,
+   "score_gain": 76,
+   "comment_gain": 53,
+   "hours_between": 6.46,
+   "points_per_hour": 11.8,
+   "gain_since_first_seen": 76,
+   "first_seen": "2026-11-14T23:53:21Z"
   },
   {
    "story_id": 50496976,
    "title": "KDE: The documentary [video]",
    "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
    "domain": "tube.kockatoo.org",
-   "rank": 6,
-   "rank_change": -4,
-   "score": 356,
-   "score_gain": 179,
-   "comment_gain": 47,
-   "hours_between": 5.92,
-   "points_per_hour": 30.2,
-   "gain_since_first_seen": 179,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50497009,
-   "title": "Italy fines Meta $887M over Android users' data access",
-   "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-   "domain": "reuters.com",
-   "rank": 25,
-   "rank_change": -9,
-   "score": 305,
-   "score_gain": 148,
-   "comment_gain": 131,
-   "hours_between": 5.92,
-   "points_per_hour": 25.0,
-   "gain_since_first_seen": 148,
+   "rank": 11,
+   "rank_change": -5,
+   "score": 430,
+   "score_gain": 74,
+   "comment_gain": 16,
+   "hours_between": 6.46,
+   "points_per_hour": 11.5,
+   "gain_since_first_seen": 253,
    "first_seen": "2026-11-14T17:58:01Z"
   },
   {
@@ -260,140 +335,35 @@
    "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
    "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
    "domain": "github.com",
-   "rank": 13,
-   "rank_change": -4,
-   "score": 142,
-   "score_gain": 122,
-   "comment_gain": 7,
-   "hours_between": 5.92,
-   "points_per_hour": 20.6,
-   "gain_since_first_seen": 122,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50496051,
-   "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-   "domain": "projectzero.google",
-   "rank": 20,
-   "rank_change": 25,
-   "score": 129,
-   "score_gain": 119,
-   "comment_gain": 28,
-   "hours_between": 5.92,
-   "points_per_hour": 20.1,
-   "gain_since_first_seen": 119,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50440709,
-   "title": "Why get an expensive Pi when I have an old phone?",
-   "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
-   "domain": "so.long.thanks.fish",
-   "rank": 10,
-   "rank_change": -7,
-   "score": 483,
-   "score_gain": 102,
-   "comment_gain": 43,
-   "hours_between": 5.92,
-   "points_per_hour": 17.2,
-   "gain_since_first_seen": 390,
-   "first_seen": "2026-11-14T11:26:28Z"
-  },
-  {
-   "story_id": 50493904,
-   "title": "Monkey Island: all 13 versions side by side",
-   "url": "https://monkeyisland.pages.dev/",
-   "domain": "monkeyisland.pages.dev",
-   "rank": 37,
-   "rank_change": -23,
-   "score": 459,
-   "score_gain": 97,
-   "comment_gain": 23,
-   "hours_between": 5.92,
-   "points_per_hour": 16.4,
-   "gain_since_first_seen": 301,
-   "first_seen": "2026-11-14T11:26:28Z"
-  },
-  {
-   "story_id": 50497892,
-   "title": "PyPI's redesigned project pages with clearer security signals are now live",
-   "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-   "domain": "blog.pypi.org",
-   "rank": 7,
-   "rank_change": -6,
-   "score": 190,
-   "score_gain": 93,
-   "comment_gain": 54,
-   "hours_between": 5.92,
-   "points_per_hour": 15.7,
-   "gain_since_first_seen": 93,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50496811,
-   "title": "Advancing science and engineering with Antigravity's /teamwork",
-   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-   "domain": "research.google",
-   "rank": 12,
-   "rank_change": -8,
-   "score": 152,
-   "score_gain": 78,
-   "comment_gain": 16,
-   "hours_between": 5.92,
-   "points_per_hour": 13.2,
-   "gain_since_first_seen": 78,
+   "rank": 18,
+   "rank_change": -5,
+   "score": 213,
+   "score_gain": 71,
+   "comment_gain": 6,
+   "hours_between": 6.46,
+   "points_per_hour": 11.0,
+   "gain_since_first_seen": 193,
    "first_seen": "2026-11-14T17:58:01Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50496602,
+   "story_id": 50496051,
    "ts": "2026-11-14T17:58:01Z",
-   "score": 247,
-   "rank": 13
+   "score": 10,
+   "rank": 45
   },
   {
-   "story_id": 50496602,
+   "story_id": 50496051,
    "ts": "2026-11-14T23:53:21Z",
-   "score": 430,
-   "rank": 22
+   "score": 129,
+   "rank": 20
   },
   {
-   "story_id": 50496976,
-   "ts": "2026-11-14T17:58:01Z",
-   "score": 177,
-   "rank": 2
-  },
-  {
-   "story_id": 50496976,
-   "ts": "2026-11-14T23:53:21Z",
-   "score": 356,
-   "rank": 6
-  },
-  {
-   "story_id": 50497009,
-   "ts": "2026-11-14T17:58:01Z",
-   "score": 157,
-   "rank": 16
-  },
-  {
-   "story_id": 50497009,
-   "ts": "2026-11-14T23:53:21Z",
-   "score": 305,
-   "rank": 25
-  },
-  {
-   "story_id": 50497589,
-   "ts": "2026-11-14T17:58:01Z",
-   "score": 20,
-   "rank": 9
-  },
-  {
-   "story_id": 50497589,
-   "ts": "2026-11-14T23:53:21Z",
-   "score": 142,
-   "rank": 13
+   "story_id": 50496051,
+   "ts": "2026-11-15T06:20:43Z",
+   "score": 220,
+   "rank": 23
   },
   {
    "story_id": 50499017,
@@ -406,44 +376,86 @@
    "ts": "2026-11-14T23:53:21Z",
    "score": 581,
    "rank": 1
+  },
+  {
+   "story_id": 50499017,
+   "ts": "2026-11-15T06:20:43Z",
+   "score": 746,
+   "rank": 2
+  },
+  {
+   "story_id": 50500963,
+   "ts": "2026-11-14T23:53:21Z",
+   "score": 494,
+   "rank": 2
+  },
+  {
+   "story_id": 50500963,
+   "ts": "2026-11-15T06:20:43Z",
+   "score": 1012,
+   "rank": 1
+  },
+  {
+   "story_id": 50501594,
+   "ts": "2026-11-14T23:53:21Z",
+   "score": 29,
+   "rank": 5
+  },
+  {
+   "story_id": 50501594,
+   "ts": "2026-11-15T06:20:43Z",
+   "score": 168,
+   "rank": 5
+  },
+  {
+   "story_id": 50501631,
+   "ts": "2026-11-14T23:53:21Z",
+   "score": 46,
+   "rank": 9
+  },
+  {
+   "story_id": 50501631,
+   "ts": "2026-11-15T06:20:43Z",
+   "score": 397,
+   "rank": 12
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 3,
-   "avg_score": 241.0,
-   "median_score": 227.0
+   "stories": 4,
+   "avg_score": 186.5,
+   "median_score": 220.0
   },
   {
    "hour": 1,
-   "stories": 4,
-   "avg_score": 162.8,
-   "median_score": 180.0
+   "stories": 7,
+   "avg_score": 106.1,
+   "median_score": 58.0
   },
   {
    "hour": 2,
-   "stories": 4,
-   "avg_score": 300.5,
-   "median_score": 222.0
+   "stories": 6,
+   "avg_score": 231.7,
+   "median_score": 105.5
   },
   {
    "hour": 3,
-   "stories": 7,
-   "avg_score": 182.4,
-   "median_score": 122.0
+   "stories": 9,
+   "avg_score": 148.8,
+   "median_score": 60.0
   },
   {
    "hour": 4,
-   "stories": 5,
-   "avg_score": 259.8,
-   "median_score": 306.0
+   "stories": 8,
+   "avg_score": 169.1,
+   "median_score": 86.5
   },
   {
    "hour": 5,
-   "stories": 8,
-   "avg_score": 131.4,
-   "median_score": 105.5
+   "stories": 10,
+   "avg_score": 111.4,
+   "median_score": 72.5
   },
   {
    "hour": 6,
@@ -477,57 +489,57 @@
   },
   {
    "hour": 11,
-   "stories": 8,
-   "avg_score": 186.8,
-   "median_score": 93.5
+   "stories": 9,
+   "avg_score": 178.6,
+   "median_score": 58.0
   },
   {
    "hour": 12,
    "stories": 20,
-   "avg_score": 207.6,
+   "avg_score": 212.1,
    "median_score": 81.5
   },
   {
    "hour": 13,
-   "stories": 18,
-   "avg_score": 346.7,
+   "stories": 19,
+   "avg_score": 340.4,
    "median_score": 111.0
   },
   {
    "hour": 14,
    "stories": 34,
-   "avg_score": 110.7,
-   "median_score": 78.0
+   "avg_score": 116.1,
+   "median_score": 88.0
   },
   {
    "hour": 15,
    "stories": 25,
-   "avg_score": 86.7,
+   "avg_score": 92.1,
    "median_score": 70.0
   },
   {
    "hour": 16,
    "stories": 17,
-   "avg_score": 92.7,
-   "median_score": 50.0
+   "avg_score": 94.6,
+   "median_score": 51.0
   },
   {
    "hour": 17,
-   "stories": 21,
-   "avg_score": 187.2,
-   "median_score": 94.0
+   "stories": 23,
+   "avg_score": 184.3,
+   "median_score": 54.0
   },
   {
    "hour": 18,
    "stories": 20,
-   "avg_score": 343.6,
-   "median_score": 192.0
+   "avg_score": 350.2,
+   "median_score": 225.0
   },
   {
    "hour": 19,
    "stories": 22,
-   "avg_score": 140.6,
-   "median_score": 72.5
+   "avg_score": 142.7,
+   "median_score": 80.5
   },
   {
    "hour": 20,
@@ -537,152 +549,157 @@
   },
   {
    "hour": 21,
-   "stories": 11,
-   "avg_score": 153.9,
-   "median_score": 79.0
+   "stories": 12,
+   "avg_score": 217.2,
+   "median_score": 125.5
   },
   {
    "hour": 22,
    "stories": 10,
-   "avg_score": 219.9,
-   "median_score": 106.5
+   "avg_score": 268.9,
+   "median_score": 188.0
   },
   {
    "hour": 23,
-   "stories": 7,
-   "avg_score": 187.9,
-   "median_score": 153.0
+   "stories": 8,
+   "avg_score": 167.3,
+   "median_score": 129.5
   }
  ],
  "keywords": [
   {
-   "word": "data",
-   "stories": 4,
-   "total_score": 487
-  },
-  {
-   "word": "engineering",
-   "stories": 3,
-   "total_score": 1019
-  },
-  {
-   "word": "own",
-   "stories": 3,
-   "total_score": 159
-  },
-  {
    "word": "write",
    "stories": 3,
-   "total_score": 132
-  },
-  {
-   "word": "reverse",
-   "stories": 2,
-   "total_score": 867
-  },
-  {
-   "word": "have",
-   "stories": 2,
-   "total_score": 583
+   "total_score": 319
   },
   {
    "word": "phone",
    "stories": 2,
-   "total_score": 548
+   "total_score": 641
   },
   {
    "word": "old",
    "stories": 2,
-   "total_score": 544
-  },
-  {
-   "word": "flight",
-   "stories": 2,
-   "total_score": 529
-  },
-  {
-   "word": "terminal",
-   "stories": 2,
-   "total_score": 527
+   "total_score": 625
   },
   {
    "word": "job",
    "stories": 2,
-   "total_score": 338
-  },
-  {
-   "word": "project",
-   "stories": 2,
-   "total_score": 319
+   "total_score": 504
   },
   {
    "word": "after",
    "stories": 2,
-   "total_score": 289
+   "total_score": 456
   },
   {
-   "word": "tax",
+   "word": "project",
    "stories": 2,
-   "total_score": 269
+   "total_score": 446
   },
   {
    "word": "family",
    "stories": 2,
-   "total_score": 195
+   "total_score": 326
   },
   {
    "word": "tree",
    "stories": 2,
-   "total_score": 195
+   "total_score": 326
   },
   {
-   "word": "nvidia",
+   "word": "engineering",
    "stories": 2,
-   "total_score": 172
+   "total_score": 295
   },
   {
-   "word": "agents",
+   "word": "lines",
    "stories": 2,
-   "total_score": 86
+   "total_score": 249
   },
   {
-   "word": "side",
-   "stories": 1,
-   "total_score": 918
+   "word": "court",
+   "stories": 2,
+   "total_score": 202
   },
   {
-   "word": "air",
-   "stories": 1,
-   "total_score": 783
+   "word": "computer",
+   "stories": 2,
+   "total_score": 191
+  },
+  {
+   "word": "require",
+   "stories": 2,
+   "total_score": 189
+  },
+  {
+   "word": "rust",
+   "stories": 2,
+   "total_score": 182
+  },
+  {
+   "word": "browser",
+   "stories": 2,
+   "total_score": 107
+  },
+  {
+   "word": "own",
+   "stories": 2,
+   "total_score": 95
+  },
+  {
+   "word": "create",
+   "stories": 2,
+   "total_score": 87
+  },
+  {
+   "word": "library",
+   "stories": 2,
+   "total_score": 75
+  },
+  {
+   "word": "type",
+   "stories": 2,
+   "total_score": 69
+  },
+  {
+   "word": "case",
+   "stories": 2,
+   "total_score": 51
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 15
+   "stories": 19
   },
   {
    "bucket": "50-99",
-   "stories": 12
+   "stories": 7
   },
   {
    "bucket": "100-249",
-   "stories": 13
+   "stories": 14
   },
   {
    "bucket": "250-499",
-   "stories": 8
+   "stories": 6
   },
   {
    "bucket": "500+",
-   "stories": 2
+   "stories": 4
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 31,
-   "total_score": 5360
+   "stories": 33,
+   "total_score": 5489
+  },
+  {
+   "domain": "nytimes.com",
+   "stories": 5,
+   "total_score": 226
   },
   {
    "domain": "twitter.com",
@@ -690,14 +707,9 @@
    "total_score": 604
   },
   {
-   "domain": "nytimes.com",
-   "stories": 4,
-   "total_score": 205
-  },
-  {
    "domain": "reuters.com",
    "stories": 3,
-   "total_score": 705
+   "total_score": 761
   },
   {
    "domain": "maurycyz.com",
@@ -710,6 +722,11 @@
    "total_score": 133
   },
   {
+   "domain": "spacex.com",
+   "stories": 2,
+   "total_score": 1126
+  },
+  {
    "domain": "nvidianews.nvidia.com",
    "stories": 2,
    "total_score": 970
@@ -720,22 +737,17 @@
    "total_score": 797
   },
   {
-   "domain": "blog.google",
+   "domain": "eff.org",
    "stories": 2,
-   "total_score": 603
-  },
-  {
-   "domain": "status.claude.com",
-   "stories": 2,
-   "total_score": 582
+   "total_score": 686
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
    "stories": 5,
-   "total_score": 528,
-   "avg_score": 106.0
+   "total_score": 553,
+   "avg_score": 111.0
   },
   {
    "author": "dvaplima",
@@ -744,52 +756,52 @@
    "avg_score": 224.0
   },
   {
+   "author": "giuliomagnifico",
+   "stories": 3,
+   "total_score": 612,
+   "avg_score": 204.0
+  },
+  {
    "author": "jonbaer",
    "stories": 3,
    "total_score": 586,
    "avg_score": 195.0
   },
   {
-   "author": "giuliomagnifico",
-   "stories": 3,
-   "total_score": 556,
-   "avg_score": 185.0
-  },
-  {
    "author": "rbanffy",
    "stories": 3,
-   "total_score": 454,
-   "avg_score": 151.0
+   "total_score": 490,
+   "avg_score": 163.0
   },
   {
    "author": "dverlaeckt80",
    "stories": 3,
-   "total_score": 374,
-   "avg_score": 125.0
+   "total_score": 396,
+   "avg_score": 132.0
   },
   {
    "author": "acossta",
    "stories": 3,
-   "total_score": 281,
-   "avg_score": 94.0
+   "total_score": 318,
+   "avg_score": 106.0
+  },
+  {
+   "author": "CharlesW",
+   "stories": 3,
+   "total_score": 269,
+   "avg_score": 90.0
   },
   {
    "author": "PaulHoule",
    "stories": 3,
-   "total_score": 216,
-   "avg_score": 72.0
+   "total_score": 245,
+   "avg_score": 82.0
   },
   {
    "author": "bookofjoe",
    "stories": 3,
    "total_score": 76,
    "avg_score": 25.0
-  },
-  {
-   "author": "tosh",
-   "stories": 2,
-   "total_score": 646,
-   "avg_score": 323.0
   }
  ],
  "daily_trend": [
@@ -828,6 +840,12 @@
    "stories": 50,
    "avg_score": 155.6,
    "rolling_7d_avg": 196.6
+  },
+  {
+   "day": "2026-11-15",
+   "stories": 50,
+   "avg_score": 168.1,
+   "rolling_7d_avg": 192.6
   }
  ]
 }
