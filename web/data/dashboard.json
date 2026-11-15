@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-15T15:38:12.673721+00:00",
-  "duration_s": 0.58,
+  "finished_at": "2026-11-15T21:00:46.879316+00:00",
+  "duration_s": 0.35,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 8382,
+  "raw_bytes": 8522,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,142 +72,187 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-15T15:38:12+00:00",
-  "oldest_story": "2026-11-10T14:16:05+00:00",
-  "newest_story": "2026-11-15T15:18:06+00:00",
-  "total_points": 8658,
-  "unique_authors": 47,
+  "snapshot_ts": "2026-11-15T21:00:46+00:00",
+  "oldest_story": "2026-11-11T11:11:22+00:00",
+  "newest_story": "2026-11-15T20:10:28+00:00",
+  "total_points": 9266,
+  "unique_authors": 48,
   "days_of_history": 7,
-  "stories_in_history": 315,
-  "runs_observed": 18,
-  "parquet_bytes": 16005
+  "stories_in_history": 323,
+  "runs_observed": 19,
+  "parquet_bytes": 15883
  },
  "top_stories": [
   {
-   "rank": 4,
+   "rank": 23,
    "title": "SpaceX catches the Starship to end Flight 15",
    "url": "https://www.spacex.com/launches/starship-flight-15",
    "domain": "spacex.com",
    "author": "ls612",
-   "score": 1434,
-   "comment_count": 964,
-   "age_hours": 18.3,
-   "points_per_hour": 78.5
+   "score": 1593,
+   "comment_count": 1149,
+   "age_hours": 23.6,
+   "points_per_hour": 67.4
   },
   {
-   "rank": 9,
+   "rank": 33,
    "title": "Lovable apps expose passport details and more than 200K private messages",
    "url": "https://www.crissyfield.de/research/lovable-en/",
    "domain": "crissyfield.de",
    "author": "armcat",
-   "score": 926,
-   "comment_count": 355,
-   "age_hours": 21.9,
-   "points_per_hour": 42.2
+   "score": 967,
+   "comment_count": 368,
+   "age_hours": 27.3,
+   "points_per_hour": 35.4
   },
   {
-   "rank": 27,
-   "title": "Why get an expensive Pi when I have an old phone?",
-   "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
-   "domain": "so.long.thanks.fish",
-   "author": "casi",
-   "score": 594,
-   "comment_count": 315,
-   "age_hours": 121.4,
-   "points_per_hour": 4.9
+   "rank": 12,
+   "title": "All AI-generated code should be Open Source",
+   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "domain": "jakub.jankiewicz.org",
+   "author": "jcubic",
+   "score": 925,
+   "comment_count": 506,
+   "age_hours": 6.2,
+   "points_per_hour": 148.5
   },
   {
-   "rank": 23,
-   "title": "KDE: The documentary [video]",
-   "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-   "domain": "tube.kockatoo.org",
-   "author": "mrkn1",
-   "score": 535,
-   "comment_count": 122,
-   "age_hours": 25.9,
-   "points_per_hour": 20.6
-  },
-  {
-   "rank": 47,
-   "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-   "url": "https://unemploymentlabs.com/checkpoint-forensics",
-   "domain": "unemploymentlabs.com",
-   "author": "firloop",
-   "score": 408,
-   "comment_count": 178,
-   "age_hours": 65.7,
-   "points_per_hour": 6.2
-  },
-  {
-   "rank": 25,
-   "title": "A family tree of software job titles",
-   "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-   "domain": "zwischenzugs.com",
-   "author": "umerf",
-   "score": 377,
-   "comment_count": 188,
-   "age_hours": 21.9,
-   "points_per_hour": 17.2
-  },
-  {
-   "rank": 10,
+   "rank": 18,
    "title": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
    "domain": "litnews.ai",
    "author": "ybathaee",
-   "score": 341,
-   "comment_count": 141,
-   "age_hours": 14.3,
-   "points_per_hour": 23.8
+   "score": 456,
+   "comment_count": 207,
+   "age_hours": 19.7,
+   "points_per_hour": 23.1
   },
   {
-   "rank": 33,
-   "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-   "domain": "projectzero.google",
-   "author": "hacb",
-   "score": 296,
-   "comment_count": 166,
-   "age_hours": 28.4,
-   "points_per_hour": 10.4
+   "rank": 31,
+   "title": "A family tree of software job titles",
+   "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+   "domain": "zwischenzugs.com",
+   "author": "umerf",
+   "score": 424,
+   "comment_count": 201,
+   "age_hours": 27.3,
+   "points_per_hour": 15.6
   },
   {
-   "rank": 34,
+   "rank": 24,
+   "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+   "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+   "domain": "nytimes.com",
+   "author": "JumpCrisscross",
+   "score": 386,
+   "comment_count": 175,
+   "age_hours": 9.3,
+   "points_per_hour": 41.4
+  },
+  {
+   "rank": 3,
+   "title": "The MacBook Pro's OLED PWM problem",
+   "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+   "domain": "macanorak.com",
+   "author": "MacAnorak",
+   "score": 338,
+   "comment_count": 176,
+   "age_hours": 7.8,
+   "points_per_hour": 43.6
+  },
+  {
+   "rank": 50,
    "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
    "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
    "domain": "eff.org",
    "author": "nobody9999",
-   "score": 294,
-   "comment_count": 87,
-   "age_hours": 13.6,
-   "points_per_hour": 21.6
+   "score": 324,
+   "comment_count": 108,
+   "age_hours": 19.0,
+   "points_per_hour": 17.1
   },
   {
-   "rank": 18,
+   "rank": 28,
    "title": "How did Woz write the Apple 1 BASIC before building the computer?",
    "url": "https://retrocomputing.stackexchange.com/questions/17957",
    "domain": "retrocomputing.stackexchange.com",
    "author": "Skyfall106",
-   "score": 264,
-   "comment_count": 139,
-   "age_hours": 17.3,
-   "points_per_hour": 15.3
+   "score": 302,
+   "comment_count": 158,
+   "age_hours": 22.6,
+   "points_per_hour": 13.3
+  },
+  {
+   "rank": 40,
+   "title": "PyPI's redesigned project pages with clearer security signals are now live",
+   "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+   "domain": "blog.pypi.org",
+   "author": "rbanffy",
+   "score": 269,
+   "comment_count": 128,
+   "age_hours": 29.3,
+   "points_per_hour": 9.2
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50507303,
+   "title": "All AI-generated code should be Open Source",
+   "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+   "domain": "jakub.jankiewicz.org",
+   "rank": 12,
+   "rank_change": -11,
+   "score": 925,
+   "score_gain": 853,
+   "comment_gain": 464,
+   "hours_between": 5.38,
+   "points_per_hour": 158.7,
+   "gain_since_first_seen": 853,
+   "first_seen": "2026-11-15T15:38:12Z"
+  },
+  {
+   "story_id": 50506180,
+   "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
+   "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+   "domain": "nytimes.com",
+   "rank": 24,
+   "rank_change": -9,
+   "score": 386,
+   "score_gain": 248,
+   "comment_gain": 130,
+   "hours_between": 5.38,
+   "points_per_hour": 46.1,
+   "gain_since_first_seen": 248,
+   "first_seen": "2026-11-15T15:38:12Z"
+  },
+  {
+   "story_id": 50506719,
+   "title": "The MacBook Pro's OLED PWM problem",
+   "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
+   "domain": "macanorak.com",
+   "rank": 3,
+   "rank_change": -1,
+   "score": 338,
+   "score_gain": 207,
+   "comment_gain": 105,
+   "hours_between": 5.38,
+   "points_per_hour": 38.5,
+   "gain_since_first_seen": 207,
+   "first_seen": "2026-11-15T15:38:12Z"
+  },
   {
    "story_id": 50500963,
    "title": "SpaceX catches the Starship to end Flight 15",
    "url": "https://www.spacex.com/launches/starship-flight-15",
    "domain": "spacex.com",
-   "rank": 4,
-   "rank_change": -3,
-   "score": 1434,
-   "score_gain": 422,
-   "comment_gain": 290,
-   "hours_between": 9.29,
-   "points_per_hour": 45.4,
-   "gain_since_first_seen": 940,
+   "rank": 23,
+   "rank_change": -19,
+   "score": 1593,
+   "score_gain": 159,
+   "comment_gain": 185,
+   "hours_between": 5.38,
+   "points_per_hour": 29.6,
+   "gain_since_first_seen": 1099,
    "first_seen": "2026-11-14T23:53:21Z"
   },
   {
@@ -215,162 +260,93 @@
    "title": "Court denies motion to dismiss DRAM price fixing case",
    "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
    "domain": "litnews.ai",
+   "rank": 18,
+   "rank_change": -8,
+   "score": 456,
+   "score_gain": 115,
+   "comment_gain": 66,
+   "hours_between": 5.38,
+   "points_per_hour": 21.4,
+   "gain_since_first_seen": 419,
+   "first_seen": "2026-11-15T06:20:43Z"
+  },
+  {
+   "story_id": 50506894,
+   "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+   "url": "https://prog21.dadgum.com/116.html",
+   "domain": "prog21.dadgum.com",
+   "rank": 7,
+   "rank_change": -4,
+   "score": 157,
+   "score_gain": 106,
+   "comment_gain": 60,
+   "hours_between": 5.38,
+   "points_per_hour": 19.7,
+   "gain_since_first_seen": 106,
+   "first_seen": "2026-11-15T15:38:12Z"
+  },
+  {
+   "story_id": 50506376,
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "domain": "magazine.sebastianraschka.com",
    "rank": 10,
-   "rank_change": -3,
-   "score": 341,
-   "score_gain": 304,
-   "comment_gain": 138,
-   "hours_between": 9.29,
-   "points_per_hour": 32.7,
-   "gain_since_first_seen": 304,
-   "first_seen": "2026-11-15T06:20:43Z"
+   "rank_change": -5,
+   "score": 168,
+   "score_gain": 94,
+   "comment_gain": 13,
+   "hours_between": 5.38,
+   "points_per_hour": 17.5,
+   "gain_since_first_seen": 94,
+   "first_seen": "2026-11-15T15:38:12Z"
   },
   {
-   "story_id": 50499017,
-   "title": "Lovable apps expose passport details and more than 200K private messages",
-   "url": "https://www.crissyfield.de/research/lovable-en/",
-   "domain": "crissyfield.de",
-   "rank": 9,
-   "rank_change": -7,
-   "score": 926,
-   "score_gain": 180,
-   "comment_gain": 57,
-   "hours_between": 9.29,
-   "points_per_hour": 19.4,
-   "gain_since_first_seen": 917,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50503465,
-   "title": "My favourite modern NES games",
-   "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-   "domain": "jordi.inversethought.com",
+   "story_id": 50505271,
+   "title": "Why did some Apollo missions carry a grenade launcher?",
+   "url": "https://space.stackexchange.com/questions/37775",
+   "domain": "space.stackexchange.com",
    "rank": 20,
-   "rank_change": -7,
-   "score": 158,
-   "score_gain": 139,
-   "comment_gain": 20,
-   "hours_between": 9.29,
-   "points_per_hour": 15.0,
-   "gain_since_first_seen": 139,
-   "first_seen": "2026-11-15T06:20:43Z"
+   "rank_change": -12,
+   "score": 196,
+   "score_gain": 67,
+   "comment_gain": 60,
+   "hours_between": 5.38,
+   "points_per_hour": 12.5,
+   "gain_since_first_seen": 67,
+   "first_seen": "2026-11-15T15:38:12Z"
   },
   {
-   "story_id": 50503255,
-   "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
-   "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
-   "domain": "eff.org",
-   "rank": 34,
-   "rank_change": -26,
-   "score": 294,
-   "score_gain": 129,
-   "comment_gain": 46,
-   "hours_between": 9.29,
-   "points_per_hour": 13.9,
-   "gain_since_first_seen": 129,
-   "first_seen": "2026-11-15T06:20:43Z"
+   "story_id": 50481321,
+   "title": "What thousands of conversations look like inside a language model",
+   "url": "https://operator0x.com/field-notes/qwen-conversation-state-space/",
+   "domain": "operator0x.com",
+   "rank": 22,
+   "rank_change": -11,
+   "score": 96,
+   "score_gain": 47,
+   "comment_gain": 14,
+   "hours_between": 5.38,
+   "points_per_hour": 8.7,
+   "gain_since_first_seen": 47,
+   "first_seen": "2026-11-15T15:38:12Z"
   },
   {
    "story_id": 50499038,
    "title": "A family tree of software job titles",
    "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
    "domain": "zwischenzugs.com",
-   "rank": 25,
-   "rank_change": -15,
-   "score": 377,
-   "score_gain": 109,
-   "comment_gain": 58,
-   "hours_between": 9.29,
-   "points_per_hour": 11.7,
-   "gain_since_first_seen": 199,
+   "rank": 31,
+   "rank_change": -6,
+   "score": 424,
+   "score_gain": 47,
+   "comment_gain": 13,
+   "hours_between": 5.38,
+   "points_per_hour": 8.7,
+   "gain_since_first_seen": 246,
    "first_seen": "2026-11-14T23:53:21Z"
-  },
-  {
-   "story_id": 50496976,
-   "title": "KDE: The documentary [video]",
-   "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-   "domain": "tube.kockatoo.org",
-   "rank": 23,
-   "rank_change": -12,
-   "score": 535,
-   "score_gain": 105,
-   "comment_gain": 31,
-   "hours_between": 9.29,
-   "points_per_hour": 11.3,
-   "gain_since_first_seen": 358,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50501594,
-   "title": "How did Woz write the Apple 1 BASIC before building the computer?",
-   "url": "https://retrocomputing.stackexchange.com/questions/17957",
-   "domain": "retrocomputing.stackexchange.com",
-   "rank": 18,
-   "rank_change": -13,
-   "score": 264,
-   "score_gain": 96,
-   "comment_gain": 68,
-   "hours_between": 9.29,
-   "points_per_hour": 10.3,
-   "gain_since_first_seen": 235,
-   "first_seen": "2026-11-14T23:53:21Z"
-  },
-  {
-   "story_id": 50496051,
-   "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-   "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-   "domain": "projectzero.google",
-   "rank": 33,
-   "rank_change": -10,
-   "score": 296,
-   "score_gain": 76,
-   "comment_gain": 90,
-   "hours_between": 9.29,
-   "points_per_hour": 8.2,
-   "gain_since_first_seen": 286,
-   "first_seen": "2026-11-14T17:58:01Z"
-  },
-  {
-   "story_id": 50504077,
-   "title": "Kiri \u2013 The Modern Container Runtime",
-   "url": "https://runkiri.com/",
-   "domain": "runkiri.com",
-   "rank": 35,
-   "rank_change": 1,
-   "score": 76,
-   "score_gain": 61,
-   "comment_gain": 25,
-   "hours_between": 9.29,
-   "points_per_hour": 6.6,
-   "gain_since_first_seen": 61,
-   "first_seen": "2026-11-15T06:20:43Z"
   }
  ],
  "score_trajectories": [
-  {
-   "story_id": 50499017,
-   "ts": "2026-11-14T17:58:01Z",
-   "score": 9,
-   "rank": 7
-  },
-  {
-   "story_id": 50499017,
-   "ts": "2026-11-14T23:53:21Z",
-   "score": 581,
-   "rank": 1
-  },
-  {
-   "story_id": 50499017,
-   "ts": "2026-11-15T06:20:43Z",
-   "score": 746,
-   "rank": 2
-  },
-  {
-   "story_id": 50499017,
-   "ts": "2026-11-15T15:38:12Z",
-   "score": 926,
-   "rank": 9
-  },
   {
    "story_id": 50500963,
    "ts": "2026-11-14T23:53:21Z",
@@ -390,6 +366,12 @@
    "rank": 4
   },
   {
+   "story_id": 50500963,
+   "ts": "2026-11-15T21:00:46Z",
+   "score": 1593,
+   "rank": 23
+  },
+  {
    "story_id": 50502988,
    "ts": "2026-11-15T06:20:43Z",
    "score": 37,
@@ -402,48 +384,66 @@
    "rank": 10
   },
   {
-   "story_id": 50503255,
-   "ts": "2026-11-15T06:20:43Z",
-   "score": 165,
-   "rank": 8
+   "story_id": 50502988,
+   "ts": "2026-11-15T21:00:46Z",
+   "score": 456,
+   "rank": 18
   },
   {
-   "story_id": 50503255,
+   "story_id": 50506180,
    "ts": "2026-11-15T15:38:12Z",
-   "score": 294,
-   "rank": 34
+   "score": 138,
+   "rank": 15
   },
   {
-   "story_id": 50503465,
-   "ts": "2026-11-15T06:20:43Z",
-   "score": 19,
-   "rank": 13
+   "story_id": 50506180,
+   "ts": "2026-11-15T21:00:46Z",
+   "score": 386,
+   "rank": 24
   },
   {
-   "story_id": 50503465,
+   "story_id": 50506719,
    "ts": "2026-11-15T15:38:12Z",
-   "score": 158,
-   "rank": 20
+   "score": 131,
+   "rank": 2
+  },
+  {
+   "story_id": 50506719,
+   "ts": "2026-11-15T21:00:46Z",
+   "score": 338,
+   "rank": 3
+  },
+  {
+   "story_id": 50507303,
+   "ts": "2026-11-15T15:38:12Z",
+   "score": 72,
+   "rank": 1
+  },
+  {
+   "story_id": 50507303,
+   "ts": "2026-11-15T21:00:46Z",
+   "score": 925,
+   "rank": 12
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 4,
-   "avg_score": 192.5,
-   "median_score": 220.0
+   "stories": 3,
+   "avg_score": 241.0,
+   "median_score": 227.0
   },
   {
    "hour": 1,
    "stories": 5,
-   "avg_score": 214.6,
+   "avg_score": 221.4,
    "median_score": 245.0
   },
   {
    "hour": 2,
    "stories": 6,
-   "avg_score": 275.7,
-   "median_score": 226.0
+   "avg_score": 286.2,
+   "median_score": 257.5
   },
   {
    "hour": 3,
@@ -453,15 +453,15 @@
   },
   {
    "hour": 4,
-   "stories": 7,
-   "avg_score": 202.4,
-   "median_score": 125.0
+   "stories": 5,
+   "avg_score": 259.8,
+   "median_score": 306.0
   },
   {
    "hour": 5,
-   "stories": 9,
-   "avg_score": 124.7,
-   "median_score": 99.0
+   "stories": 10,
+   "avg_score": 136.7,
+   "median_score": 105.5
   },
   {
    "hour": 6,
@@ -472,7 +472,7 @@
   {
    "hour": 7,
    "stories": 3,
-   "avg_score": 537.3,
+   "avg_score": 545.7,
    "median_score": 133.0
   },
   {
@@ -483,45 +483,45 @@
   },
   {
    "hour": 9,
-   "stories": 5,
-   "avg_score": 97.2,
-   "median_score": 106.0
+   "stories": 4,
+   "avg_score": 135.0,
+   "median_score": 122.5
   },
   {
    "hour": 10,
-   "stories": 16,
-   "avg_score": 197.9,
-   "median_score": 156.0
+   "stories": 15,
+   "avg_score": 211.9,
+   "median_score": 178.0
   },
   {
    "hour": 11,
-   "stories": 11,
-   "avg_score": 174.8,
-   "median_score": 77.0
+   "stories": 12,
+   "avg_score": 173.5,
+   "median_score": 87.5
   },
   {
    "hour": 12,
-   "stories": 23,
-   "avg_score": 186.7,
-   "median_score": 73.0
+   "stories": 24,
+   "avg_score": 188.0,
+   "median_score": 79.0
   },
   {
    "hour": 13,
    "stories": 23,
-   "avg_score": 293.9,
-   "median_score": 87.0
+   "avg_score": 299.0,
+   "median_score": 111.0
   },
   {
    "hour": 14,
    "stories": 37,
-   "avg_score": 109.8,
-   "median_score": 76.0
+   "avg_score": 130.9,
+   "median_score": 80.0
   },
   {
    "hour": 15,
-   "stories": 26,
-   "avg_score": 92.9,
-   "median_score": 56.5
+   "stories": 28,
+   "avg_score": 94.2,
+   "median_score": 71.0
   },
   {
    "hour": 16,
@@ -532,160 +532,160 @@
   {
    "hour": 17,
    "stories": 23,
-   "avg_score": 201.5,
-   "median_score": 93.0
+   "avg_score": 203.3,
+   "median_score": 77.0
   },
   {
    "hour": 18,
-   "stories": 20,
-   "avg_score": 347.6,
-   "median_score": 192.0
+   "stories": 23,
+   "avg_score": 310.9,
+   "median_score": 160.0
   },
   {
    "hour": 19,
-   "stories": 22,
-   "avg_score": 140.6,
-   "median_score": 72.5
+   "stories": 26,
+   "avg_score": 124.3,
+   "median_score": 55.5
   },
   {
    "hour": 20,
-   "stories": 10,
-   "avg_score": 137.5,
-   "median_score": 29.0
+   "stories": 13,
+   "avg_score": 111.5,
+   "median_score": 27.0
   },
   {
    "hour": 21,
-   "stories": 13,
-   "avg_score": 237.5,
-   "median_score": 79.0
+   "stories": 12,
+   "avg_score": 238.6,
+   "median_score": 75.0
   },
   {
    "hour": 22,
    "stories": 11,
-   "avg_score": 222.5,
+   "avg_score": 228.6,
    "median_score": 167.0
   },
   {
    "hour": 23,
-   "stories": 9,
-   "avg_score": 154.0,
-   "median_score": 106.0
+   "stories": 8,
+   "avg_score": 170.4,
+   "median_score": 129.5
   }
  ],
  "keywords": [
   {
-   "word": "family",
+   "word": "code",
    "stories": 3,
-   "total_score": 613
+   "total_score": 1203
   },
   {
-   "word": "computer",
+   "word": "open",
    "stories": 3,
-   "total_score": 400
+   "total_score": 1031
+  },
+  {
+   "word": "source",
+   "stories": 3,
+   "total_score": 1031
   },
   {
    "word": "modern",
    "stories": 3,
-   "total_score": 308
+   "total_score": 396
   },
   {
-   "word": "code",
+   "word": "story",
    "stories": 3,
-   "total_score": 110
+   "total_score": 218
   },
   {
-   "word": "apps",
+   "word": "family",
    "stories": 2,
-   "total_score": 933
-  },
-  {
-   "word": "old",
-   "stories": 2,
-   "total_score": 640
+   "total_score": 810
   },
   {
    "word": "court",
    "stories": 2,
-   "total_score": 635
+   "total_score": 780
   },
   {
-   "word": "project",
+   "word": "computer",
    "stories": 2,
-   "total_score": 557
-  },
-  {
-   "word": "carry",
-   "stories": 2,
-   "total_score": 537
-  },
-  {
-   "word": "tree",
-   "stories": 2,
-   "total_score": 475
+   "total_score": 416
   },
   {
    "word": "lines",
    "stories": 2,
-   "total_score": 344
+   "total_score": 361
+  },
+  {
+   "word": "video",
+   "stories": 2,
+   "total_score": 316
   },
   {
    "word": "nes",
    "stories": 2,
-   "total_score": 198
-  },
-  {
-   "word": "power",
-   "stories": 2,
-   "total_score": 178
-  },
-  {
-   "word": "games",
-   "stories": 2,
-   "total_score": 165
-  },
-  {
-   "word": "inside",
-   "stories": 2,
-   "total_score": 142
-  },
-  {
-   "word": "open",
-   "stories": 2,
-   "total_score": 119
-  },
-  {
-   "word": "source",
-   "stories": 2,
-   "total_score": 119
-  },
-  {
-   "word": "turbo",
-   "stories": 2,
-   "total_score": 93
+   "total_score": 276
   },
   {
    "word": "remote",
    "stories": 2,
-   "total_score": 59
+   "total_score": 128
+  },
+  {
+   "word": "world",
+   "stories": 2,
+   "total_score": 65
+  },
+  {
+   "word": "loss",
+   "stories": 2,
+   "total_score": 55
   },
   {
    "word": "catches",
    "stories": 1,
-   "total_score": 1434
+   "total_score": 1593
+  },
+  {
+   "word": "end",
+   "stories": 1,
+   "total_score": 1593
+  },
+  {
+   "word": "flight",
+   "stories": 1,
+   "total_score": 1593
+  },
+  {
+   "word": "spacex",
+   "stories": 1,
+   "total_score": 1593
+  },
+  {
+   "word": "starship",
+   "stories": 1,
+   "total_score": 1593
+  },
+  {
+   "word": "200k",
+   "stories": 1,
+   "total_score": 967
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 18
+   "stories": 16
   },
   {
    "bucket": "50-99",
-   "stories": 13
+   "stories": 14
   },
   {
    "bucket": "100-249",
-   "stories": 7
+   "stories": 9
   },
   {
    "bucket": "250-499",
@@ -693,19 +693,24 @@
   },
   {
    "bucket": "500+",
-   "stories": 4
+   "stories": 3
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 32,
-   "total_score": 5517
+   "stories": 34,
+   "total_score": 5565
   },
   {
    "domain": "nytimes.com",
    "stories": 6,
-   "total_score": 347
+   "total_score": 668
+  },
+  {
+   "domain": "youtube.com",
+   "stories": 5,
+   "total_score": 449
   },
   {
    "domain": "twitter.com",
@@ -723,19 +728,9 @@
    "total_score": 477
   },
   {
-   "domain": "arstechnica.com",
-   "stories": 3,
-   "total_score": 276
-  },
-  {
-   "domain": "youtube.com",
-   "stories": 3,
-   "total_score": 133
-  },
-  {
    "domain": "spacex.com",
    "stories": 2,
-   "total_score": 1548
+   "total_score": 1707
   },
   {
    "domain": "nvidianews.nvidia.com",
@@ -746,14 +741,19 @@
    "domain": "wired.com",
    "stories": 2,
    "total_score": 797
+  },
+  {
+   "domain": "eff.org",
+   "stories": 2,
+   "total_score": 754
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
    "stories": 6,
-   "total_score": 540,
-   "avg_score": 90.0
+   "total_score": 580,
+   "avg_score": 97.0
   },
   {
    "author": "dvaplima",
@@ -764,8 +764,8 @@
   {
    "author": "rbanffy",
    "stories": 4,
-   "total_score": 551,
-   "avg_score": 138.0
+   "total_score": 537,
+   "avg_score": 134.0
   },
   {
    "author": "jonbaer",
@@ -786,28 +786,28 @@
    "avg_score": 125.0
   },
   {
-   "author": "Brajeshwar",
+   "author": "DeepLogin",
    "stories": 3,
-   "total_score": 359,
-   "avg_score": 120.0
+   "total_score": 350,
+   "avg_score": 117.0
   },
   {
    "author": "acossta",
    "stories": 3,
-   "total_score": 338,
-   "avg_score": 113.0
-  },
-  {
-   "author": "CharlesW",
-   "stories": 3,
-   "total_score": 293,
-   "avg_score": 98.0
+   "total_score": 281,
+   "avg_score": 94.0
   },
   {
    "author": "PaulHoule",
    "stories": 3,
    "total_score": 216,
    "avg_score": 72.0
+  },
+  {
+   "author": "frostbyte7",
+   "stories": 3,
+   "total_score": 182,
+   "avg_score": 61.0
   }
  ],
  "daily_trend": [
@@ -850,8 +850,8 @@
   {
    "day": "2026-11-15",
    "stories": 50,
-   "avg_score": 173.2,
-   "rolling_7d_avg": 193.3
+   "avg_score": 185.3,
+   "rolling_7d_avg": 195.0
   }
  ]
 }
