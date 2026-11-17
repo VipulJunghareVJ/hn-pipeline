@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-17T02:54:32.407447+00:00",
-  "duration_s": 0.42,
+  "finished_at": "2026-11-17T13:16:51.610206+00:00",
+  "duration_s": 0.6,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 10081,
+  "raw_bytes": 10491,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,372 +72,372 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-17T02:54:31+00:00",
-  "oldest_story": "2026-11-13T15:53:09+00:00",
-  "newest_story": "2026-11-17T02:17:04+00:00",
-  "total_points": 7639,
+  "snapshot_ts": "2026-11-17T13:16:51+00:00",
+  "oldest_story": "2026-11-12T17:04:41+00:00",
+  "newest_story": "2026-11-17T11:45:51+00:00",
+  "total_points": 11609,
   "unique_authors": 47,
   "days_of_history": 9,
-  "stories_in_history": 406,
-  "runs_observed": 22,
-  "parquet_bytes": 23964
+  "stories_in_history": 409,
+  "runs_observed": 23,
+  "parquet_bytes": 23076
  },
  "top_stories": [
-  {
-   "rank": 34,
-   "title": "Many of Amazon\u2019s Black Friday and Cyber Monday \u201cdeals\u201d offered no savings",
-   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-   "domain": "groundworkcollaborative.org",
-   "author": "DeepLogin",
-   "score": 850,
-   "comment_count": 511,
-   "age_hours": 13.3,
-   "points_per_hour": 64.1
-  },
   {
    "rank": 1,
    "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
    "url": "https://www.cs.cmu.edu/learn/",
    "domain": "cs.cmu.edu",
    "author": "pcompeau",
-   "score": 813,
-   "comment_count": 134,
-   "age_hours": 6.2,
-   "points_per_hour": 131.5
+   "score": 1760,
+   "comment_count": 235,
+   "age_hours": 16.6,
+   "points_per_hour": 106.3
   },
   {
-   "rank": 16,
+   "rank": 36,
+   "title": "Many of Amazon\u2019s Black Friday and Cyber Monday \u201cdeals\u201d offered no savings",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "domain": "groundworkcollaborative.org",
+   "author": "DeepLogin",
+   "score": 915,
+   "comment_count": 537,
+   "age_hours": 23.6,
+   "points_per_hour": 38.7
+  },
+  {
+   "rank": 28,
    "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
    "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
    "domain": "apnews.com",
    "author": "samk3nny",
-   "score": 725,
-   "comment_count": 601,
-   "age_hours": 8.4,
-   "points_per_hour": 86.5
+   "score": 792,
+   "comment_count": 664,
+   "age_hours": 18.8,
+   "points_per_hour": 42.2
   },
   {
-   "rank": 3,
+   "rank": 29,
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "domain": "xusheng.dev",
+   "author": "cwaffles",
+   "score": 657,
+   "comment_count": 513,
+   "age_hours": 14.3,
+   "points_per_hour": 45.9
+  },
+  {
+   "rank": 4,
    "title": "BugMeNot has closed",
    "url": "https://www.bugmenot.com/",
    "domain": "bugmenot.com",
    "author": "lode",
-   "score": 346,
-   "comment_count": 175,
-   "age_hours": 5.4,
-   "points_per_hour": 64.4
+   "score": 606,
+   "comment_count": 272,
+   "age_hours": 15.7,
+   "points_per_hour": 38.5
   },
   {
-   "rank": 11,
-   "title": "Jiff 1.0: A datetime library for Rust",
-   "url": "https://burntsushi.net/jiff/",
-   "domain": "burntsushi.net",
-   "author": "burntsushi",
-   "score": 320,
-   "comment_count": 76,
-   "age_hours": 10.0,
-   "points_per_hour": 32.0
-  },
-  {
-   "rank": 10,
+   "rank": 15,
    "title": "Frame \u2013 31.5\" color ePaper display",
    "url": "https://trmnl.com/blog/introducing-frame",
    "domain": "trmnl.com",
    "author": "geerlingguy",
-   "score": 319,
-   "comment_count": 222,
-   "age_hours": 10.5,
-   "points_per_hour": 30.3
+   "score": 458,
+   "comment_count": 320,
+   "age_hours": 20.9,
+   "points_per_hour": 21.9
   },
   {
-   "rank": 26,
-   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
-   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-   "domain": "masnick.com",
-   "author": "sammatilda",
-   "score": 300,
-   "comment_count": 117,
-   "age_hours": 15.3,
+   "rank": 5,
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "domain": "blog.report-uri.com",
+   "author": "kristjansson",
+   "score": 441,
+   "comment_count": 186,
+   "age_hours": 14.3,
+   "points_per_hour": 30.9
+  },
+  {
+   "rank": 16,
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "domain": "burntsushi.net",
+   "author": "burntsushi",
+   "score": 402,
+   "comment_count": 88,
+   "age_hours": 20.4,
    "points_per_hour": 19.7
   },
   {
-   "rank": 2,
-   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
-   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-   "domain": "xusheng.dev",
-   "author": "cwaffles",
-   "score": 289,
-   "comment_count": 160,
-   "age_hours": 3.9,
-   "points_per_hour": 73.4
+   "rank": 19,
+   "title": "What is w2rt6byl5nf1opmc-a.com?",
+   "url": "https://jack.cab/blog/siterate",
+   "domain": "jack.cab",
+   "author": "dverlaeckt80",
+   "score": 373,
+   "comment_count": 154,
+   "age_hours": 23.4,
+   "points_per_hour": 15.9
   },
   {
-   "rank": 44,
-   "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
-   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
-   "domain": "xenaproject.wordpress.com",
-   "author": "matt_d",
-   "score": 289,
-   "comment_count": 132,
-   "age_hours": 19.3,
+   "rank": 20,
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "domain": "theregister.com",
+   "author": "Bender",
+   "score": 360,
+   "comment_count": 268,
+   "age_hours": 24.0,
    "points_per_hour": 15.0
-  },
-  {
-   "rank": 47,
-   "title": "Nvidia was in trouble before the Jensen Huang mess",
-   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "domain": "wired.com",
-   "author": "Brajeshwar",
-   "score": 257,
-   "comment_count": 235,
-   "age_hours": 11.5,
-   "points_per_hour": 22.3
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50522980,
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+   "url": "https://www.cs.cmu.edu/learn/",
+   "domain": "cs.cmu.edu",
+   "rank": 1,
+   "rank_change": 0,
+   "score": 1760,
+   "score_gain": 947,
+   "comment_gain": 101,
+   "hours_between": 10.37,
+   "points_per_hour": 91.3,
+   "gain_since_first_seen": 947,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
+  {
+   "story_id": 50524736,
+   "title": "Windows 11 is collecting data on which coding agents and developer tools you use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "domain": "xusheng.dev",
+   "rank": 29,
+   "rank_change": -27,
+   "score": 657,
+   "score_gain": 368,
+   "comment_gain": 353,
+   "hours_between": 10.37,
+   "points_per_hour": 35.5,
+   "gain_since_first_seen": 368,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
+  {
+   "story_id": 50524767,
+   "title": "Optimizely compromised, served malware on Zoom, GitLab",
+   "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+   "domain": "blog.report-uri.com",
+   "rank": 5,
+   "rank_change": -1,
+   "score": 441,
+   "score_gain": 306,
+   "comment_gain": 112,
+   "hours_between": 10.37,
+   "points_per_hour": 29.5,
+   "gain_since_first_seen": 306,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
+  {
+   "story_id": 50523601,
+   "title": "BugMeNot has closed",
+   "url": "https://www.bugmenot.com/",
+   "domain": "bugmenot.com",
+   "rank": 4,
+   "rank_change": -1,
+   "score": 606,
+   "score_gain": 260,
+   "comment_gain": 97,
+   "hours_between": 10.37,
+   "points_per_hour": 25.1,
+   "gain_since_first_seen": 260,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
+  {
+   "story_id": 50525575,
+   "title": "Why 3dfx 1 cards had such a washed out color output?",
+   "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
+   "domain": "twitter.com",
+   "rank": 10,
+   "rank_change": 29,
+   "score": 188,
+   "score_gain": 179,
+   "comment_gain": 57,
+   "hours_between": 10.37,
+   "points_per_hour": 17.3,
+   "gain_since_first_seen": 179,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
+  {
+   "story_id": 50523459,
+   "title": "OpenCode Browse",
+   "url": "https://opencode.ai/product/browse",
+   "domain": "opencode.ai",
+   "rank": 14,
+   "rank_change": -8,
+   "score": 297,
+   "score_gain": 162,
+   "comment_gain": 111,
+   "hours_between": 10.37,
+   "points_per_hour": 15.6,
+   "gain_since_first_seen": 162,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
+  {
+   "story_id": 50526560,
+   "title": "If an App Asks for Full Disk Access or System and App Protection Override",
+   "url": "https://support.apple.com/en-us/149699",
+   "domain": "support.apple.com",
+   "rank": 9,
+   "rank_change": 11,
+   "score": 159,
+   "score_gain": 155,
+   "comment_gain": 86,
+   "hours_between": 10.37,
+   "points_per_hour": 14.9,
+   "gain_since_first_seen": 155,
+   "first_seen": "2026-11-17T02:54:31Z"
+  },
   {
    "story_id": 50519354,
    "title": "Frame \u2013 31.5\" color ePaper display",
    "url": "https://trmnl.com/blog/introducing-frame",
    "domain": "trmnl.com",
-   "rank": 10,
-   "rank_change": 6,
-   "score": 319,
-   "score_gain": 308,
-   "comment_gain": 216,
-   "hours_between": 8.43,
-   "points_per_hour": 36.5,
-   "gain_since_first_seen": 308,
+   "rank": 15,
+   "rank_change": -5,
+   "score": 458,
+   "score_gain": 139,
+   "comment_gain": 98,
+   "hours_between": 10.37,
+   "points_per_hour": 13.4,
+   "gain_since_first_seen": 447,
    "first_seen": "2026-11-16T18:28:49Z"
   },
   {
-   "story_id": 50517488,
-   "title": "Many of Amazon\u2019s Black Friday and Cyber Monday \u201cdeals\u201d offered no savings",
-   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-   "domain": "groundworkcollaborative.org",
-   "rank": 34,
-   "rank_change": -29,
-   "score": 850,
-   "score_gain": 290,
-   "comment_gain": 171,
-   "hours_between": 8.43,
-   "points_per_hour": 34.4,
-   "gain_since_first_seen": 290,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50519744,
-   "title": "Jiff 1.0: A datetime library for Rust",
-   "url": "https://burntsushi.net/jiff/",
-   "domain": "burntsushi.net",
-   "rank": 11,
-   "rank_change": -9,
-   "score": 320,
-   "score_gain": 232,
-   "comment_gain": 51,
-   "hours_between": 8.43,
-   "points_per_hour": 27.5,
-   "gain_since_first_seen": 232,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50520182,
-   "title": "Grazing sheep in fields with solar arrays",
-   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
-   "domain": "news.cornell.edu",
-   "rank": 13,
-   "rank_change": -12,
-   "score": 227,
-   "score_gain": 168,
-   "comment_gain": 185,
-   "hours_between": 8.43,
-   "points_per_hour": 19.9,
-   "gain_since_first_seen": 168,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50518567,
-   "title": "Nvidia was in trouble before the Jensen Huang mess",
-   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-   "domain": "wired.com",
-   "rank": 47,
-   "rank_change": -18,
+   "story_id": 50522643,
+   "title": "Chemistry is Actually Geometry",
+   "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
+   "domain": "chillphysicsenjoyer.substack.com",
+   "rank": 12,
+   "rank_change": -4,
    "score": 257,
-   "score_gain": 112,
-   "comment_gain": 101,
-   "hours_between": 8.43,
-   "points_per_hour": 13.3,
-   "gain_since_first_seen": 112,
-   "first_seen": "2026-11-16T18:28:49Z"
+   "score_gain": 128,
+   "comment_gain": 73,
+   "hours_between": 10.37,
+   "points_per_hour": 12.3,
+   "gain_since_first_seen": 128,
+   "first_seen": "2026-11-17T02:54:31Z"
   },
   {
-   "story_id": 50520270,
-   "title": "Aristotle Expands into Rust",
-   "url": "https://www.harmonic.fun/news/aristotle-rust-verification/",
-   "domain": "harmonic.fun",
-   "rank": 29,
-   "rank_change": -22,
-   "score": 106,
-   "score_gain": 91,
-   "comment_gain": 52,
-   "hours_between": 8.43,
-   "points_per_hour": 10.8,
-   "gain_since_first_seen": 91,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50520518,
-   "title": "Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself",
-   "url": "https://copyrightlately.com/michael-mann-heat-copyright-termination/",
-   "domain": "copyrightlately.com",
-   "rank": 32,
-   "rank_change": -24,
-   "score": 97,
-   "score_gain": 89,
-   "comment_gain": 44,
-   "hours_between": 8.43,
-   "points_per_hour": 10.6,
-   "gain_since_first_seen": 89,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50519345,
-   "title": "Jolt \u2013 Clojure that speaks C",
-   "url": "https://jolt-lang.net/",
-   "domain": "jolt-lang.net",
-   "rank": 36,
-   "rank_change": -24,
-   "score": 99,
-   "score_gain": 88,
-   "comment_gain": 32,
-   "hours_between": 8.43,
-   "points_per_hour": 10.4,
-   "gain_since_first_seen": 88,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50516473,
-   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
-   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-   "domain": "masnick.com",
-   "rank": 26,
-   "rank_change": -22,
-   "score": 300,
-   "score_gain": 60,
-   "comment_gain": 25,
-   "hours_between": 8.43,
-   "points_per_hour": 7.1,
-   "gain_since_first_seen": 60,
-   "first_seen": "2026-11-16T18:28:49Z"
-  },
-  {
-   "story_id": 50515058,
-   "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
-   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
-   "domain": "xenaproject.wordpress.com",
-   "rank": 44,
-   "rank_change": -34,
-   "score": 289,
-   "score_gain": 58,
-   "comment_gain": 32,
-   "hours_between": 8.43,
-   "points_per_hour": 6.9,
-   "gain_since_first_seen": 58,
-   "first_seen": "2026-11-16T18:28:49Z"
+   "story_id": 50517321,
+   "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+   "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+   "domain": "theregister.com",
+   "rank": 20,
+   "rank_change": 4,
+   "score": 360,
+   "score_gain": 128,
+   "comment_gain": 97,
+   "hours_between": 10.37,
+   "points_per_hour": 12.3,
+   "gain_since_first_seen": 128,
+   "first_seen": "2026-11-17T02:54:31Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50517488,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 560,
-   "rank": 5
-  },
-  {
-   "story_id": 50517488,
+   "story_id": 50522980,
    "ts": "2026-11-17T02:54:31Z",
-   "score": 850,
-   "rank": 34
-  },
-  {
-   "story_id": 50518567,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 145,
-   "rank": 29
-  },
-  {
-   "story_id": 50518567,
-   "ts": "2026-11-17T02:54:31Z",
-   "score": 257,
-   "rank": 47
-  },
-  {
-   "story_id": 50519354,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 11,
-   "rank": 16
-  },
-  {
-   "story_id": 50519354,
-   "ts": "2026-11-17T02:54:31Z",
-   "score": 319,
-   "rank": 10
-  },
-  {
-   "story_id": 50519744,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 88,
-   "rank": 2
-  },
-  {
-   "story_id": 50519744,
-   "ts": "2026-11-17T02:54:31Z",
-   "score": 320,
-   "rank": 11
-  },
-  {
-   "story_id": 50520182,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 59,
+   "score": 813,
    "rank": 1
   },
   {
-   "story_id": 50520182,
+   "story_id": 50522980,
+   "ts": "2026-11-17T13:16:51Z",
+   "score": 1760,
+   "rank": 1
+  },
+  {
+   "story_id": 50523601,
    "ts": "2026-11-17T02:54:31Z",
-   "score": 227,
-   "rank": 13
+   "score": 346,
+   "rank": 3
+  },
+  {
+   "story_id": 50523601,
+   "ts": "2026-11-17T13:16:51Z",
+   "score": 606,
+   "rank": 4
+  },
+  {
+   "story_id": 50524736,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 289,
+   "rank": 2
+  },
+  {
+   "story_id": 50524736,
+   "ts": "2026-11-17T13:16:51Z",
+   "score": 657,
+   "rank": 29
+  },
+  {
+   "story_id": 50524767,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 135,
+   "rank": 4
+  },
+  {
+   "story_id": 50524767,
+   "ts": "2026-11-17T13:16:51Z",
+   "score": 441,
+   "rank": 5
+  },
+  {
+   "story_id": 50525575,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 9,
+   "rank": 39
+  },
+  {
+   "story_id": 50525575,
+   "ts": "2026-11-17T13:16:51Z",
+   "score": 188,
+   "rank": 10
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
    "stories": 6,
-   "avg_score": 167.3,
+   "avg_score": 197.7,
    "median_score": 220.0
   },
   {
    "hour": 1,
-   "stories": 11,
-   "avg_score": 107.9,
-   "median_score": 17.0
+   "stories": 6,
+   "avg_score": 201.0,
+   "median_score": 180.0
   },
   {
    "hour": 2,
    "stories": 11,
-   "avg_score": 283.1,
+   "avg_score": 304.5,
    "median_score": 191.0
   },
   {
    "hour": 3,
-   "stories": 8,
-   "avg_score": 166.8,
-   "median_score": 91.0
+   "stories": 9,
+   "avg_score": 150.2,
+   "median_score": 60.0
   },
   {
    "hour": 4,
-   "stories": 5,
-   "avg_score": 259.8,
-   "median_score": 306.0
+   "stories": 6,
+   "avg_score": 230.2,
+   "median_score": 215.5
   },
   {
    "hour": 5,
@@ -448,20 +448,20 @@
   {
    "hour": 6,
    "stories": 5,
-   "avg_score": 186.0,
+   "avg_score": 193.2,
    "median_score": 87.0
   },
   {
    "hour": 7,
-   "stories": 5,
-   "avg_score": 413.0,
-   "median_score": 139.0
+   "stories": 6,
+   "avg_score": 369.0,
+   "median_score": 169.0
   },
   {
    "hour": 8,
-   "stories": 6,
-   "avg_score": 103.2,
-   "median_score": 94.0
+   "stories": 7,
+   "avg_score": 90.0,
+   "median_score": 71.0
   },
   {
    "hour": 9,
@@ -471,248 +471,248 @@
   },
   {
    "hour": 10,
-   "stories": 15,
-   "avg_score": 211.9,
-   "median_score": 178.0
+   "stories": 16,
+   "avg_score": 202.9,
+   "median_score": 156.0
   },
   {
    "hour": 11,
-   "stories": 15,
-   "avg_score": 173.1,
+   "stories": 17,
+   "avg_score": 155.3,
    "median_score": 99.0
   },
   {
    "hour": 12,
    "stories": 26,
-   "avg_score": 175.3,
-   "median_score": 71.0
+   "avg_score": 178.2,
+   "median_score": 79.0
   },
   {
    "hour": 13,
    "stories": 26,
-   "avg_score": 317.1,
+   "avg_score": 327.9,
    "median_score": 131.5
   },
   {
    "hour": 14,
    "stories": 40,
-   "avg_score": 125.6,
+   "avg_score": 124.6,
    "median_score": 71.5
   },
   {
    "hour": 15,
-   "stories": 36,
-   "avg_score": 89.9,
-   "median_score": 71.0
+   "stories": 34,
+   "avg_score": 91.9,
+   "median_score": 72.5
   },
   {
    "hour": 16,
-   "stories": 21,
-   "avg_score": 112.3,
-   "median_score": 51.0
+   "stories": 20,
+   "avg_score": 127.4,
+   "median_score": 53.0
   },
   {
    "hour": 17,
-   "stories": 31,
-   "avg_score": 182.3,
-   "median_score": 94.0
+   "stories": 33,
+   "avg_score": 177.3,
+   "median_score": 90.0
   },
   {
    "hour": 18,
    "stories": 31,
-   "avg_score": 266.7,
+   "avg_score": 266.1,
    "median_score": 127.0
   },
   {
    "hour": 19,
    "stories": 29,
-   "avg_score": 144.1,
+   "avg_score": 144.3,
    "median_score": 61.0
   },
   {
    "hour": 20,
-   "stories": 19,
-   "avg_score": 150.2,
-   "median_score": 34.0
+   "stories": 20,
+   "avg_score": 209.5,
+   "median_score": 50.0
   },
   {
    "hour": 21,
    "stories": 18,
-   "avg_score": 211.8,
-   "median_score": 89.0
+   "avg_score": 244.4,
+   "median_score": 135.5
   },
   {
    "hour": 22,
    "stories": 15,
-   "avg_score": 228.9,
-   "median_score": 182.0
+   "avg_score": 259.4,
+   "median_score": 208.0
   },
   {
    "hour": 23,
-   "stories": 12,
-   "avg_score": 179.4,
-   "median_score": 144.0
+   "stories": 13,
+   "avg_score": 198.7,
+   "median_score": 153.0
   }
  ],
  "keywords": [
   {
-   "word": "free",
-   "stories": 3,
-   "total_score": 830
-  },
-  {
    "word": "rust",
    "stories": 3,
-   "total_score": 620
+   "total_score": 790
   },
   {
    "word": "system",
    "stories": 3,
-   "total_score": 326
+   "total_score": 544
   },
   {
-   "word": "open",
+   "word": "verification",
    "stories": 3,
-   "total_score": 173
+   "total_score": 266
   },
   {
-   "word": "science",
-   "stories": 2,
-   "total_score": 992
-  },
-  {
-   "word": "online",
-   "stories": 2,
-   "total_score": 833
+   "word": "code",
+   "stories": 3,
+   "total_score": 193
   },
   {
    "word": "developer",
    "stories": 2,
-   "total_score": 483
-  },
-  {
-   "word": "outage",
-   "stories": 2,
-   "total_score": 414
+   "total_score": 927
   },
   {
    "word": "color",
    "stories": 2,
-   "total_score": 328
+   "total_score": 646
   },
   {
-   "word": "agents",
+   "word": "outage",
    "stories": 2,
-   "total_score": 321
-  },
-  {
-   "word": "coding",
-   "stories": 2,
-   "total_score": 321
+   "total_score": 600
   },
   {
    "word": "email",
    "stories": 2,
-   "total_score": 308
+   "total_score": 486
   },
   {
-   "word": "software",
+   "word": "says",
    "stories": 2,
-   "total_score": 247
+   "total_score": 405
   },
   {
    "word": "track",
    "stories": 2,
-   "total_score": 231
+   "total_score": 262
   },
   {
-   "word": "fight",
+   "word": "test",
    "stories": 2,
-   "total_score": 205
+   "total_score": 179
   },
   {
-   "word": "without",
+   "word": "compiler",
    "stories": 2,
-   "total_score": 86
+   "total_score": 122
   },
   {
-   "word": "source",
+   "word": "claude",
    "stories": 2,
-   "total_score": 33
+   "total_score": 95
   },
   {
-   "word": "amazon",
+   "word": "carnegie",
    "stories": 1,
-   "total_score": 850
+   "total_score": 1760
   },
   {
-   "word": "black",
+   "word": "computer",
    "stories": 1,
-   "total_score": 850
+   "total_score": 1760
   },
   {
-   "word": "cyber",
+   "word": "courses",
    "stories": 1,
-   "total_score": 850
+   "total_score": 1760
+  },
+  {
+   "word": "free",
+   "stories": 1,
+   "total_score": 1760
+  },
+  {
+   "word": "mellon",
+   "stories": 1,
+   "total_score": 1760
+  },
+  {
+   "word": "putting",
+   "stories": 1,
+   "total_score": 1760
+  },
+  {
+   "word": "science",
+   "stories": 1,
+   "total_score": 1760
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 19
+   "stories": 9
   },
   {
    "bucket": "50-99",
-   "stories": 8
+   "stories": 10
   },
   {
    "bucket": "100-249",
-   "stories": 13
+   "stories": 16
   },
   {
    "bucket": "250-499",
-   "stories": 7
+   "stories": 10
   },
   {
    "bucket": "500+",
-   "stories": 3
+   "stories": 5
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
    "stories": 39,
-   "total_score": 5707
+   "total_score": 5760
   },
   {
    "domain": "nytimes.com",
-   "stories": 8,
-   "total_score": 985
-  },
-  {
-   "domain": "youtube.com",
-   "stories": 6,
-   "total_score": 674
+   "stories": 9,
+   "total_score": 1099
   },
   {
    "domain": "twitter.com",
    "stories": 5,
-   "total_score": 613
+   "total_score": 792
+  },
+  {
+   "domain": "youtube.com",
+   "stories": 5,
+   "total_score": 654
   },
   {
    "domain": "wired.com",
    "stories": 4,
-   "total_score": 1060
+   "total_score": 948
   },
   {
    "domain": "reuters.com",
-   "stories": 4,
-   "total_score": 750
+   "stories": 3,
+   "total_score": 705
   },
   {
    "domain": "news.cornell.edu",
    "stories": 3,
-   "total_score": 555
+   "total_score": 628
   },
   {
    "domain": "maurycyz.com",
@@ -720,46 +720,46 @@
    "total_score": 477
   },
   {
-   "domain": "tomshardware.com",
+   "domain": "arstechnica.com",
    "stories": 3,
-   "total_score": 72
+   "total_score": 434
   },
   {
    "domain": "apnews.com",
    "stories": 2,
-   "total_score": 4571
+   "total_score": 4638
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
    "stories": 8,
-   "total_score": 871,
-   "avg_score": 109.0
-  },
-  {
-   "author": "dvaplima",
-   "stories": 5,
-   "total_score": 941,
-   "avg_score": 188.0
+   "total_score": 953,
+   "avg_score": 119.0
   },
   {
    "author": "PaulHoule",
    "stories": 5,
-   "total_score": 645,
-   "avg_score": 129.0
+   "total_score": 718,
+   "avg_score": 144.0
   },
   {
    "author": "DeepLogin",
    "stories": 4,
-   "total_score": 1200,
-   "avg_score": 300.0
+   "total_score": 1265,
+   "avg_score": 316.0
+  },
+  {
+   "author": "dvaplima",
+   "stories": 4,
+   "total_score": 896,
+   "avg_score": 224.0
   },
   {
    "author": "dverlaeckt80",
    "stories": 4,
-   "total_score": 660,
-   "avg_score": 165.0
+   "total_score": 747,
+   "avg_score": 187.0
   },
   {
    "author": "rbanffy",
@@ -776,8 +776,8 @@
   {
    "author": "zdw",
    "stories": 3,
-   "total_score": 768,
-   "avg_score": 256.0
+   "total_score": 827,
+   "avg_score": 276.0
   },
   {
    "author": "tosh",
@@ -786,10 +786,10 @@
    "avg_score": 217.0
   },
   {
-   "author": "Brajeshwar",
+   "author": "jonbaer",
    "stories": 3,
-   "total_score": 609,
-   "avg_score": 203.0
+   "total_score": 586,
+   "avg_score": 195.0
   }
  ],
  "daily_trend": [
@@ -844,8 +844,8 @@
   {
    "day": "2026-11-17",
    "stories": 50,
-   "avg_score": 152.8,
-   "rolling_7d_avg": 189.0
+   "avg_score": 232.2,
+   "rolling_7d_avg": 200.3
   }
  ]
 }
