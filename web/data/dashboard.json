@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-16T18:28:49.945594+00:00",
-  "duration_s": 0.52,
+  "finished_at": "2026-11-17T02:54:32.407447+00:00",
+  "duration_s": 0.42,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 8446,
+  "raw_bytes": 10081,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,360 +72,360 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-16T18:28:49+00:00",
-  "oldest_story": "2026-11-11T11:39:15+00:00",
-  "newest_story": "2026-11-16T18:17:18+00:00",
-  "total_points": 9560,
-  "unique_authors": 48,
-  "days_of_history": 8,
-  "stories_in_history": 370,
-  "runs_observed": 21,
-  "parquet_bytes": 15583
+  "snapshot_ts": "2026-11-17T02:54:31+00:00",
+  "oldest_story": "2026-11-13T15:53:09+00:00",
+  "newest_story": "2026-11-17T02:17:04+00:00",
+  "total_points": 7639,
+  "unique_authors": 47,
+  "days_of_history": 9,
+  "stories_in_history": 406,
+  "runs_observed": 22,
+  "parquet_bytes": 23964
  },
  "top_stories": [
   {
-   "rank": 49,
-   "title": "SpaceX catches the Starship to end Flight 15",
-   "url": "https://www.spacex.com/launches/starship-flight-15",
-   "domain": "spacex.com",
-   "author": "ls612",
-   "score": 1734,
-   "comment_count": 1322,
-   "age_hours": 45.1,
-   "points_per_hour": 38.4
-  },
-  {
-   "rank": 18,
-   "title": "Qwen4-Max",
-   "url": "https://qwen.ai/blog?id=qwen4-max",
-   "domain": "qwen.ai",
-   "author": "ilreb",
-   "score": 809,
-   "comment_count": 433,
-   "age_hours": 16.2,
-   "points_per_hour": 49.8
-  },
-  {
-   "rank": 6,
-   "title": "How to make almost anything",
-   "url": "https://pub.cba.mit.edu/863.26/site/",
-   "domain": "pub.cba.mit.edu",
-   "author": "o4c",
-   "score": 726,
-   "comment_count": 116,
-   "age_hours": 12.6,
-   "points_per_hour": 57.5
-  },
-  {
-   "rank": 9,
-   "title": "Universal XSS in uBlock Origin from website-driven element picker",
-   "url": "https://iter.ca/post/ubo-uxss/",
-   "domain": "iter.ca",
-   "author": "zaik",
-   "score": 565,
-   "comment_count": 163,
-   "age_hours": 16.4,
-   "points_per_hour": 34.5
-  },
-  {
-   "rank": 5,
+   "rank": 34,
    "title": "Many of Amazon\u2019s Black Friday and Cyber Monday \u201cdeals\u201d offered no savings",
    "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
    "domain": "groundworkcollaborative.org",
    "author": "DeepLogin",
-   "score": 560,
-   "comment_count": 340,
-   "age_hours": 4.8,
-   "points_per_hour": 116.0
+   "score": 850,
+   "comment_count": 511,
+   "age_hours": 13.3,
+   "points_per_hour": 64.1
   },
   {
-   "rank": 25,
-   "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-   "url": "https://bruceroettgers.eu/blog/protomaps/",
-   "domain": "bruceroettgers.eu",
-   "author": "bcye",
-   "score": 448,
-   "comment_count": 78,
-   "age_hours": 23.0,
-   "points_per_hour": 19.4
+   "rank": 1,
+   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+   "url": "https://www.cs.cmu.edu/learn/",
+   "domain": "cs.cmu.edu",
+   "author": "pcompeau",
+   "score": 813,
+   "comment_count": 134,
+   "age_hours": 6.2,
+   "points_per_hour": 131.5
   },
   {
-   "rank": 31,
-   "title": "Handwriting, as a Font",
-   "url": "https://ductus.sorenblank.com",
-   "domain": "ductus.sorenblank.com",
-   "author": "coinfused",
-   "score": 432,
-   "comment_count": 72,
-   "age_hours": 22.8,
-   "points_per_hour": 19.0
+   "rank": 16,
+   "title": "Technical issue at JPMorgan Chase triggers online banking delays for US banks",
+   "url": "https://apnews.com/article/bank-outage-chase-wells-fargo-truist-50fee2693c22f597fa6ca51a97ef2cda",
+   "domain": "apnews.com",
+   "author": "samk3nny",
+   "score": 725,
+   "comment_count": 601,
+   "age_hours": 8.4,
+   "points_per_hour": 86.5
   },
   {
-   "rank": 21,
-   "title": "What's Next for Nvidia?",
-   "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-   "domain": "steveblank.com",
-   "author": "zdw",
-   "score": 420,
-   "comment_count": 535,
-   "age_hours": 18.5,
-   "points_per_hour": 22.6
+   "rank": 3,
+   "title": "BugMeNot has closed",
+   "url": "https://www.bugmenot.com/",
+   "domain": "bugmenot.com",
+   "author": "lode",
+   "score": 346,
+   "comment_count": 175,
+   "age_hours": 5.4,
+   "points_per_hour": 64.4
   },
   {
-   "rank": 22,
-   "title": "Old Bitly links are being hijacked",
-   "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
-   "domain": "ransomnews.com",
-   "author": "hspeiser",
-   "score": 364,
-   "comment_count": 188,
-   "age_hours": 20.3,
-   "points_per_hour": 17.9
+   "rank": 11,
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "domain": "burntsushi.net",
+   "author": "burntsushi",
+   "score": 320,
+   "comment_count": 76,
+   "age_hours": 10.0,
+   "points_per_hour": 32.0
   },
   {
-   "rank": 35,
-   "title": "Crows make decisions faster than we can",
-   "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
-   "domain": "nytimes.com",
-   "author": "gumby",
+   "rank": 10,
+   "title": "Frame \u2013 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "domain": "trmnl.com",
+   "author": "geerlingguy",
+   "score": 319,
+   "comment_count": 222,
+   "age_hours": 10.5,
+   "points_per_hour": 30.3
+  },
+  {
+   "rank": 26,
+   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "domain": "masnick.com",
+   "author": "sammatilda",
    "score": 300,
-   "comment_count": 196,
-   "age_hours": 24.6,
-   "points_per_hour": 12.2
+   "comment_count": 117,
+   "age_hours": 15.3,
+   "points_per_hour": 19.7
+  },
+  {
+   "rank": 2,
+   "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
+   "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
+   "domain": "xusheng.dev",
+   "author": "cwaffles",
+   "score": 289,
+   "comment_count": 160,
+   "age_hours": 3.9,
+   "points_per_hour": 73.4
+  },
+  {
+   "rank": 44,
+   "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
+   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+   "domain": "xenaproject.wordpress.com",
+   "author": "matt_d",
+   "score": 289,
+   "comment_count": 132,
+   "age_hours": 19.3,
+   "points_per_hour": 15.0
+  },
+  {
+   "rank": 47,
+   "title": "Nvidia was in trouble before the Jensen Huang mess",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "domain": "wired.com",
+   "author": "Brajeshwar",
+   "score": 257,
+   "comment_count": 235,
+   "age_hours": 11.5,
+   "points_per_hour": 22.3
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50514470,
-   "title": "How to make almost anything",
-   "url": "https://pub.cba.mit.edu/863.26/site/",
-   "domain": "pub.cba.mit.edu",
-   "rank": 6,
-   "rank_change": -1,
-   "score": 726,
-   "score_gain": 718,
-   "comment_gain": 116,
-   "hours_between": 12.15,
-   "points_per_hour": 59.1,
-   "gain_since_first_seen": 718,
-   "first_seen": "2026-11-16T06:19:39Z"
+   "story_id": 50519354,
+   "title": "Frame \u2013 31.5\" color ePaper display",
+   "url": "https://trmnl.com/blog/introducing-frame",
+   "domain": "trmnl.com",
+   "rank": 10,
+   "rank_change": 6,
+   "score": 319,
+   "score_gain": 308,
+   "comment_gain": 216,
+   "hours_between": 8.43,
+   "points_per_hour": 36.5,
+   "gain_since_first_seen": 308,
+   "first_seen": "2026-11-16T18:28:49Z"
   },
   {
-   "story_id": 50513215,
-   "title": "Qwen4-Max",
-   "url": "https://qwen.ai/blog?id=qwen4-max",
-   "domain": "qwen.ai",
-   "rank": 18,
-   "rank_change": -16,
-   "score": 809,
-   "score_gain": 487,
-   "comment_gain": 324,
-   "hours_between": 12.15,
-   "points_per_hour": 40.1,
-   "gain_since_first_seen": 487,
-   "first_seen": "2026-11-16T06:19:39Z"
+   "story_id": 50517488,
+   "title": "Many of Amazon\u2019s Black Friday and Cyber Monday \u201cdeals\u201d offered no savings",
+   "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
+   "domain": "groundworkcollaborative.org",
+   "rank": 34,
+   "rank_change": -29,
+   "score": 850,
+   "score_gain": 290,
+   "comment_gain": 171,
+   "hours_between": 8.43,
+   "points_per_hour": 34.4,
+   "gain_since_first_seen": 290,
+   "first_seen": "2026-11-16T18:28:49Z"
   },
   {
-   "story_id": 50513160,
-   "title": "Universal XSS in uBlock Origin from website-driven element picker",
-   "url": "https://iter.ca/post/ubo-uxss/",
-   "domain": "iter.ca",
-   "rank": 9,
-   "rank_change": -8,
-   "score": 565,
-   "score_gain": 330,
-   "comment_gain": 106,
-   "hours_between": 12.15,
-   "points_per_hour": 27.2,
-   "gain_since_first_seen": 330,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50512235,
-   "title": "What's Next for Nvidia?",
-   "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-   "domain": "steveblank.com",
-   "rank": 21,
-   "rank_change": -17,
-   "score": 420,
-   "score_gain": 237,
-   "comment_gain": 299,
-   "hours_between": 12.15,
-   "points_per_hour": 19.5,
-   "gain_since_first_seen": 237,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50509972,
-   "title": "Handwriting, as a Font",
-   "url": "https://ductus.sorenblank.com",
-   "domain": "ductus.sorenblank.com",
-   "rank": 31,
-   "rank_change": -19,
-   "score": 432,
-   "score_gain": 220,
-   "comment_gain": 28,
-   "hours_between": 12.15,
-   "points_per_hour": 18.1,
-   "gain_since_first_seen": 220,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50509837,
-   "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-   "url": "https://bruceroettgers.eu/blog/protomaps/",
-   "domain": "bruceroettgers.eu",
-   "rank": 25,
-   "rank_change": -17,
-   "score": 448,
-   "score_gain": 184,
-   "comment_gain": 27,
-   "hours_between": 12.15,
-   "points_per_hour": 15.1,
-   "gain_since_first_seen": 184,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50511395,
-   "title": "Old Bitly links are being hijacked",
-   "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
-   "domain": "ransomnews.com",
-   "rank": 22,
-   "rank_change": -19,
-   "score": 364,
-   "score_gain": 123,
-   "comment_gain": 62,
-   "hours_between": 12.15,
-   "points_per_hour": 10.1,
-   "gain_since_first_seen": 123,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50512441,
-   "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-   "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-   "domain": "forum.torproject.org",
-   "rank": 26,
-   "rank_change": -20,
-   "score": 227,
-   "score_gain": 120,
-   "comment_gain": 38,
-   "hours_between": 12.15,
-   "points_per_hour": 9.9,
-   "gain_since_first_seen": 120,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50510296,
-   "title": "WebGL Flight Simulator with seed generated terrain",
-   "url": "https://baron.by.dai.studio/",
-   "domain": "baron.by.dai.studio",
-   "rank": 42,
-   "rank_change": -23,
-   "score": 224,
-   "score_gain": 110,
-   "comment_gain": 35,
-   "hours_between": 12.15,
-   "points_per_hour": 9.1,
-   "gain_since_first_seen": 110,
-   "first_seen": "2026-11-16T06:19:39Z"
-  },
-  {
-   "story_id": 50509023,
-   "title": "Crows make decisions faster than we can",
-   "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
-   "domain": "nytimes.com",
-   "rank": 35,
-   "rank_change": -20,
-   "score": 300,
-   "score_gain": 91,
+   "story_id": 50519744,
+   "title": "Jiff 1.0: A datetime library for Rust",
+   "url": "https://burntsushi.net/jiff/",
+   "domain": "burntsushi.net",
+   "rank": 11,
+   "rank_change": -9,
+   "score": 320,
+   "score_gain": 232,
    "comment_gain": 51,
-   "hours_between": 12.15,
-   "points_per_hour": 7.5,
-   "gain_since_first_seen": 223,
-   "first_seen": "2026-11-15T21:00:46Z"
+   "hours_between": 8.43,
+   "points_per_hour": 27.5,
+   "gain_since_first_seen": 232,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50520182,
+   "title": "Grazing sheep in fields with solar arrays",
+   "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+   "domain": "news.cornell.edu",
+   "rank": 13,
+   "rank_change": -12,
+   "score": 227,
+   "score_gain": 168,
+   "comment_gain": 185,
+   "hours_between": 8.43,
+   "points_per_hour": 19.9,
+   "gain_since_first_seen": 168,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50518567,
+   "title": "Nvidia was in trouble before the Jensen Huang mess",
+   "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+   "domain": "wired.com",
+   "rank": 47,
+   "rank_change": -18,
+   "score": 257,
+   "score_gain": 112,
+   "comment_gain": 101,
+   "hours_between": 8.43,
+   "points_per_hour": 13.3,
+   "gain_since_first_seen": 112,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50520270,
+   "title": "Aristotle Expands into Rust",
+   "url": "https://www.harmonic.fun/news/aristotle-rust-verification/",
+   "domain": "harmonic.fun",
+   "rank": 29,
+   "rank_change": -22,
+   "score": 106,
+   "score_gain": 91,
+   "comment_gain": 52,
+   "hours_between": 8.43,
+   "points_per_hour": 10.8,
+   "gain_since_first_seen": 91,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50520518,
+   "title": "Michael Mann's 'Heat' Copyright Fight Turns on a Deal with Himself",
+   "url": "https://copyrightlately.com/michael-mann-heat-copyright-termination/",
+   "domain": "copyrightlately.com",
+   "rank": 32,
+   "rank_change": -24,
+   "score": 97,
+   "score_gain": 89,
+   "comment_gain": 44,
+   "hours_between": 8.43,
+   "points_per_hour": 10.6,
+   "gain_since_first_seen": 89,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50519345,
+   "title": "Jolt \u2013 Clojure that speaks C",
+   "url": "https://jolt-lang.net/",
+   "domain": "jolt-lang.net",
+   "rank": 36,
+   "rank_change": -24,
+   "score": 99,
+   "score_gain": 88,
+   "comment_gain": 32,
+   "hours_between": 8.43,
+   "points_per_hour": 10.4,
+   "gain_since_first_seen": 88,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50516473,
+   "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+   "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+   "domain": "masnick.com",
+   "rank": 26,
+   "rank_change": -22,
+   "score": 300,
+   "score_gain": 60,
+   "comment_gain": 25,
+   "hours_between": 8.43,
+   "points_per_hour": 7.1,
+   "gain_since_first_seen": 60,
+   "first_seen": "2026-11-16T18:28:49Z"
+  },
+  {
+   "story_id": 50515058,
+   "title": "Interpreting claims that a theorem is correct because it was checked in Lean",
+   "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
+   "domain": "xenaproject.wordpress.com",
+   "rank": 44,
+   "rank_change": -34,
+   "score": 289,
+   "score_gain": 58,
+   "comment_gain": 32,
+   "hours_between": 8.43,
+   "points_per_hour": 6.9,
+   "gain_since_first_seen": 58,
+   "first_seen": "2026-11-16T18:28:49Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50509972,
-   "ts": "2026-11-16T06:19:39Z",
-   "score": 212,
-   "rank": 12
-  },
-  {
-   "story_id": 50509972,
+   "story_id": 50517488,
    "ts": "2026-11-16T18:28:49Z",
-   "score": 432,
-   "rank": 31
-  },
-  {
-   "story_id": 50512235,
-   "ts": "2026-11-16T06:19:39Z",
-   "score": 183,
-   "rank": 4
-  },
-  {
-   "story_id": 50512235,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 420,
-   "rank": 21
-  },
-  {
-   "story_id": 50513160,
-   "ts": "2026-11-16T06:19:39Z",
-   "score": 235,
-   "rank": 1
-  },
-  {
-   "story_id": 50513160,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 565,
-   "rank": 9
-  },
-  {
-   "story_id": 50513215,
-   "ts": "2026-11-16T06:19:39Z",
-   "score": 322,
-   "rank": 2
-  },
-  {
-   "story_id": 50513215,
-   "ts": "2026-11-16T18:28:49Z",
-   "score": 809,
-   "rank": 18
-  },
-  {
-   "story_id": 50514470,
-   "ts": "2026-11-16T06:19:39Z",
-   "score": 8,
+   "score": 560,
    "rank": 5
   },
   {
-   "story_id": 50514470,
+   "story_id": 50517488,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 850,
+   "rank": 34
+  },
+  {
+   "story_id": 50518567,
    "ts": "2026-11-16T18:28:49Z",
-   "score": 726,
-   "rank": 6
+   "score": 145,
+   "rank": 29
+  },
+  {
+   "story_id": 50518567,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 257,
+   "rank": 47
+  },
+  {
+   "story_id": 50519354,
+   "ts": "2026-11-16T18:28:49Z",
+   "score": 11,
+   "rank": 16
+  },
+  {
+   "story_id": 50519354,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 319,
+   "rank": 10
+  },
+  {
+   "story_id": 50519744,
+   "ts": "2026-11-16T18:28:49Z",
+   "score": 88,
+   "rank": 2
+  },
+  {
+   "story_id": 50519744,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 320,
+   "rank": 11
+  },
+  {
+   "story_id": 50520182,
+   "ts": "2026-11-16T18:28:49Z",
+   "score": 59,
+   "rank": 1
+  },
+  {
+   "story_id": 50520182,
+   "ts": "2026-11-17T02:54:31Z",
+   "score": 227,
+   "rank": 13
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 4,
-   "avg_score": 237.5,
-   "median_score": 227.0
+   "stories": 6,
+   "avg_score": 167.3,
+   "median_score": 220.0
   },
   {
    "hour": 1,
-   "stories": 5,
-   "avg_score": 221.4,
-   "median_score": 245.0
+   "stories": 11,
+   "avg_score": 107.9,
+   "median_score": 17.0
   },
   {
    "hour": 2,
-   "stories": 8,
-   "avg_score": 386.4,
-   "median_score": 361.0
+   "stories": 11,
+   "avg_score": 283.1,
+   "median_score": 191.0
   },
   {
    "hour": 3,
@@ -447,15 +447,15 @@
   },
   {
    "hour": 6,
-   "stories": 4,
-   "avg_score": 231.3,
-   "median_score": 174.0
+   "stories": 5,
+   "avg_score": 186.0,
+   "median_score": 87.0
   },
   {
    "hour": 7,
-   "stories": 4,
-   "avg_score": 467.0,
-   "median_score": 182.0
+   "stories": 5,
+   "avg_score": 413.0,
+   "median_score": 139.0
   },
   {
    "hour": 8,
@@ -478,196 +478,196 @@
   {
    "hour": 11,
    "stories": 15,
-   "avg_score": 167.3,
+   "avg_score": 173.1,
    "median_score": 99.0
   },
   {
    "hour": 12,
-   "stories": 25,
-   "avg_score": 180.8,
-   "median_score": 73.0
+   "stories": 26,
+   "avg_score": 175.3,
+   "median_score": 71.0
   },
   {
    "hour": 13,
-   "stories": 25,
-   "avg_score": 308.9,
-   "median_score": 111.0
+   "stories": 26,
+   "avg_score": 317.1,
+   "median_score": 131.5
   },
   {
    "hour": 14,
    "stories": 40,
-   "avg_score": 124.6,
+   "avg_score": 125.6,
    "median_score": 71.5
   },
   {
    "hour": 15,
-   "stories": 33,
-   "avg_score": 90.7,
-   "median_score": 72.0
+   "stories": 36,
+   "avg_score": 89.9,
+   "median_score": 71.0
   },
   {
    "hour": 16,
-   "stories": 20,
-   "avg_score": 84.3,
-   "median_score": 45.5
+   "stories": 21,
+   "avg_score": 112.3,
+   "median_score": 51.0
   },
   {
    "hour": 17,
    "stories": 31,
-   "avg_score": 169.9,
-   "median_score": 54.0
+   "avg_score": 182.3,
+   "median_score": 94.0
   },
   {
    "hour": 18,
-   "stories": 29,
-   "avg_score": 256.3,
+   "stories": 31,
+   "avg_score": 266.7,
    "median_score": 127.0
   },
   {
    "hour": 19,
-   "stories": 28,
-   "avg_score": 146.9,
-   "median_score": 58.5
+   "stories": 29,
+   "avg_score": 144.1,
+   "median_score": 61.0
   },
   {
    "hour": 20,
-   "stories": 15,
-   "avg_score": 112.6,
-   "median_score": 27.0
+   "stories": 19,
+   "avg_score": 150.2,
+   "median_score": 34.0
   },
   {
    "hour": 21,
-   "stories": 13,
-   "avg_score": 238.6,
-   "median_score": 79.0
+   "stories": 18,
+   "avg_score": 211.8,
+   "median_score": 89.0
   },
   {
    "hour": 22,
-   "stories": 12,
-   "avg_score": 239.9,
-   "median_score": 187.5
+   "stories": 15,
+   "avg_score": 228.9,
+   "median_score": 182.0
   },
   {
    "hour": 23,
-   "stories": 10,
-   "avg_score": 198.4,
-   "median_score": 165.5
+   "stories": 12,
+   "avg_score": 179.4,
+   "median_score": 144.0
   }
  ],
  "keywords": [
   {
-   "word": "nvidia",
+   "word": "free",
    "stories": 3,
-   "total_score": 574
-  },
-  {
-   "word": "flight",
-   "stories": 2,
-   "total_score": 1958
-  },
-  {
-   "word": "being",
-   "stories": 2,
-   "total_score": 368
-  },
-  {
-   "word": "dos",
-   "stories": 2,
-   "total_score": 298
-  },
-  {
-   "word": "huang",
-   "stories": 2,
-   "total_score": 154
-  },
-  {
-   "word": "jensen",
-   "stories": 2,
-   "total_score": 154
+   "total_score": 830
   },
   {
    "word": "rust",
+   "stories": 3,
+   "total_score": 620
+  },
+  {
+   "word": "system",
+   "stories": 3,
+   "total_score": 326
+  },
+  {
+   "word": "open",
+   "stories": 3,
+   "total_score": 173
+  },
+  {
+   "word": "science",
    "stories": 2,
-   "total_score": 103
+   "total_score": 992
   },
   {
-   "word": "artificial",
+   "word": "online",
    "stories": 2,
-   "total_score": 83
+   "total_score": 833
   },
   {
-   "word": "catches",
-   "stories": 1,
-   "total_score": 1734
+   "word": "developer",
+   "stories": 2,
+   "total_score": 483
   },
   {
-   "word": "end",
-   "stories": 1,
-   "total_score": 1734
+   "word": "outage",
+   "stories": 2,
+   "total_score": 414
   },
   {
-   "word": "spacex",
-   "stories": 1,
-   "total_score": 1734
+   "word": "color",
+   "stories": 2,
+   "total_score": 328
   },
   {
-   "word": "starship",
-   "stories": 1,
-   "total_score": 1734
+   "word": "agents",
+   "stories": 2,
+   "total_score": 321
   },
   {
-   "word": "max",
-   "stories": 1,
-   "total_score": 809
+   "word": "coding",
+   "stories": 2,
+   "total_score": 321
   },
   {
-   "word": "qwen4",
-   "stories": 1,
-   "total_score": 809
+   "word": "email",
+   "stories": 2,
+   "total_score": 308
   },
   {
-   "word": "almost",
-   "stories": 1,
-   "total_score": 726
+   "word": "software",
+   "stories": 2,
+   "total_score": 247
   },
   {
-   "word": "anything",
-   "stories": 1,
-   "total_score": 726
+   "word": "track",
+   "stories": 2,
+   "total_score": 231
   },
   {
-   "word": "driven",
-   "stories": 1,
-   "total_score": 565
+   "word": "fight",
+   "stories": 2,
+   "total_score": 205
   },
   {
-   "word": "element",
-   "stories": 1,
-   "total_score": 565
+   "word": "without",
+   "stories": 2,
+   "total_score": 86
   },
   {
-   "word": "origin",
-   "stories": 1,
-   "total_score": 565
+   "word": "source",
+   "stories": 2,
+   "total_score": 33
   },
   {
-   "word": "picker",
+   "word": "amazon",
    "stories": 1,
-   "total_score": 565
+   "total_score": 850
+  },
+  {
+   "word": "black",
+   "stories": 1,
+   "total_score": 850
+  },
+  {
+   "word": "cyber",
+   "stories": 1,
+   "total_score": 850
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 20
+   "stories": 19
   },
   {
    "bucket": "50-99",
-   "stories": 9
+   "stories": 8
   },
   {
    "bucket": "100-249",
-   "stories": 9
+   "stories": 13
   },
   {
    "bucket": "250-499",
@@ -675,14 +675,14 @@
   },
   {
    "bucket": "500+",
-   "stories": 5
+   "stories": 3
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 36,
-   "total_score": 5655
+   "stories": 39,
+   "total_score": 5707
   },
   {
    "domain": "nytimes.com",
@@ -691,23 +691,28 @@
   },
   {
    "domain": "youtube.com",
+   "stories": 6,
+   "total_score": 674
+  },
+  {
+   "domain": "twitter.com",
    "stories": 5,
-   "total_score": 654
+   "total_score": 613
   },
   {
    "domain": "wired.com",
    "stories": 4,
-   "total_score": 948
-  },
-  {
-   "domain": "twitter.com",
-   "stories": 4,
-   "total_score": 604
+   "total_score": 1060
   },
   {
    "domain": "reuters.com",
+   "stories": 4,
+   "total_score": 750
+  },
+  {
+   "domain": "news.cornell.edu",
    "stories": 3,
-   "total_score": 705
+   "total_score": 555
   },
   {
    "domain": "maurycyz.com",
@@ -715,45 +720,40 @@
    "total_score": 477
   },
   {
-   "domain": "news.cornell.edu",
+   "domain": "tomshardware.com",
    "stories": 3,
-   "total_score": 352
+   "total_score": 72
   },
   {
-   "domain": "spacex.com",
+   "domain": "apnews.com",
    "stories": 2,
-   "total_score": 1848
-  },
-  {
-   "domain": "nvidianews.nvidia.com",
-   "stories": 2,
-   "total_score": 970
+   "total_score": 4571
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
-   "stories": 7,
-   "total_score": 588,
-   "avg_score": 84.0
+   "stories": 8,
+   "total_score": 871,
+   "avg_score": 109.0
+  },
+  {
+   "author": "dvaplima",
+   "stories": 5,
+   "total_score": 941,
+   "avg_score": 188.0
   },
   {
    "author": "PaulHoule",
    "stories": 5,
-   "total_score": 442,
-   "avg_score": 88.0
+   "total_score": 645,
+   "avg_score": 129.0
   },
   {
    "author": "DeepLogin",
    "stories": 4,
-   "total_score": 910,
-   "avg_score": 228.0
-  },
-  {
-   "author": "dvaplima",
-   "stories": 4,
-   "total_score": 896,
-   "avg_score": 224.0
+   "total_score": 1200,
+   "avg_score": 300.0
   },
   {
    "author": "dverlaeckt80",
@@ -774,22 +774,22 @@
    "avg_score": 12.0
   },
   {
+   "author": "zdw",
+   "stories": 3,
+   "total_score": 768,
+   "avg_score": 256.0
+  },
+  {
    "author": "tosh",
    "stories": 3,
    "total_score": 650,
    "avg_score": 217.0
   },
   {
-   "author": "jonbaer",
+   "author": "Brajeshwar",
    "stories": 3,
-   "total_score": 586,
-   "avg_score": 195.0
-  },
-  {
-   "author": "giuliomagnifico",
-   "stories": 3,
-   "total_score": 556,
-   "avg_score": 185.0
+   "total_score": 609,
+   "avg_score": 203.0
   }
  ],
  "daily_trend": [
@@ -840,6 +840,12 @@
    "stories": 50,
    "avg_score": 191.2,
    "rolling_7d_avg": 195.2
+  },
+  {
+   "day": "2026-11-17",
+   "stories": 50,
+   "avg_score": 152.8,
+   "rolling_7d_avg": 189.0
   }
  ]
 }
