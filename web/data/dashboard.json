@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-18T07:20:12.314143+00:00",
+  "finished_at": "2026-11-18T17:13:19.274088+00:00",
   "duration_s": 0.45,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 12687,
+  "raw_bytes": 9871,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,317 +72,281 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-18T07:20:11+00:00",
-  "oldest_story": "2026-11-14T15:38:50+00:00",
-  "newest_story": "2026-11-18T05:52:37+00:00",
-  "total_points": 13068,
-  "unique_authors": 49,
+  "snapshot_ts": "2026-11-18T17:13:18+00:00",
+  "oldest_story": "2026-11-15T05:54:22+00:00",
+  "newest_story": "2026-11-18T17:07:21+00:00",
+  "total_points": 7870,
+  "unique_authors": 45,
   "days_of_history": 10,
-  "stories_in_history": 442,
-  "runs_observed": 25,
-  "parquet_bytes": 18114
+  "stories_in_history": 465,
+  "runs_observed": 26,
+  "parquet_bytes": 24202
  },
  "top_stories": [
   {
-   "rank": 42,
-   "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-   "url": "https://www.cs.cmu.edu/learn/",
-   "domain": "cs.cmu.edu",
-   "author": "pcompeau",
-   "score": 2306,
-   "comment_count": 314,
-   "age_hours": 34.6,
-   "points_per_hour": 66.6
-  },
-  {
-   "rank": 3,
-   "title": "GPT\u20116.2 Astra and Sol",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "domain": "openai.com",
-   "author": "jasondavies",
-   "score": 1226,
-   "comment_count": 762,
-   "age_hours": 13.6,
-   "points_per_hour": 90.4
-  },
-  {
-   "rank": 34,
-   "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-   "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-   "domain": "nytimes.com",
-   "author": "donohoe",
-   "score": 1218,
-   "comment_count": 604,
-   "age_hours": 19.6,
-   "points_per_hour": 62.2
-  },
-  {
-   "rank": 1,
+   "rank": 28,
    "title": "Java4Shell: RCE in OpenJDK when processing Base64",
    "url": "https://calif.io/java4shell/",
    "domain": "calif.io",
    "author": "werrett",
-   "score": 789,
-   "comment_count": 210,
-   "age_hours": 10.1,
-   "points_per_hour": 77.8
+   "score": 1122,
+   "comment_count": 308,
+   "age_hours": 20.0,
+   "points_per_hour": 56.0
   },
   {
-   "rank": 29,
-   "title": "Apple Services Down",
-   "url": "https://developer.apple.com/system-status/",
-   "domain": "developer.apple.com",
-   "author": "willy_k",
-   "score": 680,
-   "comment_count": 380,
-   "age_hours": 13.5,
-   "points_per_hour": 50.2
-  },
-  {
-   "rank": 12,
-   "title": "Highly classified US national security communications network goes down",
-   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-   "domain": "cnn.com",
-   "author": "monkeydust",
-   "score": 552,
-   "comment_count": 642,
-   "age_hours": 15.7,
-   "points_per_hour": 35.2
-  },
-  {
-   "rank": 7,
-   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-   "domain": "ft.com",
-   "author": "louiereederson",
-   "score": 499,
-   "comment_count": 224,
-   "age_hours": 14.1,
-   "points_per_hour": 35.3
-  },
-  {
-   "rank": 4,
+   "rank": 33,
    "title": "Quad9's withdrawal from France: A canary in the coal mine",
    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
    "domain": "blog.cloudflare.com",
    "author": "subset",
-   "score": 475,
-   "comment_count": 149,
-   "age_hours": 9.1,
-   "points_per_hour": 52.1
+   "score": 844,
+   "comment_count": 400,
+   "age_hours": 19.0,
+   "points_per_hour": 44.4
   },
   {
-   "rank": 23,
-   "title": "What is the best harness for each model?",
-   "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-   "domain": "runta.com",
-   "author": "Edward40",
-   "score": 362,
-   "comment_count": 125,
+   "rank": 36,
+   "title": "AI is killing All About Berlin",
+   "url": "https://nicolasbouliane.com/blog/death-by-ai",
+   "domain": "nicolasbouliane.com",
+   "author": "grey-area",
+   "score": 684,
+   "comment_count": 627,
+   "age_hours": 10.4,
+   "points_per_hour": 65.6
+  },
+  {
+   "rank": 34,
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "domain": "revscope.co",
+   "author": "slashdev",
+   "score": 651,
+   "comment_count": 498,
+   "age_hours": 16.9,
+   "points_per_hour": 38.5
+  },
+  {
+   "rank": 44,
+   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+   "domain": "ft.com",
+   "author": "louiereederson",
+   "score": 645,
+   "comment_count": 286,
+   "age_hours": 24.0,
+   "points_per_hour": 26.9
+  },
+  {
+   "rank": 38,
+   "title": "ID.me terms required for IRS sign-in",
+   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+   "domain": "consumerrights.wiki",
+   "author": "DeepLogin",
+   "score": 460,
+   "comment_count": 243,
    "age_hours": 16.4,
-   "points_per_hour": 22.0
+   "points_per_hour": 28.1
   },
   {
-   "rank": 17,
-   "title": "Phrack 73 Released",
-   "url": "https://phrack.org/issues/73/introduction_md",
-   "domain": "phrack.org",
-   "author": "notmine1337",
-   "score": 355,
-   "comment_count": 51,
-   "age_hours": 12.8,
-   "points_per_hour": 27.7
+   "rank": 50,
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "url": "https://github.com/microsoft/onnxruntime",
+   "domain": "github.com",
+   "author": "nvader",
+   "score": 430,
+   "comment_count": 91,
+   "age_hours": 17.9,
+   "points_per_hour": 24.0
+  },
+  {
+   "rank": 4,
+   "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+   "domain": "techstackups.com",
+   "author": "ritzaco",
+   "score": 327,
+   "comment_count": 89,
+   "age_hours": 3.9,
+   "points_per_hour": 83.4
+  },
+  {
+   "rank": 1,
+   "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "domain": "wiz.io",
+   "author": "speedping",
+   "score": 265,
+   "comment_count": 86,
+   "age_hours": 1.9,
+   "points_per_hour": 140.2
+  },
+  {
+   "rank": 13,
+   "title": "Energy-Based Reasoners: 385x more efficient inference",
+   "url": "https://energy-based-reasoners.github.io/",
+   "domain": "energy-based-reasoners.github.io",
+   "author": "frenchmajesty",
+   "score": 243,
+   "comment_count": 37,
+   "age_hours": 7.7,
+   "points_per_hour": 31.4
   }
  ],
  "rising_stories": [
-  {
-   "story_id": 50538240,
-   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-   "url": "https://calif.io/java4shell/",
-   "domain": "calif.io",
-   "rank": 1,
-   "rank_change": 0,
-   "score": 789,
-   "score_gain": 461,
-   "comment_gain": 127,
-   "hours_between": 7.85,
-   "points_per_hour": 58.8,
-   "gain_since_first_seen": 461,
-   "first_seen": "2026-11-17T23:29:26Z"
-  },
   {
    "story_id": 50538994,
    "title": "Quad9's withdrawal from France: A canary in the coal mine",
    "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
    "domain": "blog.cloudflare.com",
-   "rank": 4,
-   "rank_change": -1,
-   "score": 475,
-   "score_gain": 353,
-   "comment_gain": 139,
-   "hours_between": 7.85,
-   "points_per_hour": 45.0,
-   "gain_since_first_seen": 353,
+   "rank": 33,
+   "rank_change": -29,
+   "score": 844,
+   "score_gain": 369,
+   "comment_gain": 251,
+   "hours_between": 9.89,
+   "points_per_hour": 37.3,
+   "gain_since_first_seen": 722,
    "first_seen": "2026-11-17T23:29:26Z"
   },
   {
-   "story_id": 50535230,
-   "title": "GPT\u20116.2 Astra and Sol",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "domain": "openai.com",
-   "rank": 3,
-   "rank_change": -1,
-   "score": 1226,
-   "score_gain": 221,
-   "comment_gain": 141,
-   "hours_between": 7.85,
-   "points_per_hour": 28.2,
-   "gain_since_first_seen": 221,
+   "story_id": 50540178,
+   "title": "Google's AI answers reducing search traffic by 40%",
+   "url": "https://revscope.co/blog/search-seo-geo-2026/",
+   "domain": "revscope.co",
+   "rank": 34,
+   "rank_change": -29,
+   "score": 651,
+   "score_gain": 350,
+   "comment_gain": 267,
+   "hours_between": 9.89,
+   "points_per_hour": 35.4,
+   "gain_since_first_seen": 350,
+   "first_seen": "2026-11-18T07:20:11Z"
+  },
+  {
+   "story_id": 50538240,
+   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+   "url": "https://calif.io/java4shell/",
+   "domain": "calif.io",
+   "rank": 28,
+   "rank_change": -27,
+   "score": 1122,
+   "score_gain": 333,
+   "comment_gain": 98,
+   "hours_between": 9.89,
+   "points_per_hour": 33.7,
+   "gain_since_first_seen": 794,
    "first_seen": "2026-11-17T23:29:26Z"
+  },
+  {
+   "story_id": 50541790,
+   "title": "Why is Gemini 4 Carbon taking so long?",
+   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+   "domain": "kernel.dev",
+   "rank": 22,
+   "rank_change": -12,
+   "score": 235,
+   "score_gain": 191,
+   "comment_gain": 96,
+   "hours_between": 9.89,
+   "points_per_hour": 19.3,
+   "gain_since_first_seen": 191,
+   "first_seen": "2026-11-18T07:20:11Z"
+  },
+  {
+   "story_id": 50539610,
+   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+   "url": "https://github.com/microsoft/onnxruntime",
+   "domain": "github.com",
+   "rank": 50,
+   "rank_change": -42,
+   "score": 430,
+   "score_gain": 165,
+   "comment_gain": 30,
+   "hours_between": 9.89,
+   "points_per_hour": 16.7,
+   "gain_since_first_seen": 165,
+   "first_seen": "2026-11-18T07:20:11Z"
+  },
+  {
+   "story_id": 50540437,
+   "title": "ID.me terms required for IRS sign-in",
+   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+   "domain": "consumerrights.wiki",
+   "rank": 38,
+   "rank_change": -36,
+   "score": 460,
+   "score_gain": 155,
+   "comment_gain": 114,
+   "hours_between": 9.89,
+   "points_per_hour": 15.7,
+   "gain_since_first_seen": 155,
+   "first_seen": "2026-11-18T07:20:11Z"
   },
   {
    "story_id": 50534631,
    "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
    "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
    "domain": "ft.com",
-   "rank": 7,
-   "rank_change": -2,
-   "score": 499,
-   "score_gain": 183,
+   "rank": 44,
+   "rank_change": -37,
+   "score": 645,
+   "score_gain": 146,
+   "comment_gain": 62,
+   "hours_between": 9.89,
+   "points_per_hour": 14.8,
+   "gain_since_first_seen": 329,
+   "first_seen": "2026-11-17T23:29:26Z"
+  },
+  {
+   "story_id": 50541619,
+   "title": "Claude was trained on protein sequences at scale",
+   "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+   "domain": "xinmingtu.cn",
+   "rank": 31,
+   "rank_change": -12,
+   "score": 141,
+   "score_gain": 115,
    "comment_gain": 60,
-   "hours_between": 7.85,
-   "points_per_hour": 23.3,
-   "gain_since_first_seen": 183,
+   "hours_between": 9.89,
+   "points_per_hour": 11.6,
+   "gain_since_first_seen": 115,
+   "first_seen": "2026-11-18T07:20:11Z"
+  },
+  {
+   "story_id": 50538184,
+   "title": "Tencent Hy4 Flash",
+   "url": "https://hy.tencent.ai/research/hy4-flash",
+   "domain": "hy.tencent.ai",
+   "rank": 48,
+   "rank_change": -22,
+   "score": 155,
+   "score_gain": 48,
+   "comment_gain": 10,
+   "hours_between": 9.89,
+   "points_per_hour": 4.9,
+   "gain_since_first_seen": 138,
    "first_seen": "2026-11-17T23:29:26Z"
   },
   {
-   "story_id": 50532849,
-   "title": "Highly classified US national security communications network goes down",
-   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-   "domain": "cnn.com",
-   "rank": 12,
-   "rank_change": -3,
-   "score": 552,
-   "score_gain": 149,
-   "comment_gain": 136,
-   "hours_between": 7.85,
-   "points_per_hour": 19.0,
-   "gain_since_first_seen": 149,
-   "first_seen": "2026-11-17T23:29:26Z"
-  },
-  {
-   "story_id": 50538303,
-   "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
-   "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-   "domain": "complexdiscovery.com",
-   "rank": 18,
-   "rank_change": 0,
-   "score": 154,
-   "score_gain": 137,
-   "comment_gain": 173,
-   "hours_between": 7.85,
-   "points_per_hour": 17.5,
-   "gain_since_first_seen": 137,
-   "first_seen": "2026-11-17T23:29:26Z"
-  },
-  {
-   "story_id": 50535992,
-   "title": "Phrack 73 Released",
-   "url": "https://phrack.org/issues/73/introduction_md",
-   "domain": "phrack.org",
-   "rank": 17,
-   "rank_change": -9,
-   "score": 355,
-   "score_gain": 127,
-   "comment_gain": 30,
-   "hours_between": 7.85,
-   "points_per_hour": 16.2,
-   "gain_since_first_seen": 127,
-   "first_seen": "2026-11-17T23:29:26Z"
-  },
-  {
-   "story_id": 50536813,
-   "title": "350 years ago, Ole R\u00f8mer discovered that light has a finite speed",
-   "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
-   "domain": "sciencenorway.no",
-   "rank": 16,
-   "rank_change": -9,
-   "score": 313,
-   "score_gain": 101,
-   "comment_gain": 27,
-   "hours_between": 7.85,
-   "points_per_hour": 12.9,
-   "gain_since_first_seen": 101,
-   "first_seen": "2026-11-17T23:29:26Z"
-  },
-  {
-   "story_id": 50530163,
-   "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-   "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-   "domain": "nytimes.com",
-   "rank": 34,
-   "rank_change": -9,
-   "score": 1218,
-   "score_gain": 96,
-   "comment_gain": 50,
-   "hours_between": 7.85,
-   "points_per_hour": 12.2,
-   "gain_since_first_seen": 1104,
-   "first_seen": "2026-11-17T13:16:51Z"
-  },
-  {
-   "story_id": 50536387,
-   "title": "Solid 2.0",
-   "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
-   "domain": "solidjs.com",
-   "rank": 20,
-   "rank_change": -9,
-   "score": 282,
-   "score_gain": 94,
-   "comment_gain": 31,
-   "hours_between": 7.85,
-   "points_per_hour": 12.0,
-   "gain_since_first_seen": 94,
+   "story_id": 50536468,
+   "title": "Launch HN: StarSling (YC P25) \u2013 Self-improving CI for agent-volume repos",
+   "url": null,
+   "domain": null,
+   "rank": 45,
+   "rank_change": -18,
+   "score": 85,
+   "score_gain": 19,
+   "comment_gain": 4,
+   "hours_between": 9.89,
+   "points_per_hour": 1.9,
+   "gain_since_first_seen": 44,
    "first_seen": "2026-11-17T23:29:26Z"
   }
  ],
  "score_trajectories": [
-  {
-   "story_id": 50532849,
-   "ts": "2026-11-17T23:29:26Z",
-   "score": 403,
-   "rank": 9
-  },
-  {
-   "story_id": 50532849,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 552,
-   "rank": 12
-  },
-  {
-   "story_id": 50534631,
-   "ts": "2026-11-17T23:29:26Z",
-   "score": 316,
-   "rank": 5
-  },
-  {
-   "story_id": 50534631,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 499,
-   "rank": 7
-  },
-  {
-   "story_id": 50535230,
-   "ts": "2026-11-17T23:29:26Z",
-   "score": 1005,
-   "rank": 2
-  },
-  {
-   "story_id": 50535230,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 1226,
-   "rank": 3
-  },
   {
    "story_id": 50538240,
    "ts": "2026-11-17T23:29:26Z",
@@ -396,6 +360,12 @@
    "rank": 1
   },
   {
+   "story_id": 50538240,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 1122,
+   "rank": 28
+  },
+  {
    "story_id": 50538994,
    "ts": "2026-11-17T23:29:26Z",
    "score": 122,
@@ -406,50 +376,92 @@
    "ts": "2026-11-18T07:20:11Z",
    "score": 475,
    "rank": 4
+  },
+  {
+   "story_id": 50538994,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 844,
+   "rank": 33
+  },
+  {
+   "story_id": 50539610,
+   "ts": "2026-11-18T07:20:11Z",
+   "score": 265,
+   "rank": 8
+  },
+  {
+   "story_id": 50539610,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 430,
+   "rank": 50
+  },
+  {
+   "story_id": 50540178,
+   "ts": "2026-11-18T07:20:11Z",
+   "score": 301,
+   "rank": 5
+  },
+  {
+   "story_id": 50540178,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 651,
+   "rank": 34
+  },
+  {
+   "story_id": 50541790,
+   "ts": "2026-11-18T07:20:11Z",
+   "score": 44,
+   "rank": 10
+  },
+  {
+   "story_id": 50541790,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 235,
+   "rank": 22
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 7,
-   "avg_score": 231.6,
-   "median_score": 227.0
+   "stories": 6,
+   "avg_score": 343.5,
+   "median_score": 255.0
   },
   {
    "hour": 1,
-   "stories": 7,
-   "avg_score": 192.3,
-   "median_score": 175.0
+   "stories": 6,
+   "avg_score": 213.7,
+   "median_score": 210.0
   },
   {
    "hour": 2,
-   "stories": 10,
-   "avg_score": 338.4,
-   "median_score": 281.0
+   "stories": 9,
+   "avg_score": 369.9,
+   "median_score": 324.0
   },
   {
    "hour": 3,
-   "stories": 11,
-   "avg_score": 126.6,
-   "median_score": 57.0
+   "stories": 9,
+   "avg_score": 163.9,
+   "median_score": 122.0
   },
   {
    "hour": 4,
-   "stories": 8,
-   "avg_score": 171.0,
-   "median_score": 86.5
+   "stories": 6,
+   "avg_score": 255.7,
+   "median_score": 270.5
   },
   {
    "hour": 5,
-   "stories": 16,
-   "avg_score": 146.9,
-   "median_score": 94.5
+   "stories": 12,
+   "avg_score": 190.5,
+   "median_score": 114.0
   },
   {
    "hour": 6,
-   "stories": 4,
-   "avg_score": 231.3,
-   "median_score": 174.0
+   "stories": 5,
+   "avg_score": 321.8,
+   "median_score": 261.0
   },
   {
    "hour": 7,
@@ -460,14 +472,14 @@
   {
    "hour": 8,
    "stories": 7,
-   "avg_score": 100.7,
-   "median_score": 86.0
+   "avg_score": 98.6,
+   "median_score": 71.0
   },
   {
    "hour": 9,
-   "stories": 4,
-   "avg_score": 135.0,
-   "median_score": 122.5
+   "stories": 5,
+   "avg_score": 156.6,
+   "median_score": 139.0
   },
   {
    "hour": 10,
@@ -477,193 +489,193 @@
   },
   {
    "hour": 11,
-   "stories": 16,
-   "avg_score": 233.0,
-   "median_score": 114.0
+   "stories": 17,
+   "avg_score": 218.2,
+   "median_score": 99.0
   },
   {
    "hour": 12,
-   "stories": 25,
-   "avg_score": 180.8,
-   "median_score": 73.0
+   "stories": 27,
+   "avg_score": 167.7,
+   "median_score": 69.0
   },
   {
    "hour": 13,
-   "stories": 27,
-   "avg_score": 288.3,
+   "stories": 28,
+   "avg_score": 291.5,
    "median_score": 111.0
   },
   {
    "hour": 14,
-   "stories": 42,
-   "avg_score": 130.2,
+   "stories": 48,
+   "avg_score": 122.0,
    "median_score": 78.0
   },
   {
    "hour": 15,
-   "stories": 38,
-   "avg_score": 104.8,
-   "median_score": 73.5
+   "stories": 52,
+   "avg_score": 88.4,
+   "median_score": 51.5
   },
   {
    "hour": 16,
-   "stories": 21,
-   "avg_score": 82.6,
-   "median_score": 48.0
+   "stories": 31,
+   "avg_score": 61.9,
+   "median_score": 25.0
   },
   {
    "hour": 17,
-   "stories": 39,
-   "avg_score": 209.0,
-   "median_score": 90.0
+   "stories": 40,
+   "avg_score": 198.7,
+   "median_score": 75.5
   },
   {
    "hour": 18,
-   "stories": 37,
-   "avg_score": 238.1,
-   "median_score": 127.0
+   "stories": 38,
+   "avg_score": 223.0,
+   "median_score": 117.5
   },
   {
    "hour": 19,
    "stories": 33,
-   "avg_score": 149.8,
+   "avg_score": 143.7,
    "median_score": 66.0
   },
   {
    "hour": 20,
-   "stories": 20,
-   "avg_score": 214.2,
-   "median_score": 30.5
+   "stories": 19,
+   "avg_score": 215.8,
+   "median_score": 27.0
   },
   {
    "hour": 21,
-   "stories": 17,
-   "avg_score": 244.7,
-   "median_score": 98.0
+   "stories": 16,
+   "avg_score": 274.8,
+   "median_score": 88.5
   },
   {
    "hour": 22,
-   "stories": 20,
-   "avg_score": 175.5,
-   "median_score": 44.5
+   "stories": 19,
+   "avg_score": 201.6,
+   "median_score": 43.0
   },
   {
    "hour": 23,
-   "stories": 13,
-   "avg_score": 202.5,
-   "median_score": 178.0
+   "stories": 12,
+   "avg_score": 218.6,
+   "median_score": 189.5
   }
  ],
  "keywords": [
   {
-   "word": "code",
-   "stories": 4,
-   "total_score": 1058
+   "word": "microsoft",
+   "stories": 3,
+   "total_score": 517
   },
   {
-   "word": "improving",
-   "stories": 2,
-   "total_score": 1284
+   "word": "open",
+   "stories": 3,
+   "total_score": 44
   },
   {
-   "word": "down",
+   "word": "rce",
    "stories": 2,
-   "total_score": 1232
+   "total_score": 1387
   },
   {
-   "word": "apple",
+   "word": "france",
    "stories": 2,
-   "total_score": 846
+   "total_score": 1171
   },
   {
-   "word": "has",
+   "word": "quad9",
    "stories": 2,
-   "total_score": 578
+   "total_score": 1171
   },
   {
-   "word": "model",
+   "word": "energy",
    "stories": 2,
-   "total_score": 448
+   "total_score": 373
   },
   {
-   "word": "flash",
+   "word": "nginx",
    "stories": 2,
-   "total_score": 445
+   "total_score": 297
+  },
+  {
+   "word": "models",
+   "stories": 2,
+   "total_score": 87
+  },
+  {
+   "word": "host",
+   "stories": 2,
+   "total_score": 71
+  },
+  {
+   "word": "cpu",
+   "stories": 2,
+   "total_score": 67
+  },
+  {
+   "word": "survive",
+   "stories": 2,
+   "total_score": 65
+  },
+  {
+   "word": "ipv6",
+   "stories": 2,
+   "total_score": 59
+  },
+  {
+   "word": "series",
+   "stories": 2,
+   "total_score": 44
+  },
+  {
+   "word": "anthropic",
+   "stories": 2,
+   "total_score": 41
   },
   {
    "word": "source",
    "stories": 2,
-   "total_score": 266
+   "total_score": 25
   },
   {
-   "word": "startup",
-   "stories": 2,
-   "total_score": 232
-  },
-  {
-   "word": "javascript",
-   "stories": 2,
-   "total_score": 192
-  },
-  {
-   "word": "llm",
-   "stories": 2,
-   "total_score": 192
-  },
-  {
-   "word": "coding",
-   "stories": 2,
-   "total_score": 160
-  },
-  {
-   "word": "inference",
-   "stories": 2,
-   "total_score": 113
-  },
-  {
-   "word": "pdf",
-   "stories": 2,
-   "total_score": 42
-  },
-  {
-   "word": "carnegie",
+   "word": "base64",
    "stories": 1,
-   "total_score": 2306
+   "total_score": 1122
   },
   {
-   "word": "computer",
+   "word": "java4shell",
    "stories": 1,
-   "total_score": 2306
+   "total_score": 1122
   },
   {
-   "word": "courses",
+   "word": "openjdk",
    "stories": 1,
-   "total_score": 2306
+   "total_score": 1122
   },
   {
-   "word": "free",
+   "word": "processing",
    "stories": 1,
-   "total_score": 2306
+   "total_score": 1122
   },
   {
-   "word": "mellon",
+   "word": "canary",
    "stories": 1,
-   "total_score": 2306
-  },
-  {
-   "word": "putting",
-   "stories": 1,
-   "total_score": 2306
+   "total_score": 844
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 15
+   "stories": 24
   },
   {
    "bucket": "50-99",
-   "stories": 8
+   "stories": 7
   },
   {
    "bucket": "100-249",
@@ -671,23 +683,28 @@
   },
   {
    "bucket": "250-499",
-   "stories": 11
+   "stories": 4
   },
   {
    "bucket": "500+",
-   "stories": 6
+   "stories": 5
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 41,
-   "total_score": 6294
+   "stories": 39,
+   "total_score": 6339
   },
   {
    "domain": "nytimes.com",
    "stories": 9,
-   "total_score": 2203
+   "total_score": 2107
+  },
+  {
+   "domain": "twitter.com",
+   "stories": 6,
+   "total_score": 618
   },
   {
    "domain": "youtube.com",
@@ -695,24 +712,19 @@
    "total_score": 654
   },
   {
-   "domain": "twitter.com",
-   "stories": 5,
-   "total_score": 609
-  },
-  {
    "domain": "wired.com",
    "stories": 4,
    "total_score": 948
   },
   {
+   "domain": "ft.com",
+   "stories": 4,
+   "total_score": 729
+  },
+  {
    "domain": "reuters.com",
    "stories": 3,
    "total_score": 705
-  },
-  {
-   "domain": "ft.com",
-   "stories": 3,
-   "total_score": 564
   },
   {
    "domain": "theverge.com",
@@ -734,20 +746,20 @@
   {
    "author": "speckx",
    "stories": 8,
-   "total_score": 732,
-   "avg_score": 92.0
+   "total_score": 653,
+   "avg_score": 82.0
+  },
+  {
+   "author": "DeepLogin",
+   "stories": 6,
+   "total_score": 1481,
+   "avg_score": 247.0
   },
   {
    "author": "PaulHoule",
    "stories": 6,
-   "total_score": 536,
-   "avg_score": 89.0
-  },
-  {
-   "author": "DeepLogin",
-   "stories": 5,
-   "total_score": 1215,
-   "avg_score": 243.0
+   "total_score": 508,
+   "avg_score": 85.0
   },
   {
    "author": "dverlaeckt80",
@@ -756,28 +768,28 @@
    "avg_score": 137.0
   },
   {
+   "author": "rbanffy",
+   "stories": 5,
+   "total_score": 547,
+   "avg_score": 109.0
+  },
+  {
    "author": "dvaplima",
    "stories": 4,
    "total_score": 896,
    "avg_score": 224.0
   },
   {
-   "author": "jonbaer",
+   "author": "gmays",
    "stories": 4,
-   "total_score": 592,
-   "avg_score": 148.0
-  },
-  {
-   "author": "rbanffy",
-   "stories": 4,
-   "total_score": 537,
-   "avg_score": 134.0
+   "total_score": 321,
+   "avg_score": 80.0
   },
   {
    "author": "bookofjoe",
    "stories": 4,
-   "total_score": 160,
-   "avg_score": 40.0
+   "total_score": 123,
+   "avg_score": 31.0
   },
   {
    "author": "surprisetalk",
@@ -850,8 +862,8 @@
   {
    "day": "2026-11-18",
    "stories": 50,
-   "avg_score": 261.4,
-   "rolling_7d_avg": 217.5
+   "avg_score": 157.4,
+   "rolling_7d_avg": 202.7
   }
  ]
 }
