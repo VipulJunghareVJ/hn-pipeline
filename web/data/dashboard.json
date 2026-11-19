@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-18T17:13:19.274088+00:00",
-  "duration_s": 0.45,
+  "finished_at": "2026-11-19T01:51:50.817402+00:00",
+  "duration_s": 0.53,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 9871,
+  "raw_bytes": 12121,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,360 +72,348 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-18T17:13:18+00:00",
-  "oldest_story": "2026-11-15T05:54:22+00:00",
-  "newest_story": "2026-11-18T17:07:21+00:00",
-  "total_points": 7870,
-  "unique_authors": 45,
-  "days_of_history": 10,
-  "stories_in_history": 465,
-  "runs_observed": 26,
-  "parquet_bytes": 24202
+  "snapshot_ts": "2026-11-19T01:51:50+00:00",
+  "oldest_story": "2026-11-15T09:12:55+00:00",
+  "newest_story": "2026-11-19T00:57:20+00:00",
+  "total_points": 7279,
+  "unique_authors": 48,
+  "days_of_history": 11,
+  "stories_in_history": 499,
+  "runs_observed": 27,
+  "parquet_bytes": 20983
  },
  "top_stories": [
   {
-   "rank": 28,
-   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-   "url": "https://calif.io/java4shell/",
-   "domain": "calif.io",
-   "author": "werrett",
-   "score": 1122,
-   "comment_count": 308,
-   "age_hours": 20.0,
-   "points_per_hour": 56.0
-  },
-  {
-   "rank": 33,
-   "title": "Quad9's withdrawal from France: A canary in the coal mine",
-   "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-   "domain": "blog.cloudflare.com",
-   "author": "subset",
-   "score": 844,
-   "comment_count": 400,
-   "age_hours": 19.0,
-   "points_per_hour": 44.4
-  },
-  {
-   "rank": 36,
-   "title": "AI is killing All About Berlin",
-   "url": "https://nicolasbouliane.com/blog/death-by-ai",
-   "domain": "nicolasbouliane.com",
-   "author": "grey-area",
-   "score": 684,
-   "comment_count": 627,
-   "age_hours": 10.4,
-   "points_per_hour": 65.6
-  },
-  {
-   "rank": 34,
-   "title": "Google's AI answers reducing search traffic by 40%",
-   "url": "https://revscope.co/blog/search-seo-geo-2026/",
-   "domain": "revscope.co",
-   "author": "slashdev",
-   "score": 651,
-   "comment_count": 498,
-   "age_hours": 16.9,
-   "points_per_hour": 38.5
-  },
-  {
-   "rank": 44,
-   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-   "domain": "ft.com",
-   "author": "louiereederson",
-   "score": 645,
-   "comment_count": 286,
-   "age_hours": 24.0,
-   "points_per_hour": 26.9
-  },
-  {
-   "rank": 38,
-   "title": "ID.me terms required for IRS sign-in",
-   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-   "domain": "consumerrights.wiki",
-   "author": "DeepLogin",
-   "score": 460,
-   "comment_count": 243,
-   "age_hours": 16.4,
-   "points_per_hour": 28.1
-  },
-  {
-   "rank": 50,
-   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-   "url": "https://github.com/microsoft/onnxruntime",
-   "domain": "github.com",
-   "author": "nvader",
-   "score": 430,
-   "comment_count": 91,
-   "age_hours": 17.9,
-   "points_per_hour": 24.0
-  },
-  {
-   "rank": 4,
-   "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
-   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-   "domain": "techstackups.com",
-   "author": "ritzaco",
-   "score": 327,
-   "comment_count": 89,
-   "age_hours": 3.9,
-   "points_per_hour": 83.4
-  },
-  {
-   "rank": 1,
-   "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+   "rank": 2,
+   "title": "Unauthenticated remote code execution in Nginx",
    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
    "domain": "wiz.io",
    "author": "speedping",
-   "score": 265,
-   "comment_count": 86,
-   "age_hours": 1.9,
-   "points_per_hour": 140.2
+   "score": 1145,
+   "comment_count": 509,
+   "age_hours": 10.5,
+   "points_per_hour": 108.7
   },
   {
-   "rank": 13,
+   "rank": 9,
+   "title": "DNS resolvers are the wrong place to fight piracy",
+   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+   "domain": "techstackups.com",
+   "author": "ritzaco",
+   "score": 600,
+   "comment_count": 223,
+   "age_hours": 12.6,
+   "points_per_hour": 47.8
+  },
+  {
+   "rank": 8,
+   "title": "Inside Deutsche Bank",
+   "url": "https://www.inside-db.com/",
+   "domain": "inside-db.com",
+   "author": "gyre007",
+   "score": 562,
+   "comment_count": 190,
+   "age_hours": 10.2,
+   "points_per_hour": 55.0
+  },
+  {
+   "rank": 5,
+   "title": "Seven new models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "domain": "microsoft.ai",
+   "author": "gmays",
+   "score": 451,
+   "comment_count": 314,
+   "age_hours": 9.7,
+   "points_per_hour": 46.4
+  },
+  {
+   "rank": 1,
+   "title": "Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "domain": "blog.google",
+   "author": "yigitdemirag",
+   "score": 447,
+   "comment_count": 419,
+   "age_hours": 4.3,
+   "points_per_hour": 104.1
+  },
+  {
+   "rank": 6,
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "domain": "europeanbusinessmagazine.com",
+   "author": "Betelbuddy",
+   "score": 359,
+   "comment_count": 163,
+   "age_hours": 10.0,
+   "points_per_hour": 35.8
+  },
+  {
+   "rank": 30,
    "title": "Energy-Based Reasoners: 385x more efficient inference",
    "url": "https://energy-based-reasoners.github.io/",
    "domain": "energy-based-reasoners.github.io",
    "author": "frenchmajesty",
-   "score": 243,
-   "comment_count": 37,
-   "age_hours": 7.7,
-   "points_per_hour": 31.4
+   "score": 300,
+   "comment_count": 52,
+   "age_hours": 16.4,
+   "points_per_hour": 18.3
+  },
+  {
+   "rank": 48,
+   "title": "Why is Gemini 4 Carbon taking so long?",
+   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+   "domain": "kernel.dev",
+   "author": "deenadz",
+   "score": 264,
+   "comment_count": 138,
+   "age_hours": 21.6,
+   "points_per_hour": 12.2
+  },
+  {
+   "rank": 18,
+   "title": "The Cambridge Dictionary has named \u2018human\u2019 as the Word of the Year 2026",
+   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+   "domain": "cam.ac.uk",
+   "author": "DeepLogin",
+   "score": 237,
+   "comment_count": 172,
+   "age_hours": 11.1,
+   "points_per_hour": 21.3
+  },
+  {
+   "rank": 14,
+   "title": "We need smart people who give a shit",
+   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
+   "domain": "violetpixel.com",
+   "author": "ExMachina73",
+   "score": 205,
+   "comment_count": 110,
+   "age_hours": 2.0,
+   "points_per_hour": 104.2
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50538994,
-   "title": "Quad9's withdrawal from France: A canary in the coal mine",
-   "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-   "domain": "blog.cloudflare.com",
-   "rank": 33,
-   "rank_change": -29,
-   "score": 844,
-   "score_gain": 369,
-   "comment_gain": 251,
-   "hours_between": 9.89,
-   "points_per_hour": 37.3,
-   "gain_since_first_seen": 722,
-   "first_seen": "2026-11-17T23:29:26Z"
+   "story_id": 50547374,
+   "title": "Unauthenticated remote code execution in Nginx",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "domain": "wiz.io",
+   "rank": 2,
+   "rank_change": -1,
+   "score": 1145,
+   "score_gain": 880,
+   "comment_gain": 423,
+   "hours_between": 8.64,
+   "points_per_hour": 101.8,
+   "gain_since_first_seen": 880,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50540178,
-   "title": "Google's AI answers reducing search traffic by 40%",
-   "url": "https://revscope.co/blog/search-seo-geo-2026/",
-   "domain": "revscope.co",
-   "rank": 34,
-   "rank_change": -29,
-   "score": 651,
-   "score_gain": 350,
-   "comment_gain": 267,
-   "hours_between": 9.89,
-   "points_per_hour": 35.4,
-   "gain_since_first_seen": 350,
-   "first_seen": "2026-11-18T07:20:11Z"
+   "story_id": 50548021,
+   "title": "Seven new models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "domain": "microsoft.ai",
+   "rank": 5,
+   "rank_change": -2,
+   "score": 451,
+   "score_gain": 383,
+   "comment_gain": 278,
+   "hours_between": 8.64,
+   "points_per_hour": 44.3,
+   "gain_since_first_seen": 383,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50538240,
-   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-   "url": "https://calif.io/java4shell/",
-   "domain": "calif.io",
-   "rank": 28,
-   "rank_change": -27,
-   "score": 1122,
-   "score_gain": 333,
-   "comment_gain": 98,
-   "hours_between": 9.89,
-   "points_per_hour": 33.7,
-   "gain_since_first_seen": 794,
-   "first_seen": "2026-11-17T23:29:26Z"
+   "story_id": 50547620,
+   "title": "Inside Deutsche Bank",
+   "url": "https://www.inside-db.com/",
+   "domain": "inside-db.com",
+   "rank": 8,
+   "rank_change": -6,
+   "score": 562,
+   "score_gain": 375,
+   "comment_gain": 130,
+   "hours_between": 8.64,
+   "points_per_hour": 43.4,
+   "gain_since_first_seen": 375,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50541790,
-   "title": "Why is Gemini 4 Carbon taking so long?",
-   "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-   "domain": "kernel.dev",
-   "rank": 22,
-   "rank_change": -12,
-   "score": 235,
-   "score_gain": 191,
-   "comment_gain": 96,
-   "hours_between": 9.89,
-   "points_per_hour": 19.3,
-   "gain_since_first_seen": 191,
-   "first_seen": "2026-11-18T07:20:11Z"
+   "story_id": 50547777,
+   "title": "AI agents ask better questions than KPMG accountants in audit trial",
+   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+   "domain": "europeanbusinessmagazine.com",
+   "rank": 6,
+   "rank_change": 5,
+   "score": 359,
+   "score_gain": 341,
+   "comment_gain": 158,
+   "hours_between": 8.64,
+   "points_per_hour": 39.5,
+   "gain_since_first_seen": 341,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50539610,
-   "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
-   "url": "https://github.com/microsoft/onnxruntime",
-   "domain": "github.com",
-   "rank": 50,
-   "rank_change": -42,
-   "score": 430,
-   "score_gain": 165,
-   "comment_gain": 30,
-   "hours_between": 9.89,
-   "points_per_hour": 16.7,
-   "gain_since_first_seen": 165,
-   "first_seen": "2026-11-18T07:20:11Z"
+   "story_id": 50545958,
+   "title": "DNS resolvers are the wrong place to fight piracy",
+   "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+   "domain": "techstackups.com",
+   "rank": 9,
+   "rank_change": -5,
+   "score": 600,
+   "score_gain": 273,
+   "comment_gain": 134,
+   "hours_between": 8.64,
+   "points_per_hour": 31.6,
+   "gain_since_first_seen": 273,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50540437,
-   "title": "ID.me terms required for IRS sign-in",
-   "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-   "domain": "consumerrights.wiki",
-   "rank": 38,
-   "rank_change": -36,
-   "score": 460,
-   "score_gain": 155,
-   "comment_gain": 114,
-   "hours_between": 9.89,
-   "points_per_hour": 15.7,
-   "gain_since_first_seen": 155,
-   "first_seen": "2026-11-18T07:20:11Z"
+   "story_id": 50547980,
+   "title": "Show HN: ExitPath \u2013 Open-source ways out of Slack, Notion and Microsoft 365",
+   "url": "https://exitpath-ruddy.vercel.app/",
+   "domain": "exitpath-ruddy.vercel.app",
+   "rank": 20,
+   "rank_change": -11,
+   "score": 167,
+   "score_gain": 148,
+   "comment_gain": 47,
+   "hours_between": 8.64,
+   "points_per_hour": 17.1,
+   "gain_since_first_seen": 148,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50534631,
-   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-   "domain": "ft.com",
-   "rank": 44,
-   "rank_change": -37,
-   "score": 645,
-   "score_gain": 146,
-   "comment_gain": 62,
-   "hours_between": 9.89,
-   "points_per_hour": 14.8,
-   "gain_since_first_seen": 329,
-   "first_seen": "2026-11-17T23:29:26Z"
-  },
-  {
-   "story_id": 50541619,
-   "title": "Claude was trained on protein sequences at scale",
-   "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
-   "domain": "xinmingtu.cn",
-   "rank": 31,
-   "rank_change": -12,
-   "score": 141,
-   "score_gain": 115,
-   "comment_gain": 60,
-   "hours_between": 9.89,
-   "points_per_hour": 11.6,
-   "gain_since_first_seen": 115,
-   "first_seen": "2026-11-18T07:20:11Z"
-  },
-  {
-   "story_id": 50538184,
-   "title": "Tencent Hy4 Flash",
-   "url": "https://hy.tencent.ai/research/hy4-flash",
-   "domain": "hy.tencent.ai",
-   "rank": 48,
+   "story_id": 50548004,
+   "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+   "domain": "cve.org",
+   "rank": 27,
    "rank_change": -22,
-   "score": 155,
-   "score_gain": 48,
-   "comment_gain": 10,
-   "hours_between": 9.89,
-   "points_per_hour": 4.9,
-   "gain_since_first_seen": 138,
-   "first_seen": "2026-11-17T23:29:26Z"
+   "score": 174,
+   "score_gain": 135,
+   "comment_gain": 99,
+   "hours_between": 8.64,
+   "points_per_hour": 15.6,
+   "gain_since_first_seen": 135,
+   "first_seen": "2026-11-18T17:13:18Z"
   },
   {
-   "story_id": 50536468,
-   "title": "Launch HN: StarSling (YC P25) \u2013 Self-improving CI for agent-volume repos",
-   "url": null,
-   "domain": null,
-   "rank": 45,
-   "rank_change": -18,
-   "score": 85,
-   "score_gain": 19,
-   "comment_gain": 4,
-   "hours_between": 9.89,
-   "points_per_hour": 1.9,
-   "gain_since_first_seen": 44,
-   "first_seen": "2026-11-17T23:29:26Z"
+   "story_id": 50548161,
+   "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+   "url": "https://rshekhar.com/voyager/",
+   "domain": "rshekhar.com",
+   "rank": 24,
+   "rank_change": -16,
+   "score": 151,
+   "score_gain": 133,
+   "comment_gain": 33,
+   "hours_between": 8.64,
+   "points_per_hour": 15.4,
+   "gain_since_first_seen": 133,
+   "first_seen": "2026-11-18T17:13:18Z"
+  },
+  {
+   "story_id": 50546914,
+   "title": "The Cambridge Dictionary has named \u2018human\u2019 as the Word of the Year 2026",
+   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+   "domain": "cam.ac.uk",
+   "rank": 18,
+   "rank_change": -11,
+   "score": 237,
+   "score_gain": 126,
+   "comment_gain": 88,
+   "hours_between": 8.64,
+   "points_per_hour": 14.6,
+   "gain_since_first_seen": 126,
+   "first_seen": "2026-11-18T17:13:18Z"
+  },
+  {
+   "story_id": 50546967,
+   "title": "The x86 CPU: From 4004 to 486",
+   "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+   "domain": "pikuma.com",
+   "rank": 29,
+   "rank_change": -19,
+   "score": 146,
+   "score_gain": 104,
+   "comment_gain": 34,
+   "hours_between": 8.64,
+   "points_per_hour": 12.0,
+   "gain_since_first_seen": 104,
+   "first_seen": "2026-11-18T17:13:18Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50538240,
-   "ts": "2026-11-17T23:29:26Z",
-   "score": 328,
-   "rank": 1
-  },
-  {
-   "story_id": 50538240,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 789,
-   "rank": 1
-  },
-  {
-   "story_id": 50538240,
+   "story_id": 50545958,
    "ts": "2026-11-18T17:13:18Z",
-   "score": 1122,
-   "rank": 28
-  },
-  {
-   "story_id": 50538994,
-   "ts": "2026-11-17T23:29:26Z",
-   "score": 122,
-   "rank": 3
-  },
-  {
-   "story_id": 50538994,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 475,
+   "score": 327,
    "rank": 4
   },
   {
-   "story_id": 50538994,
-   "ts": "2026-11-18T17:13:18Z",
-   "score": 844,
-   "rank": 33
+   "story_id": 50545958,
+   "ts": "2026-11-19T01:51:50Z",
+   "score": 600,
+   "rank": 9
   },
   {
-   "story_id": 50539610,
-   "ts": "2026-11-18T07:20:11Z",
+   "story_id": 50547374,
+   "ts": "2026-11-18T17:13:18Z",
    "score": 265,
+   "rank": 1
+  },
+  {
+   "story_id": 50547374,
+   "ts": "2026-11-19T01:51:50Z",
+   "score": 1145,
+   "rank": 2
+  },
+  {
+   "story_id": 50547620,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 187,
+   "rank": 2
+  },
+  {
+   "story_id": 50547620,
+   "ts": "2026-11-19T01:51:50Z",
+   "score": 562,
    "rank": 8
   },
   {
-   "story_id": 50539610,
+   "story_id": 50547777,
    "ts": "2026-11-18T17:13:18Z",
-   "score": 430,
-   "rank": 50
+   "score": 18,
+   "rank": 11
   },
   {
-   "story_id": 50540178,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 301,
+   "story_id": 50547777,
+   "ts": "2026-11-19T01:51:50Z",
+   "score": 359,
+   "rank": 6
+  },
+  {
+   "story_id": 50548021,
+   "ts": "2026-11-18T17:13:18Z",
+   "score": 68,
+   "rank": 3
+  },
+  {
+   "story_id": 50548021,
+   "ts": "2026-11-19T01:51:50Z",
+   "score": 451,
    "rank": 5
-  },
-  {
-   "story_id": 50540178,
-   "ts": "2026-11-18T17:13:18Z",
-   "score": 651,
-   "rank": 34
-  },
-  {
-   "story_id": 50541790,
-   "ts": "2026-11-18T07:20:11Z",
-   "score": 44,
-   "rank": 10
-  },
-  {
-   "story_id": 50541790,
-   "ts": "2026-11-18T17:13:18Z",
-   "score": 235,
-   "rank": 22
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 6,
-   "avg_score": 343.5,
-   "median_score": 255.0
+   "stories": 10,
+   "avg_score": 217.9,
+   "median_score": 220.0
   },
   {
    "hour": 1,
@@ -448,8 +436,8 @@
   {
    "hour": 4,
    "stories": 6,
-   "avg_score": 255.7,
-   "median_score": 270.5
+   "avg_score": 260.5,
+   "median_score": 285.0
   },
   {
    "hour": 5,
@@ -477,9 +465,9 @@
   },
   {
    "hour": 9,
-   "stories": 5,
-   "avg_score": 156.6,
-   "median_score": 139.0
+   "stories": 6,
+   "avg_score": 149.5,
+   "median_score": 122.5
   },
   {
    "hour": 10,
@@ -490,8 +478,8 @@
   {
    "hour": 11,
    "stories": 17,
-   "avg_score": 218.2,
-   "median_score": 99.0
+   "avg_score": 221.1,
+   "median_score": 127.0
   },
   {
    "hour": 12,
@@ -502,176 +490,176 @@
   {
    "hour": 13,
    "stories": 28,
-   "avg_score": 291.5,
+   "avg_score": 301.2,
    "median_score": 111.0
   },
   {
    "hour": 14,
    "stories": 48,
-   "avg_score": 122.0,
-   "median_score": 78.0
+   "avg_score": 128.2,
+   "median_score": 85.5
   },
   {
    "hour": 15,
    "stories": 52,
-   "avg_score": 88.4,
-   "median_score": 51.5
+   "avg_score": 120.8,
+   "median_score": 70.5
   },
   {
    "hour": 16,
-   "stories": 31,
-   "avg_score": 61.9,
-   "median_score": 25.0
+   "stories": 32,
+   "avg_score": 87.5,
+   "median_score": 40.0
   },
   {
    "hour": 17,
-   "stories": 40,
-   "avg_score": 198.7,
-   "median_score": 75.5
+   "stories": 43,
+   "avg_score": 192.0,
+   "median_score": 78.0
   },
   {
    "hour": 18,
-   "stories": 38,
-   "avg_score": 223.0,
-   "median_score": 117.5
+   "stories": 41,
+   "avg_score": 214.3,
+   "median_score": 113.0
   },
   {
    "hour": 19,
-   "stories": 33,
-   "avg_score": 143.7,
+   "stories": 35,
+   "avg_score": 139.8,
    "median_score": 66.0
   },
   {
    "hour": 20,
-   "stories": 19,
-   "avg_score": 215.8,
-   "median_score": 27.0
+   "stories": 24,
+   "avg_score": 178.1,
+   "median_score": 30.5
   },
   {
    "hour": 21,
-   "stories": 16,
-   "avg_score": 274.8,
-   "median_score": 88.5
+   "stories": 19,
+   "avg_score": 258.3,
+   "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 19,
-   "avg_score": 201.6,
+   "stories": 22,
+   "avg_score": 180.3,
    "median_score": 43.0
   },
   {
    "hour": 23,
-   "stories": 12,
-   "avg_score": 218.6,
-   "median_score": 189.5
+   "stories": 21,
+   "avg_score": 148.1,
+   "median_score": 103.0
   }
  ],
  "keywords": [
   {
-   "word": "microsoft",
+   "word": "gemini",
    "stories": 3,
-   "total_score": 517
+   "total_score": 773
   },
   {
    "word": "open",
    "stories": 3,
-   "total_score": 44
+   "total_score": 294
   },
   {
-   "word": "rce",
-   "stories": 2,
-   "total_score": 1387
-  },
-  {
-   "word": "france",
-   "stories": 2,
-   "total_score": 1171
-  },
-  {
-   "word": "quad9",
-   "stories": 2,
-   "total_score": 1171
-  },
-  {
-   "word": "energy",
-   "stories": 2,
-   "total_score": 373
-  },
-  {
-   "word": "nginx",
-   "stories": 2,
-   "total_score": 297
+   "word": "source",
+   "stories": 3,
+   "total_score": 294
   },
   {
    "word": "models",
    "stories": 2,
-   "total_score": 87
+   "total_score": 612
   },
   {
-   "word": "host",
+   "word": "neon",
    "stories": 2,
-   "total_score": 71
+   "total_score": 509
   },
   {
-   "word": "cpu",
+   "word": "agents",
    "stories": 2,
-   "total_score": 67
+   "total_score": 402
   },
   {
-   "word": "survive",
+   "word": "better",
    "stories": 2,
-   "total_score": 65
+   "total_score": 378
   },
   {
-   "word": "ipv6",
+   "word": "x86",
+   "stories": 2,
+   "total_score": 320
+  },
+  {
+   "word": "chip",
+   "stories": 2,
+   "total_score": 312
+  },
+  {
+   "word": "has",
+   "stories": 2,
+   "total_score": 258
+  },
+  {
+   "word": "software",
+   "stories": 2,
+   "total_score": 185
+  },
+  {
+   "word": "next",
+   "stories": 2,
+   "total_score": 165
+  },
+  {
+   "word": "like",
+   "stories": 2,
+   "total_score": 105
+  },
+  {
+   "word": "live",
    "stories": 2,
    "total_score": 59
   },
   {
-   "word": "series",
-   "stories": 2,
-   "total_score": 44
-  },
-  {
-   "word": "anthropic",
-   "stories": 2,
-   "total_score": 41
-  },
-  {
-   "word": "source",
-   "stories": 2,
-   "total_score": 25
-  },
-  {
-   "word": "base64",
+   "word": "code",
    "stories": 1,
-   "total_score": 1122
+   "total_score": 1145
   },
   {
-   "word": "java4shell",
+   "word": "execution",
    "stories": 1,
-   "total_score": 1122
+   "total_score": 1145
   },
   {
-   "word": "openjdk",
+   "word": "nginx",
    "stories": 1,
-   "total_score": 1122
+   "total_score": 1145
   },
   {
-   "word": "processing",
+   "word": "remote",
    "stories": 1,
-   "total_score": 1122
+   "total_score": 1145
   },
   {
-   "word": "canary",
+   "word": "unauthenticated",
    "stories": 1,
-   "total_score": 844
+   "total_score": 1145
+  },
+  {
+   "word": "dns",
+   "stories": 1,
+   "total_score": 600
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 24
+   "stories": 21
   },
   {
    "bucket": "50-99",
@@ -679,22 +667,22 @@
   },
   {
    "bucket": "100-249",
-   "stories": 10
+   "stories": 14
   },
   {
    "bucket": "250-499",
-   "stories": 4
+   "stories": 5
   },
   {
    "bucket": "500+",
-   "stories": 5
+   "stories": 3
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 39,
-   "total_score": 6339
+   "stories": 42,
+   "total_score": 6441
   },
   {
    "domain": "nytimes.com",
@@ -712,6 +700,11 @@
    "total_score": 654
   },
   {
+   "domain": "blog.google",
+   "stories": 4,
+   "total_score": 1239
+  },
+  {
    "domain": "wired.com",
    "stories": 4,
    "total_score": 948
@@ -722,6 +715,11 @@
    "total_score": 729
   },
   {
+   "domain": "openai.com",
+   "stories": 3,
+   "total_score": 1200
+  },
+  {
    "domain": "reuters.com",
    "stories": 3,
    "total_score": 705
@@ -730,16 +728,6 @@
    "domain": "theverge.com",
    "stories": 3,
    "total_score": 537
-  },
-  {
-   "domain": "maurycyz.com",
-   "stories": 3,
-   "total_score": 477
-  },
-  {
-   "domain": "news.cornell.edu",
-   "stories": 3,
-   "total_score": 352
   }
  ],
  "top_authors": [
@@ -751,15 +739,21 @@
   },
   {
    "author": "DeepLogin",
-   "stories": 6,
-   "total_score": 1481,
-   "avg_score": 247.0
+   "stories": 7,
+   "total_score": 1618,
+   "avg_score": 231.0
   },
   {
    "author": "PaulHoule",
    "stories": 6,
    "total_score": 508,
    "avg_score": 85.0
+  },
+  {
+   "author": "gmays",
+   "stories": 5,
+   "total_score": 727,
+   "avg_score": 145.0
   },
   {
    "author": "dverlaeckt80",
@@ -774,34 +768,28 @@
    "avg_score": 109.0
   },
   {
+   "author": "surprisetalk",
+   "stories": 5,
+   "total_score": 96,
+   "avg_score": 19.0
+  },
+  {
    "author": "dvaplima",
    "stories": 4,
    "total_score": 896,
    "avg_score": 224.0
   },
   {
-   "author": "gmays",
+   "author": "CharlesW",
    "stories": 4,
-   "total_score": 321,
-   "avg_score": 80.0
+   "total_score": 475,
+   "avg_score": 119.0
   },
   {
-   "author": "bookofjoe",
+   "author": "acossta",
    "stories": 4,
-   "total_score": 123,
-   "avg_score": 31.0
-  },
-  {
-   "author": "surprisetalk",
-   "stories": 4,
-   "total_score": 48,
-   "avg_score": 12.0
-  },
-  {
-   "author": "zdw",
-   "stories": 3,
-   "total_score": 732,
-   "avg_score": 244.0
+   "total_score": 324,
+   "avg_score": 81.0
   }
  ],
  "daily_trend": [
@@ -864,6 +852,12 @@
    "stories": 50,
    "avg_score": 157.4,
    "rolling_7d_avg": 202.7
+  },
+  {
+   "day": "2026-11-19",
+   "stories": 50,
+   "avg_score": 145.6,
+   "rolling_7d_avg": 194.5
   }
  ]
 }
