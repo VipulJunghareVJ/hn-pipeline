@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-19T12:57:19.943736+00:00",
+  "finished_at": "2026-11-19T23:02:10.799891+00:00",
   "duration_s": 0.48,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 13315,
+  "raw_bytes": 13064,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,360 +72,354 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-19T12:57:19+00:00",
-  "oldest_story": "2026-11-15T20:30:42+00:00",
-  "newest_story": "2026-11-19T12:17:10+00:00",
-  "total_points": 10344,
-  "unique_authors": 50,
+  "snapshot_ts": "2026-11-19T23:02:10+00:00",
+  "oldest_story": "2026-11-15T03:34:58+00:00",
+  "newest_story": "2026-11-19T22:56:59+00:00",
+  "total_points": 10826,
+  "unique_authors": 47,
   "days_of_history": 11,
-  "stories_in_history": 504,
-  "runs_observed": 28,
-  "parquet_bytes": 22966
+  "stories_in_history": 514,
+  "runs_observed": 29,
+  "parquet_bytes": 17749
  },
  "top_stories": [
   {
-   "rank": 10,
+   "rank": 42,
    "title": "Unauthenticated remote code execution in Nginx",
    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
    "domain": "wiz.io",
    "author": "speedping",
-   "score": 1424,
-   "comment_count": 608,
-   "age_hours": 21.6,
-   "points_per_hour": 65.9
+   "score": 1480,
+   "comment_count": 635,
+   "age_hours": 31.7,
+   "points_per_hour": 46.7
   },
   {
-   "rank": 8,
+   "rank": 35,
    "title": "Gemini 4 Neon",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
    "domain": "blog.google",
    "author": "yigitdemirag",
-   "score": 883,
-   "comment_count": 698,
-   "age_hours": 15.4,
-   "points_per_hour": 57.4
+   "score": 1006,
+   "comment_count": 753,
+   "age_hours": 25.5,
+   "points_per_hour": 39.5
+  },
+  {
+   "rank": 1,
+   "title": "Anthropic hits $2T in Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "domain": "reuters.com",
+   "author": "wslh",
+   "score": 770,
+   "comment_count": 1439,
+   "age_hours": 6.0,
+   "points_per_hour": 128.5
+  },
+  {
+   "rank": 5,
+   "title": "Garage Door Spam",
+   "url": "https://blog.harrison.page/garage-door-spam/",
+   "domain": "blog.harrison.page",
+   "author": "harrisonpage",
+   "score": 701,
+   "comment_count": 291,
+   "age_hours": 78.8,
+   "points_per_hour": 8.9
   },
   {
    "rank": 20,
-   "title": "Inside Deutsche Bank",
-   "url": "https://www.inside-db.com/",
-   "domain": "inside-db.com",
-   "author": "gyre007",
-   "score": 729,
-   "comment_count": 242,
-   "age_hours": 21.3,
-   "points_per_hour": 34.2
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "domain": "element.io",
+   "author": "liotier",
+   "score": 635,
+   "comment_count": 305,
+   "age_hours": 12.1,
+   "points_per_hour": 52.6
   },
   {
-   "rank": 38,
-   "title": "We need smart people who give a shit",
-   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-   "domain": "violetpixel.com",
-   "author": "ExMachina73",
-   "score": 674,
-   "comment_count": 337,
-   "age_hours": 13.1,
-   "points_per_hour": 51.6
+   "rank": 31,
+   "title": "Fuck Your AI Safeguards",
+   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+   "domain": "ounapuu.ee",
+   "author": "speckx",
+   "score": 435,
+   "comment_count": 173,
+   "age_hours": 6.5,
+   "points_per_hour": 66.6
   },
   {
-   "rank": 18,
-   "title": "Seven new models at scalable price-performance",
-   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "domain": "microsoft.ai",
-   "author": "gmays",
-   "score": 564,
-   "comment_count": 357,
-   "age_hours": 20.8,
-   "points_per_hour": 27.1
+   "rank": 12,
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "domain": "macanorak.com",
+   "author": "Terretta",
+   "score": 429,
+   "comment_count": 189,
+   "age_hours": 6.7,
+   "points_per_hour": 64.2
   },
   {
-   "rank": 39,
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "domain": "europeanbusinessmagazine.com",
-   "author": "Betelbuddy",
-   "score": 471,
-   "comment_count": 224,
-   "age_hours": 21.1,
-   "points_per_hour": 22.3
+   "rank": 2,
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "domain": "newscientist.com",
+   "author": "cybermango",
+   "score": 393,
+   "comment_count": 53,
+   "age_hours": 5.6,
+   "points_per_hour": 70.1
   },
   {
-   "rank": 45,
-   "title": "Codeberg.org Not Reachable",
-   "url": "https://social.anoxinon.de/@codebergstatus/117636437840688845",
-   "domain": "social.anoxinon.de",
-   "author": "hans_castorp",
-   "score": 310,
-   "comment_count": 309,
-   "age_hours": 26.9,
-   "points_per_hour": 11.5
+   "rank": 19,
+   "title": "Ruby2\u00dfhell: Pre-authentication RCE on stock Rails",
+   "url": "https://verialabs.com/ruby2shell/",
+   "domain": "verialabs.com",
+   "author": "jdns",
+   "score": 366,
+   "comment_count": 155,
+   "age_hours": 17.9,
+   "points_per_hour": 20.5
   },
   {
-   "rank": 15,
-   "title": "Multiple vulnerabilities in Regexp and String case conversion",
-   "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-   "domain": "ruby-lang.org",
-   "author": "runesoerensen",
-   "score": 291,
-   "comment_count": 108,
-   "age_hours": 13.1,
-   "points_per_hour": 22.3
-  },
-  {
-   "rank": 30,
-   "title": "The Cambridge Dictionary has named \u2018human\u2019 as the Word of the Year 2026",
-   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
-   "domain": "cam.ac.uk",
-   "author": "DeepLogin",
-   "score": 291,
-   "comment_count": 218,
-   "age_hours": 22.2,
-   "points_per_hour": 13.1
-  },
-  {
-   "rank": 17,
-   "title": "Anthropic prices initial public offering",
-   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-   "domain": "anthropic.com",
-   "author": "surprisetalk",
-   "score": 282,
-   "comment_count": 522,
-   "age_hours": 13.5,
-   "points_per_hour": 21.0
+   "rank": 29,
+   "title": "Everything you need to survive and rebuild society",
+   "url": "https://lastbook.org/",
+   "domain": "lastbook.org",
+   "author": "tejohnso",
+   "score": 330,
+   "comment_count": 179,
+   "age_hours": 8.2,
+   "points_per_hour": 40.0
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50554045,
-   "title": "We need smart people who give a shit",
-   "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-   "domain": "violetpixel.com",
-   "rank": 38,
-   "rank_change": -24,
-   "score": 674,
-   "score_gain": 469,
-   "comment_gain": 227,
-   "hours_between": 11.09,
-   "points_per_hour": 42.3,
-   "gain_since_first_seen": 469,
-   "first_seen": "2026-11-19T01:51:50Z"
+   "story_id": 50519231,
+   "title": "Garage Door Spam",
+   "url": "https://blog.harrison.page/garage-door-spam/",
+   "domain": "blog.harrison.page",
+   "rank": 5,
+   "rank_change": 1,
+   "score": 701,
+   "score_gain": 618,
+   "comment_gain": 263,
+   "hours_between": 10.08,
+   "points_per_hour": 61.3,
+   "gain_since_first_seen": 618,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50558533,
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "domain": "element.io",
+   "rank": 20,
+   "rank_change": -19,
+   "score": 635,
+   "score_gain": 477,
+   "comment_gain": 244,
+   "hours_between": 10.08,
+   "points_per_hour": 47.3,
+   "gain_since_first_seen": 477,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50547048,
+   "title": "Nintendo takes Picofly firmware down from GitHub [video]",
+   "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
+   "domain": "youtube.com",
+   "rank": 18,
+   "rank_change": -6,
+   "score": 240,
+   "score_gain": 221,
+   "comment_gain": 91,
+   "hours_between": 10.08,
+   "points_per_hour": 21.9,
+   "gain_since_first_seen": 221,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50557716,
+   "title": "SSD prices may begin to decline in the latter half of 2027",
+   "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
+   "domain": "drivevault.io",
+   "rank": 32,
+   "rank_change": -25,
+   "score": 292,
+   "score_gain": 161,
+   "comment_gain": 124,
+   "hours_between": 10.08,
+   "points_per_hour": 16.0,
+   "gain_since_first_seen": 161,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50556287,
+   "title": "Ruby2\u00dfhell: Pre-authentication RCE on stock Rails",
+   "url": "https://verialabs.com/ruby2shell/",
+   "domain": "verialabs.com",
+   "rank": 19,
+   "rank_change": -16,
+   "score": 366,
+   "score_gain": 155,
+   "comment_gain": 73,
+   "hours_between": 10.08,
+   "points_per_hour": 15.4,
+   "gain_since_first_seen": 155,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50536950,
+   "title": "An Oregon library ditched Dewey Decimal and got people excited about books again",
+   "url": "https://www.fastcompany.com/91597520/oregon-library-ditched-dewey-decimal-wayfinding-system",
+   "domain": "fastcompany.com",
+   "rank": 21,
+   "rank_change": -12,
+   "score": 173,
+   "score_gain": 149,
+   "comment_gain": 115,
+   "hours_between": 10.08,
+   "points_per_hour": 14.8,
+   "gain_since_first_seen": 149,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50557870,
+   "title": "What's New in PHP 8.6",
+   "url": "https://www.php.net/releases/8.6/en.php",
+   "domain": "php.net",
+   "rank": 23,
+   "rank_change": -21,
+   "score": 261,
+   "score_gain": 140,
+   "comment_gain": 69,
+   "hours_between": 10.08,
+   "points_per_hour": 13.9,
+   "gain_since_first_seen": 140,
+   "first_seen": "2026-11-19T12:57:19Z"
+  },
+  {
+   "story_id": 50557537,
+   "title": "Distributed, high-performance blob storage on SQLite",
+   "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+   "domain": "zerodha.tech",
+   "rank": 26,
+   "rank_change": -21,
+   "score": 244,
+   "score_gain": 135,
+   "comment_gain": 46,
+   "hours_between": 10.08,
+   "points_per_hour": 13.4,
+   "gain_since_first_seen": 135,
+   "first_seen": "2026-11-19T12:57:19Z"
   },
   {
    "story_id": 50552424,
    "title": "Gemini 4 Neon",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
    "domain": "blog.google",
-   "rank": 8,
-   "rank_change": -7,
-   "score": 883,
-   "score_gain": 436,
-   "comment_gain": 279,
-   "hours_between": 11.09,
-   "points_per_hour": 39.3,
-   "gain_since_first_seen": 436,
+   "rank": 35,
+   "rank_change": -27,
+   "score": 1006,
+   "score_gain": 123,
+   "comment_gain": 55,
+   "hours_between": 10.08,
+   "points_per_hour": 12.2,
+   "gain_since_first_seen": 559,
    "first_seen": "2026-11-19T01:51:50Z"
   },
   {
-   "story_id": 50547374,
-   "title": "Unauthenticated remote code execution in Nginx",
-   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-   "domain": "wiz.io",
-   "rank": 10,
-   "rank_change": -8,
-   "score": 1424,
-   "score_gain": 279,
-   "comment_gain": 99,
-   "hours_between": 11.09,
-   "points_per_hour": 25.2,
-   "gain_since_first_seen": 1159,
-   "first_seen": "2026-11-18T17:13:18Z"
-  },
-  {
-   "story_id": 50553843,
-   "title": "Anthropic prices initial public offering",
-   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-   "domain": "anthropic.com",
-   "rank": 17,
-   "rank_change": -6,
-   "score": 282,
-   "score_gain": 234,
-   "comment_gain": 503,
-   "hours_between": 11.09,
-   "points_per_hour": 21.1,
-   "gain_since_first_seen": 234,
-   "first_seen": "2026-11-19T01:51:50Z"
-  },
-  {
-   "story_id": 50554038,
-   "title": "Multiple vulnerabilities in Regexp and String case conversion",
-   "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-   "domain": "ruby-lang.org",
-   "rank": 15,
-   "rank_change": -12,
-   "score": 291,
-   "score_gain": 223,
-   "comment_gain": 94,
-   "hours_between": 11.09,
-   "points_per_hour": 20.1,
-   "gain_since_first_seen": 223,
-   "first_seen": "2026-11-19T01:51:50Z"
-  },
-  {
-   "story_id": 50553225,
-   "title": "LLM assisted reverse engineering",
-   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "domain": "slowchronicle.com",
-   "rank": 23,
-   "rank_change": -16,
-   "score": 252,
-   "score_gain": 192,
-   "comment_gain": 52,
-   "hours_between": 11.09,
-   "points_per_hour": 17.3,
-   "gain_since_first_seen": 192,
-   "first_seen": "2026-11-19T01:51:50Z"
-  },
-  {
-   "story_id": 50554374,
-   "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
-   "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-   "domain": "micjm.com",
-   "rank": 46,
-   "rank_change": -42,
-   "score": 236,
-   "score_gain": 174,
-   "comment_gain": 54,
-   "hours_between": 11.09,
-   "points_per_hour": 15.7,
-   "gain_since_first_seen": 174,
-   "first_seen": "2026-11-19T01:51:50Z"
-  },
-  {
-   "story_id": 50547620,
-   "title": "Inside Deutsche Bank",
-   "url": "https://www.inside-db.com/",
-   "domain": "inside-db.com",
-   "rank": 20,
-   "rank_change": -12,
-   "score": 729,
-   "score_gain": 167,
-   "comment_gain": 52,
-   "hours_between": 11.09,
-   "points_per_hour": 15.1,
-   "gain_since_first_seen": 542,
-   "first_seen": "2026-11-18T17:13:18Z"
-  },
-  {
-   "story_id": 50548021,
-   "title": "Seven new models at scalable price-performance",
-   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-   "domain": "microsoft.ai",
-   "rank": 18,
-   "rank_change": -13,
-   "score": 564,
-   "score_gain": 113,
-   "comment_gain": 43,
-   "hours_between": 11.09,
-   "points_per_hour": 10.2,
-   "gain_since_first_seen": 496,
-   "first_seen": "2026-11-18T17:13:18Z"
-  },
-  {
-   "story_id": 50547777,
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "domain": "europeanbusinessmagazine.com",
-   "rank": 39,
-   "rank_change": -33,
-   "score": 471,
-   "score_gain": 112,
-   "comment_gain": 61,
-   "hours_between": 11.09,
-   "points_per_hour": 10.1,
-   "gain_since_first_seen": 453,
-   "first_seen": "2026-11-18T17:13:18Z"
+   "story_id": 50548808,
+   "title": "Teaching robots to carve marble sculptures",
+   "url": "https://eleanorwiesler.com/blog/robotic-stone-carving/",
+   "domain": "eleanorwiesler.com",
+   "rank": 41,
+   "rank_change": -25,
+   "score": 113,
+   "score_gain": 100,
+   "comment_gain": 78,
+   "hours_between": 10.08,
+   "points_per_hour": 9.9,
+   "gain_since_first_seen": 100,
+   "first_seen": "2026-11-19T12:57:19Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50547374,
-   "ts": "2026-11-18T17:13:18Z",
-   "score": 265,
-   "rank": 1
-  },
-  {
-   "story_id": 50547374,
-   "ts": "2026-11-19T01:51:50Z",
-   "score": 1145,
-   "rank": 2
-  },
-  {
-   "story_id": 50547374,
+   "story_id": 50519231,
    "ts": "2026-11-19T12:57:19Z",
-   "score": 1424,
-   "rank": 10
+   "score": 83,
+   "rank": 6
   },
   {
-   "story_id": 50552424,
-   "ts": "2026-11-19T01:51:50Z",
-   "score": 447,
-   "rank": 1
+   "story_id": 50519231,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 701,
+   "rank": 5
   },
   {
-   "story_id": 50552424,
+   "story_id": 50547048,
    "ts": "2026-11-19T12:57:19Z",
-   "score": 883,
-   "rank": 8
+   "score": 19,
+   "rank": 12
   },
   {
-   "story_id": 50553843,
-   "ts": "2026-11-19T01:51:50Z",
-   "score": 48,
-   "rank": 11
+   "story_id": 50547048,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 240,
+   "rank": 18
   },
   {
-   "story_id": 50553843,
+   "story_id": 50556287,
    "ts": "2026-11-19T12:57:19Z",
-   "score": 282,
-   "rank": 17
-  },
-  {
-   "story_id": 50554038,
-   "ts": "2026-11-19T01:51:50Z",
-   "score": 68,
+   "score": 211,
    "rank": 3
   },
   {
-   "story_id": 50554038,
-   "ts": "2026-11-19T12:57:19Z",
-   "score": 291,
-   "rank": 15
+   "story_id": 50556287,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 366,
+   "rank": 19
   },
   {
-   "story_id": 50554045,
-   "ts": "2026-11-19T01:51:50Z",
-   "score": 205,
-   "rank": 14
+   "story_id": 50557716,
+   "ts": "2026-11-19T12:57:19Z",
+   "score": 131,
+   "rank": 7
   },
   {
-   "story_id": 50554045,
+   "story_id": 50557716,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 292,
+   "rank": 32
+  },
+  {
+   "story_id": 50558533,
    "ts": "2026-11-19T12:57:19Z",
-   "score": 674,
-   "rank": 38
+   "score": 158,
+   "rank": 1
+  },
+  {
+   "story_id": 50558533,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 635,
+   "rank": 20
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 8,
-   "avg_score": 293.3,
-   "median_score": 231.5
+   "stories": 6,
+   "avg_score": 343.5,
+   "median_score": 255.0
   },
   {
    "hour": 1,
-   "stories": 7,
-   "avg_score": 207.4,
-   "median_score": 175.0
+   "stories": 6,
+   "avg_score": 213.7,
+   "median_score": 210.0
   },
   {
    "hour": 2,
@@ -435,26 +429,26 @@
   },
   {
    "hour": 3,
-   "stories": 9,
-   "avg_score": 163.9,
-   "median_score": 122.0
+   "stories": 10,
+   "avg_score": 152.4,
+   "median_score": 91.0
   },
   {
    "hour": 4,
-   "stories": 7,
-   "avg_score": 221.9,
-   "median_score": 235.0
+   "stories": 6,
+   "avg_score": 255.7,
+   "median_score": 270.5
   },
   {
    "hour": 5,
-   "stories": 14,
-   "avg_score": 194.1,
-   "median_score": 154.5
+   "stories": 13,
+   "avg_score": 204.0,
+   "median_score": 116.0
   },
   {
    "hour": 6,
    "stories": 6,
-   "avg_score": 277.3,
+   "avg_score": 272.2,
    "median_score": 174.0
   },
   {
@@ -465,219 +459,219 @@
   },
   {
    "hour": 8,
-   "stories": 8,
-   "avg_score": 99.9,
-   "median_score": 90.0
+   "stories": 9,
+   "avg_score": 128.6,
+   "median_score": 117.0
   },
   {
    "hour": 9,
-   "stories": 8,
-   "avg_score": 138.9,
-   "median_score": 126.0
+   "stories": 7,
+   "avg_score": 190.9,
+   "median_score": 196.0
   },
   {
    "hour": 10,
-   "stories": 18,
-   "avg_score": 216.4,
-   "median_score": 193.0
+   "stories": 17,
+   "avg_score": 238.9,
+   "median_score": 208.0
   },
   {
    "hour": 11,
-   "stories": 18,
-   "avg_score": 206.6,
-   "median_score": 88.5
+   "stories": 19,
+   "avg_score": 218.5,
+   "median_score": 113.0
   },
   {
    "hour": 12,
    "stories": 28,
-   "avg_score": 162.4,
-   "median_score": 68.5
+   "avg_score": 166.4,
+   "median_score": 71.0
   },
   {
    "hour": 13,
-   "stories": 29,
-   "avg_score": 281.8,
+   "stories": 30,
+   "avg_score": 280.0,
    "median_score": 111.0
   },
   {
    "hour": 14,
-   "stories": 51,
-   "avg_score": 122.2,
-   "median_score": 76.0
+   "stories": 52,
+   "avg_score": 128.0,
+   "median_score": 85.5
   },
   {
    "hour": 15,
-   "stories": 53,
-   "avg_score": 130.3,
-   "median_score": 70.0
+   "stories": 57,
+   "avg_score": 110.4,
+   "median_score": 54.0
   },
   {
    "hour": 16,
-   "stories": 34,
-   "avg_score": 94.6,
-   "median_score": 44.0
+   "stories": 38,
+   "avg_score": 102.8,
+   "median_score": 40.0
   },
   {
    "hour": 17,
-   "stories": 43,
-   "avg_score": 191.3,
-   "median_score": 73.0
+   "stories": 45,
+   "avg_score": 212.8,
+   "median_score": 90.0
   },
   {
    "hour": 18,
-   "stories": 39,
-   "avg_score": 224.3,
-   "median_score": 122.0
+   "stories": 41,
+   "avg_score": 212.1,
+   "median_score": 113.0
   },
   {
    "hour": 19,
-   "stories": 35,
-   "avg_score": 142.8,
-   "median_score": 66.0
+   "stories": 34,
+   "avg_score": 144.6,
+   "median_score": 75.0
   },
   {
    "hour": 20,
-   "stories": 20,
-   "avg_score": 208.8,
-   "median_score": 30.5
+   "stories": 21,
+   "avg_score": 197.5,
+   "median_score": 25.0
   },
   {
    "hour": 21,
-   "stories": 18,
-   "avg_score": 299.3,
-   "median_score": 103.5
+   "stories": 19,
+   "avg_score": 285.3,
+   "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 20,
-   "avg_score": 204.2,
-   "median_score": 44.5
+   "stories": 25,
+   "avg_score": 155.9,
+   "median_score": 38.0
   },
   {
    "hour": 23,
-   "stories": 18,
-   "avg_score": 229.2,
+   "stories": 12,
+   "avg_score": 218.6,
    "median_score": 189.5
   }
  ],
  "keywords": [
   {
    "word": "open",
-   "stories": 3,
-   "total_score": 452
+   "stories": 4,
+   "total_score": 729
   },
   {
-   "word": "source",
+   "word": "has",
    "stories": 3,
-   "total_score": 452
-  },
-  {
-   "word": "year",
-   "stories": 3,
-   "total_score": 432
-  },
-  {
-   "word": "down",
-   "stories": 3,
-   "total_score": 368
+   "total_score": 106
   },
   {
    "word": "code",
    "stories": 2,
-   "total_score": 1471
+   "total_score": 1501
   },
   {
-   "word": "gemini",
+   "word": "need",
    "stories": 2,
-   "total_score": 1119
+   "total_score": 473
   },
   {
-   "word": "neon",
+   "word": "order",
    "stories": 2,
-   "total_score": 1119
+   "total_score": 458
+  },
+  {
+   "word": "claude",
+   "stories": 2,
+   "total_score": 327
   },
   {
    "word": "models",
    "stories": 2,
-   "total_score": 776
+   "total_score": 308
   },
   {
-   "word": "performance",
+   "word": "video",
    "stories": 2,
-   "total_score": 673
+   "total_score": 293
   },
   {
-   "word": "agents",
+   "word": "paid",
    "stories": 2,
-   "total_score": 526
+   "total_score": 238
   },
   {
-   "word": "chip",
+   "word": "local",
    "stories": 2,
-   "total_score": 430
+   "total_score": 219
   },
   {
-   "word": "prices",
+   "word": "voice",
    "stories": 2,
-   "total_score": 413
+   "total_score": 219
   },
   {
-   "word": "x86",
+   "word": "source",
    "stories": 2,
-   "total_score": 359
+   "total_score": 211
   },
   {
-   "word": "word",
+   "word": "software",
    "stories": 2,
-   "total_score": 319
+   "total_score": 145
   },
   {
-   "word": "next",
-   "stories": 2,
-   "total_score": 315
+   "word": "execution",
+   "stories": 1,
+   "total_score": 1480
   },
   {
-   "word": "has",
-   "stories": 2,
-   "total_score": 310
+   "word": "nginx",
+   "stories": 1,
+   "total_score": 1480
   },
   {
-   "word": "like",
-   "stories": 2,
-   "total_score": 260
+   "word": "remote",
+   "stories": 1,
+   "total_score": 1480
   },
   {
-   "word": "memory",
-   "stories": 2,
-   "total_score": 259
+   "word": "unauthenticated",
+   "stories": 1,
+   "total_score": 1480
   },
   {
-   "word": "garage",
-   "stories": 2,
-   "total_score": 221
+   "word": "gemini",
+   "stories": 1,
+   "total_score": 1006
   },
   {
-   "word": "data",
-   "stories": 2,
-   "total_score": 193
+   "word": "neon",
+   "stories": 1,
+   "total_score": 1006
+  },
+  {
+   "word": "anthropic",
+   "stories": 1,
+   "total_score": 770
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 13
+   "stories": 17
   },
   {
    "bucket": "50-99",
-   "stories": 7
+   "stories": 5
   },
   {
    "bucket": "100-249",
-   "stories": 18
+   "stories": 14
   },
   {
    "bucket": "250-499",
-   "stories": 7
+   "stories": 9
   },
   {
    "bucket": "500+",
@@ -688,17 +682,17 @@
   {
    "domain": "github.com",
    "stories": 41,
-   "total_score": 6495
+   "total_score": 6741
   },
   {
    "domain": "nytimes.com",
-   "stories": 10,
-   "total_score": 2116
+   "stories": 9,
+   "total_score": 2107
   },
   {
    "domain": "youtube.com",
-   "stories": 6,
-   "total_score": 673
+   "stories": 7,
+   "total_score": 947
   },
   {
    "domain": "twitter.com",
@@ -706,9 +700,9 @@
    "total_score": 618
   },
   {
-   "domain": "blog.google",
-   "stories": 4,
-   "total_score": 1758
+   "domain": "reuters.com",
+   "stories": 5,
+   "total_score": 1499
   },
   {
    "domain": "wired.com",
@@ -721,14 +715,14 @@
    "total_score": 729
   },
   {
-   "domain": "openai.com",
+   "domain": "apnews.com",
    "stories": 3,
-   "total_score": 1251
+   "total_score": 3882
   },
   {
-   "domain": "reuters.com",
+   "domain": "blog.google",
    "stories": 3,
-   "total_score": 705
+   "total_score": 1609
   },
   {
    "domain": "theverge.com",
@@ -739,21 +733,21 @@
  "top_authors": [
   {
    "author": "speckx",
-   "stories": 8,
-   "total_score": 653,
-   "avg_score": 82.0
+   "stories": 11,
+   "total_score": 1238,
+   "avg_score": 113.0
   },
   {
    "author": "DeepLogin",
    "stories": 6,
-   "total_score": 1661,
-   "avg_score": 277.0
+   "total_score": 1481,
+   "avg_score": 247.0
   },
   {
    "author": "rbanffy",
    "stories": 6,
-   "total_score": 566,
-   "avg_score": 94.0
+   "total_score": 679,
+   "avg_score": 113.0
   },
   {
    "author": "PaulHoule",
@@ -762,40 +756,40 @@
    "avg_score": 85.0
   },
   {
+   "author": "dvaplima",
+   "stories": 5,
+   "total_score": 902,
+   "avg_score": 180.0
+  },
+  {
    "author": "dverlaeckt80",
    "stories": 5,
    "total_score": 687,
    "avg_score": 137.0
   },
   {
-   "author": "surprisetalk",
-   "stories": 5,
-   "total_score": 330,
-   "avg_score": 66.0
-  },
-  {
    "author": "bookofjoe",
    "stories": 5,
-   "total_score": 147,
-   "avg_score": 29.0
+   "total_score": 296,
+   "avg_score": 59.0
   },
   {
-   "author": "dvaplima",
-   "stories": 4,
-   "total_score": 896,
-   "avg_score": 224.0
+   "author": "surprisetalk",
+   "stories": 5,
+   "total_score": 138,
+   "avg_score": 28.0
   },
   {
    "author": "gmays",
    "stories": 4,
-   "total_score": 817,
-   "avg_score": 204.0
+   "total_score": 321,
+   "avg_score": 80.0
   },
   {
-   "author": "acossta",
+   "author": "ibobev",
    "stories": 4,
-   "total_score": 356,
-   "avg_score": 89.0
+   "total_score": 206,
+   "avg_score": 52.0
   }
  ],
  "daily_trend": [
@@ -862,8 +856,8 @@
   {
    "day": "2026-11-19",
    "stories": 50,
-   "avg_score": 206.9,
-   "rolling_7d_avg": 203.3
+   "avg_score": 216.5,
+   "rolling_7d_avg": 204.7
   }
  ]
 }
