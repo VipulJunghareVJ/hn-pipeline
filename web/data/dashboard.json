@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-19T23:02:10.799891+00:00",
-  "duration_s": 0.48,
+  "finished_at": "2026-11-20T07:06:52.890640+00:00",
+  "duration_s": 0.43,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 13064,
+  "raw_bytes": 12743,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,384 +72,384 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-19T23:02:10+00:00",
-  "oldest_story": "2026-11-15T03:34:58+00:00",
-  "newest_story": "2026-11-19T22:56:59+00:00",
-  "total_points": 10826,
-  "unique_authors": 47,
-  "days_of_history": 11,
-  "stories_in_history": 514,
-  "runs_observed": 29,
-  "parquet_bytes": 17749
+  "snapshot_ts": "2026-11-20T07:06:52+00:00",
+  "oldest_story": "2026-11-16T13:58:56+00:00",
+  "newest_story": "2026-11-20T05:46:01+00:00",
+  "total_points": 12375,
+  "unique_authors": 48,
+  "days_of_history": 12,
+  "stories_in_history": 534,
+  "runs_observed": 30,
+  "parquet_bytes": 17497
  },
  "top_stories": [
   {
-   "rank": 42,
+   "rank": 48,
    "title": "Unauthenticated remote code execution in Nginx",
    "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
    "domain": "wiz.io",
    "author": "speedping",
-   "score": 1480,
-   "comment_count": 635,
-   "age_hours": 31.7,
-   "points_per_hour": 46.7
+   "score": 1489,
+   "comment_count": 641,
+   "age_hours": 39.8,
+   "points_per_hour": 37.4
   },
   {
-   "rank": 35,
+   "rank": 14,
+   "title": "Anthropic\u2019s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "domain": "reuters.com",
+   "author": "wslh",
+   "score": 1044,
+   "comment_count": 2062,
+   "age_hours": 14.1,
+   "points_per_hour": 74.2
+  },
+  {
+   "rank": 47,
    "title": "Gemini 4 Neon",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
    "domain": "blog.google",
    "author": "yigitdemirag",
-   "score": 1006,
-   "comment_count": 753,
-   "age_hours": 25.5,
-   "points_per_hour": 39.5
+   "score": 1030,
+   "comment_count": 764,
+   "age_hours": 33.5,
+   "points_per_hour": 30.7
   },
   {
-   "rank": 1,
-   "title": "Anthropic hits $2T in Nasdaq debut",
-   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-   "domain": "reuters.com",
-   "author": "wslh",
-   "score": 770,
-   "comment_count": 1439,
-   "age_hours": 6.0,
-   "points_per_hour": 128.5
-  },
-  {
-   "rank": 5,
+   "rank": 10,
    "title": "Garage Door Spam",
    "url": "https://blog.harrison.page/garage-door-spam/",
    "domain": "blog.harrison.page",
    "author": "harrisonpage",
-   "score": 701,
-   "comment_count": 291,
-   "age_hours": 78.8,
-   "points_per_hour": 8.9
+   "score": 829,
+   "comment_count": 348,
+   "age_hours": 86.9,
+   "points_per_hour": 9.5
   },
   {
-   "rank": 20,
-   "title": "How the European Commission rolled out Matrix to more than 40k staff",
-   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
-   "domain": "element.io",
-   "author": "liotier",
-   "score": 635,
-   "comment_count": 305,
-   "age_hours": 12.1,
-   "points_per_hour": 52.6
-  },
-  {
-   "rank": 31,
-   "title": "Fuck Your AI Safeguards",
-   "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
-   "domain": "ounapuu.ee",
-   "author": "speckx",
-   "score": 435,
-   "comment_count": 173,
-   "age_hours": 6.5,
-   "points_per_hour": 66.6
-  },
-  {
-   "rank": 12,
-   "title": "UK government forced to admit it issued Apple a secret encryption order",
-   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
-   "domain": "macanorak.com",
-   "author": "Terretta",
-   "score": 429,
-   "comment_count": 189,
-   "age_hours": 6.7,
-   "points_per_hour": 64.2
-  },
-  {
-   "rank": 2,
+   "rank": 21,
    "title": "Pancreatic cancer halted by virus injection in three patients",
    "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
    "domain": "newscientist.com",
    "author": "cybermango",
-   "score": 393,
-   "comment_count": 53,
-   "age_hours": 5.6,
-   "points_per_hour": 70.1
+   "score": 726,
+   "comment_count": 115,
+   "age_hours": 13.7,
+   "points_per_hour": 53.0
   },
   {
-   "rank": 19,
-   "title": "Ruby2\u00dfhell: Pre-authentication RCE on stock Rails",
-   "url": "https://verialabs.com/ruby2shell/",
-   "domain": "verialabs.com",
-   "author": "jdns",
-   "score": 366,
-   "comment_count": 155,
-   "age_hours": 17.9,
-   "points_per_hour": 20.5
+   "rank": 34,
+   "title": "How the European Commission rolled out Matrix to more than 40k staff",
+   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
+   "domain": "element.io",
+   "author": "liotier",
+   "score": 686,
+   "comment_count": 339,
+   "age_hours": 20.1,
+   "points_per_hour": 34.1
   },
   {
    "rank": 29,
-   "title": "Everything you need to survive and rebuild society",
-   "url": "https://lastbook.org/",
-   "domain": "lastbook.org",
-   "author": "tejohnso",
-   "score": 330,
-   "comment_count": 179,
-   "age_hours": 8.2,
-   "points_per_hour": 40.0
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "domain": "macanorak.com",
+   "author": "Terretta",
+   "score": 605,
+   "comment_count": 270,
+   "age_hours": 14.8,
+   "points_per_hour": 41.0
+  },
+  {
+   "rank": 7,
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "domain": "anthropic.com",
+   "author": "cybermango",
+   "score": 461,
+   "comment_count": 218,
+   "age_hours": 13.6,
+   "points_per_hour": 33.9
+  },
+  {
+   "rank": 17,
+   "title": "Someone reported java4shell bug in September 2026",
+   "url": "https://github.com/openjdk/jdk/pull/32781",
+   "domain": "github.com",
+   "author": "notmine1337",
+   "score": 408,
+   "comment_count": 111,
+   "age_hours": 19.3,
+   "points_per_hour": 21.1
+  },
+  {
+   "rank": 45,
+   "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+   "url": "https://git-aarvin.github.io/mei/",
+   "domain": "git-aarvin.github.io",
+   "author": "hn-aarvin",
+   "score": 334,
+   "comment_count": 208,
+   "age_hours": 7.5,
+   "points_per_hour": 44.4
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50563066,
+   "title": "Pancreatic cancer halted by virus injection in three patients",
+   "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+   "domain": "newscientist.com",
+   "rank": 21,
+   "rank_change": -19,
+   "score": 726,
+   "score_gain": 333,
+   "comment_gain": 62,
+   "hours_between": 8.08,
+   "points_per_hour": 41.2,
+   "gain_since_first_seen": 333,
+   "first_seen": "2026-11-19T23:02:10Z"
+  },
+  {
+   "story_id": 50562754,
+   "title": "Anthropic\u2019s Nasdaq debut",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "domain": "reuters.com",
+   "rank": 14,
+   "rank_change": -13,
+   "score": 1044,
+   "score_gain": 274,
+   "comment_gain": 623,
+   "hours_between": 8.08,
+   "points_per_hour": 33.9,
+   "gain_since_first_seen": 274,
+   "first_seen": "2026-11-19T23:02:10Z"
+  },
+  {
+   "story_id": 50528119,
+   "title": "How to CAD Almost Anything",
+   "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+   "domain": "ocw.mit.edu",
+   "rank": 9,
+   "rank_change": -2,
+   "score": 224,
+   "score_gain": 200,
+   "comment_gain": 66,
+   "hours_between": 8.08,
+   "points_per_hour": 24.8,
+   "gain_since_first_seen": 200,
+   "first_seen": "2026-11-19T23:02:10Z"
+  },
+  {
+   "story_id": 50562113,
+   "title": "UK government forced to admit it issued Apple a secret encryption order",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "domain": "macanorak.com",
+   "rank": 29,
+   "rank_change": -17,
+   "score": 605,
+   "score_gain": 176,
+   "comment_gain": 81,
+   "hours_between": 8.08,
+   "points_per_hour": 21.8,
+   "gain_since_first_seen": 176,
+   "first_seen": "2026-11-19T23:02:10Z"
+  },
+  {
+   "story_id": 50563148,
+   "title": "Claude solves two open problems in the physics of black holes",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "domain": "anthropic.com",
+   "rank": 7,
+   "rank_change": -3,
+   "score": 461,
+   "score_gain": 138,
+   "comment_gain": 73,
+   "hours_between": 8.08,
+   "points_per_hour": 17.1,
+   "gain_since_first_seen": 138,
+   "first_seen": "2026-11-19T23:02:10Z"
+  },
   {
    "story_id": 50519231,
    "title": "Garage Door Spam",
    "url": "https://blog.harrison.page/garage-door-spam/",
    "domain": "blog.harrison.page",
-   "rank": 5,
-   "rank_change": 1,
-   "score": 701,
-   "score_gain": 618,
-   "comment_gain": 263,
-   "hours_between": 10.08,
-   "points_per_hour": 61.3,
-   "gain_since_first_seen": 618,
+   "rank": 10,
+   "rank_change": -5,
+   "score": 829,
+   "score_gain": 128,
+   "comment_gain": 57,
+   "hours_between": 8.08,
+   "points_per_hour": 15.8,
+   "gain_since_first_seen": 746,
    "first_seen": "2026-11-19T12:57:19Z"
   },
   {
-   "story_id": 50558533,
-   "title": "How the European Commission rolled out Matrix to more than 40k staff",
-   "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
-   "domain": "element.io",
-   "rank": 20,
-   "rank_change": -19,
-   "score": 635,
-   "score_gain": 477,
-   "comment_gain": 244,
-   "hours_between": 10.08,
-   "points_per_hour": 47.3,
-   "gain_since_first_seen": 477,
-   "first_seen": "2026-11-19T12:57:19Z"
-  },
-  {
-   "story_id": 50547048,
-   "title": "Nintendo takes Picofly firmware down from GitHub [video]",
-   "url": "https://www.youtube.com/watch?v=-TLCGUpoD6c",
-   "domain": "youtube.com",
+   "story_id": 50564159,
+   "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+   "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+   "domain": "globalcommercegraph.com",
    "rank": 18,
-   "rank_change": -6,
-   "score": 240,
-   "score_gain": 221,
-   "comment_gain": 91,
-   "hours_between": 10.08,
-   "points_per_hour": 21.9,
-   "gain_since_first_seen": 221,
-   "first_seen": "2026-11-19T12:57:19Z"
-  },
-  {
-   "story_id": 50557716,
-   "title": "SSD prices may begin to decline in the latter half of 2027",
-   "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
-   "domain": "drivevault.io",
-   "rank": 32,
-   "rank_change": -25,
-   "score": 292,
-   "score_gain": 161,
-   "comment_gain": 124,
-   "hours_between": 10.08,
-   "points_per_hour": 16.0,
-   "gain_since_first_seen": 161,
-   "first_seen": "2026-11-19T12:57:19Z"
-  },
-  {
-   "story_id": 50556287,
-   "title": "Ruby2\u00dfhell: Pre-authentication RCE on stock Rails",
-   "url": "https://verialabs.com/ruby2shell/",
-   "domain": "verialabs.com",
-   "rank": 19,
-   "rank_change": -16,
-   "score": 366,
-   "score_gain": 155,
-   "comment_gain": 73,
-   "hours_between": 10.08,
-   "points_per_hour": 15.4,
-   "gain_since_first_seen": 155,
-   "first_seen": "2026-11-19T12:57:19Z"
-  },
-  {
-   "story_id": 50536950,
-   "title": "An Oregon library ditched Dewey Decimal and got people excited about books again",
-   "url": "https://www.fastcompany.com/91597520/oregon-library-ditched-dewey-decimal-wayfinding-system",
-   "domain": "fastcompany.com",
-   "rank": 21,
    "rank_change": -12,
-   "score": 173,
-   "score_gain": 149,
-   "comment_gain": 115,
-   "hours_between": 10.08,
-   "points_per_hour": 14.8,
-   "gain_since_first_seen": 149,
-   "first_seen": "2026-11-19T12:57:19Z"
+   "score": 253,
+   "score_gain": 109,
+   "comment_gain": 66,
+   "hours_between": 8.08,
+   "points_per_hour": 13.5,
+   "gain_since_first_seen": 109,
+   "first_seen": "2026-11-19T23:02:10Z"
   },
   {
-   "story_id": 50557870,
-   "title": "What's New in PHP 8.6",
-   "url": "https://www.php.net/releases/8.6/en.php",
-   "domain": "php.net",
-   "rank": 23,
-   "rank_change": -21,
-   "score": 261,
-   "score_gain": 140,
-   "comment_gain": 69,
-   "hours_between": 10.08,
-   "points_per_hour": 13.9,
-   "gain_since_first_seen": 140,
-   "first_seen": "2026-11-19T12:57:19Z"
+   "story_id": 50567209,
+   "title": "Synology Security Advisory",
+   "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+   "domain": "synology.com",
+   "rank": 32,
+   "rank_change": -29,
+   "score": 136,
+   "score_gain": 97,
+   "comment_gain": 90,
+   "hours_between": 8.08,
+   "points_per_hour": 12.0,
+   "gain_since_first_seen": 97,
+   "first_seen": "2026-11-19T23:02:10Z"
   },
   {
-   "story_id": 50557537,
-   "title": "Distributed, high-performance blob storage on SQLite",
-   "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-   "domain": "zerodha.tech",
-   "rank": 26,
-   "rank_change": -21,
-   "score": 244,
-   "score_gain": 135,
-   "comment_gain": 46,
-   "hours_between": 10.08,
-   "points_per_hour": 13.4,
-   "gain_since_first_seen": 135,
-   "first_seen": "2026-11-19T12:57:19Z"
-  },
-  {
-   "story_id": 50552424,
-   "title": "Gemini 4 Neon",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-   "domain": "blog.google",
-   "rank": 35,
-   "rank_change": -27,
-   "score": 1006,
-   "score_gain": 123,
-   "comment_gain": 55,
-   "hours_between": 10.08,
-   "points_per_hour": 12.2,
-   "gain_since_first_seen": 559,
-   "first_seen": "2026-11-19T01:51:50Z"
-  },
-  {
-   "story_id": 50548808,
-   "title": "Teaching robots to carve marble sculptures",
-   "url": "https://eleanorwiesler.com/blog/robotic-stone-carving/",
-   "domain": "eleanorwiesler.com",
-   "rank": 41,
-   "rank_change": -25,
-   "score": 113,
-   "score_gain": 100,
-   "comment_gain": 78,
-   "hours_between": 10.08,
+   "story_id": 50558906,
+   "title": "Someone reported java4shell bug in September 2026",
+   "url": "https://github.com/openjdk/jdk/pull/32781",
+   "domain": "github.com",
+   "rank": 17,
+   "rank_change": -6,
+   "score": 408,
+   "score_gain": 80,
+   "comment_gain": 24,
+   "hours_between": 8.08,
    "points_per_hour": 9.9,
-   "gain_since_first_seen": 100,
-   "first_seen": "2026-11-19T12:57:19Z"
+   "gain_since_first_seen": 80,
+   "first_seen": "2026-11-19T23:02:10Z"
+  },
+  {
+   "story_id": 50566261,
+   "title": "Rebuilding my local voice assistant pipeline",
+   "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+   "domain": "blog.platypush.tech",
+   "rank": 26,
+   "rank_change": -10,
+   "score": 95,
+   "score_gain": 71,
+   "comment_gain": 12,
+   "hours_between": 8.08,
+   "points_per_hour": 8.8,
+   "gain_since_first_seen": 71,
+   "first_seen": "2026-11-19T23:02:10Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50519231,
-   "ts": "2026-11-19T12:57:19Z",
-   "score": 83,
-   "rank": 6
-  },
-  {
-   "story_id": 50519231,
+   "story_id": 50528119,
    "ts": "2026-11-19T23:02:10Z",
-   "score": 701,
-   "rank": 5
-  },
-  {
-   "story_id": 50547048,
-   "ts": "2026-11-19T12:57:19Z",
-   "score": 19,
-   "rank": 12
-  },
-  {
-   "story_id": 50547048,
-   "ts": "2026-11-19T23:02:10Z",
-   "score": 240,
-   "rank": 18
-  },
-  {
-   "story_id": 50556287,
-   "ts": "2026-11-19T12:57:19Z",
-   "score": 211,
-   "rank": 3
-  },
-  {
-   "story_id": 50556287,
-   "ts": "2026-11-19T23:02:10Z",
-   "score": 366,
-   "rank": 19
-  },
-  {
-   "story_id": 50557716,
-   "ts": "2026-11-19T12:57:19Z",
-   "score": 131,
+   "score": 24,
    "rank": 7
   },
   {
-   "story_id": 50557716,
-   "ts": "2026-11-19T23:02:10Z",
-   "score": 292,
-   "rank": 32
+   "story_id": 50528119,
+   "ts": "2026-11-20T07:06:52Z",
+   "score": 224,
+   "rank": 9
   },
   {
-   "story_id": 50558533,
-   "ts": "2026-11-19T12:57:19Z",
-   "score": 158,
+   "story_id": 50562113,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 429,
+   "rank": 12
+  },
+  {
+   "story_id": 50562113,
+   "ts": "2026-11-20T07:06:52Z",
+   "score": 605,
+   "rank": 29
+  },
+  {
+   "story_id": 50562754,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 770,
    "rank": 1
   },
   {
-   "story_id": 50558533,
+   "story_id": 50562754,
+   "ts": "2026-11-20T07:06:52Z",
+   "score": 1044,
+   "rank": 14
+  },
+  {
+   "story_id": 50563066,
    "ts": "2026-11-19T23:02:10Z",
-   "score": 635,
-   "rank": 20
+   "score": 393,
+   "rank": 2
+  },
+  {
+   "story_id": 50563066,
+   "ts": "2026-11-20T07:06:52Z",
+   "score": 726,
+   "rank": 21
+  },
+  {
+   "story_id": 50563148,
+   "ts": "2026-11-19T23:02:10Z",
+   "score": 323,
+   "rank": 4
+  },
+  {
+   "story_id": 50563148,
+   "ts": "2026-11-20T07:06:52Z",
+   "score": 461,
+   "rank": 7
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 6,
-   "avg_score": 343.5,
-   "median_score": 255.0
+   "stories": 8,
+   "avg_score": 270.1,
+   "median_score": 227.0
   },
   {
    "hour": 1,
-   "stories": 6,
-   "avg_score": 213.7,
-   "median_score": 210.0
+   "stories": 7,
+   "avg_score": 195.4,
+   "median_score": 175.0
   },
   {
    "hour": 2,
-   "stories": 9,
-   "avg_score": 369.9,
-   "median_score": 324.0
+   "stories": 11,
+   "avg_score": 321.8,
+   "median_score": 238.0
   },
   {
    "hour": 3,
-   "stories": 10,
-   "avg_score": 152.4,
-   "median_score": 91.0
+   "stories": 13,
+   "avg_score": 124.6,
+   "median_score": 60.0
   },
   {
    "hour": 4,
-   "stories": 6,
-   "avg_score": 255.7,
-   "median_score": 270.5
+   "stories": 8,
+   "avg_score": 208.1,
+   "median_score": 180.0
   },
   {
    "hour": 5,
-   "stories": 13,
-   "avg_score": 204.0,
+   "stories": 15,
+   "avg_score": 192.0,
    "median_score": 116.0
   },
   {
    "hour": 6,
    "stories": 6,
-   "avg_score": 272.2,
-   "median_score": 174.0
+   "avg_score": 305.5,
+   "median_score": 242.5
   },
   {
    "hour": 7,
@@ -460,97 +460,97 @@
   {
    "hour": 8,
    "stories": 9,
-   "avg_score": 128.6,
+   "avg_score": 138.7,
    "median_score": 117.0
   },
   {
    "hour": 9,
    "stories": 7,
-   "avg_score": 190.9,
+   "avg_score": 194.3,
    "median_score": 196.0
   },
   {
    "hour": 10,
-   "stories": 17,
-   "avg_score": 238.9,
-   "median_score": 208.0
+   "stories": 18,
+   "avg_score": 229.4,
+   "median_score": 193.0
   },
   {
    "hour": 11,
-   "stories": 19,
-   "avg_score": 218.5,
-   "median_score": 113.0
+   "stories": 20,
+   "avg_score": 212.9,
+   "median_score": 106.0
   },
   {
    "hour": 12,
    "stories": 28,
-   "avg_score": 166.4,
+   "avg_score": 167.4,
    "median_score": 71.0
   },
   {
    "hour": 13,
    "stories": 30,
-   "avg_score": 280.0,
+   "avg_score": 282.8,
    "median_score": 111.0
   },
   {
    "hour": 14,
    "stories": 52,
-   "avg_score": 128.0,
+   "avg_score": 128.8,
    "median_score": 85.5
   },
   {
    "hour": 15,
    "stories": 57,
-   "avg_score": 110.4,
+   "avg_score": 112.4,
    "median_score": 54.0
   },
   {
    "hour": 16,
    "stories": 38,
-   "avg_score": 102.8,
+   "avg_score": 112.0,
    "median_score": 40.0
   },
   {
    "hour": 17,
    "stories": 45,
-   "avg_score": 212.8,
+   "avg_score": 229.4,
    "median_score": 90.0
   },
   {
    "hour": 18,
    "stories": 41,
-   "avg_score": 212.1,
+   "avg_score": 216.2,
    "median_score": 113.0
   },
   {
    "hour": 19,
-   "stories": 34,
-   "avg_score": 144.6,
-   "median_score": 75.0
+   "stories": 35,
+   "avg_score": 142.4,
+   "median_score": 66.0
   },
   {
    "hour": 20,
-   "stories": 21,
-   "avg_score": 197.5,
-   "median_score": 25.0
+   "stories": 23,
+   "avg_score": 187.2,
+   "median_score": 27.0
   },
   {
    "hour": 21,
    "stories": 19,
-   "avg_score": 285.3,
+   "avg_score": 286.5,
    "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 25,
-   "avg_score": 155.9,
-   "median_score": 38.0
+   "stories": 26,
+   "avg_score": 158.3,
+   "median_score": 41.0
   },
   {
    "hour": 23,
-   "stories": 12,
-   "avg_score": 218.6,
+   "stories": 14,
+   "avg_score": 223.1,
    "median_score": 189.5
   }
  ],
@@ -558,116 +558,116 @@
   {
    "word": "open",
    "stories": 4,
-   "total_score": 729
+   "total_score": 941
   },
   {
-   "word": "has",
+   "word": "neon",
    "stories": 3,
-   "total_score": 106
+   "total_score": 1413
   },
   {
    "word": "code",
    "stories": 2,
-   "total_score": 1501
+   "total_score": 1529
   },
   {
-   "word": "need",
+   "word": "gemini",
    "stories": 2,
-   "total_score": 473
-  },
-  {
-   "word": "order",
-   "stories": 2,
-   "total_score": 458
-  },
-  {
-   "word": "claude",
-   "stories": 2,
-   "total_score": 327
+   "total_score": 1364
   },
   {
    "word": "models",
    "stories": 2,
-   "total_score": 308
+   "total_score": 560
   },
   {
    "word": "video",
    "stories": 2,
-   "total_score": 293
+   "total_score": 379
   },
   {
-   "word": "paid",
+   "word": "engineering",
    "stories": 2,
-   "total_score": 238
+   "total_score": 374
   },
   {
    "word": "local",
    "stories": 2,
-   "total_score": 219
+   "total_score": 321
   },
   {
    "word": "voice",
    "stories": 2,
-   "total_score": 219
+   "total_score": 321
   },
   {
    "word": "source",
    "stories": 2,
-   "total_score": 211
+   "total_score": 254
   },
   {
-   "word": "software",
+   "word": "unlocking",
    "stories": 2,
-   "total_score": 145
+   "total_score": 208
+  },
+  {
+   "word": "postgres",
+   "stories": 2,
+   "total_score": 106
   },
   {
    "word": "execution",
    "stories": 1,
-   "total_score": 1480
+   "total_score": 1489
   },
   {
    "word": "nginx",
    "stories": 1,
-   "total_score": 1480
+   "total_score": 1489
   },
   {
    "word": "remote",
    "stories": 1,
-   "total_score": 1480
+   "total_score": 1489
   },
   {
    "word": "unauthenticated",
    "stories": 1,
-   "total_score": 1480
-  },
-  {
-   "word": "gemini",
-   "stories": 1,
-   "total_score": 1006
-  },
-  {
-   "word": "neon",
-   "stories": 1,
-   "total_score": 1006
+   "total_score": 1489
   },
   {
    "word": "anthropic",
    "stories": 1,
-   "total_score": 770
+   "total_score": 1044
+  },
+  {
+   "word": "debut",
+   "stories": 1,
+   "total_score": 1044
+  },
+  {
+   "word": "nasdaq",
+   "stories": 1,
+   "total_score": 1044
+  },
+  {
+   "word": "door",
+   "stories": 1,
+   "total_score": 829
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 17
+   "stories": 11
   },
   {
    "bucket": "50-99",
-   "stories": 5
+   "stories": 12
   },
   {
    "bucket": "100-249",
-   "stories": 14
+   "stories": 11
   },
   {
    "bucket": "250-499",
@@ -675,14 +675,14 @@
   },
   {
    "bucket": "500+",
-   "stories": 5
+   "stories": 7
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 41,
-   "total_score": 6741
+   "stories": 42,
+   "total_score": 7011
   },
   {
    "domain": "nytimes.com",
@@ -692,7 +692,7 @@
   {
    "domain": "youtube.com",
    "stories": 7,
-   "total_score": 947
+   "total_score": 1033
   },
   {
    "domain": "twitter.com",
@@ -702,7 +702,7 @@
   {
    "domain": "reuters.com",
    "stories": 5,
-   "total_score": 1499
+   "total_score": 1773
   },
   {
    "domain": "wired.com",
@@ -722,7 +722,7 @@
   {
    "domain": "blog.google",
    "stories": 3,
-   "total_score": 1609
+   "total_score": 1633
   },
   {
    "domain": "theverge.com",
@@ -738,16 +738,16 @@
    "avg_score": 113.0
   },
   {
+   "author": "rbanffy",
+   "stories": 7,
+   "total_score": 734,
+   "avg_score": 105.0
+  },
+  {
    "author": "DeepLogin",
    "stories": 6,
    "total_score": 1481,
    "avg_score": 247.0
-  },
-  {
-   "author": "rbanffy",
-   "stories": 6,
-   "total_score": 679,
-   "avg_score": 113.0
   },
   {
    "author": "PaulHoule",
@@ -770,8 +770,14 @@
   {
    "author": "bookofjoe",
    "stories": 5,
-   "total_score": 296,
-   "avg_score": 59.0
+   "total_score": 347,
+   "avg_score": 69.0
+  },
+  {
+   "author": "gmays",
+   "stories": 5,
+   "total_score": 329,
+   "avg_score": 66.0
   },
   {
    "author": "surprisetalk",
@@ -780,16 +786,10 @@
    "avg_score": 28.0
   },
   {
-   "author": "gmays",
-   "stories": 4,
-   "total_score": 321,
-   "avg_score": 80.0
-  },
-  {
    "author": "ibobev",
    "stories": 4,
-   "total_score": 206,
-   "avg_score": 52.0
+   "total_score": 269,
+   "avg_score": 67.0
   }
  ],
  "daily_trend": [
@@ -858,6 +858,12 @@
    "stories": 50,
    "avg_score": 216.5,
    "rolling_7d_avg": 204.7
+  },
+  {
+   "day": "2026-11-20",
+   "stories": 50,
+   "avg_score": 247.5,
+   "rolling_7d_avg": 194.2
   }
  ]
 }
