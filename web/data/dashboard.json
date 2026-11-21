@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-21T12:35:19.165366+00:00",
-  "duration_s": 0.43,
+  "finished_at": "2026-11-21T21:38:09.929834+00:00",
+  "duration_s": 0.58,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 11984,
+  "raw_bytes": 11602,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,142 +72,187 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-21T12:35:18+00:00",
+  "snapshot_ts": "2026-11-21T21:38:09+00:00",
   "oldest_story": "2026-11-14T09:13:24+00:00",
-  "newest_story": "2026-11-21T12:15:41+00:00",
-  "total_points": 14967,
-  "unique_authors": 47,
+  "newest_story": "2026-11-21T21:11:08+00:00",
+  "total_points": 16711,
+  "unique_authors": 49,
   "days_of_history": 13,
-  "stories_in_history": 590,
-  "runs_observed": 33,
-  "parquet_bytes": 16223
+  "stories_in_history": 597,
+  "runs_observed": 34,
+  "parquet_bytes": 16138
  },
  "top_stories": [
   {
-   "rank": 3,
+   "rank": 28,
    "title": "Levent Alp\u00f6ge claims proof of the Generalized Riemann Hypothesis [pdf]",
    "url": "https://alpo.ge/remark.pdf",
    "domain": "alpo.ge",
    "author": "iamronaldo",
-   "score": 2700,
-   "comment_count": 1884,
-   "age_hours": 22.3,
-   "points_per_hour": 121.0
+   "score": 2850,
+   "comment_count": 2018,
+   "age_hours": 31.4,
+   "points_per_hour": 90.9
   },
   {
-   "rank": 2,
+   "rank": 10,
    "title": "Hurried Announcement: Alessandro Masullo GRH",
    "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
    "domain": "math216.wordpress.com",
    "author": "jasondavies",
-   "score": 2183,
-   "comment_count": 1026,
-   "age_hours": 18.0,
-   "points_per_hour": 121.0
+   "score": 2357,
+   "comment_count": 1140,
+   "age_hours": 27.1,
+   "points_per_hour": 87.0
   },
   {
-   "rank": 4,
+   "rank": 15,
    "title": "Inkling 2 Mini",
    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
    "domain": "thinkingmachines.ai",
    "author": "jasondavies",
-   "score": 1083,
-   "comment_count": 202,
-   "age_hours": 16.4,
-   "points_per_hour": 66.1
+   "score": 1324,
+   "comment_count": 273,
+   "age_hours": 25.4,
+   "points_per_hour": 52.1
   },
   {
-   "rank": 38,
-   "title": "If you can't explain something in simple terms, you don't understand it (2017)",
-   "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-   "domain": "kottke.org",
-   "author": "sammatilda",
-   "score": 667,
-   "comment_count": 309,
-   "age_hours": 26.9,
-   "points_per_hour": 24.8
+   "rank": 3,
+   "title": "Lean verification of the Riemann Hypothesis",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+   "domain": "leanprover-community.github.io",
+   "author": "g-b-r",
+   "score": 658,
+   "comment_count": 530,
+   "age_hours": 7.0,
+   "points_per_hour": 93.7
   },
   {
-   "rank": 39,
-   "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-   "url": "https://architectlabs.com/blog/frostbite",
-   "domain": "architectlabs.com",
-   "author": "shioyama",
-   "score": 651,
-   "comment_count": 337,
-   "age_hours": 26.6,
-   "points_per_hour": 24.5
+   "rank": 32,
+   "title": "Slopstrap \u2013 Make your site look hastily vibecoded",
+   "url": "https://slopstrap.mikelacher.com/",
+   "domain": "slopstrap.mikelacher.com",
+   "author": "mlacher",
+   "score": 633,
+   "comment_count": 118,
+   "age_hours": 30.2,
+   "points_per_hour": 20.9
   },
   {
-   "rank": 50,
-   "title": "Claude solves two open problems in the physics of black holes",
-   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "domain": "anthropic.com",
-   "author": "cybermango",
-   "score": 559,
-   "comment_count": 270,
-   "age_hours": 43.1,
-   "points_per_hour": 13.0
+   "rank": 5,
+   "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+   "domain": "gov.br",
+   "author": "dvaplima",
+   "score": 626,
+   "comment_count": 200,
+   "age_hours": 102.3,
+   "points_per_hour": 6.1
   },
   {
-   "rank": 48,
-   "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
-   "url": "https://signal.org/blog/protecting-your-privacy/",
-   "domain": "signal.org",
-   "author": "dotcoma",
-   "score": 556,
-   "comment_count": 327,
-   "age_hours": 26.9,
-   "points_per_hour": 20.7
-  },
-  {
-   "rank": 7,
+   "rank": 24,
    "title": "We promoted developers into architects without informing them",
    "url": "https://manidoraisamy.com/developer-to-architect.html",
    "domain": "manidoraisamy.com",
    "author": "QueensGambit",
-   "score": 469,
-   "comment_count": 256,
-   "age_hours": 18.3,
-   "points_per_hour": 25.6
+   "score": 560,
+   "comment_count": 303,
+   "age_hours": 27.3,
+   "points_per_hour": 20.5
   },
   {
-   "rank": 8,
+   "rank": 20,
+   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+   "url": null,
+   "domain": null,
+   "author": "LetThingsBeDiff",
+   "score": 546,
+   "comment_count": 611,
+   "age_hours": 22.3,
+   "points_per_hour": 24.5
+  },
+  {
+   "rank": 27,
    "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
    "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
    "domain": "terrytao.wordpress.com",
    "author": "archon1410",
-   "score": 469,
-   "comment_count": 192,
-   "age_hours": 19.2,
-   "points_per_hour": 24.4
+   "score": 527,
+   "comment_count": 232,
+   "age_hours": 28.3,
+   "points_per_hour": 18.6
   },
   {
-   "rank": 14,
-   "title": "Language Models Can Rewrite Their Own Weights",
-   "url": "https://arxiv.org/abs/2611.21885",
-   "domain": "arxiv.org",
-   "author": "lwhsiao",
-   "score": 428,
-   "comment_count": 125,
-   "age_hours": 20.1,
-   "points_per_hour": 21.3
+   "rank": 37,
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic\u2019s second day",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "domain": "theguardian.com",
+   "author": "cdrnsf",
+   "score": 483,
+   "comment_count": 843,
+   "age_hours": 32.1,
+   "points_per_hour": 15.0
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50579568,
-   "title": "Hurried Announcement: Alessandro Masullo GRH",
-   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-   "domain": "math216.wordpress.com",
-   "rank": 2,
-   "rank_change": -1,
-   "score": 2183,
-   "score_gain": 650,
-   "comment_gain": 330,
-   "hours_between": 11.12,
-   "points_per_hour": 58.4,
-   "gain_since_first_seen": 650,
+   "story_id": 50532613,
+   "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+   "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+   "domain": "gov.br",
+   "rank": 5,
+   "rank_change": -4,
+   "score": 626,
+   "score_gain": 557,
+   "comment_gain": 189,
+   "hours_between": 9.05,
+   "points_per_hour": 61.6,
+   "gain_since_first_seen": 557,
+   "first_seen": "2026-11-21T12:35:18Z"
+  },
+  {
+   "story_id": 50587875,
+   "title": "My monitor was cutting my download speed by 75%",
+   "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+   "domain": "blog.tymscar.com",
+   "rank": 9,
+   "rank_change": 7,
+   "score": 390,
+   "score_gain": 383,
+   "comment_gain": 199,
+   "hours_between": 9.05,
+   "points_per_hour": 42.3,
+   "gain_since_first_seen": 383,
+   "first_seen": "2026-11-21T12:35:18Z"
+  },
+  {
+   "story_id": 50576012,
+   "title": "Slopstrap \u2013 Make your site look hastily vibecoded",
+   "url": "https://slopstrap.mikelacher.com/",
+   "domain": "slopstrap.mikelacher.com",
+   "rank": 32,
+   "rank_change": -10,
+   "score": 633,
+   "score_gain": 308,
+   "comment_gain": 57,
+   "hours_between": 9.05,
+   "points_per_hour": 34.0,
+   "gain_since_first_seen": 542,
+   "first_seen": "2026-11-21T01:27:57Z"
+  },
+  {
+   "story_id": 50583761,
+   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+   "url": null,
+   "domain": null,
+   "rank": 20,
+   "rank_change": -8,
+   "score": 546,
+   "score_gain": 283,
+   "comment_gain": 379,
+   "hours_between": 9.05,
+   "points_per_hour": 31.3,
+   "gain_since_first_seen": 523,
    "first_seen": "2026-11-21T01:27:57Z"
   },
   {
@@ -215,14 +260,29 @@
    "title": "Inkling 2 Mini",
    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
    "domain": "thinkingmachines.ai",
-   "rank": 4,
-   "rank_change": -2,
-   "score": 1083,
-   "score_gain": 432,
-   "comment_gain": 98,
-   "hours_between": 11.12,
-   "points_per_hour": 38.8,
-   "gain_since_first_seen": 432,
+   "rank": 15,
+   "rank_change": -11,
+   "score": 1324,
+   "score_gain": 241,
+   "comment_gain": 71,
+   "hours_between": 9.05,
+   "points_per_hour": 26.6,
+   "gain_since_first_seen": 673,
+   "first_seen": "2026-11-21T01:27:57Z"
+  },
+  {
+   "story_id": 50579568,
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "domain": "math216.wordpress.com",
+   "rank": 10,
+   "rank_change": -8,
+   "score": 2357,
+   "score_gain": 174,
+   "comment_gain": 114,
+   "hours_between": 9.05,
+   "points_per_hour": 19.2,
+   "gain_since_first_seen": 824,
    "first_seen": "2026-11-21T01:27:57Z"
   },
   {
@@ -230,140 +290,74 @@
    "title": "Levent Alp\u00f6ge claims proof of the Generalized Riemann Hypothesis [pdf]",
    "url": "https://alpo.ge/remark.pdf",
    "domain": "alpo.ge",
-   "rank": 3,
-   "rank_change": 0,
-   "score": 2700,
-   "score_gain": 353,
-   "comment_gain": 297,
-   "hours_between": 11.12,
-   "points_per_hour": 31.7,
-   "gain_since_first_seen": 1535,
+   "rank": 28,
+   "rank_change": -25,
+   "score": 2850,
+   "score_gain": 150,
+   "comment_gain": 134,
+   "hours_between": 9.05,
+   "points_per_hour": 16.6,
+   "gain_since_first_seen": 1685,
    "first_seen": "2026-11-20T16:56:09Z"
   },
   {
-   "story_id": 50583761,
-   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
-   "url": null,
-   "domain": null,
-   "rank": 12,
-   "rank_change": 32,
-   "score": 263,
-   "score_gain": 240,
-   "comment_gain": 209,
-   "hours_between": 11.12,
-   "points_per_hour": 21.6,
-   "gain_since_first_seen": 240,
-   "first_seen": "2026-11-21T01:27:57Z"
+   "story_id": 50587208,
+   "title": "RCE in Gnupg",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+   "domain": "lists.gnupg.org",
+   "rank": 18,
+   "rank_change": -13,
+   "score": 205,
+   "score_gain": 149,
+   "comment_gain": 78,
+   "hours_between": 9.05,
+   "points_per_hour": 16.5,
+   "gain_since_first_seen": 149,
+   "first_seen": "2026-11-21T12:35:18Z"
   },
   {
-   "story_id": 50576012,
-   "title": "Slopstrap \u2013 Make your site look hastily vibecoded",
-   "url": "https://slopstrap.mikelacher.com/",
-   "domain": "slopstrap.mikelacher.com",
-   "rank": 22,
-   "rank_change": 10,
-   "score": 325,
-   "score_gain": 234,
-   "comment_gain": 45,
-   "hours_between": 11.12,
-   "points_per_hour": 21.0,
-   "gain_since_first_seen": 234,
-   "first_seen": "2026-11-21T01:27:57Z"
-  },
-  {
-   "story_id": 50579331,
-   "title": "We promoted developers into architects without informing them",
-   "url": "https://manidoraisamy.com/developer-to-architect.html",
-   "domain": "manidoraisamy.com",
-   "rank": 7,
-   "rank_change": -2,
-   "score": 469,
-   "score_gain": 180,
-   "comment_gain": 77,
-   "hours_between": 11.12,
-   "points_per_hour": 16.2,
-   "gain_since_first_seen": 180,
-   "first_seen": "2026-11-21T01:27:57Z"
-  },
-  {
-   "story_id": 50583274,
-   "title": "NINLIVE: The Nine Inch Nails live archive",
-   "url": "https://ninlive.com/",
-   "domain": "ninlive.com",
-   "rank": 9,
-   "rank_change": -5,
-   "score": 288,
-   "score_gain": 179,
-   "comment_gain": 52,
-   "hours_between": 11.12,
-   "points_per_hour": 16.1,
-   "gain_since_first_seen": 179,
-   "first_seen": "2026-11-21T01:27:57Z"
-  },
-  {
-   "story_id": 50581110,
-   "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
-   "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-   "domain": "masteringemacs.org",
-   "rank": 19,
-   "rank_change": -8,
-   "score": 233,
+   "story_id": 50574383,
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic\u2019s second day",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "domain": "theguardian.com",
+   "rank": 37,
+   "rank_change": -17,
+   "score": 483,
    "score_gain": 134,
-   "comment_gain": 66,
-   "hours_between": 11.12,
-   "points_per_hour": 12.0,
-   "gain_since_first_seen": 134,
-   "first_seen": "2026-11-21T01:27:57Z"
+   "comment_gain": 199,
+   "hours_between": 9.05,
+   "points_per_hour": 14.8,
+   "gain_since_first_seen": 343,
+   "first_seen": "2026-11-20T16:56:09Z"
   },
   {
-   "story_id": 50578358,
-   "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-   "domain": "terrytao.wordpress.com",
-   "rank": 8,
-   "rank_change": -2,
-   "score": 469,
-   "score_gain": 133,
-   "comment_gain": 53,
-   "hours_between": 11.12,
-   "points_per_hour": 12.0,
-   "gain_since_first_seen": 133,
-   "first_seen": "2026-11-21T01:27:57Z"
-  },
-  {
-   "story_id": 50534387,
-   "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
-   "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
-   "domain": "valkey.io",
-   "rank": 17,
-   "rank_change": -8,
-   "score": 150,
-   "score_gain": 130,
-   "comment_gain": 49,
-   "hours_between": 11.12,
-   "points_per_hour": 11.7,
-   "gain_since_first_seen": 130,
-   "first_seen": "2026-11-21T01:27:57Z"
+   "story_id": 50587859,
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "domain": "bbc.com",
+   "rank": 44,
+   "rank_change": -31,
+   "score": 161,
+   "score_gain": 111,
+   "comment_gain": 61,
+   "hours_between": 9.05,
+   "points_per_hour": 12.3,
+   "gain_since_first_seen": 111,
+   "first_seen": "2026-11-21T12:35:18Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50574968,
-   "ts": "2026-11-20T16:56:09Z",
-   "score": 1165,
-   "rank": 2
-  },
-  {
-   "story_id": 50574968,
-   "ts": "2026-11-21T01:27:57Z",
-   "score": 2347,
-   "rank": 3
-  },
-  {
-   "story_id": 50574968,
+   "story_id": 50532613,
    "ts": "2026-11-21T12:35:18Z",
-   "score": 2700,
-   "rank": 3
+   "score": 69,
+   "rank": 1
+  },
+  {
+   "story_id": 50532613,
+   "ts": "2026-11-21T21:38:09Z",
+   "score": 626,
+   "rank": 5
   },
   {
    "story_id": 50576012,
@@ -378,16 +372,10 @@
    "rank": 22
   },
   {
-   "story_id": 50579568,
-   "ts": "2026-11-21T01:27:57Z",
-   "score": 1533,
-   "rank": 1
-  },
-  {
-   "story_id": 50579568,
-   "ts": "2026-11-21T12:35:18Z",
-   "score": 2183,
-   "rank": 2
+   "story_id": 50576012,
+   "ts": "2026-11-21T21:38:09Z",
+   "score": 633,
+   "rank": 32
   },
   {
    "story_id": 50581260,
@@ -402,6 +390,12 @@
    "rank": 4
   },
   {
+   "story_id": 50581260,
+   "ts": "2026-11-21T21:38:09Z",
+   "score": 1324,
+   "rank": 15
+  },
+  {
    "story_id": 50583761,
    "ts": "2026-11-21T01:27:57Z",
    "score": 23,
@@ -412,32 +406,50 @@
    "ts": "2026-11-21T12:35:18Z",
    "score": 263,
    "rank": 12
+  },
+  {
+   "story_id": 50583761,
+   "ts": "2026-11-21T21:38:09Z",
+   "score": 546,
+   "rank": 20
+  },
+  {
+   "story_id": 50587875,
+   "ts": "2026-11-21T12:35:18Z",
+   "score": 7,
+   "rank": 16
+  },
+  {
+   "story_id": 50587875,
+   "ts": "2026-11-21T21:38:09Z",
+   "score": 390,
+   "rank": 9
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 8,
-   "avg_score": 274.5,
+   "stories": 7,
+   "avg_score": 310.0,
    "median_score": 227.0
   },
   {
    "hour": 1,
    "stories": 8,
-   "avg_score": 214.5,
-   "median_score": 210.0
+   "avg_score": 194.5,
+   "median_score": 162.5
   },
   {
    "hour": 2,
-   "stories": 13,
-   "avg_score": 313.9,
-   "median_score": 238.0
+   "stories": 14,
+   "avg_score": 298.5,
+   "median_score": 214.5
   },
   {
    "hour": 3,
-   "stories": 13,
+   "stories": 12,
    "avg_score": 173.0,
-   "median_score": 126.0
+   "median_score": 124.0
   },
   {
    "hour": 4,
@@ -448,247 +460,247 @@
   {
    "hour": 5,
    "stories": 16,
-   "avg_score": 185.7,
-   "median_score": 114.0
+   "avg_score": 191.1,
+   "median_score": 133.0
   },
   {
    "hour": 6,
    "stories": 7,
-   "avg_score": 289.6,
+   "avg_score": 300.1,
    "median_score": 261.0
   },
   {
    "hour": 7,
-   "stories": 6,
-   "avg_score": 374.0,
-   "median_score": 182.0
+   "stories": 5,
+   "avg_score": 445.2,
+   "median_score": 231.0
   },
   {
    "hour": 8,
-   "stories": 11,
-   "avg_score": 119.1,
-   "median_score": 71.0
+   "stories": 10,
+   "avg_score": 145.4,
+   "median_score": 147.0
   },
   {
    "hour": 9,
-   "stories": 14,
-   "avg_score": 237.6,
-   "median_score": 167.5
+   "stories": 13,
+   "avg_score": 209.5,
+   "median_score": 196.0
   },
   {
    "hour": 10,
    "stories": 21,
-   "avg_score": 237.1,
+   "avg_score": 247.6,
    "median_score": 208.0
   },
   {
    "hour": 11,
-   "stories": 20,
-   "avg_score": 207.7,
-   "median_score": 106.0
+   "stories": 19,
+   "avg_score": 218.5,
+   "median_score": 113.0
   },
   {
    "hour": 12,
-   "stories": 31,
-   "avg_score": 156.5,
-   "median_score": 69.0
+   "stories": 29,
+   "avg_score": 166.1,
+   "median_score": 73.0
   },
   {
    "hour": 13,
-   "stories": 34,
+   "stories": 37,
    "avg_score": 263.6,
    "median_score": 111.0
   },
   {
    "hour": 14,
-   "stories": 54,
-   "avg_score": 176.0,
-   "median_score": 88.0
+   "stories": 57,
+   "avg_score": 183.0,
+   "median_score": 87.0
   },
   {
    "hour": 15,
-   "stories": 63,
-   "avg_score": 114.5,
-   "median_score": 69.0
+   "stories": 66,
+   "avg_score": 129.9,
+   "median_score": 68.5
   },
   {
    "hour": 16,
-   "stories": 42,
-   "avg_score": 121.6,
-   "median_score": 50.5
+   "stories": 44,
+   "avg_score": 115.9,
+   "median_score": 40.0
   },
   {
    "hour": 17,
-   "stories": 47,
-   "avg_score": 236.2,
-   "median_score": 90.0
+   "stories": 51,
+   "avg_score": 226.0,
+   "median_score": 92.0
   },
   {
    "hour": 18,
-   "stories": 45,
-   "avg_score": 261.0,
+   "stories": 47,
+   "avg_score": 262.4,
    "median_score": 122.0
   },
   {
    "hour": 19,
-   "stories": 39,
-   "avg_score": 134.3,
-   "median_score": 66.0
+   "stories": 37,
+   "avg_score": 135.3,
+   "median_score": 61.0
   },
   {
    "hour": 20,
-   "stories": 27,
-   "avg_score": 232.2,
-   "median_score": 52.0
+   "stories": 24,
+   "avg_score": 241.4,
+   "median_score": 30.5
   },
   {
    "hour": 21,
-   "stories": 20,
-   "avg_score": 276.9,
+   "stories": 22,
+   "avg_score": 260.6,
    "median_score": 88.5
   },
   {
    "hour": 22,
    "stories": 28,
-   "avg_score": 159.9,
-   "median_score": 41.0
+   "avg_score": 161.9,
+   "median_score": 39.5
   },
   {
    "hour": 23,
    "stories": 15,
-   "avg_score": 207.2,
+   "avg_score": 230.9,
    "median_score": 178.0
   }
  ],
  "keywords": [
   {
    "word": "hypothesis",
-   "stories": 3,
-   "total_score": 3476
+   "stories": 4,
+   "total_score": 4102
   },
   {
    "word": "riemann",
-   "stories": 3,
-   "total_score": 3476
+   "stories": 4,
+   "total_score": 4102
   },
   {
    "word": "generalized",
    "stories": 2,
-   "total_score": 3169
+   "total_score": 3377
+  },
+  {
+   "word": "proof",
+   "stories": 2,
+   "total_score": 2917
+  },
+  {
+   "word": "inkling",
+   "stories": 2,
+   "total_score": 1573
+  },
+  {
+   "word": "mini",
+   "stories": 2,
+   "total_score": 1573
   },
   {
    "word": "navier",
    "stories": 2,
-   "total_score": 768
+   "total_score": 838
   },
   {
    "word": "stokes",
    "stories": 2,
-   "total_score": 768
+   "total_score": 838
   },
   {
-   "word": "open",
+   "word": "lean",
    "stories": 2,
-   "total_score": 628
+   "total_score": 725
+  },
+  {
+   "word": "verification",
+   "stories": 2,
+   "total_score": 725
   },
   {
    "word": "without",
    "stories": 2,
-   "total_score": 628
-  },
-  {
-   "word": "have",
-   "stories": 2,
-   "total_score": 570
-  },
-  {
-   "word": "audio",
-   "stories": 2,
-   "total_score": 469
-  },
-  {
-   "word": "inch",
-   "stories": 2,
-   "total_score": 436
-  },
-  {
-   "word": "sources",
-   "stories": 2,
-   "total_score": 360
+   "total_score": 660
   },
   {
    "word": "coding",
    "stories": 2,
-   "total_score": 322
+   "total_score": 419
   },
   {
-   "word": "time",
+   "word": "programming",
    "stories": 2,
-   "total_score": 317
+   "total_score": 186
   },
   {
-   "word": "years",
+   "word": "may",
    "stories": 2,
-   "total_score": 266
+   "total_score": 181
+  },
+  {
+   "word": "surprisingly",
+   "stories": 2,
+   "total_score": 163
+  },
+  {
+   "word": "agent",
+   "stories": 2,
+   "total_score": 151
   },
   {
    "word": "alp",
    "stories": 1,
-   "total_score": 2700
+   "total_score": 2850
   },
   {
    "word": "claims",
    "stories": 1,
-   "total_score": 2700
+   "total_score": 2850
   },
   {
    "word": "levent",
    "stories": 1,
-   "total_score": 2700
+   "total_score": 2850
   },
   {
    "word": "pdf",
    "stories": 1,
-   "total_score": 2700
-  },
-  {
-   "word": "proof",
-   "stories": 1,
-   "total_score": 2700
-  },
-  {
-   "word": "alessandro",
-   "stories": 1,
-   "total_score": 2183
+   "total_score": 2850
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 12
-  },
-  {
-   "bucket": "50-99",
-   "stories": 7
-  },
-  {
-   "bucket": "100-249",
-   "stories": 13
-  },
-  {
-   "bucket": "250-499",
    "stories": 11
   },
   {
+   "bucket": "50-99",
+   "stories": 4
+  },
+  {
+   "bucket": "100-249",
+   "stories": 18
+  },
+  {
+   "bucket": "250-499",
+   "stories": 8
+  },
+  {
    "bucket": "500+",
-   "stories": 7
+   "stories": 9
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 45,
-   "total_score": 7586
+   "stories": 46,
+   "total_score": 7807
   },
   {
    "domain": "nytimes.com",
@@ -701,14 +713,14 @@
    "total_score": 1004
   },
   {
-   "domain": "reuters.com",
-   "stories": 6,
-   "total_score": 1844
-  },
-  {
    "domain": "twitter.com",
    "stories": 6,
    "total_score": 618
+  },
+  {
+   "domain": "reuters.com",
+   "stories": 5,
+   "total_score": 1841
   },
   {
    "domain": "wired.com",
@@ -723,7 +735,7 @@
   {
    "domain": "arxiv.org",
    "stories": 4,
-   "total_score": 586
+   "total_score": 633
   },
   {
    "domain": "apnews.com",
@@ -739,21 +751,21 @@
  "top_authors": [
   {
    "author": "speckx",
-   "stories": 11,
-   "total_score": 1238,
-   "avg_score": 113.0
+   "stories": 12,
+   "total_score": 1265,
+   "avg_score": 105.0
   },
   {
-   "author": "rbanffy",
+   "author": "PaulHoule",
    "stories": 7,
-   "total_score": 684,
-   "avg_score": 98.0
+   "total_score": 532,
+   "avg_score": 76.0
   },
   {
-   "author": "bookofjoe",
-   "stories": 7,
-   "total_score": 331,
-   "avg_score": 47.0
+   "author": "dvaplima",
+   "stories": 6,
+   "total_score": 1528,
+   "avg_score": 255.0
   },
   {
    "author": "DeepLogin",
@@ -762,22 +774,16 @@
    "avg_score": 247.0
   },
   {
-   "author": "dvaplima",
+   "author": "rbanffy",
    "stories": 6,
-   "total_score": 971,
-   "avg_score": 162.0
-  },
-  {
-   "author": "PaulHoule",
-   "stories": 6,
-   "total_score": 508,
-   "avg_score": 85.0
+   "total_score": 679,
+   "avg_score": 113.0
   },
   {
    "author": "sammatilda",
    "stories": 5,
-   "total_score": 1538,
-   "avg_score": 308.0
+   "total_score": 1335,
+   "avg_score": 267.0
   },
   {
    "author": "dverlaeckt80",
@@ -790,6 +796,12 @@
    "stories": 5,
    "total_score": 323,
    "avg_score": 65.0
+  },
+  {
+   "author": "bookofjoe",
+   "stories": 5,
+   "total_score": 296,
+   "avg_score": 59.0
   },
   {
    "author": "surprisetalk",
@@ -874,8 +886,8 @@
   {
    "day": "2026-11-21",
    "stories": 50,
-   "avg_score": 299.3,
-   "rolling_7d_avg": 211.9
+   "avg_score": 334.2,
+   "rolling_7d_avg": 216.9
   }
  ]
 }
