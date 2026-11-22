@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-22T16:14:00.710045+00:00",
-  "duration_s": 1.45,
+  "finished_at": "2026-11-22T21:46:08.082538+00:00",
+  "duration_s": 0.4,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 10775,
+  "raw_bytes": 9202,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,341 +72,281 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-22T16:13:59+00:00",
-  "oldest_story": "2026-11-13T17:53:42+00:00",
-  "newest_story": "2026-11-22T15:54:24+00:00",
-  "total_points": 14559,
-  "unique_authors": 50,
+  "snapshot_ts": "2026-11-22T21:46:07+00:00",
+  "oldest_story": "2026-11-18T13:33:25+00:00",
+  "newest_story": "2026-11-22T21:07:11+00:00",
+  "total_points": 12749,
+  "unique_authors": 49,
   "days_of_history": 14,
-  "stories_in_history": 630,
-  "runs_observed": 36,
-  "parquet_bytes": 16162
+  "stories_in_history": 640,
+  "runs_observed": 37,
+  "parquet_bytes": 14924
  },
  "top_stories": [
   {
-   "rank": 38,
+   "rank": 47,
    "title": "Levent Alp\u00f6ge claims proof of the Generalized Riemann Hypothesis [pdf]",
    "url": "https://alpo.ge/remark.pdf",
    "domain": "alpo.ge",
    "author": "iamronaldo",
-   "score": 2893,
-   "comment_count": 2078,
-   "age_hours": 50.0,
-   "points_per_hour": 57.9
+   "score": 2899,
+   "comment_count": 2081,
+   "age_hours": 55.5,
+   "points_per_hour": 52.2
   },
   {
-   "rank": 47,
-   "title": "Inkling 2 Mini",
-   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-   "domain": "thinkingmachines.ai",
-   "author": "jasondavies",
-   "score": 1439,
-   "comment_count": 290,
-   "age_hours": 44.0,
-   "points_per_hour": 32.7
-  },
-  {
-   "rank": 5,
+   "rank": 26,
    "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
    "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
    "domain": "theguardian.com",
    "author": "rafaelc",
-   "score": 1213,
-   "comment_count": 265,
-   "age_hours": 43.2,
-   "points_per_hour": 28.1
+   "score": 1315,
+   "comment_count": 292,
+   "age_hours": 48.7,
+   "points_per_hour": 27.0
   },
   {
-   "rank": 7,
+   "rank": 36,
    "title": "Lean verification of the Riemann Hypothesis",
    "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
    "domain": "leanprover-community.github.io",
    "author": "g-b-r",
-   "score": 1147,
-   "comment_count": 955,
-   "age_hours": 25.6,
-   "points_per_hour": 44.8
+   "score": 1199,
+   "comment_count": 998,
+   "age_hours": 31.2,
+   "points_per_hour": 38.5
   },
   {
-   "rank": 2,
+   "rank": 5,
    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
    "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
    "domain": "caranddriver.com",
    "author": "zdw",
-   "score": 885,
-   "comment_count": 514,
-   "age_hours": 12.2,
-   "points_per_hour": 72.8
+   "score": 1122,
+   "comment_count": 652,
+   "age_hours": 17.7,
+   "points_per_hour": 63.4
   },
   {
-   "rank": 39,
-   "title": "Slopstrap \u2013 Make your site look hastily vibecoded",
-   "url": "https://slopstrap.mikelacher.com/",
-   "domain": "slopstrap.mikelacher.com",
-   "author": "mlacher",
-   "score": 743,
-   "comment_count": 140,
-   "age_hours": 48.8,
-   "points_per_hour": 15.2
+   "rank": 21,
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "domain": "betterdatacenterproject.com",
+   "author": "happosai",
+   "score": 786,
+   "comment_count": 812,
+   "age_hours": 12.8,
+   "points_per_hour": 61.4
   },
   {
-   "rank": 16,
-   "title": "Detonating a pile of lead azide",
-   "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-   "domain": "science.org",
-   "author": "beginning_end",
-   "score": 663,
-   "comment_count": 409,
-   "age_hours": 26.8,
-   "points_per_hour": 24.7
-  },
-  {
-   "rank": 23,
-   "title": "My monitor was cutting my download speed by 75%",
-   "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-   "domain": "blog.tymscar.com",
-   "author": "soheilpro",
-   "score": 648,
-   "comment_count": 299,
-   "age_hours": 29.6,
-   "points_per_hour": 21.9
-  },
-  {
-   "rank": 14,
+   "rank": 27,
    "title": "Inkling-2-Mini in 5.4 GB Memory",
    "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
    "domain": "github.com",
    "author": "k__",
-   "score": 523,
-   "comment_count": 127,
-   "age_hours": 22.2,
-   "points_per_hour": 23.6
+   "score": 567,
+   "comment_count": 135,
+   "age_hours": 27.7,
+   "points_per_hour": 20.4
   },
   {
-   "rank": 9,
+   "rank": 23,
    "title": "Sandwich Simulator",
    "url": "https://stulle.app/",
    "domain": "stulle.app",
    "author": "subdomain",
-   "score": 425,
-   "comment_count": 144,
-   "age_hours": 16.1,
-   "points_per_hour": 26.4
+   "score": 537,
+   "comment_count": 190,
+   "age_hours": 21.6,
+   "points_per_hour": 24.8
+  },
+  {
+   "rank": 35,
+   "title": "Getting the mind to steer the body to steer you",
+   "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+   "domain": "notnottalmud.substack.com",
+   "author": "jger15",
+   "score": 394,
+   "comment_count": 157,
+   "age_hours": 47.6,
+   "points_per_hour": 8.3
+  },
+  {
+   "rank": 2,
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "domain": "openai.com",
+   "author": "acossta",
+   "score": 387,
+   "comment_count": 251,
+   "age_hours": 4.7,
+   "points_per_hour": 83.0
+  },
+  {
+   "rank": 32,
+   "title": "Data Processing Incidents on Inference Providers",
+   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+   "domain": "openrouter.ai",
+   "author": "sdko",
+   "score": 272,
+   "comment_count": 90,
+   "age_hours": 19.5,
+   "points_per_hour": 13.9
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50597612,
+   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+   "domain": "betterdatacenterproject.com",
+   "rank": 21,
+   "rank_change": -2,
+   "score": 786,
+   "score_gain": 364,
+   "comment_gain": 291,
+   "hours_between": 5.54,
+   "points_per_hour": 65.8,
+   "gain_since_first_seen": 364,
+   "first_seen": "2026-11-22T16:13:59Z"
+  },
   {
    "story_id": 50596133,
    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
    "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
    "domain": "caranddriver.com",
-   "rank": 2,
-   "rank_change": -1,
-   "score": 885,
-   "score_gain": 640,
-   "comment_gain": 398,
-   "hours_between": 9.57,
-   "points_per_hour": 66.9,
-   "gain_since_first_seen": 640,
+   "rank": 5,
+   "rank_change": -3,
+   "score": 1122,
+   "score_gain": 237,
+   "comment_gain": 138,
+   "hours_between": 5.54,
+   "points_per_hour": 42.8,
+   "gain_since_first_seen": 877,
    "first_seen": "2026-11-22T06:39:58Z"
   },
   {
-   "story_id": 50582069,
-   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-   "domain": "theguardian.com",
-   "rank": 5,
-   "rank_change": -3,
-   "score": 1213,
-   "score_gain": 348,
-   "comment_gain": 64,
-   "hours_between": 9.57,
-   "points_per_hour": 36.4,
-   "gain_since_first_seen": 1018,
-   "first_seen": "2026-11-21T21:38:09Z"
+   "story_id": 50600511,
+   "title": "Open Social Web Alliance",
+   "url": "https://osw-alliance.net/en/",
+   "domain": "osw-alliance.net",
+   "rank": 10,
+   "rank_change": -9,
+   "score": 185,
+   "score_gain": 170,
+   "comment_gain": 179,
+   "hours_between": 5.54,
+   "points_per_hour": 30.7,
+   "gain_since_first_seen": 170,
+   "first_seen": "2026-11-22T16:13:59Z"
+  },
+  {
+   "story_id": 50599762,
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "domain": "github.com",
+   "rank": 7,
+   "rank_change": -4,
+   "score": 239,
+   "score_gain": 160,
+   "comment_gain": 39,
+   "hours_between": 5.54,
+   "points_per_hour": 28.9,
+   "gain_since_first_seen": 160,
+   "first_seen": "2026-11-22T16:13:59Z"
+  },
+  {
+   "story_id": 50600677,
+   "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+   "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+   "domain": "lemonde.fr",
+   "rank": 38,
+   "rank_change": -26,
+   "score": 141,
+   "score_gain": 120,
+   "comment_gain": 117,
+   "hours_between": 5.54,
+   "points_per_hour": 21.7,
+   "gain_since_first_seen": 120,
+   "first_seen": "2026-11-22T16:13:59Z"
   },
   {
    "story_id": 50594911,
    "title": "Sandwich Simulator",
    "url": "https://stulle.app/",
    "domain": "stulle.app",
-   "rank": 9,
-   "rank_change": -4,
-   "score": 425,
-   "score_gain": 289,
-   "comment_gain": 92,
-   "hours_between": 9.57,
-   "points_per_hour": 30.2,
-   "gain_since_first_seen": 289,
-   "first_seen": "2026-11-22T06:39:58Z"
-  },
-  {
-   "story_id": 50589618,
-   "title": "Lean verification of the Riemann Hypothesis",
-   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "domain": "leanprover-community.github.io",
-   "rank": 7,
-   "rank_change": -4,
-   "score": 1147,
-   "score_gain": 205,
-   "comment_gain": 149,
-   "hours_between": 9.57,
-   "points_per_hour": 21.4,
-   "gain_since_first_seen": 489,
-   "first_seen": "2026-11-21T21:38:09Z"
-  },
-  {
-   "story_id": 50595554,
-   "title": "Data Processing Incidents on Inference Providers",
-   "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-   "domain": "openrouter.ai",
-   "rank": 17,
-   "rank_change": -11,
-   "score": 235,
-   "score_gain": 143,
-   "comment_gain": 52,
-   "hours_between": 9.57,
-   "points_per_hour": 14.9,
-   "gain_since_first_seen": 143,
-   "first_seen": "2026-11-22T06:39:58Z"
-  },
-  {
-   "story_id": 50583028,
-   "title": "Getting the mind to steer the body to steer you",
-   "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
-   "domain": "notnottalmud.substack.com",
-   "rank": 21,
-   "rank_change": -13,
-   "score": 357,
-   "score_gain": 130,
-   "comment_gain": 56,
-   "hours_between": 9.57,
-   "points_per_hour": 13.6,
-   "gain_since_first_seen": 317,
-   "first_seen": "2026-11-21T21:38:09Z"
-  },
-  {
-   "story_id": 50591853,
-   "title": "Inkling-2-Mini in 5.4 GB Memory",
-   "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-   "domain": "github.com",
-   "rank": 14,
-   "rank_change": -10,
-   "score": 523,
-   "score_gain": 98,
-   "comment_gain": 20,
-   "hours_between": 9.57,
-   "points_per_hour": 10.2,
-   "gain_since_first_seen": 274,
-   "first_seen": "2026-11-21T21:38:09Z"
-  },
-  {
-   "story_id": 50587875,
-   "title": "My monitor was cutting my download speed by 75%",
-   "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-   "domain": "blog.tymscar.com",
    "rank": 23,
-   "rank_change": -13,
-   "score": 648,
-   "score_gain": 98,
-   "comment_gain": 35,
-   "hours_between": 9.57,
-   "points_per_hour": 10.2,
-   "gain_since_first_seen": 641,
-   "first_seen": "2026-11-21T12:35:18Z"
-  },
-  {
-   "story_id": 50593737,
-   "title": "Advice for the next 100 Rust GUIs",
-   "url": "https://linebender.org/blog/next-100-guis/",
-   "domain": "linebender.org",
-   "rank": 28,
-   "rank_change": -8,
-   "score": 228,
-   "score_gain": 97,
-   "comment_gain": 76,
-   "hours_between": 9.57,
-   "points_per_hour": 10.1,
-   "gain_since_first_seen": 97,
+   "rank_change": -14,
+   "score": 537,
+   "score_gain": 112,
+   "comment_gain": 46,
+   "hours_between": 5.54,
+   "points_per_hour": 20.2,
+   "gain_since_first_seen": 401,
    "first_seen": "2026-11-22T06:39:58Z"
   },
   {
-   "story_id": 50595537,
-   "title": "The Mythology of Conscious AI",
-   "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-   "domain": "noemamag.com",
+   "story_id": 50600435,
+   "title": "Backblaze customers worried of personal data sale/sharing after policy update",
+   "url": "https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/",
+   "domain": "neowin.net",
+   "rank": 31,
+   "rank_change": -9,
+   "score": 118,
+   "score_gain": 109,
+   "comment_gain": 49,
+   "hours_between": 5.54,
+   "points_per_hour": 19.7,
+   "gain_since_first_seen": 109,
+   "first_seen": "2026-11-22T16:13:59Z"
+  },
+  {
+   "story_id": 50582069,
+   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+   "domain": "theguardian.com",
    "rank": 26,
-   "rank_change": -12,
-   "score": 121,
-   "score_gain": 94,
-   "comment_gain": 254,
-   "hours_between": 9.57,
-   "points_per_hour": 9.8,
-   "gain_since_first_seen": 94,
-   "first_seen": "2026-11-22T06:39:58Z"
+   "rank_change": -21,
+   "score": 1315,
+   "score_gain": 102,
+   "comment_gain": 27,
+   "hours_between": 5.54,
+   "points_per_hour": 18.4,
+   "gain_since_first_seen": 1120,
+   "first_seen": "2026-11-21T21:38:09Z"
+  },
+  {
+   "story_id": 50594182,
+   "title": "A Better Vocabulary for Testing",
+   "url": "https://alperenkeles.com/posts/vocab-for-testing/",
+   "domain": "alperenkeles.com",
+   "rank": 13,
+   "rank_change": -7,
+   "score": 93,
+   "score_gain": 77,
+   "comment_gain": 22,
+   "hours_between": 5.54,
+   "points_per_hour": 13.9,
+   "gain_since_first_seen": 77,
+   "first_seen": "2026-11-22T16:13:59Z"
+  },
+  {
+   "story_id": 50555002,
+   "title": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
+   "url": null,
+   "domain": null,
+   "rank": 18,
+   "rank_change": 0,
+   "score": 88,
+   "score_gain": 74,
+   "comment_gain": 52,
+   "hours_between": 5.54,
+   "points_per_hour": 13.4,
+   "gain_since_first_seen": 74,
+   "first_seen": "2026-11-22T16:13:59Z"
   }
  ],
  "score_trajectories": [
-  {
-   "story_id": 50582069,
-   "ts": "2026-11-21T21:38:09Z",
-   "score": 195,
-   "rank": 1
-  },
-  {
-   "story_id": 50582069,
-   "ts": "2026-11-22T06:39:58Z",
-   "score": 865,
-   "rank": 2
-  },
-  {
-   "story_id": 50582069,
-   "ts": "2026-11-22T16:13:59Z",
-   "score": 1213,
-   "rank": 5
-  },
-  {
-   "story_id": 50589618,
-   "ts": "2026-11-21T21:38:09Z",
-   "score": 658,
-   "rank": 3
-  },
-  {
-   "story_id": 50589618,
-   "ts": "2026-11-22T06:39:58Z",
-   "score": 942,
-   "rank": 3
-  },
-  {
-   "story_id": 50589618,
-   "ts": "2026-11-22T16:13:59Z",
-   "score": 1147,
-   "rank": 7
-  },
-  {
-   "story_id": 50594911,
-   "ts": "2026-11-22T06:39:58Z",
-   "score": 136,
-   "rank": 5
-  },
-  {
-   "story_id": 50594911,
-   "ts": "2026-11-22T16:13:59Z",
-   "score": 425,
-   "rank": 9
-  },
-  {
-   "story_id": 50595554,
-   "ts": "2026-11-22T06:39:58Z",
-   "score": 92,
-   "rank": 6
-  },
-  {
-   "story_id": 50595554,
-   "ts": "2026-11-22T16:13:59Z",
-   "score": 235,
-   "rank": 17
-  },
   {
    "story_id": 50596133,
    "ts": "2026-11-22T06:39:58Z",
@@ -418,26 +358,80 @@
    "ts": "2026-11-22T16:13:59Z",
    "score": 885,
    "rank": 2
+  },
+  {
+   "story_id": 50596133,
+   "ts": "2026-11-22T21:46:07Z",
+   "score": 1122,
+   "rank": 5
+  },
+  {
+   "story_id": 50597612,
+   "ts": "2026-11-22T16:13:59Z",
+   "score": 422,
+   "rank": 19
+  },
+  {
+   "story_id": 50597612,
+   "ts": "2026-11-22T21:46:07Z",
+   "score": 786,
+   "rank": 21
+  },
+  {
+   "story_id": 50599762,
+   "ts": "2026-11-22T16:13:59Z",
+   "score": 79,
+   "rank": 3
+  },
+  {
+   "story_id": 50599762,
+   "ts": "2026-11-22T21:46:07Z",
+   "score": 239,
+   "rank": 7
+  },
+  {
+   "story_id": 50600511,
+   "ts": "2026-11-22T16:13:59Z",
+   "score": 15,
+   "rank": 1
+  },
+  {
+   "story_id": 50600511,
+   "ts": "2026-11-22T21:46:07Z",
+   "score": 185,
+   "rank": 10
+  },
+  {
+   "story_id": 50600677,
+   "ts": "2026-11-22T16:13:59Z",
+   "score": 21,
+   "rank": 12
+  },
+  {
+   "story_id": 50600677,
+   "ts": "2026-11-22T21:46:07Z",
+   "score": 141,
+   "rank": 38
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 9,
-   "avg_score": 290.2,
-   "median_score": 227.0
+   "stories": 8,
+   "avg_score": 338.4,
+   "median_score": 255.0
   },
   {
    "hour": 1,
    "stories": 9,
-   "avg_score": 174.4,
+   "avg_score": 182.7,
    "median_score": 150.0
   },
   {
    "hour": 2,
    "stories": 16,
-   "avg_score": 283.4,
-   "median_score": 213.0
+   "avg_score": 287.8,
+   "median_score": 214.5
   },
   {
    "hour": 3,
@@ -448,19 +442,19 @@
   {
    "hour": 4,
    "stories": 10,
-   "avg_score": 281.9,
+   "avg_score": 312.1,
    "median_score": 242.0
   },
   {
    "hour": 5,
    "stories": 17,
-   "avg_score": 184.5,
+   "avg_score": 181.2,
    "median_score": 116.0
   },
   {
    "hour": 6,
    "stories": 8,
-   "avg_score": 270.5,
+   "avg_score": 274.0,
    "median_score": 200.0
   },
   {
@@ -472,20 +466,20 @@
   {
    "hour": 8,
    "stories": 11,
-   "avg_score": 175.7,
+   "avg_score": 203.6,
    "median_score": 177.0
   },
   {
    "hour": 9,
-   "stories": 14,
-   "avg_score": 197.4,
-   "median_score": 167.5
+   "stories": 15,
+   "avg_score": 186.9,
+   "median_score": 139.0
   },
   {
    "hour": 10,
-   "stories": 22,
-   "avg_score": 249.8,
-   "median_score": 193.0
+   "stories": 21,
+   "avg_score": 247.6,
+   "median_score": 208.0
   },
   {
    "hour": 11,
@@ -496,68 +490,68 @@
   {
    "hour": 12,
    "stories": 31,
-   "avg_score": 157.1,
+   "avg_score": 157.9,
    "median_score": 69.0
   },
   {
    "hour": 13,
-   "stories": 41,
-   "avg_score": 247.4,
-   "median_score": 98.0
+   "stories": 40,
+   "avg_score": 251.4,
+   "median_score": 111.0
   },
   {
    "hour": 14,
-   "stories": 59,
-   "avg_score": 191.1,
-   "median_score": 87.0
+   "stories": 58,
+   "avg_score": 191.2,
+   "median_score": 86.5
   },
   {
    "hour": 15,
-   "stories": 70,
-   "avg_score": 127.0,
-   "median_score": 57.5
+   "stories": 72,
+   "avg_score": 128.0,
+   "median_score": 70.5
   },
   {
    "hour": 16,
    "stories": 45,
-   "avg_score": 117.9,
+   "avg_score": 114.3,
    "median_score": 41.0
   },
   {
    "hour": 17,
    "stories": 53,
-   "avg_score": 219.5,
-   "median_score": 90.0
+   "avg_score": 225.4,
+   "median_score": 92.0
   },
   {
    "hour": 18,
-   "stories": 47,
-   "avg_score": 270.4,
-   "median_score": 127.0
+   "stories": 48,
+   "avg_score": 265.9,
+   "median_score": 124.5
   },
   {
    "hour": 19,
-   "stories": 37,
-   "avg_score": 135.3,
-   "median_score": 61.0
+   "stories": 40,
+   "avg_score": 135.5,
+   "median_score": 63.5
   },
   {
    "hour": 20,
-   "stories": 25,
-   "avg_score": 241.3,
-   "median_score": 34.0
+   "stories": 30,
+   "avg_score": 202.5,
+   "median_score": 32.0
   },
   {
    "hour": 21,
-   "stories": 24,
-   "avg_score": 293.8,
-   "median_score": 88.5
+   "stories": 27,
+   "avg_score": 268.6,
+   "median_score": 79.0
   },
   {
    "hour": 22,
-   "stories": 31,
-   "avg_score": 161.9,
-   "median_score": 39.0
+   "stories": 30,
+   "avg_score": 171.2,
+   "median_score": 44.5
   },
   {
    "hour": 23,
@@ -568,138 +562,138 @@
  ],
  "keywords": [
   {
-   "word": "riemann",
-   "stories": 4,
-   "total_score": 4240
+   "word": "rust",
+   "stories": 3,
+   "total_score": 487
+  },
+  {
+   "word": "web",
+   "stories": 3,
+   "total_score": 378
   },
   {
    "word": "hypothesis",
-   "stories": 3,
-   "total_score": 4161
+   "stories": 2,
+   "total_score": 4098
   },
   {
-   "word": "proof",
-   "stories": 3,
-   "total_score": 3093
-  },
-  {
-   "word": "rust",
-   "stories": 3,
-   "total_score": 374
+   "word": "riemann",
+   "stories": 2,
+   "total_score": 4098
   },
   {
    "word": "inkling",
    "stories": 2,
-   "total_score": 1962
-  },
-  {
-   "word": "mini",
-   "stories": 2,
-   "total_score": 1962
-  },
-  {
-   "word": "lean",
-   "stories": 2,
-   "total_score": 1268
-  },
-  {
-   "word": "verification",
-   "stories": 2,
-   "total_score": 1268
-  },
-  {
-   "word": "next",
-   "stories": 2,
-   "total_score": 245
+   "total_score": 570
   },
   {
    "word": "data",
    "stories": 2,
-   "total_score": 244
+   "total_score": 390
   },
   {
    "word": "hosted",
    "stories": 2,
-   "total_score": 214
+   "total_score": 263
   },
   {
    "word": "self",
    "stories": 2,
-   "total_score": 214
+   "total_score": 263
   },
   {
-   "word": "game",
+   "word": "advice",
    "stories": 2,
-   "total_score": 91
+   "total_score": 256
   },
   {
-   "word": "climate",
+   "word": "field",
    "stories": 2,
-   "total_score": 90
+   "total_score": 198
   },
   {
-   "word": "web",
+   "word": "guide",
    "stories": 2,
-   "total_score": 85
+   "total_score": 168
   },
   {
-   "word": "python",
+   "word": "testing",
    "stories": 2,
-   "total_score": 78
+   "total_score": 149
   },
   {
-   "word": "apps",
+   "word": "aws",
    "stories": 2,
-   "total_score": 53
+   "total_score": 67
   },
   {
-   "word": "better",
+   "word": "inside",
    "stories": 2,
-   "total_score": 31
+   "total_score": 56
+  },
+  {
+   "word": "software",
+   "stories": 2,
+   "total_score": 54
+  },
+  {
+   "word": "drugs",
+   "stories": 2,
+   "total_score": 51
   },
   {
    "word": "alp",
    "stories": 1,
-   "total_score": 2893
+   "total_score": 2899
   },
   {
    "word": "claims",
    "stories": 1,
-   "total_score": 2893
+   "total_score": 2899
+  },
+  {
+   "word": "generalized",
+   "stories": 1,
+   "total_score": 2899
+  },
+  {
+   "word": "levent",
+   "stories": 1,
+   "total_score": 2899
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 17
+   "stories": 18
   },
   {
    "bucket": "50-99",
-   "stories": 7
+   "stories": 9
   },
   {
    "bucket": "100-249",
-   "stories": 12
+   "stories": 13
   },
   {
    "bucket": "250-499",
-   "stories": 5
+   "stories": 3
   },
   {
    "bucket": "500+",
-   "stories": 9
+   "stories": 7
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 52,
-   "total_score": 8714
+   "stories": 49,
+   "total_score": 8693
   },
   {
    "domain": "nytimes.com",
    "stories": 10,
-   "total_score": 2162
+   "total_score": 2154
   },
   {
    "domain": "youtube.com",
@@ -739,21 +733,27 @@
   {
    "domain": "theguardian.com",
    "stories": 3,
-   "total_score": 1741
+   "total_score": 1843
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
-   "stories": 12,
-   "total_score": 1265,
-   "avg_score": 105.0
+   "stories": 13,
+   "total_score": 1327,
+   "avg_score": 102.0
+  },
+  {
+   "author": "rbanffy",
+   "stories": 7,
+   "total_score": 697,
+   "avg_score": 100.0
   },
   {
    "author": "PaulHoule",
    "stories": 7,
-   "total_score": 560,
-   "avg_score": 80.0
+   "total_score": 532,
+   "avg_score": 76.0
   },
   {
    "author": "dvaplima",
@@ -768,34 +768,28 @@
    "avg_score": 247.0
   },
   {
-   "author": "rbanffy",
+   "author": "dverlaeckt80",
    "stories": 6,
-   "total_score": 679,
-   "avg_score": 113.0
+   "total_score": 725,
+   "avg_score": 121.0
   },
   {
    "author": "ibobev",
    "stories": 6,
-   "total_score": 379,
-   "avg_score": 63.0
+   "total_score": 391,
+   "avg_score": 65.0
   },
   {
    "author": "surprisetalk",
    "stories": 6,
-   "total_score": 156,
-   "avg_score": 26.0
+   "total_score": 171,
+   "avg_score": 29.0
   },
   {
    "author": "sammatilda",
    "stories": 5,
    "total_score": 1335,
    "avg_score": 267.0
-  },
-  {
-   "author": "dverlaeckt80",
-   "stories": 5,
-   "total_score": 687,
-   "avg_score": 137.0
   },
   {
    "author": "bookofjoe",
@@ -886,8 +880,8 @@
   {
    "day": "2026-11-22",
    "stories": 50,
-   "avg_score": 291.2,
-   "rolling_7d_avg": 232.0
+   "avg_score": 255.0,
+   "rolling_7d_avg": 226.9
   }
  ]
 }
