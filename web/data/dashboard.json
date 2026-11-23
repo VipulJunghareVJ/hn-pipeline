@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-23T07:28:21.888925+00:00",
-  "duration_s": 0.59,
+  "finished_at": "2026-11-23T20:08:34.198913+00:00",
+  "duration_s": 1.2,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 8427,
+  "raw_bytes": 11593,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,187 +72,262 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-23T07:28:21+00:00",
-  "oldest_story": "2026-11-18T13:33:25+00:00",
-  "newest_story": "2026-11-23T07:01:08+00:00",
-  "total_points": 11038,
-  "unique_authors": 49,
+  "snapshot_ts": "2026-11-23T20:08:33+00:00",
+  "oldest_story": "2026-11-18T15:43:29+00:00",
+  "newest_story": "2026-11-23T19:25:04+00:00",
+  "total_points": 13443,
+  "unique_authors": 50,
   "days_of_history": 15,
-  "stories_in_history": 667,
-  "runs_observed": 38,
-  "parquet_bytes": 15467
+  "stories_in_history": 684,
+  "runs_observed": 39,
+  "parquet_bytes": 16054
  },
  "top_stories": [
   {
-   "rank": 40,
-   "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-   "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-   "domain": "theguardian.com",
-   "author": "rafaelc",
-   "score": 1355,
-   "comment_count": 303,
-   "age_hours": 58.4,
-   "points_per_hour": 23.2
+   "rank": 1,
+   "title": "Nvidia Reinstates Jensen Huang as CEO",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "domain": "cnbc.com",
+   "author": "jaz",
+   "score": 1404,
+   "comment_count": 2543,
+   "age_hours": 6.1,
+   "points_per_hour": 228.8
   },
   {
-   "rank": 28,
+   "rank": 49,
    "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
    "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
    "domain": "caranddriver.com",
    "author": "zdw",
-   "score": 1272,
-   "comment_count": 697,
-   "age_hours": 27.4,
-   "points_per_hour": 46.4
-  },
-  {
-   "rank": 46,
-   "title": "Lean verification of the Riemann Hypothesis",
-   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-   "domain": "leanprover-community.github.io",
-   "author": "g-b-r",
-   "score": 1221,
-   "comment_count": 1022,
-   "age_hours": 40.9,
-   "points_per_hour": 29.9
-  },
-  {
-   "rank": 41,
-   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "domain": "betterdatacenterproject.com",
-   "author": "happosai",
-   "score": 951,
-   "comment_count": 944,
-   "age_hours": 22.5,
-   "points_per_hour": 42.2
-  },
-  {
-   "rank": 23,
-   "title": "What Happened to Silicon Valley?",
-   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-   "domain": "oreilly.com",
-   "author": "greenyouse",
-   "score": 598,
-   "comment_count": 319,
-   "age_hours": 12.1,
-   "points_per_hour": 49.3
-  },
-  {
-   "rank": 19,
-   "title": "Perplexity and Intelligence",
-   "url": "https://openai.com/index/perplexity-and-intelligence/",
-   "domain": "openai.com",
-   "author": "acossta",
-   "score": 557,
-   "comment_count": 380,
-   "age_hours": 14.4,
-   "points_per_hour": 38.8
-  },
-  {
-   "rank": 6,
-   "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
-   "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "domain": "audubon.org",
-   "author": "gaws",
-   "score": 451,
-   "comment_count": 228,
-   "age_hours": 12.3,
-   "points_per_hour": 36.7
+   "score": 1368,
+   "comment_count": 726,
+   "age_hours": 40.1,
+   "points_per_hour": 34.1
   },
   {
    "rank": 4,
-   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "domain": "gpupartner.com",
-   "author": "Retell15",
-   "score": 425,
-   "comment_count": 174,
-   "age_hours": 10.5,
-   "points_per_hour": 40.7
+   "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "domain": "z.ai",
+   "author": "foohis",
+   "score": 911,
+   "comment_count": 310,
+   "age_hours": 10.0,
+   "points_per_hour": 90.8
   },
   {
-   "rank": 1,
+   "rank": 15,
    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
    "url": "https://spelunkr.tv",
    "domain": "spelunkr.tv",
    "author": "SockThief",
-   "score": 410,
-   "comment_count": 58,
-   "age_hours": 6.2,
-   "points_per_hour": 65.7
+   "score": 863,
+   "comment_count": 151,
+   "age_hours": 18.9,
+   "points_per_hour": 45.6
   },
   {
-   "rank": 25,
-   "title": "Show HN: I built a game where you are an LLM's subagent",
-   "url": "https://github.com/gulivan/worker755",
+   "rank": 3,
+   "title": "Ladybird is now in alpha",
+   "url": "https://ladybird.org/posts/alpha/",
+   "domain": "ladybird.org",
+   "author": "janvdberg",
+   "score": 859,
+   "comment_count": 236,
+   "age_hours": 3.9,
+   "points_per_hour": 219.0
+  },
+  {
+   "rank": 24,
+   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+   "domain": "gpupartner.com",
+   "author": "Retell15",
+   "score": 710,
+   "comment_count": 286,
+   "age_hours": 23.1,
+   "points_per_hour": 30.7
+  },
+  {
+   "rank": 30,
+   "title": "Perplexity and Intelligence",
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "domain": "openai.com",
+   "author": "acossta",
+   "score": 679,
+   "comment_count": 438,
+   "age_hours": 27.0,
+   "points_per_hour": 25.1
+  },
+  {
+   "rank": 32,
+   "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+   "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+   "domain": "audubon.org",
+   "author": "gaws",
+   "score": 625,
+   "comment_count": 355,
+   "age_hours": 25.0,
+   "points_per_hour": 25.0
+  },
+  {
+   "rank": 18,
+   "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+   "url": "https://github.com/AFK-surf/xnulinux",
    "domain": "github.com",
-   "author": "ivantgam",
-   "score": 309,
-   "comment_count": 74,
-   "age_hours": 17.5,
-   "points_per_hour": 17.6
+   "author": "mmastrac",
+   "score": 564,
+   "comment_count": 236,
+   "age_hours": 16.3,
+   "points_per_hour": 34.6
+  },
+  {
+   "rank": 41,
+   "title": "A miniature San Francisco with live buses, planes and boats",
+   "url": "https://smallsf.com/",
+   "domain": "smallsf.com",
+   "author": "dutilh",
+   "score": 364,
+   "comment_count": 110,
+   "age_hours": 23.6,
+   "points_per_hour": 15.4
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50606192,
+   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+   "url": "https://spelunkr.tv",
+   "domain": "spelunkr.tv",
+   "rank": 15,
+   "rank_change": -14,
+   "score": 863,
+   "score_gain": 453,
+   "comment_gain": 93,
+   "hours_between": 12.67,
+   "points_per_hour": 35.8,
+   "gain_since_first_seen": 453,
+   "first_seen": "2026-11-23T07:28:21Z"
+  },
+  {
+   "story_id": 50607261,
+   "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "domain": "github.com",
+   "rank": 18,
+   "rank_change": -16,
+   "score": 564,
+   "score_gain": 393,
+   "comment_gain": 162,
+   "hours_between": 12.67,
+   "points_per_hour": 31.0,
+   "gain_since_first_seen": 393,
+   "first_seen": "2026-11-23T07:28:21Z"
+  },
   {
    "story_id": 50603845,
    "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
    "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
    "domain": "gpupartner.com",
-   "rank": 4,
-   "rank_change": 11,
-   "score": 425,
-   "score_gain": 422,
-   "comment_gain": 174,
-   "hours_between": 9.7,
-   "points_per_hour": 43.5,
-   "gain_since_first_seen": 422,
+   "rank": 24,
+   "rank_change": -20,
+   "score": 710,
+   "score_gain": 285,
+   "comment_gain": 112,
+   "hours_between": 12.67,
+   "points_per_hour": 22.5,
+   "gain_since_first_seen": 707,
    "first_seen": "2026-11-22T21:46:07Z"
   },
   {
-   "story_id": 50602947,
-   "title": "What Happened to Silicon Valley?",
-   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-   "domain": "oreilly.com",
-   "rank": 23,
-   "rank_change": -19,
-   "score": 598,
-   "score_gain": 396,
-   "comment_gain": 248,
-   "hours_between": 9.7,
-   "points_per_hour": 40.8,
-   "gain_since_first_seen": 396,
-   "first_seen": "2026-11-22T21:46:07Z"
+   "story_id": 50607668,
+   "title": "Yes, 17M lines of Lean is a lot",
+   "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+   "domain": "micjm.com",
+   "rank": 26,
+   "rank_change": -12,
+   "score": 246,
+   "score_gain": 229,
+   "comment_gain": 292,
+   "hours_between": 12.67,
+   "points_per_hour": 18.1,
+   "gain_since_first_seen": 229,
+   "first_seen": "2026-11-23T07:28:21Z"
   },
   {
    "story_id": 50602843,
    "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
    "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
    "domain": "audubon.org",
-   "rank": 6,
-   "rank_change": -5,
-   "score": 451,
-   "score_gain": 286,
-   "comment_gain": 183,
-   "hours_between": 9.7,
-   "points_per_hour": 29.5,
-   "gain_since_first_seen": 286,
+   "rank": 32,
+   "rank_change": -26,
+   "score": 625,
+   "score_gain": 174,
+   "comment_gain": 127,
+   "hours_between": 12.67,
+   "points_per_hour": 13.7,
+   "gain_since_first_seen": 460,
    "first_seen": "2026-11-22T21:46:07Z"
+  },
+  {
+   "story_id": 50547698,
+   "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+   "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+   "domain": "apnews.com",
+   "rank": 33,
+   "rank_change": -25,
+   "score": 350,
+   "score_gain": 152,
+   "comment_gain": 77,
+   "hours_between": 12.67,
+   "points_per_hour": 12.0,
+   "gain_since_first_seen": 152,
+   "first_seen": "2026-11-23T07:28:21Z"
+  },
+  {
+   "story_id": 50603143,
+   "title": "Assume People Are Not Interested in Your Blog Post",
+   "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
+   "domain": "danielsada.tech",
+   "rank": 37,
+   "rank_change": -24,
+   "score": 309,
+   "score_gain": 151,
+   "comment_gain": 67,
+   "hours_between": 12.67,
+   "points_per_hour": 11.9,
+   "gain_since_first_seen": 151,
+   "first_seen": "2026-11-23T07:28:21Z"
+  },
+  {
+   "story_id": 50606499,
+   "title": "Treemap of the Riemann Hypothesis Lean Proof",
+   "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
+   "domain": "pengowray.github.io",
+   "rank": 39,
+   "rank_change": -27,
+   "score": 178,
+   "score_gain": 127,
+   "comment_gain": 60,
+   "hours_between": 12.67,
+   "points_per_hour": 10.0,
+   "gain_since_first_seen": 127,
+   "first_seen": "2026-11-23T07:28:21Z"
   },
   {
    "story_id": 50603589,
    "title": "A miniature San Francisco with live buses, planes and boats",
    "url": "https://smallsf.com/",
    "domain": "smallsf.com",
-   "rank": 10,
-   "rank_change": -4,
-   "score": 237,
-   "score_gain": 205,
-   "comment_gain": 80,
-   "hours_between": 9.7,
-   "points_per_hour": 21.1,
-   "gain_since_first_seen": 205,
+   "rank": 41,
+   "rank_change": -31,
+   "score": 364,
+   "score_gain": 127,
+   "comment_gain": 22,
+   "hours_between": 12.67,
+   "points_per_hour": 10.0,
+   "gain_since_first_seen": 332,
    "first_seen": "2026-11-22T21:46:07Z"
   },
   {
@@ -260,105 +335,18 @@
    "title": "Perplexity and Intelligence",
    "url": "https://openai.com/index/perplexity-and-intelligence/",
    "domain": "openai.com",
-   "rank": 19,
-   "rank_change": -17,
-   "score": 557,
-   "score_gain": 170,
-   "comment_gain": 129,
-   "hours_between": 9.7,
-   "points_per_hour": 17.5,
-   "gain_since_first_seen": 170,
-   "first_seen": "2026-11-22T21:46:07Z"
-  },
-  {
-   "story_id": 50597612,
-   "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-   "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-   "domain": "betterdatacenterproject.com",
-   "rank": 41,
-   "rank_change": -20,
-   "score": 951,
-   "score_gain": 165,
-   "comment_gain": 132,
-   "hours_between": 9.7,
-   "points_per_hour": 17.0,
-   "gain_since_first_seen": 529,
-   "first_seen": "2026-11-22T16:13:59Z"
-  },
-  {
-   "story_id": 50596133,
-   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-   "domain": "caranddriver.com",
-   "rank": 28,
-   "rank_change": -23,
-   "score": 1272,
-   "score_gain": 150,
-   "comment_gain": 45,
-   "hours_between": 9.7,
-   "points_per_hour": 15.5,
-   "gain_since_first_seen": 1027,
-   "first_seen": "2026-11-22T06:39:58Z"
-  },
-  {
-   "story_id": 50603465,
-   "title": "Nyx, the Oldest Internet Service Provider",
-   "url": "https://nyx.net/",
-   "domain": "nyx.net",
-   "rank": 21,
-   "rank_change": -18,
-   "score": 126,
-   "score_gain": 94,
-   "comment_gain": 14,
-   "hours_between": 9.7,
-   "points_per_hour": 9.7,
-   "gain_since_first_seen": 94,
-   "first_seen": "2026-11-22T21:46:07Z"
-  },
-  {
-   "story_id": 50599762,
-   "title": "Show HN: I built a game where you are an LLM's subagent",
-   "url": "https://github.com/gulivan/worker755",
-   "domain": "github.com",
-   "rank": 25,
-   "rank_change": -18,
-   "score": 309,
-   "score_gain": 70,
-   "comment_gain": 18,
-   "hours_between": 9.7,
-   "points_per_hour": 7.2,
-   "gain_since_first_seen": 230,
-   "first_seen": "2026-11-22T16:13:59Z"
-  },
-  {
-   "story_id": 50546124,
-   "title": "Advice for Young Researchers",
-   "url": "http://togelius.blogspot.com/2026/11/advice-for-young-researchers.html",
-   "domain": "togelius.blogspot.com",
-   "rank": 35,
+   "rank": 30,
    "rank_change": -11,
-   "score": 76,
-   "score_gain": 69,
-   "comment_gain": 32,
-   "hours_between": 9.7,
-   "points_per_hour": 7.1,
-   "gain_since_first_seen": 69,
+   "score": 679,
+   "score_gain": 122,
+   "comment_gain": 58,
+   "hours_between": 12.67,
+   "points_per_hour": 9.6,
+   "gain_since_first_seen": 292,
    "first_seen": "2026-11-22T21:46:07Z"
   }
  ],
  "score_trajectories": [
-  {
-   "story_id": 50601525,
-   "ts": "2026-11-22T21:46:07Z",
-   "score": 387,
-   "rank": 2
-  },
-  {
-   "story_id": 50601525,
-   "ts": "2026-11-23T07:28:21Z",
-   "score": 557,
-   "rank": 19
-  },
   {
    "story_id": 50602843,
    "ts": "2026-11-22T21:46:07Z",
@@ -372,28 +360,10 @@
    "rank": 6
   },
   {
-   "story_id": 50602947,
-   "ts": "2026-11-22T21:46:07Z",
-   "score": 202,
-   "rank": 4
-  },
-  {
-   "story_id": 50602947,
-   "ts": "2026-11-23T07:28:21Z",
-   "score": 598,
-   "rank": 23
-  },
-  {
-   "story_id": 50603589,
-   "ts": "2026-11-22T21:46:07Z",
-   "score": 32,
-   "rank": 6
-  },
-  {
-   "story_id": 50603589,
-   "ts": "2026-11-23T07:28:21Z",
-   "score": 237,
-   "rank": 10
+   "story_id": 50602843,
+   "ts": "2026-11-23T20:08:33Z",
+   "score": 625,
+   "rank": 32
   },
   {
    "story_id": 50603845,
@@ -406,44 +376,86 @@
    "ts": "2026-11-23T07:28:21Z",
    "score": 425,
    "rank": 4
+  },
+  {
+   "story_id": 50603845,
+   "ts": "2026-11-23T20:08:33Z",
+   "score": 710,
+   "rank": 24
+  },
+  {
+   "story_id": 50606192,
+   "ts": "2026-11-23T07:28:21Z",
+   "score": 410,
+   "rank": 1
+  },
+  {
+   "story_id": 50606192,
+   "ts": "2026-11-23T20:08:33Z",
+   "score": 863,
+   "rank": 15
+  },
+  {
+   "story_id": 50607261,
+   "ts": "2026-11-23T07:28:21Z",
+   "score": 171,
+   "rank": 2
+  },
+  {
+   "story_id": 50607261,
+   "ts": "2026-11-23T20:08:33Z",
+   "score": 564,
+   "rank": 18
+  },
+  {
+   "story_id": 50607668,
+   "ts": "2026-11-23T07:28:21Z",
+   "score": 17,
+   "rank": 14
+  },
+  {
+   "story_id": 50607668,
+   "ts": "2026-11-23T20:08:33Z",
+   "score": 246,
+   "rank": 26
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 8,
-   "avg_score": 338.4,
-   "median_score": 255.0
+   "stories": 11,
+   "avg_score": 260.3,
+   "median_score": 227.0
   },
   {
    "hour": 1,
-   "stories": 13,
-   "avg_score": 168.8,
-   "median_score": 134.0
+   "stories": 11,
+   "avg_score": 244.1,
+   "median_score": 175.0
   },
   {
    "hour": 2,
-   "stories": 18,
-   "avg_score": 258.4,
-   "median_score": 187.0
+   "stories": 16,
+   "avg_score": 287.8,
+   "median_score": 214.5
   },
   {
    "hour": 3,
-   "stories": 13,
-   "avg_score": 172.8,
-   "median_score": 126.0
+   "stories": 14,
+   "avg_score": 196.9,
+   "median_score": 124.0
   },
   {
    "hour": 4,
-   "stories": 12,
-   "avg_score": 283.8,
-   "median_score": 203.0
+   "stories": 11,
+   "avg_score": 315.0,
+   "median_score": 235.0
   },
   {
    "hour": 5,
    "stories": 18,
-   "avg_score": 173.3,
-   "median_score": 114.0
+   "avg_score": 184.8,
+   "median_score": 133.0
   },
   {
    "hour": 6,
@@ -453,241 +465,241 @@
   },
   {
    "hour": 7,
-   "stories": 6,
-   "avg_score": 371.2,
-   "median_score": 182.0
+   "stories": 5,
+   "avg_score": 445.2,
+   "median_score": 231.0
   },
   {
    "hour": 8,
-   "stories": 11,
-   "avg_score": 218.6,
-   "median_score": 177.0
+   "stories": 12,
+   "avg_score": 194.4,
+   "median_score": 147.0
   },
   {
    "hour": 9,
-   "stories": 15,
-   "avg_score": 186.9,
+   "stories": 17,
+   "avg_score": 182.9,
    "median_score": 139.0
   },
   {
    "hour": 10,
-   "stories": 22,
-   "avg_score": 244.7,
-   "median_score": 196.0
+   "stories": 24,
+   "avg_score": 270.5,
+   "median_score": 210.5
   },
   {
    "hour": 11,
-   "stories": 19,
-   "avg_score": 218.5,
-   "median_score": 113.0
+   "stories": 21,
+   "avg_score": 217.8,
+   "median_score": 129.0
   },
   {
    "hour": 12,
    "stories": 32,
-   "avg_score": 154.9,
-   "median_score": 70.0
-  },
-  {
-   "hour": 13,
-   "stories": 41,
-   "avg_score": 249.2,
-   "median_score": 111.0
-  },
-  {
-   "hour": 14,
-   "stories": 60,
-   "avg_score": 186.2,
-   "median_score": 85.5
-  },
-  {
-   "hour": 15,
-   "stories": 73,
-   "avg_score": 130.4,
+   "avg_score": 158.4,
    "median_score": 71.0
   },
   {
+   "hour": 13,
+   "stories": 42,
+   "avg_score": 242.5,
+   "median_score": 104.5
+  },
+  {
+   "hour": 14,
+   "stories": 61,
+   "avg_score": 208.4,
+   "median_score": 87.0
+  },
+  {
+   "hour": 15,
+   "stories": 74,
+   "avg_score": 129.9,
+   "median_score": 70.5
+  },
+  {
    "hour": 16,
-   "stories": 46,
-   "avg_score": 112.9,
-   "median_score": 40.0
+   "stories": 47,
+   "avg_score": 129.0,
+   "median_score": 44.0
   },
   {
    "hour": 17,
-   "stories": 53,
-   "avg_score": 228.6,
-   "median_score": 92.0
+   "stories": 58,
+   "avg_score": 220.8,
+   "median_score": 91.0
   },
   {
    "hour": 18,
-   "stories": 48,
-   "avg_score": 267.1,
+   "stories": 50,
+   "avg_score": 259.2,
    "median_score": 124.5
   },
   {
    "hour": 19,
-   "stories": 43,
-   "avg_score": 147.7,
-   "median_score": 66.0
+   "stories": 45,
+   "avg_score": 143.5,
+   "median_score": 61.0
   },
   {
    "hour": 20,
-   "stories": 30,
-   "avg_score": 212.4,
-   "median_score": 43.0
+   "stories": 31,
+   "avg_score": 209.4,
+   "median_score": 34.0
   },
   {
    "hour": 21,
    "stories": 28,
-   "avg_score": 279.7,
-   "median_score": 99.0
+   "avg_score": 290.0,
+   "median_score": 101.5
   },
   {
    "hour": 22,
-   "stories": 32,
-   "avg_score": 166.6,
-   "median_score": 49.0
+   "stories": 31,
+   "avg_score": 166.8,
+   "median_score": 43.0
   },
   {
    "hour": 23,
-   "stories": 18,
-   "avg_score": 216.1,
-   "median_score": 174.0
+   "stories": 17,
+   "avg_score": 230.5,
+   "median_score": 194.0
   }
  ],
  "keywords": [
   {
-   "word": "lean",
-   "stories": 4,
-   "total_score": 1502
-  },
-  {
-   "word": "hypothesis",
-   "stories": 3,
-   "total_score": 1456
-  },
-  {
-   "word": "riemann",
-   "stories": 3,
-   "total_score": 1456
-  },
-  {
-   "word": "web",
-   "stories": 3,
-   "total_score": 493
-  },
-  {
-   "word": "biggest",
-   "stories": 2,
-   "total_score": 1553
-  },
-  {
    "word": "guide",
    "stories": 2,
-   "total_score": 876
+   "total_score": 1335
+  },
+  {
+   "word": "linux",
+   "stories": 2,
+   "total_score": 1302
   },
   {
    "word": "built",
    "stories": 2,
-   "total_score": 719
+   "total_score": 979
   },
   {
-   "word": "happened",
+   "word": "network",
    "stories": 2,
-   "total_score": 621
+   "total_score": 919
   },
   {
-   "word": "internet",
+   "word": "free",
    "stories": 2,
-   "total_score": 536
+   "total_score": 867
   },
   {
-   "word": "masullo",
+   "word": "gta",
    "stories": 2,
-   "total_score": 397
+   "total_score": 789
   },
   {
-   "word": "game",
+   "word": "intelligence",
    "stories": 2,
-   "total_score": 351
+   "total_score": 687
   },
   {
-   "word": "open",
+   "word": "hypothesis",
    "stories": 2,
-   "total_score": 289
+   "total_score": 479
   },
   {
-   "word": "testing",
+   "word": "riemann",
    "stories": 2,
-   "total_score": 205
+   "total_score": 479
   },
   {
-   "word": "pdf",
+   "word": "security",
    "stories": 2,
-   "total_score": 119
+   "total_score": 463
   },
   {
-   "word": "dangerous",
+   "word": "per",
    "stories": 2,
-   "total_score": 107
+   "total_score": 442
   },
   {
-   "word": "organization",
+   "word": "lean",
    "stories": 2,
-   "total_score": 107
+   "total_score": 424
   },
   {
-   "word": "breakthrough",
+   "word": "run",
+   "stories": 2,
+   "total_score": 290
+  },
+  {
+   "word": "ever",
+   "stories": 2,
+   "total_score": 216
+  },
+  {
+   "word": "don",
+   "stories": 2,
+   "total_score": 102
+  },
+  {
+   "word": "earth",
+   "stories": 2,
+   "total_score": 16
+  },
+  {
+   "word": "ceo",
    "stories": 1,
-   "total_score": 1355
+   "total_score": 1404
   },
   {
-   "word": "cancer",
+   "word": "huang",
    "stories": 1,
-   "total_score": 1355
+   "total_score": 1404
   },
   {
-   "word": "decades",
+   "word": "jensen",
    "stories": 1,
-   "total_score": 1355
+   "total_score": 1404
   },
   {
-   "word": "hailed",
+   "word": "nvidia",
    "stories": 1,
-   "total_score": 1355
+   "total_score": 1404
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 16
+   "stories": 11
   },
   {
    "bucket": "50-99",
-   "stories": 7
+   "stories": 10
   },
   {
    "bucket": "100-249",
-   "stories": 17
+   "stories": 14
   },
   {
    "bucket": "250-499",
-   "stories": 4
+   "stories": 6
   },
   {
    "bucket": "500+",
-   "stories": 6
+   "stories": 9
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 52,
-   "total_score": 8993
+   "stories": 55,
+   "total_score": 9993
   },
   {
    "domain": "nytimes.com",
    "stories": 10,
-   "total_score": 2217
+   "total_score": 2154
   },
   {
    "domain": "youtube.com",
@@ -696,28 +708,23 @@
   },
   {
    "domain": "twitter.com",
-   "stories": 6,
-   "total_score": 618
+   "stories": 7,
+   "total_score": 910
   },
   {
    "domain": "reuters.com",
-   "stories": 5,
-   "total_score": 1841
-  },
-  {
-   "domain": "arxiv.org",
-   "stories": 5,
-   "total_score": 666
+   "stories": 6,
+   "total_score": 1849
   },
   {
    "domain": "apnews.com",
    "stories": 4,
-   "total_score": 4080
+   "total_score": 4232
   },
   {
    "domain": "theguardian.com",
    "stories": 4,
-   "total_score": 1920
+   "total_score": 2051
   },
   {
    "domain": "wired.com",
@@ -728,14 +735,25 @@
    "domain": "ft.com",
    "stories": 4,
    "total_score": 729
+  },
+  {
+   "domain": "arxiv.org",
+   "stories": 4,
+   "total_score": 633
   }
  ],
  "top_authors": [
   {
    "author": "speckx",
-   "stories": 14,
-   "total_score": 1369,
-   "avg_score": 98.0
+   "stories": 13,
+   "total_score": 1327,
+   "avg_score": 102.0
+  },
+  {
+   "author": "DeepLogin",
+   "stories": 7,
+   "total_score": 1567,
+   "avg_score": 224.0
   },
   {
    "author": "rbanffy",
@@ -750,22 +768,10 @@
    "avg_score": 76.0
   },
   {
-   "author": "surprisetalk",
-   "stories": 7,
-   "total_score": 191,
-   "avg_score": 27.0
-  },
-  {
    "author": "dvaplima",
    "stories": 6,
    "total_score": 1528,
    "avg_score": 255.0
-  },
-  {
-   "author": "DeepLogin",
-   "stories": 6,
-   "total_score": 1481,
-   "avg_score": 247.0
   },
   {
    "author": "dverlaeckt80",
@@ -778,6 +784,12 @@
    "stories": 6,
    "total_score": 391,
    "avg_score": 65.0
+  },
+  {
+   "author": "surprisetalk",
+   "stories": 6,
+   "total_score": 171,
+   "avg_score": 29.0
   },
   {
    "author": "sammatilda",
@@ -880,8 +892,8 @@
   {
    "day": "2026-11-23",
    "stories": 50,
-   "avg_score": 220.8,
-   "rolling_7d_avg": 231.1
+   "avg_score": 268.9,
+   "rolling_7d_avg": 238.0
   }
  ]
 }
