@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-25T03:32:05.802212+00:00",
-  "duration_s": 0.57,
+  "finished_at": "2026-11-25T14:15:26.492843+00:00",
+  "duration_s": 0.66,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 14522,
+  "raw_bytes": 13418,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,142 +72,187 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-25T03:32:05+00:00",
-  "oldest_story": "2026-11-21T16:46:43+00:00",
-  "newest_story": "2026-11-25T02:34:21+00:00",
-  "total_points": 14702,
-  "unique_authors": 47,
+  "snapshot_ts": "2026-11-25T14:15:25+00:00",
+  "oldest_story": "2026-11-22T11:16:30+00:00",
+  "newest_story": "2026-11-25T13:59:14+00:00",
+  "total_points": 16128,
+  "unique_authors": 45,
   "days_of_history": 17,
-  "stories_in_history": 752,
-  "runs_observed": 42,
-  "parquet_bytes": 24823
+  "stories_in_history": 766,
+  "runs_observed": 43,
+  "parquet_bytes": 16948
  },
  "top_stories": [
   {
-   "rank": 31,
+   "rank": 33,
    "title": "Nvidia Reinstates Jensen Huang as CEO",
    "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
    "domain": "cnbc.com",
    "author": "jaz",
-   "score": 2799,
-   "comment_count": 3740,
-   "age_hours": 37.5,
-   "points_per_hour": 74.6
+   "score": 2821,
+   "comment_count": 3764,
+   "age_hours": 48.3,
+   "points_per_hour": 58.5
   },
   {
-   "rank": 44,
+   "rank": 50,
    "title": "Ladybird is now in alpha",
    "url": "https://ladybird.org/posts/alpha/",
    "domain": "ladybird.org",
    "author": "janvdberg",
-   "score": 2389,
-   "comment_count": 598,
-   "age_hours": 35.3,
-   "points_per_hour": 67.6
+   "score": 2414,
+   "comment_count": 613,
+   "age_hours": 46.0,
+   "points_per_hour": 52.4
   },
   {
-   "rank": 50,
-   "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
-   "url": "https://spelunkr.tv",
-   "domain": "spelunkr.tv",
-   "author": "SockThief",
-   "score": 1072,
-   "comment_count": 181,
-   "age_hours": 50.3,
-   "points_per_hour": 21.3
-  },
-  {
-   "rank": 36,
+   "rank": 47,
    "title": "2035 came early",
    "url": "https://fzakaria.com/2026/11/23/2035-came-early",
    "domain": "fzakaria.com",
    "author": "setheron",
-   "score": 976,
-   "comment_count": 369,
-   "age_hours": 21.0,
-   "points_per_hour": 46.4
+   "score": 1007,
+   "comment_count": 374,
+   "age_hours": 31.7,
+   "points_per_hour": 31.7
   },
   {
-   "rank": 29,
+   "rank": 49,
    "title": "LLM agents work for their parent companies, not for you",
    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
    "domain": "michaelharley.net",
    "author": "surprisetalk",
-   "score": 938,
-   "comment_count": 392,
-   "age_hours": 14.9,
-   "points_per_hour": 63.1
+   "score": 984,
+   "comment_count": 404,
+   "age_hours": 25.6,
+   "points_per_hour": 38.5
   },
   {
-   "rank": 7,
+   "rank": 4,
+   "title": "Matrix Multiplication is \u0398(n^2.25) [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "domain": "github.com",
+   "author": "E-Reverance",
+   "score": 788,
+   "comment_count": 444,
+   "age_hours": 12.9,
+   "points_per_hour": 60.9
+  },
+  {
+   "rank": 3,
+   "title": "Button Sounds \u2013 collection of professionally-recorded button clicks and presses",
+   "url": "https://buttons.joshwcomeau.com/",
+   "domain": "buttons.joshwcomeau.com",
+   "author": "gaurang_tandon",
+   "score": 565,
+   "comment_count": 85,
+   "age_hours": 10.9,
+   "points_per_hour": 52.0
+  },
+  {
+   "rank": 15,
    "title": "The Spray Bottle",
    "url": "https://mechanical-pencil.com/products/spray-bottle",
    "domain": "mechanical-pencil.com",
    "author": "vinhnx",
-   "score": 385,
-   "comment_count": 101,
-   "age_hours": 64.3,
-   "points_per_hour": 6.0
+   "score": 536,
+   "comment_count": 123,
+   "age_hours": 75.0,
+   "points_per_hour": 7.1
   },
   {
-   "rank": 2,
+   "rank": 11,
    "title": "Ternary Bonsai 2.5 27B",
    "url": "https://prismml.com/news/bonsai-2-5-27b",
    "domain": "prismml.com",
    "author": "b0m",
-   "score": 368,
-   "comment_count": 124,
-   "age_hours": 7.4,
-   "points_per_hour": 49.7
+   "score": 491,
+   "comment_count": 150,
+   "age_hours": 18.1,
+   "points_per_hour": 27.1
   },
   {
-   "rank": 20,
-   "title": "Quad9 pulled their DNS service from France",
-   "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
-   "domain": "quad9.net",
-   "author": "farrokhi",
-   "score": 366,
-   "comment_count": 215,
-   "age_hours": 19.0,
-   "points_per_hour": 19.3
+   "rank": 27,
+   "title": "GTA 6 Running on Windows",
+   "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "domain": "twitter.com",
+   "author": "andrem",
+   "score": 453,
+   "comment_count": 515,
+   "age_hours": 24.9,
+   "points_per_hour": 18.2
   },
   {
-   "rank": 37,
-   "title": "Anthropic breaks below $83 IPO price",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-   "domain": "bloomberg.com",
-   "author": "Betelbuddy",
-   "score": 361,
-   "comment_count": 709,
-   "age_hours": 14.1,
-   "points_per_hour": 25.5
-  },
-  {
-   "rank": 32,
+   "rank": 40,
    "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
    "url": "https://github.com/ItsNotRexed/Leonida/issues",
    "domain": "github.com",
    "author": "smuhakg",
-   "score": 351,
-   "comment_count": 625,
-   "age_hours": 25.4,
-   "points_per_hour": 13.8
+   "score": 368,
+   "comment_count": 668,
+   "age_hours": 36.1,
+   "points_per_hour": 10.2
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50627783,
-   "title": "GTA 6 Running on Windows",
-   "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
-   "domain": "twitter.com",
-   "rank": 14,
-   "rank_change": 5,
-   "score": 314,
-   "score_gain": 240,
-   "comment_gain": 287,
-   "hours_between": 8.05,
-   "points_per_hour": 29.8,
-   "gain_since_first_seen": 240,
+   "story_id": 50637220,
+   "title": "Matrix Multiplication is \u0398(n^2.25) [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "domain": "github.com",
+   "rank": 4,
+   "rank_change": -3,
+   "score": 788,
+   "score_gain": 586,
+   "comment_gain": 382,
+   "hours_between": 10.72,
+   "points_per_hour": 54.7,
+   "gain_since_first_seen": 586,
+   "first_seen": "2026-11-25T03:32:05Z"
+  },
+  {
+   "story_id": 50637686,
+   "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+   "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+   "domain": "lesswrong.com",
+   "rank": 6,
+   "rank_change": -2,
+   "score": 317,
+   "score_gain": 297,
+   "comment_gain": 134,
+   "hours_between": 10.72,
+   "points_per_hour": 27.7,
+   "gain_since_first_seen": 297,
+   "first_seen": "2026-11-25T03:32:05Z"
+  },
+  {
+   "story_id": 50637056,
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "domain": "greydanus.github.io",
+   "rank": 12,
+   "rank_change": -9,
+   "score": 313,
+   "score_gain": 219,
+   "comment_gain": 38,
+   "hours_between": 10.72,
+   "points_per_hour": 20.4,
+   "gain_since_first_seen": 219,
+   "first_seen": "2026-11-25T03:32:05Z"
+  },
+  {
+   "story_id": 50630809,
+   "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+   "url": null,
+   "domain": null,
+   "rank": 25,
+   "rank_change": -16,
+   "score": 365,
+   "score_gain": 331,
+   "comment_gain": 267,
+   "hours_between": 18.77,
+   "points_per_hour": 17.6,
+   "gain_since_first_seen": 331,
    "first_seen": "2026-11-24T19:29:06Z"
   },
   {
@@ -215,135 +260,90 @@
    "title": "The Spray Bottle",
    "url": "https://mechanical-pencil.com/products/spray-bottle",
    "domain": "mechanical-pencil.com",
-   "rank": 7,
-   "rank_change": -3,
-   "score": 385,
-   "score_gain": 210,
-   "comment_gain": 60,
-   "hours_between": 8.05,
-   "points_per_hour": 26.1,
-   "gain_since_first_seen": 210,
-   "first_seen": "2026-11-24T19:29:06Z"
-  },
-  {
-   "story_id": 50627836,
-   "title": "Anthropic breaks below $83 IPO price",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
-   "domain": "bloomberg.com",
-   "rank": 37,
+   "rank": 15,
    "rank_change": -8,
-   "score": 361,
-   "score_gain": 203,
-   "comment_gain": 317,
-   "hours_between": 8.05,
-   "points_per_hour": 25.2,
-   "gain_since_first_seen": 203,
+   "score": 536,
+   "score_gain": 151,
+   "comment_gain": 22,
+   "hours_between": 10.72,
+   "points_per_hour": 14.1,
+   "gain_since_first_seen": 361,
    "first_seen": "2026-11-24T19:29:06Z"
   },
   {
-   "story_id": 50627340,
-   "title": "LLM agents work for their parent companies, not for you",
-   "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-   "domain": "michaelharley.net",
-   "rank": 29,
-   "rank_change": -16,
-   "score": 938,
-   "score_gain": 196,
-   "comment_gain": 79,
-   "hours_between": 8.05,
-   "points_per_hour": 24.3,
-   "gain_since_first_seen": 196,
+   "story_id": 50627783,
+   "title": "GTA 6 Running on Windows",
+   "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
+   "domain": "twitter.com",
+   "rank": 27,
+   "rank_change": -13,
+   "score": 453,
+   "score_gain": 139,
+   "comment_gain": 117,
+   "hours_between": 10.72,
+   "points_per_hour": 13.0,
+   "gain_since_first_seen": 379,
    "first_seen": "2026-11-24T19:29:06Z"
   },
   {
-   "story_id": 50631157,
-   "title": "Microsoft declares 'Code Red' after historic outage, internal memos show",
-   "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/",
-   "domain": "reuters.com",
-   "rank": 45,
-   "rank_change": -25,
-   "score": 228,
-   "score_gain": 146,
-   "comment_gain": 144,
-   "hours_between": 8.05,
-   "points_per_hour": 18.1,
-   "gain_since_first_seen": 146,
-   "first_seen": "2026-11-24T19:29:06Z"
+   "story_id": 50633922,
+   "title": "Ternary Bonsai 2.5 27B",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "domain": "prismml.com",
+   "rank": 11,
+   "rank_change": -9,
+   "score": 491,
+   "score_gain": 123,
+   "comment_gain": 26,
+   "hours_between": 10.72,
+   "points_per_hour": 11.5,
+   "gain_since_first_seen": 123,
+   "first_seen": "2026-11-25T03:32:05Z"
+  },
+  {
+   "story_id": 50634658,
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "domain": "openai.com",
+   "rank": 17,
+   "rank_change": -12,
+   "score": 303,
+   "score_gain": 108,
+   "comment_gain": 32,
+   "hours_between": 10.72,
+   "points_per_hour": 10.1,
+   "gain_since_first_seen": 108,
+   "first_seen": "2026-11-25T03:32:05Z"
   },
   {
    "story_id": 50610820,
    "title": "An Italian folding bicycle design that fits into a suitcase",
    "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
    "domain": "core77.com",
-   "rank": 17,
-   "rank_change": 6,
-   "score": 138,
-   "score_gain": 134,
-   "comment_gain": 96,
-   "hours_between": 8.05,
-   "points_per_hour": 16.6,
-   "gain_since_first_seen": 134,
+   "rank": 28,
+   "rank_change": -11,
+   "score": 204,
+   "score_gain": 66,
+   "comment_gain": 42,
+   "hours_between": 10.72,
+   "points_per_hour": 6.2,
+   "gain_since_first_seen": 200,
    "first_seen": "2026-11-24T19:29:06Z"
   },
   {
-   "story_id": 50624497,
-   "title": "2035 came early",
-   "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-   "domain": "fzakaria.com",
-   "rank": 36,
-   "rank_change": -30,
-   "score": 976,
-   "score_gain": 129,
-   "comment_gain": 52,
-   "hours_between": 8.05,
-   "points_per_hour": 16.0,
-   "gain_since_first_seen": 129,
-   "first_seen": "2026-11-24T19:29:06Z"
-  },
-  {
-   "story_id": 50632883,
-   "title": "Cloudflare hides shortcomings of the underlying infrastructure",
-   "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
-   "domain": "charlie.fish",
-   "rank": 49,
-   "rank_change": -47,
-   "score": 146,
-   "score_gain": 122,
-   "comment_gain": 89,
-   "hours_between": 8.05,
-   "points_per_hour": 15.2,
-   "gain_since_first_seen": 122,
-   "first_seen": "2026-11-24T19:29:06Z"
-  },
-  {
-   "story_id": 50625384,
-   "title": "Quad9 pulled their DNS service from France",
-   "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
-   "domain": "quad9.net",
-   "rank": 20,
-   "rank_change": -6,
-   "score": 366,
-   "score_gain": 118,
-   "comment_gain": 79,
-   "hours_between": 8.05,
-   "points_per_hour": 14.7,
-   "gain_since_first_seen": 118,
-   "first_seen": "2026-11-24T19:29:06Z"
-  },
-  {
-   "story_id": 50630462,
-   "title": "Jetty Pro",
-   "url": "http://hypercritical.co/2026/11/23/jetty-pro",
-   "domain": "hypercritical.co",
-   "rank": 15,
-   "rank_change": -12,
-   "score": 283,
-   "score_gain": 116,
-   "comment_gain": 66,
-   "hours_between": 8.05,
-   "points_per_hour": 14.4,
-   "gain_since_first_seen": 116,
-   "first_seen": "2026-11-24T19:29:06Z"
+   "story_id": 50626430,
+   "title": "New rewritable antimony selenide display shows an image for months without power",
+   "url": "https://tmos.org.au/news/new-rewritable-displays-can-show-an-image-for-months-without-power/",
+   "domain": "tmos.org.au",
+   "rank": 31,
+   "rank_change": -13,
+   "score": 52,
+   "score_gain": 48,
+   "comment_gain": 34,
+   "hours_between": 10.72,
+   "points_per_hour": 4.5,
+   "gain_since_first_seen": 48,
+   "first_seen": "2026-11-25T03:32:05Z"
   }
  ],
  "score_trajectories": [
@@ -360,162 +360,168 @@
    "rank": 7
   },
   {
-   "story_id": 50627340,
+   "story_id": 50598555,
+   "ts": "2026-11-25T14:15:25Z",
+   "score": 536,
+   "rank": 15
+  },
+  {
+   "story_id": 50630809,
    "ts": "2026-11-24T19:29:06Z",
-   "score": 742,
-   "rank": 13
+   "score": 34,
+   "rank": 9
   },
   {
-   "story_id": 50627340,
+   "story_id": 50630809,
+   "ts": "2026-11-25T14:15:25Z",
+   "score": 365,
+   "rank": 25
+  },
+  {
+   "story_id": 50637056,
    "ts": "2026-11-25T03:32:05Z",
-   "score": 938,
-   "rank": 29
+   "score": 94,
+   "rank": 3
   },
   {
-   "story_id": 50627783,
-   "ts": "2026-11-24T19:29:06Z",
-   "score": 74,
-   "rank": 19
+   "story_id": 50637056,
+   "ts": "2026-11-25T14:15:25Z",
+   "score": 313,
+   "rank": 12
   },
   {
-   "story_id": 50627783,
+   "story_id": 50637220,
    "ts": "2026-11-25T03:32:05Z",
-   "score": 314,
-   "rank": 14
+   "score": 202,
+   "rank": 1
   },
   {
-   "story_id": 50627836,
-   "ts": "2026-11-24T19:29:06Z",
-   "score": 158,
-   "rank": 29
+   "story_id": 50637220,
+   "ts": "2026-11-25T14:15:25Z",
+   "score": 788,
+   "rank": 4
   },
   {
-   "story_id": 50627836,
+   "story_id": 50637686,
    "ts": "2026-11-25T03:32:05Z",
-   "score": 361,
-   "rank": 37
+   "score": 20,
+   "rank": 4
   },
   {
-   "story_id": 50631157,
-   "ts": "2026-11-24T19:29:06Z",
-   "score": 82,
-   "rank": 20
-  },
-  {
-   "story_id": 50631157,
-   "ts": "2026-11-25T03:32:05Z",
-   "score": 228,
-   "rank": 45
+   "story_id": 50637686,
+   "ts": "2026-11-25T14:15:25Z",
+   "score": 317,
+   "rank": 6
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
    "stories": 13,
-   "avg_score": 229.8,
-   "median_score": 213.0
+   "avg_score": 248.6,
+   "median_score": 227.0
   },
   {
    "hour": 1,
-   "stories": 13,
-   "avg_score": 238.4,
-   "median_score": 175.0
+   "stories": 12,
+   "avg_score": 305.9,
+   "median_score": 176.5
   },
   {
    "hour": 2,
-   "stories": 23,
-   "avg_score": 260.8,
-   "median_score": 183.0
+   "stories": 22,
+   "avg_score": 287.5,
+   "median_score": 214.5
   },
   {
    "hour": 3,
-   "stories": 14,
-   "avg_score": 196.9,
-   "median_score": 124.0
+   "stories": 23,
+   "avg_score": 192.7,
+   "median_score": 122.0
   },
   {
    "hour": 4,
-   "stories": 12,
-   "avg_score": 302.3,
-   "median_score": 203.0
+   "stories": 15,
+   "avg_score": 269.8,
+   "median_score": 171.0
   },
   {
    "hour": 5,
-   "stories": 19,
-   "avg_score": 186.7,
-   "median_score": 150.0
+   "stories": 20,
+   "avg_score": 182.1,
+   "median_score": 133.0
   },
   {
    "hour": 6,
-   "stories": 10,
-   "avg_score": 323.6,
-   "median_score": 200.0
+   "stories": 11,
+   "avg_score": 297.5,
+   "median_score": 139.0
   },
   {
    "hour": 7,
-   "stories": 5,
-   "avg_score": 445.2,
-   "median_score": 231.0
+   "stories": 6,
+   "avg_score": 383.8,
+   "median_score": 182.0
   },
   {
    "hour": 8,
    "stories": 14,
-   "avg_score": 199.9,
-   "median_score": 147.0
+   "avg_score": 194.2,
+   "median_score": 157.5
   },
   {
    "hour": 9,
    "stories": 19,
-   "avg_score": 175.7,
-   "median_score": 139.0
+   "avg_score": 176.1,
+   "median_score": 136.0
   },
   {
    "hour": 10,
    "stories": 27,
-   "avg_score": 253.3,
-   "median_score": 208.0
+   "avg_score": 253.5,
+   "median_score": 194.0
   },
   {
    "hour": 11,
    "stories": 24,
-   "avg_score": 209.6,
-   "median_score": 121.0
+   "avg_score": 221.0,
+   "median_score": 130.0
   },
   {
    "hour": 12,
-   "stories": 34,
-   "avg_score": 180.7,
+   "stories": 36,
+   "avg_score": 176.5,
    "median_score": 79.0
   },
   {
    "hour": 13,
-   "stories": 45,
-   "avg_score": 246.5,
-   "median_score": 111.0
+   "stories": 48,
+   "avg_score": 233.3,
+   "median_score": 104.5
   },
   {
    "hour": 14,
    "stories": 64,
-   "avg_score": 223.1,
+   "avg_score": 223.6,
    "median_score": 86.5
   },
   {
    "hour": 15,
-   "stories": 77,
-   "avg_score": 128.6,
-   "median_score": 71.0
+   "stories": 78,
+   "avg_score": 127.8,
+   "median_score": 70.5
   },
   {
    "hour": 16,
-   "stories": 55,
-   "avg_score": 159.4,
-   "median_score": 51.0
+   "stories": 54,
+   "avg_score": 168.3,
+   "median_score": 53.0
   },
   {
    "hour": 17,
    "stories": 61,
-   "avg_score": 216.4,
-   "median_score": 92.0
+   "avg_score": 214.0,
+   "median_score": 90.0
   },
   {
    "hour": 18,
@@ -525,164 +531,164 @@
   },
   {
    "hour": 19,
-   "stories": 49,
-   "avg_score": 139.3,
-   "median_score": 66.0
+   "stories": 48,
+   "avg_score": 136.9,
+   "median_score": 60.5
   },
   {
    "hour": 20,
    "stories": 34,
-   "avg_score": 214.8,
+   "avg_score": 219.0,
    "median_score": 52.5
   },
   {
    "hour": 21,
-   "stories": 32,
-   "avg_score": 273.4,
-   "median_score": 117.5
+   "stories": 30,
+   "avg_score": 285.9,
+   "median_score": 111.0
   },
   {
    "hour": 22,
-   "stories": 35,
-   "avg_score": 172.9,
-   "median_score": 46.0
+   "stories": 34,
+   "avg_score": 178.0,
+   "median_score": 55.0
   },
   {
    "hour": 23,
    "stories": 19,
-   "avg_score": 216.8,
+   "avg_score": 213.6,
    "median_score": 178.0
   }
  ],
  "keywords": [
   {
-   "word": "design",
-   "stories": 3,
-   "total_score": 334
+   "word": "nvidia",
+   "stories": 2,
+   "total_score": 3038
   },
   {
-   "word": "built",
+   "word": "llm",
    "stories": 2,
-   "total_score": 1160
+   "total_score": 1058
   },
   {
    "word": "gta",
    "stories": 2,
-   "total_score": 665
+   "total_score": 821
   },
   {
-   "word": "performance",
+   "word": "running",
    "stories": 2,
-   "total_score": 290
-  },
-  {
-   "word": "servers",
-   "stories": 2,
-   "total_score": 290
-  },
-  {
-   "word": "less",
-   "stories": 2,
-   "total_score": 271
+   "total_score": 670
   },
   {
    "word": "models",
    "stories": 2,
-   "total_score": 215
+   "total_score": 620
   },
   {
-   "word": "storage",
+   "word": "servers",
    "stories": 2,
-   "total_score": 156
+   "total_score": 608
   },
   {
-   "word": "engineers",
+   "word": "windows",
    "stories": 2,
-   "total_score": 134
+   "total_score": 584
   },
   {
-   "word": "pytorch",
+   "word": "design",
    "stories": 2,
-   "total_score": 91
+   "total_score": 507
   },
   {
-   "word": "replica",
+   "word": "again",
    "stories": 2,
-   "total_score": 91
+   "total_score": 315
+  },
+  {
+   "word": "old",
+   "stories": 2,
+   "total_score": 315
+  },
+  {
+   "word": "money",
+   "stories": 2,
+   "total_score": 263
   },
   {
    "word": "ceo",
    "stories": 1,
-   "total_score": 2799
+   "total_score": 2821
   },
   {
    "word": "huang",
    "stories": 1,
-   "total_score": 2799
+   "total_score": 2821
   },
   {
    "word": "jensen",
    "stories": 1,
-   "total_score": 2799
-  },
-  {
-   "word": "nvidia",
-   "stories": 1,
-   "total_score": 2799
+   "total_score": 2821
   },
   {
    "word": "reinstates",
    "stories": 1,
-   "total_score": 2799
+   "total_score": 2821
   },
   {
    "word": "alpha",
    "stories": 1,
-   "total_score": 2389
+   "total_score": 2414
   },
   {
    "word": "ladybird",
    "stories": 1,
-   "total_score": 2389
+   "total_score": 2414
   },
   {
-   "word": "alternative",
+   "word": "button",
    "stories": 1,
-   "total_score": 1072
+   "total_score": 1130
   },
   {
-   "word": "archive",
+   "word": "came",
    "stories": 1,
-   "total_score": 1072
+   "total_score": 1007
+  },
+  {
+   "word": "early",
+   "stories": 1,
+   "total_score": 1007
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 11
+   "stories": 5
   },
   {
    "bucket": "50-99",
-   "stories": 8
+   "stories": 14
   },
   {
    "bucket": "100-249",
-   "stories": 18
+   "stories": 13
   },
   {
    "bucket": "250-499",
-   "stories": 8
+   "stories": 11
   },
   {
    "bucket": "500+",
-   "stories": 5
+   "stories": 7
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 61,
-   "total_score": 11183
+   "stories": 62,
+   "total_score": 11954
   },
   {
    "domain": "nytimes.com",
@@ -692,12 +698,12 @@
   {
    "domain": "twitter.com",
    "stories": 8,
-   "total_score": 1224
+   "total_score": 1363
   },
   {
    "domain": "reuters.com",
    "stories": 7,
-   "total_score": 2077
+   "total_score": 1931
   },
   {
    "domain": "youtube.com",
@@ -705,14 +711,14 @@
    "total_score": 1004
   },
   {
-   "domain": "apnews.com",
-   "stories": 5,
-   "total_score": 4350
-  },
-  {
    "domain": "arxiv.org",
    "stories": 5,
-   "total_score": 721
+   "total_score": 688
+  },
+  {
+   "domain": "apnews.com",
+   "stories": 4,
+   "total_score": 4232
   },
   {
    "domain": "theguardian.com",
@@ -722,7 +728,7 @@
   {
    "domain": "openai.com",
    "stories": 4,
-   "total_score": 1913
+   "total_score": 2021
   },
   {
    "domain": "wired.com",
@@ -746,8 +752,14 @@
   {
    "author": "surprisetalk",
    "stories": 8,
-   "total_score": 1247,
-   "avg_score": 156.0
+   "total_score": 1359,
+   "avg_score": 170.0
+  },
+  {
+   "author": "zdw",
+   "stories": 7,
+   "total_score": 2689,
+   "avg_score": 384.0
   },
   {
    "author": "rbanffy",
@@ -762,28 +774,22 @@
    "avg_score": 76.0
   },
   {
-   "author": "zdw",
-   "stories": 6,
-   "total_score": 2605,
-   "avg_score": 434.0
-  },
-  {
    "author": "dvaplima",
    "stories": 6,
    "total_score": 1528,
    "avg_score": 255.0
   },
   {
+   "author": "vinhnx",
+   "stories": 6,
+   "total_score": 1393,
+   "avg_score": 232.0
+  },
+  {
    "author": "dverlaeckt80",
    "stories": 6,
    "total_score": 725,
    "avg_score": 121.0
-  },
-  {
-   "author": "gmays",
-   "stories": 6,
-   "total_score": 517,
-   "avg_score": 86.0
   },
   {
    "author": "ibobev",
@@ -892,8 +898,8 @@
   {
    "day": "2026-11-25",
    "stories": 50,
-   "avg_score": 294.0,
-   "rolling_7d_avg": 267.4
+   "avg_score": 322.6,
+   "rolling_7d_avg": 271.5
   }
  ]
 }
