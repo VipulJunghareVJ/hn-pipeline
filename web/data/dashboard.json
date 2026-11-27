@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-27T00:33:52.941985+00:00",
-  "duration_s": 0.57,
+  "finished_at": "2026-11-27T13:48:21.304280+00:00",
+  "duration_s": 0.55,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 12570,
+  "raw_bytes": 15066,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,365 +72,353 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-27T00:33:52+00:00",
-  "oldest_story": "2026-11-22T11:29:44+00:00",
-  "newest_story": "2026-11-27T00:03:18+00:00",
-  "total_points": 10832,
-  "unique_authors": 48,
+  "snapshot_ts": "2026-11-27T13:48:20+00:00",
+  "oldest_story": "2026-11-23T05:33:34+00:00",
+  "newest_story": "2026-11-27T13:01:02+00:00",
+  "total_points": 13478,
+  "unique_authors": 49,
   "days_of_history": 19,
-  "stories_in_history": 844,
-  "runs_observed": 46,
-  "parquet_bytes": 19705
+  "stories_in_history": 843,
+  "runs_observed": 47,
+  "parquet_bytes": 25184
  },
  "top_stories": [
   {
-   "rank": 21,
-   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what\u2019s now happening",
-   "url": "https://scottaaronson.blog/?p=10379",
-   "domain": "scottaaronson.blog",
-   "author": "Kotlopou",
-   "score": 1976,
-   "comment_count": 1802,
-   "age_hours": 29.4,
-   "points_per_hour": 67.3
-  },
-  {
-   "rank": 27,
+   "rank": 32,
    "title": "1Password Security Incident",
    "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
    "domain": "1password.com",
    "author": "lxhrstn",
-   "score": 1630,
-   "comment_count": 702,
-   "age_hours": 31.3,
-   "points_per_hour": 52.1
+   "score": 1681,
+   "comment_count": 717,
+   "age_hours": 44.5,
+   "points_per_hour": 37.8
+  },
+  {
+   "rank": 5,
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "domain": "janlukas.blog",
+   "author": "jlelse",
+   "score": 843,
+   "comment_count": 414,
+   "age_hours": 16.0,
+   "points_per_hour": 52.7
   },
   {
    "rank": 37,
-   "title": "The New York Times warns photographers not to update Photoshop over AI features",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "domain": "theverge.com",
-   "author": "rmason",
-   "score": 649,
-   "comment_count": 517,
-   "age_hours": 27.3,
-   "points_per_hour": 23.8
-  },
-  {
-   "rank": 18,
    "title": "Tell HN: Happy Thanksgiving",
    "url": null,
    "domain": null,
    "author": "ericmay",
-   "score": 576,
-   "comment_count": 134,
-   "age_hours": 10.1,
-   "points_per_hour": 56.9
+   "score": 702,
+   "comment_count": 154,
+   "age_hours": 23.4,
+   "points_per_hour": 30.1
   },
   {
-   "rank": 7,
+   "rank": 40,
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "domain": "theverge.com",
+   "author": "rmason",
+   "score": 675,
+   "comment_count": 533,
+   "age_hours": 40.5,
+   "points_per_hour": 16.7
+  },
+  {
+   "rank": 48,
+   "title": "Much shorter version of GRH Lean verification from Anthropic",
+   "url": "https://github.com/lsernau/grh-lean",
+   "domain": "github.com",
+   "author": "nb-t",
+   "score": 558,
+   "comment_count": 356,
+   "age_hours": 40.0,
+   "points_per_hour": 13.9
+  },
+  {
+   "rank": 13,
    "title": "Intel One Mono font (2023)",
    "url": "https://github.com/intel/intel-one-mono",
    "domain": "github.com",
    "author": "saikatsg",
-   "score": 451,
-   "comment_count": 235,
-   "age_hours": 14.4,
-   "points_per_hour": 31.4
+   "score": 541,
+   "comment_count": 261,
+   "age_hours": 27.6,
+   "points_per_hour": 19.6
   },
   {
-   "rank": 23,
+   "rank": 9,
+   "title": "YouTube Ad Punisher \u2013 Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
+   "domain": "github.com",
+   "author": "iantongeorge",
+   "score": 450,
+   "comment_count": 535,
+   "age_hours": 20.2,
+   "points_per_hour": 22.3
+  },
+  {
+   "rank": 35,
    "title": "Nextcloud Office Desktop app",
    "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
    "domain": "nextcloud.com",
    "author": "e12e",
-   "score": 393,
-   "comment_count": 201,
-   "age_hours": 12.7,
-   "points_per_hour": 30.9
+   "score": 444,
+   "comment_count": 229,
+   "age_hours": 26.0,
+   "points_per_hour": 17.1
   },
   {
-   "rank": 48,
-   "title": "Smart people who give a shit use tools",
-   "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
-   "domain": "iankduncan.com",
-   "author": "matthewsinclair",
-   "score": 372,
-   "comment_count": 291,
-   "age_hours": 40.8,
-   "points_per_hour": 9.1
-  },
-  {
-   "rank": 3,
-   "title": "AMD-specific fork of llama.cpp",
-   "url": "https://devnull.land/amd-specific-llama-cpp",
-   "domain": "devnull.land",
-   "author": "julianlam",
-   "score": 273,
-   "comment_count": 63,
-   "age_hours": 7.4,
-   "points_per_hour": 37.0
-  },
-  {
-   "rank": 44,
-   "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-   "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-   "domain": "fosscomics.com",
-   "author": "joonehur",
-   "score": 271,
-   "comment_count": 64,
-   "age_hours": 19.3,
-   "points_per_hour": 14.0
-  },
-  {
-   "rank": 15,
-   "title": "OpenAI may be in cost control mode",
-   "url": "https://micjm.com/blog/openai-is-in-cost-control-mode/",
-   "domain": "micjm.com",
-   "author": "seizethecheese",
-   "score": 247,
-   "comment_count": 240,
+   "rank": 14,
+   "title": "Company Culture = Slack Emoji \u00f7 \u221aHeadcount",
+   "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+   "domain": "lia.mg",
+   "author": "liamg",
+   "score": 434,
+   "comment_count": 213,
    "age_hours": 17.0,
-   "points_per_hour": 14.5
+   "points_per_hour": 25.6
+  },
+  {
+   "rank": 11,
+   "title": "Hard Drive pricing has gotten bad",
+   "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "domain": "blog.ktz.me",
+   "author": "zdw",
+   "score": 425,
+   "comment_count": 368,
+   "age_hours": 12.6,
+   "points_per_hour": 33.8
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50654289,
-   "title": "Nextcloud Office Desktop app",
-   "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-   "domain": "nextcloud.com",
-   "rank": 23,
-   "rank_change": -22,
-   "score": 393,
-   "score_gain": 277,
-   "comment_gain": 163,
-   "hours_between": 10.71,
-   "points_per_hour": 25.9,
-   "gain_since_first_seen": 277,
-   "first_seen": "2026-11-26T13:51:14Z"
+   "story_id": 50660180,
+   "title": "AI made self-hosting fun again",
+   "url": "https://janlukas.blog/posts/ai-self-hosting",
+   "domain": "janlukas.blog",
+   "rank": 5,
+   "rank_change": -4,
+   "score": 843,
+   "score_gain": 620,
+   "comment_gain": 286,
+   "hours_between": 13.24,
+   "points_per_hour": 46.8,
+   "gain_since_first_seen": 620,
+   "first_seen": "2026-11-27T00:33:52Z"
   },
   {
-   "story_id": 50646108,
-   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what\u2019s now happening",
-   "url": "https://scottaaronson.blog/?p=10379",
-   "domain": "scottaaronson.blog",
-   "rank": 21,
-   "rank_change": -18,
-   "score": 1976,
-   "score_gain": 261,
-   "comment_gain": 256,
-   "hours_between": 10.71,
-   "points_per_hour": 24.4,
-   "gain_since_first_seen": 1182,
-   "first_seen": "2026-11-26T00:16:54Z"
+   "story_id": 50659640,
+   "title": "Company Culture = Slack Emoji \u00f7 \u221aHeadcount",
+   "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+   "domain": "lia.mg",
+   "rank": 14,
+   "rank_change": 17,
+   "score": 434,
+   "score_gain": 361,
+   "comment_gain": 199,
+   "hours_between": 13.24,
+   "points_per_hour": 27.3,
+   "gain_since_first_seen": 361,
+   "first_seen": "2026-11-27T00:33:52Z"
   },
   {
-   "story_id": 50653667,
-   "title": "Intel One Mono font (2023)",
-   "url": "https://github.com/intel/intel-one-mono",
+   "story_id": 50659841,
+   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+   "domain": "worksinprogress.co",
+   "rank": 8,
+   "rank_change": -6,
+   "score": 423,
+   "score_gain": 213,
+   "comment_gain": 72,
+   "hours_between": 13.24,
+   "points_per_hour": 16.1,
+   "gain_since_first_seen": 213,
+   "first_seen": "2026-11-27T00:33:52Z"
+  },
+  {
+   "story_id": 50657530,
+   "title": "YouTube Ad Punisher \u2013 Auto-reloads YouTube pages when an ad plays",
+   "url": "https://github.com/antonpictures/youtube-punisher",
    "domain": "github.com",
-   "rank": 7,
+   "rank": 9,
    "rank_change": -5,
-   "score": 451,
-   "score_gain": 259,
-   "comment_gain": 128,
-   "hours_between": 10.71,
-   "points_per_hour": 24.2,
-   "gain_since_first_seen": 259,
-   "first_seen": "2026-11-26T13:51:14Z"
+   "score": 450,
+   "score_gain": 211,
+   "comment_gain": 223,
+   "hours_between": 13.24,
+   "points_per_hour": 15.9,
+   "gain_since_first_seen": 211,
+   "first_seen": "2026-11-27T00:33:52Z"
   },
   {
-   "story_id": 50647673,
-   "title": "The New York Times warns photographers not to update Photoshop over AI features",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "domain": "theverge.com",
-   "rank": 37,
-   "rank_change": -31,
-   "score": 649,
-   "score_gain": 179,
-   "comment_gain": 124,
-   "hours_between": 10.71,
-   "points_per_hour": 16.7,
-   "gain_since_first_seen": 503,
-   "first_seen": "2026-11-26T00:16:54Z"
+   "story_id": 50655868,
+   "title": "Show HN: I wrote an entire Vim manual over 4 years",
+   "url": "http://themouseless.dev/vim/",
+   "domain": "themouseless.dev",
+   "rank": 21,
+   "rank_change": 8,
+   "score": 231,
+   "score_gain": 190,
+   "comment_gain": 60,
+   "hours_between": 13.24,
+   "points_per_hour": 14.3,
+   "gain_since_first_seen": 190,
+   "first_seen": "2026-11-27T00:33:52Z"
+  },
+  {
+   "story_id": 50649040,
+   "title": "The USAID Files",
+   "url": "https://reclaimthenet.org/usaid-files",
+   "domain": "reclaimthenet.org",
+   "rank": 28,
+   "rank_change": -9,
+   "score": 293,
+   "score_gain": 189,
+   "comment_gain": 254,
+   "hours_between": 13.24,
+   "points_per_hour": 14.3,
+   "gain_since_first_seen": 189,
+   "first_seen": "2026-11-27T00:33:52Z"
   },
   {
    "story_id": 50653477,
    "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
    "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
    "domain": "techstackups.com",
-   "rank": 11,
-   "rank_change": 33,
-   "score": 216,
-   "score_gain": 134,
-   "comment_gain": 100,
-   "hours_between": 10.71,
-   "points_per_hour": 12.5,
-   "gain_since_first_seen": 134,
+   "rank": 17,
+   "rank_change": -6,
+   "score": 363,
+   "score_gain": 147,
+   "comment_gain": 118,
+   "hours_between": 13.24,
+   "points_per_hour": 11.1,
+   "gain_since_first_seen": 281,
    "first_seen": "2026-11-26T13:51:14Z"
   },
   {
-   "story_id": 50651863,
-   "title": "An algebraic quantization of gravity from the null cone",
-   "url": "https://arxiv.org/abs/2611.34924",
-   "domain": "arxiv.org",
-   "rank": 22,
-   "rank_change": -4,
-   "score": 204,
-   "score_gain": 124,
-   "comment_gain": 53,
-   "hours_between": 10.71,
-   "points_per_hour": 11.6,
-   "gain_since_first_seen": 124,
-   "first_seen": "2026-11-26T13:51:14Z"
-  },
-  {
-   "story_id": 50652184,
-   "title": "Moat: OpenRouter replacement",
-   "url": "https://commandcode.ai/moat",
-   "domain": "commandcode.ai",
-   "rank": 24,
-   "rank_change": -12,
-   "score": 244,
-   "score_gain": 117,
-   "comment_gain": 53,
-   "hours_between": 10.71,
-   "points_per_hour": 10.9,
-   "gain_since_first_seen": 117,
-   "first_seen": "2026-11-26T13:51:14Z"
-  },
-  {
-   "story_id": 50651719,
-   "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-   "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-   "domain": "fosscomics.com",
-   "rank": 44,
-   "rank_change": -39,
-   "score": 271,
-   "score_gain": 116,
-   "comment_gain": 39,
-   "hours_between": 10.71,
-   "points_per_hour": 10.8,
-   "gain_since_first_seen": 116,
-   "first_seen": "2026-11-26T13:51:14Z"
-  },
-  {
-   "story_id": 50644817,
-   "title": "1Password Security Incident",
-   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-   "domain": "1password.com",
-   "rank": 27,
-   "rank_change": -23,
-   "score": 1630,
-   "score_gain": 112,
-   "comment_gain": 51,
-   "hours_between": 10.71,
-   "points_per_hour": 10.5,
-   "gain_since_first_seen": 573,
-   "first_seen": "2026-11-26T00:16:54Z"
-  },
-  {
-   "story_id": 50619466,
-   "title": "Discovery of curse ritual in trash dump surprises Egyptologist",
-   "url": "https://phys.org/news/2026-11-discovery-curse-ritual-trash-dump.html",
-   "domain": "phys.org",
-   "rank": 26,
+   "story_id": 50655664,
+   "title": "Tell HN: Happy Thanksgiving",
+   "url": null,
+   "domain": null,
+   "rank": 37,
    "rank_change": -19,
-   "score": 90,
-   "score_gain": 75,
-   "comment_gain": 44,
-   "hours_between": 10.71,
-   "points_per_hour": 7.0,
-   "gain_since_first_seen": 75,
-   "first_seen": "2026-11-26T13:51:14Z"
+   "score": 702,
+   "score_gain": 126,
+   "comment_gain": 20,
+   "hours_between": 13.24,
+   "points_per_hour": 9.5,
+   "gain_since_first_seen": 126,
+   "first_seen": "2026-11-27T00:33:52Z"
+  },
+  {
+   "story_id": 50657265,
+   "title": "AMD-specific fork of llama.cpp",
+   "url": "https://devnull.land/amd-specific-llama-cpp",
+   "domain": "devnull.land",
+   "rank": 10,
+   "rank_change": -7,
+   "score": 395,
+   "score_gain": 122,
+   "comment_gain": 33,
+   "hours_between": 13.24,
+   "points_per_hour": 9.2,
+   "gain_since_first_seen": 122,
+   "first_seen": "2026-11-27T00:33:52Z"
+  },
+  {
+   "story_id": 50657645,
+   "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "domain": "krebsonsecurity.com",
+   "rank": 12,
+   "rank_change": -7,
+   "score": 293,
+   "score_gain": 100,
+   "comment_gain": 56,
+   "hours_between": 13.24,
+   "points_per_hour": 7.6,
+   "gain_since_first_seen": 100,
+   "first_seen": "2026-11-27T00:33:52Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50646108,
-   "ts": "2026-11-26T00:16:54Z",
-   "score": 794,
-   "rank": 11
-  },
-  {
-   "story_id": 50646108,
-   "ts": "2026-11-26T13:51:14Z",
-   "score": 1715,
-   "rank": 3
-  },
-  {
-   "story_id": 50646108,
+   "story_id": 50655868,
    "ts": "2026-11-27T00:33:52Z",
-   "score": 1976,
+   "score": 41,
+   "rank": 29
+  },
+  {
+   "story_id": 50655868,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 231,
    "rank": 21
   },
   {
-   "story_id": 50647673,
-   "ts": "2026-11-26T00:16:54Z",
-   "score": 146,
+   "story_id": 50657530,
+   "ts": "2026-11-27T00:33:52Z",
+   "score": 239,
    "rank": 4
   },
   {
-   "story_id": 50647673,
-   "ts": "2026-11-26T13:51:14Z",
-   "score": 470,
-   "rank": 6
+   "story_id": 50657530,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 450,
+   "rank": 9
   },
   {
-   "story_id": 50647673,
+   "story_id": 50659640,
    "ts": "2026-11-27T00:33:52Z",
-   "score": 649,
-   "rank": 37
+   "score": 73,
+   "rank": 31
   },
   {
-   "story_id": 50653477,
-   "ts": "2026-11-26T13:51:14Z",
-   "score": 82,
-   "rank": 44
+   "story_id": 50659640,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 434,
+   "rank": 14
   },
   {
-   "story_id": 50653477,
+   "story_id": 50659841,
    "ts": "2026-11-27T00:33:52Z",
-   "score": 216,
-   "rank": 11
-  },
-  {
-   "story_id": 50653667,
-   "ts": "2026-11-26T13:51:14Z",
-   "score": 192,
+   "score": 210,
    "rank": 2
   },
   {
-   "story_id": 50653667,
-   "ts": "2026-11-27T00:33:52Z",
-   "score": 451,
-   "rank": 7
+   "story_id": 50659841,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 423,
+   "rank": 8
   },
   {
-   "story_id": 50654289,
-   "ts": "2026-11-26T13:51:14Z",
-   "score": 116,
+   "story_id": 50660180,
+   "ts": "2026-11-27T00:33:52Z",
+   "score": 223,
    "rank": 1
   },
   {
-   "story_id": 50654289,
-   "ts": "2026-11-27T00:33:52Z",
-   "score": 393,
-   "rank": 23
+   "story_id": 50660180,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 843,
+   "rank": 5
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 19,
-   "avg_score": 209.5,
-   "median_score": 213.0
+   "stories": 18,
+   "avg_score": 223.3,
+   "median_score": 220.0
   },
   {
    "hour": 1,
-   "stories": 12,
-   "avg_score": 327.8,
+   "stories": 14,
+   "avg_score": 314.0,
    "median_score": 176.5
   },
   {
@@ -442,116 +430,116 @@
   {
    "hour": 3,
    "stories": 28,
-   "avg_score": 186.3,
+   "avg_score": 188.8,
    "median_score": 124.0
   },
   {
    "hour": 4,
    "stories": 17,
-   "avg_score": 250.5,
+   "avg_score": 254.3,
    "median_score": 163.0
   },
   {
    "hour": 5,
-   "stories": 22,
-   "avg_score": 195.1,
-   "median_score": 191.0
+   "stories": 24,
+   "avg_score": 193.0,
+   "median_score": 186.5
   },
   {
    "hour": 6,
-   "stories": 14,
-   "avg_score": 275.1,
-   "median_score": 191.5
+   "stories": 15,
+   "avg_score": 290.0,
+   "median_score": 261.0
   },
   {
    "hour": 7,
    "stories": 7,
-   "avg_score": 406.4,
-   "median_score": 247.0
+   "avg_score": 383.0,
+   "median_score": 231.0
   },
   {
    "hour": 8,
-   "stories": 14,
-   "avg_score": 194.2,
-   "median_score": 157.5
+   "stories": 16,
+   "avg_score": 188.4,
+   "median_score": 149.0
   },
   {
    "hour": 9,
    "stories": 20,
-   "avg_score": 178.1,
+   "avg_score": 185.5,
    "median_score": 137.5
   },
   {
    "hour": 10,
    "stories": 29,
-   "avg_score": 259.0,
-   "median_score": 208.0
+   "avg_score": 260.4,
+   "median_score": 194.0
   },
   {
    "hour": 11,
-   "stories": 26,
-   "avg_score": 225.0,
-   "median_score": 134.0
+   "stories": 27,
+   "avg_score": 217.4,
+   "median_score": 129.0
   },
   {
    "hour": 12,
-   "stories": 37,
-   "avg_score": 171.7,
-   "median_score": 73.0
+   "stories": 41,
+   "avg_score": 158.8,
+   "median_score": 69.0
   },
   {
    "hour": 13,
    "stories": 50,
-   "avg_score": 239.7,
-   "median_score": 111.0
+   "avg_score": 235.7,
+   "median_score": 104.5
   },
   {
    "hour": 14,
-   "stories": 70,
-   "avg_score": 221.8,
-   "median_score": 88.5
+   "stories": 69,
+   "avg_score": 229.2,
+   "median_score": 96.0
   },
   {
    "hour": 15,
-   "stories": 81,
-   "avg_score": 131.1,
-   "median_score": 71.0
+   "stories": 80,
+   "avg_score": 132.7,
+   "median_score": 71.5
   },
   {
    "hour": 16,
-   "stories": 57,
-   "avg_score": 169.0,
-   "median_score": 55.0
+   "stories": 56,
+   "avg_score": 170.5,
+   "median_score": 53.0
   },
   {
    "hour": 17,
    "stories": 68,
-   "avg_score": 231.8,
-   "median_score": 102.0
+   "avg_score": 239.2,
+   "median_score": 106.5
   },
   {
    "hour": 18,
-   "stories": 59,
-   "avg_score": 230.3,
+   "stories": 57,
+   "avg_score": 234.2,
    "median_score": 110.0
   },
   {
    "hour": 19,
-   "stories": 53,
-   "avg_score": 163.8,
-   "median_score": 60.0
+   "stories": 51,
+   "avg_score": 167.3,
+   "median_score": 66.0
   },
   {
    "hour": 20,
-   "stories": 39,
-   "avg_score": 208.8,
-   "median_score": 62.0
+   "stories": 38,
+   "avg_score": 223.2,
+   "median_score": 63.5
   },
   {
    "hour": 21,
-   "stories": 39,
-   "avg_score": 264.7,
-   "median_score": 105.0
+   "stories": 36,
+   "avg_score": 313.8,
+   "median_score": 136.0
   },
   {
    "hour": 22,
@@ -561,121 +549,121 @@
   },
   {
    "hour": 23,
-   "stories": 22,
-   "avg_score": 191.6,
-   "median_score": 155.0
+   "stories": 21,
+   "avg_score": 209.5,
+   "median_score": 178.0
   }
  ],
  "keywords": [
   {
-   "word": "shit",
-   "stories": 2,
-   "total_score": 8276
+   "word": "browser",
+   "stories": 3,
+   "total_score": 486
   },
   {
-   "word": "times",
+   "word": "york",
    "stories": 2,
-   "total_score": 686
-  },
-  {
-   "word": "people",
-   "stories": 2,
-   "total_score": 618
+   "total_score": 697
   },
   {
    "word": "app",
    "stories": 2,
-   "total_score": 459
+   "total_score": 564
   },
   {
-   "word": "years",
+   "word": "mcp",
    "stories": 2,
-   "total_score": 312
+   "total_score": 472
   },
   {
-   "word": "control",
+   "word": "send",
    "stories": 2,
-   "total_score": 250
+   "total_score": 472
   },
   {
-   "word": "agents",
+   "word": "language",
    "stories": 2,
-   "total_score": 219
+   "total_score": 325
   },
   {
-   "word": "company",
+   "word": "age",
    "stories": 2,
-   "total_score": 204
+   "total_score": 323
   },
   {
-   "word": "great",
+   "word": "act",
    "stories": 2,
-   "total_score": 163
+   "total_score": 302
+  },
+  {
+   "word": "subexponential",
+   "stories": 2,
+   "total_score": 237
+  },
+  {
+   "word": "time",
+   "stories": 2,
+   "total_score": 237
   },
   {
    "word": "running",
    "stories": 2,
-   "total_score": 148
-  },
-  {
-   "word": "man",
-   "stories": 2,
-   "total_score": 47
-  },
-  {
-   "word": "nvidia",
-   "stories": 2,
-   "total_score": 39
-  },
-  {
-   "word": "holy",
-   "stories": 1,
-   "total_score": 7904
-  },
-  {
-   "word": "happening",
-   "stories": 1,
-   "total_score": 1976
-  },
-  {
-   "word": "magnitude",
-   "stories": 1,
-   "total_score": 1976
+   "total_score": 196
   },
   {
    "word": "1password",
    "stories": 1,
-   "total_score": 1630
+   "total_score": 1681
   },
   {
    "word": "incident",
    "stories": 1,
-   "total_score": 1630
+   "total_score": 1681
   },
   {
    "word": "security",
    "stories": 1,
-   "total_score": 1630
+   "total_score": 1681
   },
   {
-   "word": "features",
+   "word": "youtube",
    "stories": 1,
-   "total_score": 649
+   "total_score": 900
   },
   {
-   "word": "photographers",
+   "word": "again",
    "stories": 1,
-   "total_score": 649
+   "total_score": 843
+  },
+  {
+   "word": "fun",
+   "stories": 1,
+   "total_score": 843
+  },
+  {
+   "word": "hosting",
+   "stories": 1,
+   "total_score": 843
+  },
+  {
+   "word": "self",
+   "stories": 1,
+   "total_score": 843
+  },
+  {
+   "word": "happy",
+   "stories": 1,
+   "total_score": 702
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 16
+   "stories": 8
   },
   {
    "bucket": "50-99",
-   "stories": 7
+   "stories": 3
   },
   {
    "bucket": "100-249",
@@ -683,18 +671,18 @@
   },
   {
    "bucket": "250-499",
-   "stories": 5
+   "stories": 15
   },
   {
    "bucket": "500+",
-   "stories": 4
+   "stories": 6
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 71,
-   "total_score": 14653
+   "stories": 70,
+   "total_score": 14916
   },
   {
    "domain": "nytimes.com",
@@ -703,8 +691,8 @@
   },
   {
    "domain": "twitter.com",
-   "stories": 9,
-   "total_score": 1710
+   "stories": 10,
+   "total_score": 1870
   },
   {
    "domain": "reuters.com",
@@ -719,12 +707,12 @@
   {
    "domain": "arxiv.org",
    "stories": 7,
-   "total_score": 918
+   "total_score": 966
   },
   {
-   "domain": "ft.com",
+   "domain": "theguardian.com",
    "stories": 5,
-   "total_score": 739
+   "total_score": 2062
   },
   {
    "domain": "apnews.com",
@@ -732,14 +720,14 @@
    "total_score": 4232
   },
   {
-   "domain": "theguardian.com",
-   "stories": 4,
-   "total_score": 2051
-  },
-  {
    "domain": "openai.com",
    "stories": 4,
    "total_score": 2021
+  },
+  {
+   "domain": "theverge.com",
+   "stories": 4,
+   "total_score": 1212
   }
  ],
  "top_authors": [
@@ -751,9 +739,15 @@
   },
   {
    "author": "surprisetalk",
-   "stories": 11,
-   "total_score": 1573,
-   "avg_score": 143.0
+   "stories": 10,
+   "total_score": 1529,
+   "avg_score": 153.0
+  },
+  {
+   "author": "zdw",
+   "stories": 8,
+   "total_score": 3114,
+   "avg_score": 389.0
   },
   {
    "author": "DeepLogin",
@@ -764,8 +758,8 @@
   {
    "author": "dverlaeckt80",
    "stories": 8,
-   "total_score": 988,
-   "avg_score": 124.0
+   "total_score": 1225,
+   "avg_score": 153.0
   },
   {
    "author": "rbanffy",
@@ -776,32 +770,26 @@
   {
    "author": "PaulHoule",
    "stories": 8,
-   "total_score": 622,
-   "avg_score": 78.0
-  },
-  {
-   "author": "zdw",
-   "stories": 7,
-   "total_score": 2689,
-   "avg_score": 384.0
+   "total_score": 640,
+   "avg_score": 80.0
   },
   {
    "author": "vinhnx",
    "stories": 7,
-   "total_score": 1610,
-   "avg_score": 230.0
-  },
-  {
-   "author": "bookofjoe",
-   "stories": 7,
-   "total_score": 369,
-   "avg_score": 53.0
+   "total_score": 1559,
+   "avg_score": 223.0
   },
   {
    "author": "dvaplima",
    "stories": 6,
    "total_score": 1528,
    "avg_score": 255.0
+  },
+  {
+   "author": "acossta",
+   "stories": 6,
+   "total_score": 1430,
+   "avg_score": 238.0
   }
  ],
  "daily_trend": [
@@ -916,8 +904,8 @@
   {
    "day": "2026-11-27",
    "stories": 50,
-   "avg_score": 216.6,
-   "rolling_7d_avg": 274.3
+   "avg_score": 269.6,
+   "rolling_7d_avg": 281.8
   }
  ]
 }
