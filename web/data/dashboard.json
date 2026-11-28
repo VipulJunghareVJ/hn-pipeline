@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-27T13:48:21.304280+00:00",
-  "duration_s": 0.55,
+  "finished_at": "2026-11-28T00:00:47.677260+00:00",
+  "duration_s": 0.61,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 15066,
+  "raw_bytes": 11145,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,329 +72,281 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-27T13:48:20+00:00",
-  "oldest_story": "2026-11-23T05:33:34+00:00",
-  "newest_story": "2026-11-27T13:01:02+00:00",
-  "total_points": 13478,
+  "snapshot_ts": "2026-11-28T00:00:47+00:00",
+  "oldest_story": "2026-11-24T17:55:27+00:00",
+  "newest_story": "2026-11-27T23:39:15+00:00",
+  "total_points": 8745,
   "unique_authors": 49,
-  "days_of_history": 19,
-  "stories_in_history": 843,
-  "runs_observed": 47,
-  "parquet_bytes": 25184
+  "days_of_history": 20,
+  "stories_in_history": 881,
+  "runs_observed": 48,
+  "parquet_bytes": 19456
  },
  "top_stories": [
   {
-   "rank": 32,
-   "title": "1Password Security Incident",
-   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-   "domain": "1password.com",
-   "author": "lxhrstn",
-   "score": 1681,
-   "comment_count": 717,
-   "age_hours": 44.5,
-   "points_per_hour": 37.8
-  },
-  {
-   "rank": 5,
+   "rank": 37,
    "title": "AI made self-hosting fun again",
    "url": "https://janlukas.blog/posts/ai-self-hosting",
    "domain": "janlukas.blog",
    "author": "jlelse",
-   "score": 843,
-   "comment_count": 414,
-   "age_hours": 16.0,
-   "points_per_hour": 52.7
+   "score": 1095,
+   "comment_count": 502,
+   "age_hours": 26.2,
+   "points_per_hour": 41.8
   },
   {
-   "rank": 37,
-   "title": "Tell HN: Happy Thanksgiving",
-   "url": null,
-   "domain": null,
-   "author": "ericmay",
-   "score": 702,
-   "comment_count": 154,
-   "age_hours": 23.4,
-   "points_per_hour": 30.1
+   "rank": 36,
+   "title": "Group chat where your AI talks behind your back",
+   "url": "https://construct22.com/",
+   "domain": "construct22.com",
+   "author": "utiiiD",
+   "score": 680,
+   "comment_count": 282,
+   "age_hours": 17.3,
+   "points_per_hour": 39.4
   },
   {
-   "rank": 40,
-   "title": "The New York Times warns photographers not to update Photoshop over AI features",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-   "domain": "theverge.com",
-   "author": "rmason",
-   "score": 675,
-   "comment_count": 533,
-   "age_hours": 40.5,
-   "points_per_hour": 16.7
+   "rank": 30,
+   "title": "Claude sabotaging ML research tasks?",
+   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "domain": "twitter.com",
+   "author": "baobabKoodaa",
+   "score": 553,
+   "comment_count": 278,
+   "age_hours": 15.5,
+   "points_per_hour": 35.6
   },
   {
-   "rank": 48,
-   "title": "Much shorter version of GRH Lean verification from Anthropic",
-   "url": "https://github.com/lsernau/grh-lean",
-   "domain": "github.com",
-   "author": "nb-t",
-   "score": 558,
-   "comment_count": 356,
-   "age_hours": 40.0,
-   "points_per_hour": 13.9
-  },
-  {
-   "rank": 13,
-   "title": "Intel One Mono font (2023)",
-   "url": "https://github.com/intel/intel-one-mono",
-   "domain": "github.com",
-   "author": "saikatsg",
-   "score": 541,
-   "comment_count": 261,
-   "age_hours": 27.6,
-   "points_per_hour": 19.6
-  },
-  {
-   "rank": 9,
-   "title": "YouTube Ad Punisher \u2013 Auto-reloads YouTube pages when an ad plays",
-   "url": "https://github.com/antonpictures/youtube-punisher",
-   "domain": "github.com",
-   "author": "iantongeorge",
-   "score": 450,
-   "comment_count": 535,
-   "age_hours": 20.2,
-   "points_per_hour": 22.3
-  },
-  {
-   "rank": 35,
-   "title": "Nextcloud Office Desktop app",
-   "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-   "domain": "nextcloud.com",
-   "author": "e12e",
-   "score": 444,
-   "comment_count": 229,
-   "age_hours": 26.0,
-   "points_per_hour": 17.1
-  },
-  {
-   "rank": 14,
+   "rank": 44,
    "title": "Company Culture = Slack Emoji \u00f7 \u221aHeadcount",
    "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
    "domain": "lia.mg",
    "author": "liamg",
-   "score": 434,
-   "comment_count": 213,
-   "age_hours": 17.0,
-   "points_per_hour": 25.6
+   "score": 550,
+   "comment_count": 286,
+   "age_hours": 27.2,
+   "points_per_hour": 20.2
   },
   {
-   "rank": 11,
+   "rank": 41,
    "title": "Hard Drive pricing has gotten bad",
    "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
    "domain": "blog.ktz.me",
    "author": "zdw",
-   "score": 425,
-   "comment_count": 368,
-   "age_hours": 12.6,
-   "points_per_hour": 33.8
+   "score": 548,
+   "comment_count": 465,
+   "age_hours": 22.8,
+   "points_per_hour": 24.1
+  },
+  {
+   "rank": 35,
+   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+   "domain": "worksinprogress.co",
+   "author": "dverlaeckt80",
+   "score": 504,
+   "comment_count": 129,
+   "age_hours": 26.9,
+   "points_per_hour": 18.8
+  },
+  {
+   "rank": 2,
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "domain": "infohawk.com",
+   "author": "scanr",
+   "score": 395,
+   "comment_count": 200,
+   "age_hours": 8.3,
+   "points_per_hour": 47.4
+  },
+  {
+   "rank": 13,
+   "title": "Michael Nielsen took down his book on neural nets",
+   "url": "https://neuralnetworksanddeeplearning.com/",
+   "domain": "neuralnetworksanddeeplearning.com",
+   "author": "brandonb",
+   "score": 341,
+   "comment_count": 221,
+   "age_hours": 4.5,
+   "points_per_hour": 75.8
+  },
+  {
+   "rank": 46,
+   "title": "Buy Nothing Day \u2013 Friday November 27th 2026",
+   "url": "https://www.buynothingday.co.uk/",
+   "domain": "buynothingday.co.uk",
+   "author": "f_allwein",
+   "score": 334,
+   "comment_count": 105,
+   "age_hours": 18.1,
+   "points_per_hour": 18.4
+  },
+  {
+   "rank": 7,
+   "title": "Show HN: bouncemarket \u2013 a live prediction market game for a bouncing ball",
+   "url": "https://bouncemarket.minhanhday.com/",
+   "domain": "bouncemarket.minhanhday.com",
+   "author": "mday404",
+   "score": 319,
+   "comment_count": 110,
+   "age_hours": 9.0,
+   "points_per_hour": 35.5
   }
  ],
  "rising_stories": [
+  {
+   "story_id": 50664325,
+   "title": "Claude sabotaging ML research tasks?",
+   "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+   "domain": "twitter.com",
+   "rank": 30,
+   "rank_change": 6,
+   "score": 553,
+   "score_gain": 393,
+   "comment_gain": 177,
+   "hours_between": 10.21,
+   "points_per_hour": 38.5,
+   "gain_since_first_seen": 393,
+   "first_seen": "2026-11-27T13:48:20Z"
+  },
+  {
+   "story_id": 50666375,
+   "title": "US Air Force's cloud computing platform hacked",
+   "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+   "domain": "news.sky.com",
+   "rank": 31,
+   "rank_change": -24,
+   "score": 317,
+   "score_gain": 299,
+   "comment_gain": 197,
+   "hours_between": 10.21,
+   "points_per_hour": 29.3,
+   "gain_since_first_seen": 299,
+   "first_seen": "2026-11-27T13:48:20Z"
+  },
+  {
+   "story_id": 50663595,
+   "title": "Group chat where your AI talks behind your back",
+   "url": "https://construct22.com/",
+   "domain": "construct22.com",
+   "rank": 36,
+   "rank_change": -32,
+   "score": 680,
+   "score_gain": 264,
+   "comment_gain": 99,
+   "hours_between": 10.21,
+   "points_per_hour": 25.9,
+   "gain_since_first_seen": 264,
+   "first_seen": "2026-11-27T13:48:20Z"
+  },
   {
    "story_id": 50660180,
    "title": "AI made self-hosting fun again",
    "url": "https://janlukas.blog/posts/ai-self-hosting",
    "domain": "janlukas.blog",
-   "rank": 5,
-   "rank_change": -4,
-   "score": 843,
-   "score_gain": 620,
-   "comment_gain": 286,
-   "hours_between": 13.24,
-   "points_per_hour": 46.8,
-   "gain_since_first_seen": 620,
+   "rank": 37,
+   "rank_change": -32,
+   "score": 1095,
+   "score_gain": 252,
+   "comment_gain": 88,
+   "hours_between": 10.21,
+   "points_per_hour": 24.7,
+   "gain_since_first_seen": 872,
    "first_seen": "2026-11-27T00:33:52Z"
+  },
+  {
+   "story_id": 50666279,
+   "title": "New York and California age gating rules go into effect in the new year",
+   "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+   "domain": "eff.org",
+   "rank": 40,
+   "rank_change": -34,
+   "score": 184,
+   "score_gain": 162,
+   "comment_gain": 207,
+   "hours_between": 10.21,
+   "points_per_hour": 15.9,
+   "gain_since_first_seen": 162,
+   "first_seen": "2026-11-27T13:48:20Z"
+  },
+  {
+   "story_id": 50663261,
+   "title": "Buy Nothing Day \u2013 Friday November 27th 2026",
+   "url": "https://www.buynothingday.co.uk/",
+   "domain": "buynothingday.co.uk",
+   "rank": 46,
+   "rank_change": -31,
+   "score": 334,
+   "score_gain": 150,
+   "comment_gain": 62,
+   "hours_between": 10.21,
+   "points_per_hour": 14.7,
+   "gain_since_first_seen": 150,
+   "first_seen": "2026-11-27T13:48:20Z"
+  },
+  {
+   "story_id": 50661646,
+   "title": "Hard Drive pricing has gotten bad",
+   "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+   "domain": "blog.ktz.me",
+   "rank": 41,
+   "rank_change": -30,
+   "score": 548,
+   "score_gain": 123,
+   "comment_gain": 97,
+   "hours_between": 10.21,
+   "points_per_hour": 12.0,
+   "gain_since_first_seen": 123,
+   "first_seen": "2026-11-27T13:48:20Z"
+  },
+  {
+   "story_id": 50665968,
+   "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
+   "url": "https://eprint.iacr.org/2026/3020.pdf",
+   "domain": "eprint.iacr.org",
+   "rank": 34,
+   "rank_change": -33,
+   "score": 202,
+   "score_gain": 119,
+   "comment_gain": 52,
+   "hours_between": 10.21,
+   "points_per_hour": 11.7,
+   "gain_since_first_seen": 119,
+   "first_seen": "2026-11-27T13:48:20Z"
   },
   {
    "story_id": 50659640,
    "title": "Company Culture = Slack Emoji \u00f7 \u221aHeadcount",
    "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
    "domain": "lia.mg",
-   "rank": 14,
-   "rank_change": 17,
-   "score": 434,
-   "score_gain": 361,
-   "comment_gain": 199,
-   "hours_between": 13.24,
-   "points_per_hour": 27.3,
-   "gain_since_first_seen": 361,
+   "rank": 44,
+   "rank_change": -30,
+   "score": 550,
+   "score_gain": 116,
+   "comment_gain": 73,
+   "hours_between": 10.21,
+   "points_per_hour": 11.4,
+   "gain_since_first_seen": 477,
    "first_seen": "2026-11-27T00:33:52Z"
   },
   {
-   "story_id": 50659841,
-   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "domain": "worksinprogress.co",
-   "rank": 8,
-   "rank_change": -6,
-   "score": 423,
-   "score_gain": 213,
-   "comment_gain": 72,
-   "hours_between": 13.24,
-   "points_per_hour": 16.1,
-   "gain_since_first_seen": 213,
-   "first_seen": "2026-11-27T00:33:52Z"
-  },
-  {
-   "story_id": 50657530,
-   "title": "YouTube Ad Punisher \u2013 Auto-reloads YouTube pages when an ad plays",
-   "url": "https://github.com/antonpictures/youtube-punisher",
-   "domain": "github.com",
-   "rank": 9,
-   "rank_change": -5,
-   "score": 450,
-   "score_gain": 211,
-   "comment_gain": 223,
-   "hours_between": 13.24,
-   "points_per_hour": 15.9,
-   "gain_since_first_seen": 211,
-   "first_seen": "2026-11-27T00:33:52Z"
-  },
-  {
-   "story_id": 50655868,
-   "title": "Show HN: I wrote an entire Vim manual over 4 years",
-   "url": "http://themouseless.dev/vim/",
-   "domain": "themouseless.dev",
-   "rank": 21,
-   "rank_change": 8,
-   "score": 231,
-   "score_gain": 190,
-   "comment_gain": 60,
-   "hours_between": 13.24,
-   "points_per_hour": 14.3,
-   "gain_since_first_seen": 190,
-   "first_seen": "2026-11-27T00:33:52Z"
-  },
-  {
-   "story_id": 50649040,
-   "title": "The USAID Files",
-   "url": "https://reclaimthenet.org/usaid-files",
-   "domain": "reclaimthenet.org",
-   "rank": 28,
-   "rank_change": -9,
-   "score": 293,
-   "score_gain": 189,
-   "comment_gain": 254,
-   "hours_between": 13.24,
-   "points_per_hour": 14.3,
-   "gain_since_first_seen": 189,
-   "first_seen": "2026-11-27T00:33:52Z"
-  },
-  {
-   "story_id": 50653477,
-   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-   "domain": "techstackups.com",
-   "rank": 17,
-   "rank_change": -6,
-   "score": 363,
-   "score_gain": 147,
-   "comment_gain": 118,
-   "hours_between": 13.24,
-   "points_per_hour": 11.1,
-   "gain_since_first_seen": 281,
-   "first_seen": "2026-11-26T13:51:14Z"
-  },
-  {
-   "story_id": 50655664,
-   "title": "Tell HN: Happy Thanksgiving",
-   "url": null,
-   "domain": null,
-   "rank": 37,
-   "rank_change": -19,
-   "score": 702,
-   "score_gain": 126,
-   "comment_gain": 20,
-   "hours_between": 13.24,
-   "points_per_hour": 9.5,
-   "gain_since_first_seen": 126,
-   "first_seen": "2026-11-27T00:33:52Z"
-  },
-  {
-   "story_id": 50657265,
-   "title": "AMD-specific fork of llama.cpp",
-   "url": "https://devnull.land/amd-specific-llama-cpp",
-   "domain": "devnull.land",
-   "rank": 10,
-   "rank_change": -7,
-   "score": 395,
-   "score_gain": 122,
-   "comment_gain": 33,
-   "hours_between": 13.24,
-   "points_per_hour": 9.2,
-   "gain_since_first_seen": 122,
-   "first_seen": "2026-11-27T00:33:52Z"
-  },
-  {
-   "story_id": 50657645,
-   "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
-   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-   "domain": "krebsonsecurity.com",
-   "rank": 12,
-   "rank_change": -7,
-   "score": 293,
-   "score_gain": 100,
-   "comment_gain": 56,
-   "hours_between": 13.24,
-   "points_per_hour": 7.6,
-   "gain_since_first_seen": 100,
-   "first_seen": "2026-11-27T00:33:52Z"
+   "story_id": 50663089,
+   "title": "The need for a formally verifiable mainstream programming language",
+   "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+   "domain": "blainehansen.me",
+   "rank": 26,
+   "rank_change": -8,
+   "score": 307,
+   "score_gain": 104,
+   "comment_gain": 110,
+   "hours_between": 10.21,
+   "points_per_hour": 10.2,
+   "gain_since_first_seen": 104,
+   "first_seen": "2026-11-27T13:48:20Z"
   }
  ],
  "score_trajectories": [
-  {
-   "story_id": 50655868,
-   "ts": "2026-11-27T00:33:52Z",
-   "score": 41,
-   "rank": 29
-  },
-  {
-   "story_id": 50655868,
-   "ts": "2026-11-27T13:48:20Z",
-   "score": 231,
-   "rank": 21
-  },
-  {
-   "story_id": 50657530,
-   "ts": "2026-11-27T00:33:52Z",
-   "score": 239,
-   "rank": 4
-  },
-  {
-   "story_id": 50657530,
-   "ts": "2026-11-27T13:48:20Z",
-   "score": 450,
-   "rank": 9
-  },
-  {
-   "story_id": 50659640,
-   "ts": "2026-11-27T00:33:52Z",
-   "score": 73,
-   "rank": 31
-  },
-  {
-   "story_id": 50659640,
-   "ts": "2026-11-27T13:48:20Z",
-   "score": 434,
-   "rank": 14
-  },
-  {
-   "story_id": 50659841,
-   "ts": "2026-11-27T00:33:52Z",
-   "score": 210,
-   "rank": 2
-  },
-  {
-   "story_id": 50659841,
-   "ts": "2026-11-27T13:48:20Z",
-   "score": 423,
-   "rank": 8
-  },
   {
    "story_id": 50660180,
    "ts": "2026-11-27T00:33:52Z",
@@ -406,6 +358,60 @@
    "ts": "2026-11-27T13:48:20Z",
    "score": 843,
    "rank": 5
+  },
+  {
+   "story_id": 50660180,
+   "ts": "2026-11-28T00:00:47Z",
+   "score": 1095,
+   "rank": 37
+  },
+  {
+   "story_id": 50663595,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 416,
+   "rank": 4
+  },
+  {
+   "story_id": 50663595,
+   "ts": "2026-11-28T00:00:47Z",
+   "score": 680,
+   "rank": 36
+  },
+  {
+   "story_id": 50664325,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 160,
+   "rank": 36
+  },
+  {
+   "story_id": 50664325,
+   "ts": "2026-11-28T00:00:47Z",
+   "score": 553,
+   "rank": 30
+  },
+  {
+   "story_id": 50666279,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 22,
+   "rank": 6
+  },
+  {
+   "story_id": 50666279,
+   "ts": "2026-11-28T00:00:47Z",
+   "score": 184,
+   "rank": 40
+  },
+  {
+   "story_id": 50666375,
+   "ts": "2026-11-27T13:48:20Z",
+   "score": 18,
+   "rank": 7
+  },
+  {
+   "story_id": 50666375,
+   "ts": "2026-11-28T00:00:47Z",
+   "score": 317,
+   "rank": 31
   }
  ],
  "score_by_hour": [
@@ -418,7 +424,7 @@
   {
    "hour": 1,
    "stories": 14,
-   "avg_score": 314.0,
+   "avg_score": 322.8,
    "median_score": 176.5
   },
   {
@@ -429,26 +435,26 @@
   },
   {
    "hour": 3,
-   "stories": 28,
-   "avg_score": 188.8,
-   "median_score": 124.0
+   "stories": 29,
+   "avg_score": 186.3,
+   "median_score": 122.0
   },
   {
    "hour": 4,
-   "stories": 17,
-   "avg_score": 254.3,
+   "stories": 19,
+   "avg_score": 238.7,
    "median_score": 163.0
   },
   {
    "hour": 5,
    "stories": 24,
-   "avg_score": 193.0,
-   "median_score": 186.5
+   "avg_score": 203.5,
+   "median_score": 191.0
   },
   {
    "hour": 6,
    "stories": 15,
-   "avg_score": 290.0,
+   "avg_score": 307.6,
    "median_score": 261.0
   },
   {
@@ -460,8 +466,8 @@
   {
    "hour": 8,
    "stories": 16,
-   "avg_score": 188.4,
-   "median_score": 149.0
+   "avg_score": 212.9,
+   "median_score": 157.5
   },
   {
    "hour": 9,
@@ -483,27 +489,27 @@
   },
   {
    "hour": 12,
-   "stories": 41,
-   "avg_score": 158.8,
-   "median_score": 69.0
+   "stories": 42,
+   "avg_score": 169.2,
+   "median_score": 79.0
   },
   {
    "hour": 13,
    "stories": 50,
-   "avg_score": 235.7,
-   "median_score": 104.5
+   "avg_score": 237.2,
+   "median_score": 111.0
   },
   {
    "hour": 14,
-   "stories": 69,
-   "avg_score": 229.2,
-   "median_score": 96.0
+   "stories": 72,
+   "avg_score": 222.7,
+   "median_score": 90.5
   },
   {
    "hour": 15,
-   "stories": 80,
-   "avg_score": 132.7,
-   "median_score": 71.5
+   "stories": 85,
+   "avg_score": 138.5,
+   "median_score": 72.0
   },
   {
    "hour": 16,
@@ -513,165 +519,165 @@
   },
   {
    "hour": 17,
-   "stories": 68,
-   "avg_score": 239.2,
-   "median_score": 106.5
+   "stories": 72,
+   "avg_score": 229.9,
+   "median_score": 98.5
   },
   {
    "hour": 18,
-   "stories": 57,
-   "avg_score": 234.2,
-   "median_score": 110.0
+   "stories": 61,
+   "avg_score": 223.9,
+   "median_score": 106.0
   },
   {
    "hour": 19,
-   "stories": 51,
-   "avg_score": 167.3,
-   "median_score": 66.0
-  },
-  {
-   "hour": 20,
-   "stories": 38,
-   "avg_score": 223.2,
+   "stories": 56,
+   "avg_score": 164.9,
    "median_score": 63.5
   },
   {
+   "hour": 20,
+   "stories": 44,
+   "avg_score": 200.1,
+   "median_score": 52.5
+  },
+  {
    "hour": 21,
-   "stories": 36,
-   "avg_score": 313.8,
-   "median_score": 136.0
+   "stories": 38,
+   "avg_score": 307.6,
+   "median_score": 114.0
   },
   {
    "hour": 22,
-   "stories": 38,
-   "avg_score": 171.0,
-   "median_score": 78.5
+   "stories": 40,
+   "avg_score": 163.6,
+   "median_score": 55.0
   },
   {
    "hour": 23,
-   "stories": 21,
-   "avg_score": 209.5,
-   "median_score": 178.0
+   "stories": 24,
+   "avg_score": 184.4,
+   "median_score": 155.0
   }
  ],
  "keywords": [
   {
-   "word": "browser",
+   "word": "coding",
    "stories": 3,
-   "total_score": 486
+   "total_score": 45
   },
   {
-   "word": "york",
+   "word": "again",
    "stories": 2,
-   "total_score": 697
+   "total_score": 1104
   },
   {
-   "word": "app",
+   "word": "claude",
    "stories": 2,
-   "total_score": 564
+   "total_score": 733
   },
   {
-   "word": "mcp",
+   "word": "hard",
    "stories": 2,
-   "total_score": 472
+   "total_score": 565
   },
   {
-   "word": "send",
+   "word": "images",
    "stories": 2,
-   "total_score": 472
+   "total_score": 398
   },
   {
-   "word": "language",
+   "word": "michael",
    "stories": 2,
-   "total_score": 325
+   "total_score": 387
+  },
+  {
+   "word": "air",
+   "stories": 2,
+   "total_score": 330
+  },
+  {
+   "word": "other",
+   "stories": 2,
+   "total_score": 246
+  },
+  {
+   "word": "pdf",
+   "stories": 2,
+   "total_score": 229
   },
   {
    "word": "age",
    "stories": 2,
-   "total_score": 323
+   "total_score": 206
   },
   {
-   "word": "act",
+   "word": "king",
    "stories": 2,
-   "total_score": 302
-  },
-  {
-   "word": "subexponential",
-   "stories": 2,
-   "total_score": 237
-  },
-  {
-   "word": "time",
-   "stories": 2,
-   "total_score": 237
-  },
-  {
-   "word": "running",
-   "stories": 2,
-   "total_score": 196
-  },
-  {
-   "word": "1password",
-   "stories": 1,
-   "total_score": 1681
-  },
-  {
-   "word": "incident",
-   "stories": 1,
-   "total_score": 1681
-  },
-  {
-   "word": "security",
-   "stories": 1,
-   "total_score": 1681
-  },
-  {
-   "word": "youtube",
-   "stories": 1,
-   "total_score": 900
-  },
-  {
-   "word": "again",
-   "stories": 1,
-   "total_score": 843
+   "total_score": 70
   },
   {
    "word": "fun",
    "stories": 1,
-   "total_score": 843
+   "total_score": 1095
   },
   {
    "word": "hosting",
    "stories": 1,
-   "total_score": 843
+   "total_score": 1095
   },
   {
    "word": "self",
    "stories": 1,
-   "total_score": 843
+   "total_score": 1095
   },
   {
-   "word": "happy",
+   "word": "back",
    "stories": 1,
-   "total_score": 702
+   "total_score": 680
+  },
+  {
+   "word": "behind",
+   "stories": 1,
+   "total_score": 680
+  },
+  {
+   "word": "chat",
+   "stories": 1,
+   "total_score": 680
+  },
+  {
+   "word": "group",
+   "stories": 1,
+   "total_score": 680
+  },
+  {
+   "word": "talks",
+   "stories": 1,
+   "total_score": 680
+  },
+  {
+   "word": "research",
+   "stories": 1,
+   "total_score": 553
   }
  ],
  "score_distribution": [
   {
    "bucket": "0-49",
-   "stories": 8
+   "stories": 22
   },
   {
    "bucket": "50-99",
-   "stories": 3
+   "stories": 5
   },
   {
    "bucket": "100-249",
-   "stories": 18
+   "stories": 11
   },
   {
    "bucket": "250-499",
-   "stories": 15
+   "stories": 6
   },
   {
    "bucket": "500+",
@@ -681,8 +687,8 @@
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 70,
-   "total_score": 14916
+   "stories": 73,
+   "total_score": 15174
   },
   {
    "domain": "nytimes.com",
@@ -692,7 +698,12 @@
   {
    "domain": "twitter.com",
    "stories": 10,
-   "total_score": 1870
+   "total_score": 2263
+  },
+  {
+   "domain": "theguardian.com",
+   "stories": 7,
+   "total_score": 2230
   },
   {
    "domain": "reuters.com",
@@ -708,11 +719,6 @@
    "domain": "arxiv.org",
    "stories": 7,
    "total_score": 966
-  },
-  {
-   "domain": "theguardian.com",
-   "stories": 5,
-   "total_score": 2062
   },
   {
    "domain": "apnews.com",
@@ -739,33 +745,33 @@
   },
   {
    "author": "surprisetalk",
-   "stories": 10,
-   "total_score": 1529,
-   "avg_score": 153.0
+   "stories": 11,
+   "total_score": 1546,
+   "avg_score": 141.0
+  },
+  {
+   "author": "DeepLogin",
+   "stories": 9,
+   "total_score": 2520,
+   "avg_score": 280.0
+  },
+  {
+   "author": "rbanffy",
+   "stories": 9,
+   "total_score": 789,
+   "avg_score": 88.0
   },
   {
    "author": "zdw",
    "stories": 8,
-   "total_score": 3114,
-   "avg_score": 389.0
-  },
-  {
-   "author": "DeepLogin",
-   "stories": 8,
-   "total_score": 2301,
-   "avg_score": 288.0
+   "total_score": 3237,
+   "avg_score": 405.0
   },
   {
    "author": "dverlaeckt80",
    "stories": 8,
-   "total_score": 1225,
-   "avg_score": 153.0
-  },
-  {
-   "author": "rbanffy",
-   "stories": 8,
-   "total_score": 744,
-   "avg_score": 93.0
+   "total_score": 1306,
+   "avg_score": 163.0
   },
   {
    "author": "PaulHoule",
@@ -780,16 +786,16 @@
    "avg_score": 223.0
   },
   {
+   "author": "bookofjoe",
+   "stories": 7,
+   "total_score": 405,
+   "avg_score": 58.0
+  },
+  {
    "author": "dvaplima",
    "stories": 6,
    "total_score": 1528,
    "avg_score": 255.0
-  },
-  {
-   "author": "acossta",
-   "stories": 6,
-   "total_score": 1430,
-   "avg_score": 238.0
   }
  ],
  "daily_trend": [
@@ -906,6 +912,12 @@
    "stories": 50,
    "avg_score": 269.6,
    "rolling_7d_avg": 281.8
+  },
+  {
+   "day": "2026-11-28",
+   "stories": 50,
+   "avg_score": 174.9,
+   "rolling_7d_avg": 259.1
   }
  ]
 }
