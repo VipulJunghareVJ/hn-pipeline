@@ -2,12 +2,12 @@
  "run": {
   "status": "success",
   "mode": "live",
-  "finished_at": "2026-11-28T07:39:53.816575+00:00",
-  "duration_s": 0.54,
+  "finished_at": "2026-11-28T16:50:03.698714+00:00",
+  "duration_s": 0.4,
   "fetched": 50,
   "kept": 50,
   "dropped": 0,
-  "raw_bytes": 10957,
+  "raw_bytes": 11744,
   "quality": {
    "passed": 9,
    "failed": 0,
@@ -72,172 +72,232 @@
  },
  "metrics": {
   "records": 50,
-  "snapshot_ts": "2026-11-28T07:39:53+00:00",
-  "oldest_story": "2026-11-24T17:55:27+00:00",
-  "newest_story": "2026-11-28T06:39:53+00:00",
-  "total_points": 8965,
-  "unique_authors": 50,
+  "snapshot_ts": "2026-11-28T16:50:03+00:00",
+  "oldest_story": "2026-11-24T14:06:58+00:00",
+  "newest_story": "2026-11-28T16:09:11+00:00",
+  "total_points": 10205,
+  "unique_authors": 49,
   "days_of_history": 20,
-  "stories_in_history": 888,
-  "runs_observed": 49,
-  "parquet_bytes": 19334
+  "stories_in_history": 892,
+  "runs_observed": 50,
+  "parquet_bytes": 21386
  },
  "top_stories": [
   {
-   "rank": 37,
-   "title": "AI made self-hosting fun again",
-   "url": "https://janlukas.blog/posts/ai-self-hosting",
-   "domain": "janlukas.blog",
-   "author": "jlelse",
-   "score": 1114,
-   "comment_count": 515,
-   "age_hours": 33.9,
-   "points_per_hour": 32.9
-  },
-  {
-   "rank": 38,
-   "title": "Group chat where your AI talks behind your back",
-   "url": "https://construct22.com/",
-   "domain": "construct22.com",
-   "author": "utiiiD",
-   "score": 701,
-   "comment_count": 288,
-   "age_hours": 24.9,
-   "points_per_hour": 28.1
-  },
-  {
-   "rank": 31,
+   "rank": 48,
    "title": "Claude sabotaging ML research tasks?",
    "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
    "domain": "twitter.com",
    "author": "baobabKoodaa",
-   "score": 669,
-   "comment_count": 304,
-   "age_hours": 23.2,
-   "points_per_hour": 28.8
+   "score": 754,
+   "comment_count": 328,
+   "age_hours": 32.4,
+   "points_per_hour": 23.3
   },
   {
-   "rank": 7,
-   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-   "domain": "infohawk.com",
-   "author": "scanr",
-   "score": 501,
-   "comment_count": 260,
-   "age_hours": 16.0,
-   "points_per_hour": 31.3
+   "rank": 1,
+   "title": "Farewell",
+   "url": "https://github.com/p-e-w/heretic/issues/601",
+   "domain": "github.com",
+   "author": "nolist_policy",
+   "score": 717,
+   "comment_count": 308,
+   "age_hours": 5.1,
+   "points_per_hour": 139.8
   },
   {
-   "rank": 24,
+   "rank": 33,
    "title": "Michael Nielsen took down his book on neural nets",
    "url": "https://neuralnetworksanddeeplearning.com/",
    "domain": "neuralnetworksanddeeplearning.com",
    "author": "brandonb",
-   "score": 495,
-   "comment_count": 306,
-   "age_hours": 12.1,
-   "points_per_hour": 40.7
-  },
-  {
-   "rank": 5,
-   "title": "GPT 6.2 Astra Solves a Historical Mystery",
-   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-   "domain": "generativehistory.substack.com",
-   "author": "dr_red_dog",
-   "score": 418,
-   "comment_count": 260,
-   "age_hours": 64.4,
-   "points_per_hour": 6.5
-  },
-  {
-   "rank": 12,
-   "title": "Show HN: bouncemarket \u2013 a live prediction market game for a bouncing ball",
-   "url": "https://bouncemarket.minhanhday.com/",
-   "domain": "bouncemarket.minhanhday.com",
-   "author": "mday404",
-   "score": 365,
-   "comment_count": 123,
-   "age_hours": 16.6,
-   "points_per_hour": 21.9
+   "score": 622,
+   "comment_count": 452,
+   "age_hours": 21.3,
+   "points_per_hour": 29.2
   },
   {
    "rank": 20,
-   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-   "domain": "oag.state.va.us",
-   "author": "DeepLogin",
-   "score": 363,
-   "comment_count": 208,
-   "age_hours": 12.0,
-   "points_per_hour": 30.4
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "domain": "infohawk.com",
+   "author": "scanr",
+   "score": 579,
+   "comment_count": 320,
+   "age_hours": 25.2,
+   "points_per_hour": 23.0
   },
   {
-   "rank": 39,
-   "title": "US Air Force's cloud computing platform hacked",
-   "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-   "domain": "news.sky.com",
-   "author": "freakynit",
-   "score": 343,
-   "comment_count": 209,
-   "age_hours": 18.8,
-   "points_per_hour": 18.3
-  },
-  {
-   "rank": 3,
+   "rank": 12,
    "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
    "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
    "domain": "research.google",
    "author": "ComputedCamp995",
-   "score": 316,
-   "comment_count": 130,
-   "age_hours": 8.6,
-   "points_per_hour": 36.9
+   "score": 521,
+   "comment_count": 183,
+   "age_hours": 17.7,
+   "points_per_hour": 29.4
+  },
+  {
+   "rank": 17,
+   "title": "The Balatro Timeline",
+   "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+   "domain": "localthunk.com",
+   "author": "sheepscreek",
+   "score": 499,
+   "comment_count": 148,
+   "age_hours": 47.5,
+   "points_per_hour": 10.5
+  },
+  {
+   "rank": 18,
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "domain": "generativehistory.substack.com",
+   "author": "dr_red_dog",
+   "score": 495,
+   "comment_count": 316,
+   "age_hours": 73.6,
+   "points_per_hour": 6.7
+  },
+  {
+   "rank": 8,
+   "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+   "url": "https://unkernel.dev",
+   "domain": "unkernel.dev",
+   "author": "nreece",
+   "score": 488,
+   "comment_count": 131,
+   "age_hours": 13.5,
+   "points_per_hour": 36.1
+  },
+  {
+   "rank": 3,
+   "title": "Claude Code sabotage: preliminary benchmarking",
+   "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+   "domain": "xinyadu.github.io",
+   "author": "abedelez",
+   "score": 433,
+   "comment_count": 145,
+   "age_hours": 6.2,
+   "points_per_hour": 69.8
+  },
+  {
+   "rank": 40,
+   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+   "domain": "oag.state.va.us",
+   "author": "DeepLogin",
+   "score": 431,
+   "comment_count": 309,
+   "age_hours": 21.1,
+   "points_per_hour": 20.4
   }
  ],
  "rising_stories": [
   {
-   "story_id": 50643158,
-   "title": "GPT 6.2 Astra Solves a Historical Mystery",
-   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-   "domain": "generativehistory.substack.com",
-   "rank": 5,
-   "rank_change": -4,
-   "score": 418,
-   "score_gain": 171,
-   "comment_gain": 100,
-   "hours_between": 7.65,
-   "points_per_hour": 22.3,
-   "gain_since_first_seen": 171,
-   "first_seen": "2026-11-28T00:00:47Z"
+   "story_id": 50674218,
+   "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+   "url": "https://unkernel.dev",
+   "domain": "unkernel.dev",
+   "rank": 8,
+   "rank_change": -7,
+   "score": 488,
+   "score_gain": 310,
+   "comment_gain": 107,
+   "hours_between": 9.17,
+   "points_per_hour": 33.8,
+   "gain_since_first_seen": 310,
+   "first_seen": "2026-11-28T07:39:53Z"
+  },
+  {
+   "story_id": 50657346,
+   "title": "The Balatro Timeline",
+   "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+   "domain": "localthunk.com",
+   "rank": 17,
+   "rank_change": -13,
+   "score": 499,
+   "score_gain": 228,
+   "comment_gain": 85,
+   "hours_between": 9.17,
+   "points_per_hour": 24.9,
+   "gain_since_first_seen": 228,
+   "first_seen": "2026-11-28T07:39:53Z"
+  },
+  {
+   "story_id": 50672565,
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "domain": "research.google",
+   "rank": 12,
+   "rank_change": -9,
+   "score": 521,
+   "score_gain": 205,
+   "comment_gain": 53,
+   "hours_between": 9.17,
+   "points_per_hour": 22.4,
+   "gain_since_first_seen": 205,
+   "first_seen": "2026-11-28T07:39:53Z"
+  },
+  {
+   "story_id": 50632052,
+   "title": "Loom seamlessly combines weaving, knitting and braiding",
+   "url": "https://news.cornell.edu/stories/2026/11/loom-seamlessly-combines-weaving-knitting-and-braiding",
+   "domain": "news.cornell.edu",
+   "rank": 11,
+   "rank_change": -9,
+   "score": 233,
+   "score_gain": 193,
+   "comment_gain": 27,
+   "hours_between": 9.17,
+   "points_per_hour": 21.0,
+   "gain_since_first_seen": 193,
+   "first_seen": "2026-11-28T07:39:53Z"
   },
   {
    "story_id": 50670757,
    "title": "Michael Nielsen took down his book on neural nets",
    "url": "https://neuralnetworksanddeeplearning.com/",
    "domain": "neuralnetworksanddeeplearning.com",
-   "rank": 24,
-   "rank_change": -11,
-   "score": 495,
-   "score_gain": 154,
-   "comment_gain": 85,
-   "hours_between": 7.65,
-   "points_per_hour": 20.1,
-   "gain_since_first_seen": 154,
+   "rank": 33,
+   "rank_change": -9,
+   "score": 622,
+   "score_gain": 127,
+   "comment_gain": 146,
+   "hours_between": 9.17,
+   "points_per_hour": 13.9,
+   "gain_since_first_seen": 281,
    "first_seen": "2026-11-28T00:00:47Z"
   },
   {
-   "story_id": 50670855,
-   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-   "domain": "oag.state.va.us",
-   "rank": 20,
-   "rank_change": -10,
-   "score": 363,
-   "score_gain": 144,
-   "comment_gain": 88,
-   "hours_between": 7.65,
-   "points_per_hour": 18.8,
-   "gain_since_first_seen": 144,
+   "story_id": 50666724,
+   "title": "Paolo Soleri built a utopian eco-city in the Arizona desert",
+   "url": "https://www.worldofinteriors.com/story/paolo-soleri-arconsati-arizona",
+   "domain": "worldofinteriors.com",
+   "rank": 19,
+   "rank_change": -13,
+   "score": 140,
+   "score_gain": 106,
+   "comment_gain": 41,
+   "hours_between": 9.17,
+   "points_per_hour": 11.6,
+   "gain_since_first_seen": 106,
+   "first_seen": "2026-11-28T07:39:53Z"
+  },
+  {
+   "story_id": 50672521,
+   "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+   "url": "https://tabernet.es/",
+   "domain": "tabernet.es",
+   "rank": 27,
+   "rank_change": -13,
+   "score": 194,
+   "score_gain": 98,
+   "comment_gain": 29,
+   "hours_between": 9.17,
+   "points_per_hour": 10.7,
+   "gain_since_first_seen": 186,
    "first_seen": "2026-11-28T00:00:47Z"
   },
   {
@@ -245,14 +305,14 @@
    "title": "Claude sabotaging ML research tasks?",
    "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
    "domain": "twitter.com",
-   "rank": 31,
-   "rank_change": -1,
-   "score": 669,
-   "score_gain": 116,
-   "comment_gain": 26,
-   "hours_between": 7.65,
-   "points_per_hour": 15.2,
-   "gain_since_first_seen": 509,
+   "rank": 48,
+   "rank_change": -17,
+   "score": 754,
+   "score_gain": 85,
+   "comment_gain": 24,
+   "hours_between": 9.17,
+   "points_per_hour": 9.3,
+   "gain_since_first_seen": 594,
    "first_seen": "2026-11-27T13:48:20Z"
   },
   {
@@ -260,134 +320,56 @@
    "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
    "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
    "domain": "infohawk.com",
-   "rank": 7,
-   "rank_change": -5,
-   "score": 501,
-   "score_gain": 106,
+   "rank": 20,
+   "rank_change": -13,
+   "score": 579,
+   "score_gain": 78,
    "comment_gain": 60,
-   "hours_between": 7.65,
-   "points_per_hour": 13.9,
-   "gain_since_first_seen": 106,
+   "hours_between": 9.17,
+   "points_per_hour": 8.5,
+   "gain_since_first_seen": 184,
    "first_seen": "2026-11-28T00:00:47Z"
   },
   {
-   "story_id": 50672521,
-   "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
-   "url": "https://tabernet.es/",
-   "domain": "tabernet.es",
-   "rank": 14,
-   "rank_change": 0,
-   "score": 96,
-   "score_gain": 88,
-   "comment_gain": 30,
-   "hours_between": 7.65,
-   "points_per_hour": 11.5,
-   "gain_since_first_seen": 88,
-   "first_seen": "2026-11-28T00:00:47Z"
-  },
-  {
-   "story_id": 50669765,
-   "title": "Convex skills send the user's app idea to a remote server without telling them",
-   "url": "https://github.com/convex/convex-backend-skill/issues/64",
-   "domain": "github.com",
-   "rank": 9,
-   "rank_change": -6,
-   "score": 285,
+   "story_id": 50643158,
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "domain": "generativehistory.substack.com",
+   "rank": 18,
+   "rank_change": -13,
+   "score": 495,
    "score_gain": 77,
-   "comment_gain": 32,
-   "hours_between": 7.65,
-   "points_per_hour": 10.1,
-   "gain_since_first_seen": 77,
-   "first_seen": "2026-11-28T00:00:47Z"
-  },
-  {
-   "story_id": 50672008,
-   "title": "9/UX: a Macintosh-inspired desktop for 9front",
-   "url": "https://progrium.github.io/9ux/",
-   "domain": "progrium.github.io",
-   "rank": 13,
-   "rank_change": -8,
-   "score": 115,
-   "score_gain": 70,
-   "comment_gain": 18,
-   "hours_between": 7.65,
-   "points_per_hour": 9.1,
-   "gain_since_first_seen": 70,
-   "first_seen": "2026-11-28T00:00:47Z"
-  },
-  {
-   "story_id": 50631823,
-   "title": "Build your own amp modeler: $78 DIY pedal kit from TONE3000",
-   "url": "https://www.guitarworld.com/gear/guitar-pedals/tone3000-daisy-audio-diy-pedal-kit",
-   "domain": "guitarworld.com",
-   "rank": 11,
-   "rank_change": -3,
-   "score": 80,
-   "score_gain": 67,
-   "comment_gain": 16,
-   "hours_between": 7.65,
-   "points_per_hour": 8.8,
-   "gain_since_first_seen": 67,
-   "first_seen": "2026-11-28T00:00:47Z"
-  },
-  {
-   "story_id": 50662313,
-   "title": "Citro\u00ebn Hydraulic System",
-   "url": "https://www.citroenet.org.uk/miscellaneous/hydraulics/hydraulics-1.html",
-   "domain": "citroenet.org.uk",
-   "rank": 10,
-   "rank_change": -4,
-   "score": 177,
-   "score_gain": 60,
-   "comment_gain": 15,
-   "hours_between": 7.65,
-   "points_per_hour": 7.8,
-   "gain_since_first_seen": 60,
+   "comment_gain": 56,
+   "hours_between": 9.17,
+   "points_per_hour": 8.4,
+   "gain_since_first_seen": 248,
    "first_seen": "2026-11-28T00:00:47Z"
   }
  ],
  "score_trajectories": [
   {
-   "story_id": 50643158,
-   "ts": "2026-11-28T00:00:47Z",
-   "score": 247,
-   "rank": 1
-  },
-  {
-   "story_id": 50643158,
+   "story_id": 50632052,
    "ts": "2026-11-28T07:39:53Z",
-   "score": 418,
-   "rank": 5
-  },
-  {
-   "story_id": 50664325,
-   "ts": "2026-11-27T13:48:20Z",
-   "score": 160,
-   "rank": 36
-  },
-  {
-   "story_id": 50664325,
-   "ts": "2026-11-28T00:00:47Z",
-   "score": 553,
-   "rank": 30
-  },
-  {
-   "story_id": 50664325,
-   "ts": "2026-11-28T07:39:53Z",
-   "score": 669,
-   "rank": 31
-  },
-  {
-   "story_id": 50668145,
-   "ts": "2026-11-28T00:00:47Z",
-   "score": 395,
+   "score": 40,
    "rank": 2
   },
   {
-   "story_id": 50668145,
+   "story_id": 50632052,
+   "ts": "2026-11-28T16:50:03Z",
+   "score": 233,
+   "rank": 11
+  },
+  {
+   "story_id": 50657346,
    "ts": "2026-11-28T07:39:53Z",
-   "score": 501,
-   "rank": 7
+   "score": 271,
+   "rank": 4
+  },
+  {
+   "story_id": 50657346,
+   "ts": "2026-11-28T16:50:03Z",
+   "score": 499,
+   "rank": 17
   },
   {
    "story_id": 50670757,
@@ -402,60 +384,78 @@
    "rank": 24
   },
   {
-   "story_id": 50670855,
-   "ts": "2026-11-28T00:00:47Z",
-   "score": 219,
-   "rank": 10
+   "story_id": 50670757,
+   "ts": "2026-11-28T16:50:03Z",
+   "score": 622,
+   "rank": 33
   },
   {
-   "story_id": 50670855,
+   "story_id": 50672565,
    "ts": "2026-11-28T07:39:53Z",
-   "score": 363,
-   "rank": 20
+   "score": 316,
+   "rank": 3
+  },
+  {
+   "story_id": 50672565,
+   "ts": "2026-11-28T16:50:03Z",
+   "score": 521,
+   "rank": 12
+  },
+  {
+   "story_id": 50674218,
+   "ts": "2026-11-28T07:39:53Z",
+   "score": 178,
+   "rank": 1
+  },
+  {
+   "story_id": 50674218,
+   "ts": "2026-11-28T16:50:03Z",
+   "score": 488,
+   "rank": 8
   }
  ],
  "score_by_hour": [
   {
    "hour": 0,
-   "stories": 19,
-   "avg_score": 212.2,
-   "median_score": 213.0
+   "stories": 18,
+   "avg_score": 223.3,
+   "median_score": 220.0
   },
   {
    "hour": 1,
    "stories": 16,
-   "avg_score": 286.9,
-   "median_score": 164.5
+   "avg_score": 281.4,
+   "median_score": 162.5
   },
   {
    "hour": 2,
-   "stories": 24,
-   "avg_score": 274.3,
-   "median_score": 187.0
+   "stories": 23,
+   "avg_score": 278.5,
+   "median_score": 191.0
   },
   {
    "hour": 3,
-   "stories": 30,
-   "avg_score": 188.1,
-   "median_score": 133.5
+   "stories": 31,
+   "avg_score": 204.1,
+   "median_score": 141.0
   },
   {
    "hour": 4,
-   "stories": 19,
-   "avg_score": 241.0,
-   "median_score": 163.0
+   "stories": 18,
+   "avg_score": 251.6,
+   "median_score": 167.0
   },
   {
    "hour": 5,
-   "stories": 27,
-   "avg_score": 172.3,
-   "median_score": 155.0
+   "stories": 24,
+   "avg_score": 193.0,
+   "median_score": 186.5
   },
   {
    "hour": 6,
-   "stories": 17,
-   "avg_score": 273.2,
-   "median_score": 139.0
+   "stories": 16,
+   "avg_score": 274.8,
+   "median_score": 200.0
   },
   {
    "hour": 7,
@@ -465,201 +465,201 @@
   },
   {
    "hour": 8,
-   "stories": 16,
-   "avg_score": 220.2,
-   "median_score": 157.5
+   "stories": 17,
+   "avg_score": 213.5,
+   "median_score": 138.0
   },
   {
    "hour": 9,
-   "stories": 20,
-   "avg_score": 185.5,
-   "median_score": 137.5
+   "stories": 21,
+   "avg_score": 182.4,
+   "median_score": 136.0
   },
   {
    "hour": 10,
-   "stories": 29,
-   "avg_score": 260.4,
+   "stories": 31,
+   "avg_score": 257.7,
    "median_score": 194.0
   },
   {
    "hour": 11,
-   "stories": 27,
-   "avg_score": 217.4,
-   "median_score": 129.0
+   "stories": 30,
+   "avg_score": 236.3,
+   "median_score": 130.0
   },
   {
    "hour": 12,
-   "stories": 42,
-   "avg_score": 166.5,
-   "median_score": 71.0
+   "stories": 43,
+   "avg_score": 154.7,
+   "median_score": 69.0
   },
   {
    "hour": 13,
-   "stories": 51,
-   "avg_score": 231.8,
+   "stories": 54,
+   "avg_score": 221.4,
    "median_score": 98.0
   },
   {
    "hour": 14,
-   "stories": 72,
-   "avg_score": 223.9,
-   "median_score": 96.0
+   "stories": 76,
+   "avg_score": 213.1,
+   "median_score": 86.5
   },
   {
    "hour": 15,
-   "stories": 84,
-   "avg_score": 144.2,
-   "median_score": 72.5
+   "stories": 86,
+   "avg_score": 143.8,
+   "median_score": 72.0
   },
   {
    "hour": 16,
    "stories": 58,
-   "avg_score": 166.2,
+   "avg_score": 166.1,
    "median_score": 53.0
   },
   {
    "hour": 17,
-   "stories": 73,
-   "avg_score": 232.3,
-   "median_score": 110.0
+   "stories": 72,
+   "avg_score": 239.9,
+   "median_score": 114.5
   },
   {
    "hour": 18,
-   "stories": 61,
-   "avg_score": 226.1,
-   "median_score": 106.0
+   "stories": 59,
+   "avg_score": 236.2,
+   "median_score": 113.0
   },
   {
    "hour": 19,
    "stories": 55,
-   "avg_score": 173.7,
+   "avg_score": 176.7,
    "median_score": 84.0
   },
   {
    "hour": 20,
-   "stories": 40,
-   "avg_score": 214.5,
-   "median_score": 59.0
+   "stories": 38,
+   "avg_score": 223.2,
+   "median_score": 63.5
   },
   {
    "hour": 21,
-   "stories": 39,
-   "avg_score": 301.3,
-   "median_score": 115.0
+   "stories": 38,
+   "avg_score": 303.2,
+   "median_score": 135.0
   },
   {
    "hour": 22,
-   "stories": 39,
-   "avg_score": 168.8,
-   "median_score": 86.0
+   "stories": 38,
+   "avg_score": 171.0,
+   "median_score": 78.5
   },
   {
    "hour": 23,
    "stories": 23,
-   "avg_score": 209.2,
-   "median_score": 178.0
+   "avg_score": 222.3,
+   "median_score": 194.0
   }
  ],
  "keywords": [
   {
-   "word": "coding",
-   "stories": 3,
-   "total_score": 110
-  },
-  {
    "word": "claude",
-   "stories": 2,
-   "total_score": 867
+   "stories": 3,
+   "total_score": 1393
   },
   {
    "word": "images",
    "stories": 2,
-   "total_score": 569
+   "total_score": 660
+  },
+  {
+   "word": "book",
+   "stories": 2,
+   "total_score": 626
   },
   {
    "word": "google",
    "stories": 2,
-   "total_score": 332
+   "total_score": 555
   },
   {
-   "word": "faster",
+   "word": "model",
    "stories": 2,
-   "total_score": 322
+   "total_score": 547
   },
   {
-   "word": "other",
+   "word": "stop",
    "stories": 2,
-   "total_score": 276
+   "total_score": 467
   },
   {
-   "word": "pdf",
+   "word": "sabotage",
    "stories": 2,
-   "total_score": 246
+   "total_score": 459
   },
   {
-   "word": "webassembly",
+   "word": "math",
    "stories": 2,
-   "total_score": 191
+   "total_score": 166
   },
   {
-   "word": "linux",
-   "stories": 2,
-   "total_score": 184
-  },
-  {
-   "word": "browser",
-   "stories": 2,
-   "total_score": 109
-  },
-  {
-   "word": "agent",
-   "stories": 2,
-   "total_score": 54
-  },
-  {
-   "word": "again",
+   "word": "research",
    "stories": 1,
-   "total_score": 1114
+   "total_score": 754
   },
   {
-   "word": "fun",
+   "word": "sabotaging",
    "stories": 1,
-   "total_score": 1114
+   "total_score": 754
   },
   {
-   "word": "hosting",
+   "word": "tasks",
    "stories": 1,
-   "total_score": 1114
+   "total_score": 754
   },
   {
-   "word": "self",
+   "word": "farewell",
    "stories": 1,
-   "total_score": 1114
+   "total_score": 717
   },
   {
-   "word": "back",
+   "word": "down",
    "stories": 1,
-   "total_score": 701
+   "total_score": 622
   },
   {
-   "word": "behind",
+   "word": "michael",
    "stories": 1,
-   "total_score": 701
+   "total_score": 622
   },
   {
-   "word": "chat",
+   "word": "nets",
    "stories": 1,
-   "total_score": 701
+   "total_score": 622
   },
   {
-   "word": "group",
+   "word": "neural",
    "stories": 1,
-   "total_score": 701
+   "total_score": 622
   },
   {
-   "word": "talks",
+   "word": "nielsen",
    "stories": 1,
-   "total_score": 701
+   "total_score": 622
+  },
+  {
+   "word": "took",
+   "stories": 1,
+   "total_score": 622
+  },
+  {
+   "word": "card",
+   "stories": 1,
+   "total_score": 579
+  },
+  {
+   "word": "credit",
+   "stories": 1,
+   "total_score": 579
   }
  ],
  "score_distribution": [
@@ -669,31 +669,31 @@
   },
   {
    "bucket": "50-99",
-   "stories": 10
+   "stories": 6
   },
   {
    "bucket": "100-249",
-   "stories": 12
+   "stories": 14
   },
   {
    "bucket": "250-499",
-   "stories": 8
+   "stories": 9
   },
   {
    "bucket": "500+",
-   "stories": 4
+   "stories": 5
   }
  ],
  "top_domains": [
   {
    "domain": "github.com",
-   "stories": 75,
-   "total_score": 15312
+   "stories": 76,
+   "total_score": 16052
   },
   {
    "domain": "twitter.com",
    "stories": 11,
-   "total_score": 2385
+   "total_score": 2490
   },
   {
    "domain": "nytimes.com",
@@ -721,11 +721,6 @@
    "total_score": 2062
   },
   {
-   "domain": "wired.com",
-   "stories": 5,
-   "total_score": 954
-  },
-  {
    "domain": "apnews.com",
    "stories": 4,
    "total_score": 4232
@@ -734,6 +729,11 @@
    "domain": "openai.com",
    "stories": 4,
    "total_score": 2021
+  },
+  {
+   "domain": "theverge.com",
+   "stories": 4,
+   "total_score": 1212
   }
  ],
  "top_authors": [
@@ -745,33 +745,33 @@
   },
   {
    "author": "surprisetalk",
-   "stories": 10,
-   "total_score": 1529,
-   "avg_score": 153.0
-  },
-  {
-   "author": "zdw",
-   "stories": 9,
-   "total_score": 3204,
-   "avg_score": 356.0
+   "stories": 11,
+   "total_score": 1578,
+   "avg_score": 143.0
   },
   {
    "author": "DeepLogin",
-   "stories": 9,
-   "total_score": 2664,
-   "avg_score": 296.0
+   "stories": 10,
+   "total_score": 3108,
+   "avg_score": 311.0
   },
   {
    "author": "rbanffy",
    "stories": 9,
-   "total_score": 859,
-   "avg_score": 95.0
+   "total_score": 897,
+   "avg_score": 100.0
   },
   {
    "author": "PaulHoule",
    "stories": 9,
-   "total_score": 680,
-   "avg_score": 76.0
+   "total_score": 873,
+   "avg_score": 97.0
+  },
+  {
+   "author": "zdw",
+   "stories": 8,
+   "total_score": 3114,
+   "avg_score": 389.0
   },
   {
    "author": "dverlaeckt80",
@@ -788,8 +788,8 @@
   {
    "author": "ibobev",
    "stories": 7,
-   "total_score": 394,
-   "avg_score": 56.0
+   "total_score": 448,
+   "avg_score": 64.0
   },
   {
    "author": "dvaplima",
@@ -916,8 +916,8 @@
   {
    "day": "2026-11-28",
    "stories": 50,
-   "avg_score": 179.3,
-   "rolling_7d_avg": 259.7
+   "avg_score": 204.1,
+   "rolling_7d_avg": 263.2
   }
  ]
 }
